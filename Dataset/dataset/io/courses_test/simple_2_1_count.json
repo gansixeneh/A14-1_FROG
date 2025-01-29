@@ -1,0 +1,6 @@
+[
+    {
+        "question":"How many courses have 'Programming projects and demos' as the evaluation method?",
+        "query":"select (count(?x) as ?cnt) { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/programming_projects_and_demos> . }"
+    }
+]

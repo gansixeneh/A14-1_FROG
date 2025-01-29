@@ -1,0 +1,22 @@
+[
+    {
+        "question":"How many courses have 'Data Structures and Algorithms' as a prerequisite course?",
+        "query":"select (count(?x) as ?cnt) { ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/data_structures_and_algorithms> . }"
+    },
+    {
+        "question":"How many courses have Software engineering as a prerequisite course?",
+        "query":"select (count(?x) as ?cnt) { ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/software_engineering> . }"
+    },
+    {
+        "question":"How many courses are categorized as 'Faculty Mandatory Course'?",
+        "query":"select (count(?x) as ?cnt) { ?x <http:\/\/example.org\/has_course_category> <http:\/\/example.org\/faculty_mandatory_course> . }"
+    },
+    {
+        "question":"How many courses with 'Project Assignment' as the evaluation method?",
+        "query":"select (count(?x) as ?cnt) { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/project_assignment> . }"
+    },
+    {
+        "question":"How many courses that have evaluation method 'Task'?",
+        "query":"select (count(?x) as ?cnt) { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/task> . }"
+    }
+]

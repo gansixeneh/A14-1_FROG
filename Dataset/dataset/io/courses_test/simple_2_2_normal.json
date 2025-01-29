@@ -1,0 +1,10 @@
+[
+    {
+        "question":"What courses are included in the research group of Reliable Software Engineering?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/reliable_software_engineering> . }"
+    },
+    {
+        "question":"What courses have 'Introduction to Artificial Intelligence and Data Science' as a prerequisite course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/introduction_to_artificial_intelligence_and_data_science> . }"
+    }
+]

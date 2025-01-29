@@ -1,0 +1,22 @@
+[
+    {
+        "question":"What courses have the Digital Library & Distance Learning Laboratory as their research group, are categorized as Study Program Elective Course, and use Group Presentation as their evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/digital_library_and_distance_learning_laboratory> . ?x <http:\/\/example.org\/has_course_category> <http:\/\/example.org\/study_program_elective_course> . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/group_presentation> . }"
+    },
+    {
+        "question":"What course has the evaluation method of Group Project and is a Study Program Elective Course with the course code CSCE604131?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/group_project> . ?x <http:\/\/example.org\/has_course_category> <http:\/\/example.org\/study_program_elective_course> . ?x <http:\/\/example.org\/has_course_code> 'CSCE604131' . }"
+    },
+    {
+        "question":"What courses have 'Group Project' and 'Test' as evaluation methods and have the course code 'CSGE603130'?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/group_project> . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . ?x <http:\/\/example.org\/has_course_code> 'CSGE603130' . }"
+    },
+    {
+        "question":"What courses have the evaluation method 'has evaluation method' and are associated with the research group 'Center for Cyber Security and Cryptography' and have the course code 'CSCE604156'?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/center_for_cyber_security_and_cryptography> . ?x <http:\/\/example.org\/has_course_code> 'CSCE604156' . }"
+    },
+    {
+        "question":"What courses have Research Methodology and Scientific Writing as a prerequisite and a report document as an evaluation method, and are mandatory for faculty?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_course_category> <http:\/\/example.org\/faculty_mandatory_course> . ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/research_methodology_and_scientific_writing> . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/report_document> . }"
+    }
+]

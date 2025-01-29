@@ -1,0 +1,6 @@
+[
+    {
+        "question":"How many research groups does the 'Computer Science Special Topics' have?",
+        "query":"select (count(?x) as ?cnt) { <http:\/\/example.org\/computer_science_special_topics> <http:\/\/example.org\/has_research_group> ?x . }"
+    }
+]

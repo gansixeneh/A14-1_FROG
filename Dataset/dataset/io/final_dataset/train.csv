@@ -1,0 +1,9 @@
+question	query	category
+What faculty mandatory course that have 'Test' and 'Task' as evaluation method?	select ?x { ?x ns1:has_course_category ns1:faculty_mandatory_course . ?x ns1:has_evaluation_method ns1:test . ?x ns1:has_evaluation_method ns1:task . }	io\courses_test\complex_1_1_normal.json
+What courses have prerequisites that falls under the category of Faculty Mandatory Course?	select ?x { ?x ns1:has_prerequisite_course ?y . ?y ns1:has_course_category ns1:faculty_mandatory_course . }	io\courses_test\complex_2_1_normal.json
+How many research groups does the 'Computer Science Special Topics' have?	select (count(?x) as ?cnt) { ns1:computer_science_special_topics ns1:has_research_group ?x . }	io\courses_test\simple_1_1_count.json
+What evaluation methods does Software engineering have?	select ?x { ns1:software_engineering ns1:has_evaluation_method ?x . }	io\courses_test\simple_1_2_normal.json
+What evaluation methods does Deep Learning have?	select ?x { ns1:deep_learning ns1:has_evaluation_method ?x . }	io\courses_test\simple_1_2_normal.json
+How many courses have 'Programming projects and demos' as the evaluation method?	select (count(?x) as ?cnt) { ?x ns1:has_evaluation_method ns1:programming_projects_and_demos . }	io\courses_test\simple_2_1_count.json
+What courses are included in the research group of Reliable Software Engineering?	select ?x { ?x ns1:has_research_group ns1:reliable_software_engineering . }	io\courses_test\simple_2_2_normal.json
+What courses have 'Introduction to Artificial Intelligence and Data Science' as a prerequisite course?	select ?x { ?x ns1:has_prerequisite_course ns1:introduction_to_artificial_intelligence_and_data_science . }	io\courses_test\simple_2_2_normal.json

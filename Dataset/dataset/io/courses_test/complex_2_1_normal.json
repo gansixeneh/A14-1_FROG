@@ -1,0 +1,6 @@
+[
+    {
+        "question":"What courses have prerequisites that falls under the category of Faculty Mandatory Course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> ?y . ?y <http:\/\/example.org\/has_course_category> <http:\/\/example.org\/faculty_mandatory_course> . }"
+    }
+]

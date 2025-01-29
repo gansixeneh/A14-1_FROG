@@ -1,0 +1,62 @@
+[
+    {
+        "question":"What are the prerequisite courses for \"Programming Basics 2\"?",
+        "query":"select ?x { <http:\/\/example.org\/programming_basics_2> <http:\/\/example.org\/has_prerequisite_course> ?x . }"
+    },
+    {
+        "question":"What are the credits of Computer Assisted Teaching?",
+        "query":"select ?x { <http:\/\/example.org\/computer_assisted_teaching> <http:\/\/example.org\/has_credits> ?x . }"
+    },
+    {
+        "question":"What are the prerequisite courses for the course \"robotics\"?",
+        "query":"select ?x { <http:\/\/example.org\/robotics> <http:\/\/example.org\/has_prerequisite_course> ?x . }"
+    },
+    {
+        "question":"What is the course code for Human-Computer Interaction?",
+        "query":"select ?x { <http:\/\/example.org\/human-computer_interaction> <http:\/\/example.org\/has_course_code> ?x . }"
+    },
+    {
+        "question":"What is the evaluation method used in Numerical Analysis?",
+        "query":"select ?x { <http:\/\/example.org\/numerical_analysis> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    },
+    {
+        "question":"What is the evaluation method of the \"Advanced Database\"?",
+        "query":"select ?x { <http:\/\/example.org\/advanced_database> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    },
+    {
+        "question":"What research group is associated with Software Product Line Engineering?",
+        "query":"select ?x { <http:\/\/example.org\/software_product_line_engineering> <http:\/\/example.org\/has_research_group> ?x . }"
+    },
+    {
+        "question":"What is the category of Calculus 1?",
+        "query":"select ?x { <http:\/\/example.org\/calculus_1> <http:\/\/example.org\/category> ?x . }"
+    },
+    {
+        "question":"What research group is associated with Computational Geometry?",
+        "query":"select ?x { <http:\/\/example.org\/computational_geometry> <http:\/\/example.org\/has_research_group> ?x . }"
+    },
+    {
+        "question":"What courses has the \"Final Project Group Assignment\" as a prerequisite?",
+        "query":"select ?x { <http:\/\/example.org\/final_project_group_assignment> <http:\/\/example.org\/has_prerequisite_course> ?x . }"
+    },
+    {
+        "question":"What research group is associated with Functional Programming?",
+        "query":"select ?x { <http:\/\/example.org\/functional_programming> <http:\/\/example.org\/has_research_group> ?x . }"
+    },
+    {
+        "question":"What research groups is Technopreneurship associated with?",
+        "query":"select ?x { <http:\/\/example.org\/technopreneurship> <http:\/\/example.org\/has_research_group> ?x . }"
+    },
+    {
+        "question":"What is the evaluation method of Mobile Technology?",
+        "query":"select ?x { <http:\/\/example.org\/mobile_technology> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    },
+    {
+        "question":"What are the credits for Software Quality Assurance?",
+        "query":"select ?x { <http:\/\/example.org\/software_quality_assurance> <http:\/\/example.org\/has_credits> ?x . }"
+    },
+    {
+        "question":"What has credits for \"Programming Basics 2\"?",
+        "query":"select ?x { <http:\/\/example.org\/programming_basics_2> <http:\/\/example.org\/has_credits> ?x . }"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "question":"What are the courses that have 'Task' as the evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/task> . }"
+    },
+    {
+        "question":"What courses have 'Computer network' as a prerequisite course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/computer_network> . }"
+    },
+    {
+        "question":"What are the courses that have 'Test' as their evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . }"
+    },
+    {
+        "question":"What courses have the category 'Study Program Elective Course'?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_course_category> <http:\/\/example.org\/study_program_elective_course> . }"
+    },
+    {
+        "question":"What courses that have 3 credits?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_credits> '3'^^xsd:integer . }"
+    },
+    {
+        "question":"What course has the course code 'CSCE604222'?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_course_code> 'CSCE604222' . }"
+    },
+    {
+        "question":"What courses that have 'Test' as their evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . }"
+    },
+    {
+        "question":"What courses that have 6 credits?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_credits> '6'^^xsd:integer . }"
+    },
+    {
+        "question":"What are the courses that have 'Test' as their evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . }"
+    },
+    {
+        "question":"What courses have 'Programming Basics 2' as a prerequisite course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/programming_basics_2> . }"
+    }
+]

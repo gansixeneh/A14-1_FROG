@@ -1,0 +1,22 @@
+[
+    {
+        "question":"What courses have Group Project as their evaluation method and have a prerequisite course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> ?y . ?y <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/group_project> . }"
+    },
+    {
+        "question":"What courses are mandatory and have a prerequisite course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> ?y . ?y <http:\/\/example.org\/has_course_category> <http:\/\/example.org\/study_program_mandatory_course> . }"
+    },
+    {
+        "question":"What courses have prerequisites and have exactly 3 credits?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> ?y . ?y <http:\/\/example.org\/has_credits> '3'^^xsd:integer . }"
+    },
+    {
+        "question":"What courses have Discrete Mathematics 1 as a prerequisite course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> ?y . ?y <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/discrete_mathematics_1> . }"
+    },
+    {
+        "question":"What courses have Test as their evaluation method and are prerequisites for some course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> ?y . ?y <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . }"
+    }
+]

@@ -1,0 +1,5 @@
+wd:Q1248784     dbo:Airport
+wd:Q46970       dbo:Airline
+wd:Q6256	    dbo:Country
+wd:Q11424	    dbo:Book
+wd:Q3918	    dbo:University

@@ -1,0 +1,42 @@
+[
+    {
+        "question":"What course categories does 'Spoken Language Processing' have?",
+        "query":"select ?x { <http:\/\/example.org\/spoken_language_processing> <http:\/\/example.org\/has_course_category> ?x . }"
+    },
+    {
+        "question":"What course categories does Bioinformatics have?",
+        "query":"select ?x { <http:\/\/example.org\/bioinformatics> <http:\/\/example.org\/has_course_category> ?x . }"
+    },
+    {
+        "question":"What evaluation methods are associated with 'Cryptography and Information Security'?",
+        "query":"select ?x { <http:\/\/example.org\/cryptography_and_information_security> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    },
+    {
+        "question":"What courses are prerequisites for Computer Vision?",
+        "query":"select ?x { <http:\/\/example.org\/computer_vision> <http:\/\/example.org\/has_prerequisite_course> ?x . }"
+    },
+    {
+        "question":"What are the prerequisite courses for Knowledge Representation and Reasoning?",
+        "query":"select ?x { <http:\/\/example.org\/knowledge_representation_and_reasoning> <http:\/\/example.org\/has_prerequisite_course> ?x . }"
+    },
+    {
+        "question":"What is the course category of Discrete Mathematics 2?",
+        "query":"select ?x { <http:\/\/example.org\/discrete_mathematics_2> <http:\/\/example.org\/has_course_category> ?x . }"
+    },
+    {
+        "question":"How many credits does 'Introduction to Digital Systems' have?",
+        "query":"select ?x { <http:\/\/example.org\/introduction_to_digital_systems> <http:\/\/example.org\/has_credits> ?x . }"
+    },
+    {
+        "question":"What evaluation methods are associated with 'Cryptography and Information Security'?",
+        "query":"select ?x { <http:\/\/example.org\/cryptography_and_information_security> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    },
+    {
+        "question":"What course categories does 'Research Methodology and Scientific Writing' have?",
+        "query":"select ?x { <http:\/\/example.org\/research_methodology_and_scientific_writing> <http:\/\/example.org\/has_course_category> ?x . }"
+    },
+    {
+        "question":"What prerequisite courses does Web Application Architecture have?",
+        "query":"select ?x { <http:\/\/example.org\/web_application_architecture> <http:\/\/example.org\/has_prerequisite_course> ?x . }"
+    }
+]

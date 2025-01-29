@@ -1,0 +1,10 @@
+[
+    {
+        "question":"What evaluation methods does Software engineering have?",
+        "query":"select ?x { <http:\/\/example.org\/software_engineering> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    },
+    {
+        "question":"What evaluation methods does Deep Learning have?",
+        "query":"select ?x { <http:\/\/example.org\/deep_learning> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    }
+]

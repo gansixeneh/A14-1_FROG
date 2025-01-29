@@ -1,0 +1,62 @@
+[
+    {
+        "question":"What courses have 'Data Structures and Algorithms' as a prerequisite, are part of the Computer System Laboratory, and have 3 credits?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/data_structures_and_algorithms> . ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/computer_system_laboratory> . ?x <http:\/\/example.org\/has_credits> '3'^^xsd:integer . }"
+    },
+    {
+        "question":"What is the study program elective course with the course code 'CSCE604227' that has 'Operating system' as a prerequisite course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/category> <http:\/\/example.org\/study_program_elective_course> . ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/operating_system> . ?x <http:\/\/example.org\/has_course_code> 'CSCE604227' . }"
+    },
+    {
+        "question":"What are the resources that have a 'has evaluation method' of 'Programming Assignment', are categorized as 'Faculty Mandatory Course', and have a 'has course code' of 'CSGE601021'?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/programming_assignment> . ?x <http:\/\/example.org\/category> <http:\/\/example.org\/faculty_mandatory_course> . ?x <http:\/\/example.org\/has_course_code> 'CSGE601021' . }"
+    },
+    {
+        "question":"What are the study program elective courses with the code CSCE604111 that have a task as their evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/category> <http:\/\/example.org\/study_program_elective_course> . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/task> . ?x <http:\/\/example.org\/has_course_code> 'CSCE604111' . }"
+    },
+    {
+        "question":"What are the resources that have a 'Lab Assignment' as their evaluation method, are associated with the course code 'CSCM602223', and are categorized as 'Study Program Mandatory Courses'?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/lab_assignment> . ?x <http:\/\/example.org\/has_course_code> 'CSCM602223' . ?x <http:\/\/example.org\/category> <http:\/\/example.org\/study_program_mandatory_course> . }"
+    },
+    {
+        "question":"What courses have 3 credits, use the Group task evaluation method, and have the course code CSCE604183?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_credits> '3'^^xsd:integer . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/group_task> . ?x <http:\/\/example.org\/has_course_code> 'CSCE604183' . }"
+    },
+    {
+        "question":"What are the resources that have a 'Group Project' evaluation method, are associated with the course code 'CSCM603154', and also have a 'Task' evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/group_project> . ?x <http:\/\/example.org\/has_course_code> 'CSCM603154' . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/task> . }"
+    },
+    {
+        "question":"What research group is associated with the course 'CSIE604274' that has 'Reliable Software Engineering' as its research focus and has 'Computer Network' as a prerequisite course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/reliable_software_engineering> . ?x <http:\/\/example.org\/has_course_code> 'CSIE604274' . ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/computer_network> . }"
+    },
+    {
+        "question":"What entities have the evaluation method 'Test' and are associated with the research group 'Digital Library & Distance Learning Laboratory', and also have the evaluation method 'Group Presentation'?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/digital_library_and_distance_learning_laboratory> . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/group_presentation> . }"
+    },
+    {
+        "question":"What are the research groups that have affiliations with both the Computer System Laboratory, Machine Learning and Computer Vision, and Information Retrieval and Natural Language Processing?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/computer_system_laboratory> . ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/machine_learning_and_computer_vision> . ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/information_retrieval_and_natural_language_processing> . }"
+    },
+    {
+        "question":"What is the study program elective course with the code 'CSCE604128' that belongs to the 'Reliable Software Engineering' research group?",
+        "query":"select ?x { ?x <http:\/\/example.org\/category> <http:\/\/example.org\/study_program_elective_course> . ?x <http:\/\/example.org\/has_course_code> 'CSCE604128' . ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/reliable_software_engineering> . }"
+    },
+    {
+        "question":"What is the entity that has the evaluation method 'Test', belongs to the category 'Study Program Elective Course', and has the course code 'CSCE604232'?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . ?x <http:\/\/example.org\/category> <http:\/\/example.org\/study_program_elective_course> . ?x <http:\/\/example.org\/has_course_code> 'CSCE604232' . }"
+    },
+    {
+        "question":"What course has the course code 'CSCM601213', has 'Calculus 1' as a prerequisite, and is evaluated by 'Test'?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_course_code> 'CSCM601213' . ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/calculus_1> . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . }"
+    },
+    {
+        "question":"What courses have 3 credits, are evaluated by the Task method, and have Computer network as a prerequisite course?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_credits> '3'^^xsd:integer . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/task> . ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/computer_network> . }"
+    },
+    {
+        "question":"What are the entities that have a 'Group task' evaluation method, are associated with the course code 'UIGE600007', and have 6 credits?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/group_task> . ?x <http:\/\/example.org\/has_course_code> 'UIGE600007' . ?x <http:\/\/example.org\/has_credits> '6'^^xsd:integer . }"
+    }
+]

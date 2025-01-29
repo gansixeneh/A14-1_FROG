@@ -1,0 +1,22 @@
+[
+    {
+        "question":"How many evaluation methods are associated with Bioinformatics?",
+        "query":"select (count(?x) as ?cnt) { <http:\/\/example.org\/bioinformatics> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    },
+    {
+        "question":"How many prerequisite courses does 'Algorithm Design and Analysis' have?",
+        "query":"select (count(?x) as ?cnt) { <http:\/\/example.org\/algorithm_design_and_analysis> <http:\/\/example.org\/has_prerequisite_course> ?x . }"
+    },
+    {
+        "question":"How many courses are prerequisites for Calculus 2?",
+        "query":"select (count(?x) as ?cnt) { <http:\/\/example.org\/calculus_2> <http:\/\/example.org\/has_prerequisite_course> ?x . }"
+    },
+    {
+        "question":"How many evaluation methods are associated with 'Natural Language Processing'?",
+        "query":"select (count(?x) as ?cnt) { <http:\/\/example.org\/natural_language_processing> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    },
+    {
+        "question":"How many evaluation methods of 'Internet of Things'?",
+        "query":"select (count(?x) as ?cnt) { <http:\/\/example.org\/internet_of_things> <http:\/\/example.org\/has_evaluation_method> ?x . }"
+    }
+]

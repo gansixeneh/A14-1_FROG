@@ -1,0 +1,6 @@
+[
+    {
+        "question":"What faculty mandatory course that have 'Test' and 'Task' as evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_course_category> <http:\/\/example.org\/faculty_mandatory_course> . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/task> . }"
+    }
+]

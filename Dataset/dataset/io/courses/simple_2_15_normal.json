@@ -1,0 +1,62 @@
+[
+    {
+        "question":"What research group is associated with Information Retrieval and Natural Language Processing?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_research_group> <http:\/\/example.org\/information_retrieval_and_natural_language_processing> . }"
+    },
+    {
+        "question":"What are the resources that have the category \"Faculty Mandatory Course\"?",
+        "query":"select ?x { ?x <http:\/\/example.org\/category> <http:\/\/example.org\/faculty_mandatory_course> . }"
+    },
+    {
+        "question":"What has 3 credits?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_credits> '3'^^xsd:integer . }"
+    },
+    {
+        "question":"What projects have the evaluation method of \"Project Assignment\"?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/project_assignment> . }"
+    },
+    {
+        "question":"What projects have a presentation or demo of project assignments as their evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/presentation_or_demo_of_project_assignments> . }"
+    },
+    {
+        "question":"What tasks have an evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/task> . }"
+    },
+    {
+        "question":"What tasks have an evaluation method?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/task> . }"
+    },
+    {
+        "question":"What courses have \"Database\" as a prerequisite?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/database> . }"
+    },
+    {
+        "question":"What has a minimum of 100 credits?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_minimum_credits> '100'^^xsd:integer . }"
+    },
+    {
+        "question":"What courses has Discrete Mathematics 1 as a prerequisite?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/discrete_mathematics_1> . }"
+    },
+    {
+        "question":"What has 2 credits?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_credits> '2'^^xsd:integer . }"
+    },
+    {
+        "question":"What methods are used for the evaluation of the \"Test\"?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_evaluation_method> <http:\/\/example.org\/test> . }"
+    },
+    {
+        "question":"What has 4 credits?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_credits> '4'^^xsd:integer . }"
+    },
+    {
+        "question":"What are the things that are categorized as \"Study Program Mandatory Course\"?",
+        "query":"select ?x { ?x <http:\/\/example.org\/category> <http:\/\/example.org\/study_program_mandatory_course> . }"
+    },
+    {
+        "question":"What courses has prerequisite course \"Programming Basics 1\"?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_prerequisite_course> <http:\/\/example.org\/programming_basics_1> . }"
+    }
+]
