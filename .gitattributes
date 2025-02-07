@@ -1,0 +1,2 @@
+Dataset/dataset/io/data-lex2kg.ttl filter=lfs diff=lfs merge=lfs -text
+FROG/data/legal_turtle/data-lex2kg.ttl filter=lfs diff=lfs merge=lfs -text

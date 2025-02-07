@@ -126,6 +126,9 @@ def main(
             turtle_file_path="data/enterprise_turtle/final_result.ttl",
         )
         print("EnterpriseGraphRAG initialized.")
+    elif knowledge_source == "legal":
+        print("Initializing LegalGraphRAG...")
+        rag_engine = Legal
     else:
         raise ValueError("Invalid knowledge source.")
 

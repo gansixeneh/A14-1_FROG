@@ -7,3 +7,4 @@ http://www.wikidata.org/prop/direct/P646
 http://example.org/also_known_as
 http://example.org/has_credits
 http://example.org/has_course_code
+https://example.org/lex2kg/ontology/bagianDari
