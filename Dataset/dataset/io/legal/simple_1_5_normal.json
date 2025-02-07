@@ -1,0 +1,22 @@
+[
+    {
+        "question":"Apakah teks dari UU No. 55 tahun 1999 pasal 0002?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/1999\/55\/pasal\/0002\/versi\/19991004\/text> <https:\/\/example.org\/lex2kg\/ontology\/teks> ?x . }"
+    },
+    {
+        "question":"Apakah UU No. 4 tahun 2019 pasal 0050 huruf D merupakan bagian dari apa?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2019\/4\/pasal\/0050\/versi\/20190313\/huruf\/d> <https:\/\/example.org\/lex2kg\/ontology\/segmen> ?x . }"
+    },
+    {
+        "question":"Apakah bagian dari UU No. 19 tahun 2013 pasal 0022?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2013\/19\/pasal\/0022> <https:\/\/example.org\/lex2kg\/ontology\/bagianDari> ?x . }"
+    },
+    {
+        "question":"Apakah bagian dari UU No. 23 tahun 2002 pasal 0075 ayat 0002?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2002\/23\/pasal\/0075\/versi\/20021022\/ayat\/0002\/text> <https:\/\/example.org\/lex2kg\/ontology\/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapakah tanggal dari UU No. 8 tahun 2012 pasal 0121?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2012\/8\/pasal\/0121\/versi\/20120511> <https:\/\/example.org\/lex2kg\/ontology\/tanggal> ?x . }"
+    }
+]

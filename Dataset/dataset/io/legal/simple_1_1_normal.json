@@ -1,0 +1,6 @@
+[
+    {
+        "question":"Apakah bagian dari dari teks UU No. 15 tahun 2011 pasal 0066 ayat 0001 huruf e?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2011\/15\/pasal\/0066\/versi\/20111016\/ayat\/0001\/huruf\/e\/text> <https:\/\/example.org\/lex2kg\/ontology\/bagianDari> ?x . }"
+    }
+]

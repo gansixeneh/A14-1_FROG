@@ -1,5 +1,5 @@
 import re
-
+from datetime import datetime
 
 def replace_using_dict(original_string, replacements) -> str:
     for old, new in replacements.items():
@@ -40,3 +40,39 @@ def fix_query_spacing(query: str) -> str:
     # Add a space before any variable in a predicate-object pair
     query = re.sub(r"(\w+:\w+)(\?\w+)", r"\1 \2", query)
     return query
+
+def legal_entity_label(url):
+    parts = url.strip('/').split('/')
+    transformed_parts = []
+    
+    month_mapping = {
+        "January": "Januari", "February": "Februari", "March": "Maret", "April": "April", "May": "Mei", "June": "Juni",
+        "July": "Juli", "August": "Agustus", "September": "September", "October": "Oktober", "November": "November", "December": "Desember"
+    }
+    
+    for i, part in enumerate(parts):
+        if part == "lex2kg":
+            transformed_parts = []
+            continue
+        if part == "uu":
+            transformed_parts.append("UU")
+        elif part.isdigit() and len(part) <= 2:
+            transformed_parts.append(f"no {part}")
+        elif part.isdigit() and len(part) == 4 and int(part) >= 1945:
+            transformed_parts.append(f"tahun {part}")
+        elif part.isdigit() and len(part) == 8:
+            try:
+                date_obj = datetime.strptime(part, "%Y%m%d")
+                formatted_date = date_obj.strftime("%-d %B %Y")
+                for eng, indo in month_mapping.items():
+                    formatted_date = formatted_date.replace(eng, indo)
+                transformed_parts.append(formatted_date)
+            except ValueError:
+                transformed_parts.append(part)
+        elif part.isdigit():
+            num = str(int(part))
+            transformed_parts.append(num)
+        else:
+            transformed_parts.append(separate_camel_case(part).lower())
+    
+    return ' '.join(transformed_parts)
