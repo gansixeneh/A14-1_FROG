@@ -52,22 +52,26 @@ LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
         "input": "Apa isi dari pasal 10 ayat 2 dalam UU Nomor 23 Tahun 2014 versi 12 Desember 2020?",
         "output": {"names": ["UU tahun 2014 no 23 pasal 10 versi 12 Desember 2020 ayat 2"]}
     },
+    {
+        "input": "Apa isi dari pasal 10 ayat 2 dalam UU Nomor 23 Tahun 2014 versi 12 Desember 2020?",
+        "output": {"names": ["UU tahun 2014 no 23 pasal 10 versi 12 Desember 2020 ayat 2"]}
+    },
     # {
     #     "input": "UU apa yang mengatur tentang Penyelenggaraan Haji dan Umroh?",
     #     "output": {"names": ["UU Nomor 4 Tahun 2020", "Penyelenggaraan Haji dan Umroh"]},
     # },
-    {
-        "input": "Ada berapa banyak pasal pada UU Nomor 9 Tahun 2020?",
-        "output": {"names": ["UU Nomor 9 Tahun 2020"]},
-    },
-    {
-        "input": "Apa isi dari pasal pertama UU yang mengatur tentang Cipta Kerja?",
-        "output": {"names": ["UU Nomor 4 Tahun 2020"]},
-    },
-    {
-        "input": "Ada berapa banyak bab pada UU yang mengatur tentang Ekonomi Kreatif?",
-        "output": {"names": ["UU Nomor 4 Tahun 2020"]},
-    },
+    # {
+    #     "input": "Ada berapa banyak pasal pada UU Nomor 9 Tahun 2020?",
+    #     "output": {"names": ["UU Nomor 9 Tahun 2020"]},
+    # },
+    # {
+    #     "input": "Apa isi dari pasal pertama UU yang mengatur tentang Cipta Kerja?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
+    # {
+    #     "input": "Ada berapa banyak bab pada UU yang mengatur tentang Ekonomi Kreatif?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
     {
         "input": "Pada tanggal berapa UU yang mengatur tentang kebidanan disahkan?",
         "output": {"names": ["UU Nomor 4 Tahun 2020"]},
@@ -85,25 +89,14 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
         "input": "Apa isi dari UU Nomor 12 Tahun 2011 pasal 5?",
         "output": {
             "thoughts": [
-                "1. The question asks for faculty mandatory courses that use both 'Test' and 'Task' as evaluation methods.",
-                "2. According to the ontology, 'ns1:faculty_mandatory_course' represents the category of faculty mandatory courses.",
-                "3. The property 'ns1:has_course_category' links a course to its category (e.g., faculty mandatory course).",
-                "4. The property 'ns1:has_evaluation_method' specifies the evaluation methods of a course, where the range is 'ns1:evaluation'.",
-                "5. The terms 'Test' and 'Task' appear to correspond to evaluation methods, which can be linked using 'ns1:has_evaluation_method'.",
-                "6. To retrieve the required courses, filter for entities that are categorized as 'faculty mandatory courses' and have both 'Test' and 'Task' as evaluation methods.",
-                "7. Construct a SPARQL query that first identifies courses with the 'faculty mandatory course' category and then ensures they are linked to both 'Test' and 'Task' evaluation methods.",
+                "1. Pertanyaan tersebut meminta isi atau teks dari pasal tertentu dalam undang-undang: 'UU Nomor 12 Tahun 2011 pasal 5'.",
+                "2. Dalam ontologi, entity yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2011/12/pasal/0005'.",
+                "3. Properti 'lex2kg:teks' menghubungkan suatu pasal dengan teks isinya.",
+                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2011/12/pasal/0005' dan ambil isinya melalui properti 'lex2kg:teks'.",
+                "5. Susun query SPARQL untuk mengambil isi dari 'UU Nomor 12 Tahun 2011 pasal 5'."
             ],
-            "thoughts": [
-                "1. The question asks for faculty mandatory courses that use both 'Test' and 'Task' as evaluation methods.",
-                "2. According to the ontology, 'ns1:faculty_mandatory_course' represents the category of faculty mandatory courses.",
-                "3. The property 'ns1:has_course_category' links a course to its category (e.g., faculty mandatory course).",
-                "4. The property 'ns1:has_evaluation_method' specifies the evaluation methods of a course, where the range is 'ns1:evaluation'.",
-                "5. The terms 'Test' and 'Task' appear to correspond to evaluation methods, which can be linked using 'ns1:has_evaluation_method'.",
-                "6. To retrieve the required courses, filter for entities that are categorized as 'faculty mandatory courses' and have both 'Test' and 'Task' as evaluation methods.",
-                "7. Construct a SPARQL query that first identifies courses with the 'faculty mandatory course' category and then ensures they are linked to both 'Test' and 'Task' evaluation methods.",
-            ],
-            "sparql": "select ?x { ?x ns1:has_course_category ns1:faculty_mandatory_course . ?x ns1:has_evaluation_method ns1:test . ?x ns1:has_evaluation_method ns1:task . }",
-        },
+            "sparql": "SELECT ?content WHERE { <https://example.org/lex2kg/uu/2011/12/pasal/0005> lex2kg:teks ?content . }"
+        }
     },
     # 2
     {

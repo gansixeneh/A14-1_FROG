@@ -777,7 +777,52 @@ ENTERPRISE_GENERATE_SPARQL_FEW_SHOTS = [
         },
     },
 ]
-
+LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
+    {
+        "input": "Apa isi dari UU Nomor 12 Tahun 2011 pasal 5?",
+        "output": {"names": ["UU tahun 2011 no 12 pasal 5"]},
+    },
+    {
+        "input": "Siapa yang mengesahkan UU Nomor 4 Tahun 2020?",
+        "output": {"names": ["UU tahun 2020 no 4"]},
+    },
+    {
+        "input": "Apa isi dari UU Nomor 8 Tahun 2019 Pasal 4 versi 26 April 2019 ayat 3?",
+        "output": {"names": ["UU tahun 2019 no 8 pasal 4 versi 26 April 2019 ayat 3"]},
+    },
+    {
+        "input": "Apa isi dari pasal 10 ayat 2 dalam UU Nomor 23 Tahun 2014 versi 12 Desember 2020?",
+        "output": {"names": ["UU tahun 2014 no 23 pasal 10 versi 12 Desember 2020 ayat 2"]}
+    },
+    # {
+    #     "input": "Apa isi dari pasal 10 ayat 2 dalam UU Nomor 23 Tahun 2014 versi 12 Desember 2020?",
+    #     "output": {"names": ["UU tahun 2014 no 23 pasal 10 versi 12 Desember 2020 ayat 2"]}
+    # },
+    # {
+    #     "input": "UU apa yang mengatur tentang Penyelenggaraan Haji dan Umroh?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020", "Penyelenggaraan Haji dan Umroh"]},
+    # },
+    # {
+    #     "input": "Ada berapa banyak pasal pada UU Nomor 9 Tahun 2020?",
+    #     "output": {"names": ["UU Nomor 9 Tahun 2020"]},
+    # },
+    # {
+    #     "input": "Apa isi dari pasal pertama UU yang mengatur tentang Cipta Kerja?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
+    # {
+    #     "input": "Ada berapa banyak bab pada UU yang mengatur tentang Ekonomi Kreatif?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
+    # {
+    #     "input": "Pada tanggal berapa UU yang mengatur tentang kebidanan disahkan?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
+    # {
+    #     "input": "Ada berapa UU yang disahkan oleh Joko Widodo dan disahkan pada tanggal 2019-01-10",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
+]
 
 for fs in [
     WIKIDATA_DBPEDIA_EXTRACT_ENTITY_FEW_SHOTS,
@@ -787,6 +832,7 @@ for fs in [
     DBPEDIA_GENERATE_SPARQL_FEW_SHOTS,
     WIKIDATA_GENERATE_SPARQL_FEW_SHOTS,
     ENTERPRISE_GENERATE_SPARQL_FEW_SHOTS,
+    LEGAL_EXTRACT_ENTITY_FEW_SHOTS,
 ]:
     for f in fs:
         f["output"] = json.dumps(f["output"], indent=4)
