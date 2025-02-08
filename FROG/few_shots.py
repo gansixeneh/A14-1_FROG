@@ -824,6 +824,67 @@ LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
     # },
 ]
 
+LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
+
+    # 1
+    {
+        "input": "Apa isi dari UU Nomor 12 Tahun 2011 pasal 5?",
+        "output": {
+            "thoughts": [
+                "1. Pertanyaan tersebut meminta isi atau teks dari pasal tertentu dalam undang-undang: 'UU Nomor 12 Tahun 2011 pasal 5'.",
+                "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2011/12/pasal/0005'.",
+                "3. Properti 'lex2kg:teks' menghubungkan suatu pasal dengan teks isinya.",
+                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2011/12/pasal/0005' dan ambil isinya melalui properti 'lex2kg:teks'.",
+                "5. Susun query SPARQL untuk mengambil isi dari 'UU Nomor 12 Tahun 2011 pasal 5'."
+            ],
+            "sparql": "SELECT ?content WHERE { <https://example.org/lex2kg/uu/2011/12/pasal/0005> lex2kg:teks ?content . }"
+        }
+    },
+    # 2
+    {
+            "input": "Siapa yang mengesahkan UU Nomor 4 Tahun 2020?",
+            "output": {
+                "thoughts": [
+                    "1. Pertanyaan ini meminta informasi tentang siapa yang mengesahkan 'UU Nomor 4 Tahun 2020'.",
+                    "2. Dalam ontologi, entitas yang merepresentasikan undang-undang ini mengikuti struktur 'lex2kg/uu/2020/4'.",
+                    "3. Properti 'lex2kg:disahkanOleh' menghubungkan suatu undang-undang dengan pihak yang mengesahkannya.",
+                    "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2020/4' dan ambil informasi siapa yang mengesahkan melalui properti 'lex2kg:disahkanOleh'.",
+                    "5. Susun query SPARQL untuk mengambil pihak yang mengesahkan 'UU Nomor 4 Tahun 2020'."
+                ],
+                "sparql": "SELECT ?pengesah WHERE { <https://example.org/lex2kg/uu/2020/4> lex2kg:disahkanOleh ?pengesah . }"
+            }
+    },
+    # # 3
+    # {
+    #     "input": "UU apa yang mengatur tentang Penyelenggaraan Haji dan Umroh?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020", "Penyelenggaraan Haji dan Umroh"]},
+    # },
+    # # 4
+    # {
+    #     "input": "Ada berapa banyak pasal pada UU Nomor 9 Tahun 2020?",
+    #     "output": {"names": ["UU Nomor 9 Tahun 2020"]},
+    # },
+    # # 5
+    # {
+    #     "input": "Apa isi dari pasal pertama UU yang mengatur tentang Cipta Kerja?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
+    # # 6
+    # {
+    #     "input": "Ada berapa banyak bab pada UU yang mengatur tentang Ekonomi Kreatif?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
+    # # 7
+    # {
+    #     "input": "Pada tanggal berapa UU yang mengatur tentang kebidanan disahkan?",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
+    # # 8 
+    # {
+    #     "input": "Ada berapa UU yang disahkan oleh Joko Widodo dan disahkan pada tanggal 2019-01-10",
+    #     "output": {"names": ["UU Nomor 4 Tahun 2020"]},
+    # },
+]
 for fs in [
     WIKIDATA_DBPEDIA_EXTRACT_ENTITY_FEW_SHOTS,
     ENTERPRISE_EXTRACT_ENTITY_FEW_SHOTS,
@@ -833,6 +894,7 @@ for fs in [
     WIKIDATA_GENERATE_SPARQL_FEW_SHOTS,
     ENTERPRISE_GENERATE_SPARQL_FEW_SHOTS,
     LEGAL_EXTRACT_ENTITY_FEW_SHOTS,
+    LEGAL_GENERATE_SPARQL_FEW_SHOTS,
 ]:
     for f in fs:
         f["output"] = json.dumps(f["output"], indent=4)
