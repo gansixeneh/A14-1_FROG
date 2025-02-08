@@ -42,7 +42,8 @@ load_dotenv()
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+# DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+DEVICE = "mps:0"
 
 
 class BaseGraphRAG:
@@ -75,7 +76,6 @@ class BaseGraphRAG:
 
         model_kwargs = {
             "do_sample": False,
-            "device": self.device,
             "max_new_tokens": max_new_tokens,
             "return_full_text": False,
             **additional_model_kwargs,
@@ -91,6 +91,7 @@ class BaseGraphRAG:
                 "text-generation",
                 model=self.model,
                 tokenizer=self.tokenizer,
+                device_map="auto",
                 **model_kwargs,
             )
             llm = HuggingFacePipeline(pipeline=pipe)

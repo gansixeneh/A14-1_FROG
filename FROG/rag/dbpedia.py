@@ -24,7 +24,8 @@ from .base import BaseGraphRAG
 
 load_dotenv()
 
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+# DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+DEVICE = "mps:0"
 
 
 class DBPediaGraphRAG(BaseGraphRAG):
