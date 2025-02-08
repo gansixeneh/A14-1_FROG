@@ -76,3 +76,6 @@ def legal_entity_label(url):
             transformed_parts.append(separate_camel_case(part).lower())
     
     return ' '.join(transformed_parts)
+
+def legal_property_label(x):
+    return separate_camel_case(x.split(":")[-1]).lower()
