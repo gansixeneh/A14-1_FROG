@@ -1,9 +1,14 @@
 from rag import LegalGraphRAG
 
+# Options:
+# - Qwen/Qwen2.5-7B-Instruct
+# - Qwen/Qwen2.5-3B-Instruct
+# - deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+
 rag_engine = LegalGraphRAG(
-    model_name="Qwen/Qwen2.5-3B-Instruct",
+    model_name="deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
     max_new_tokens=1500,
-    use_local_model=False,
+    use_local_model=True,
     use_local_weaviate_client=False,
 )
 
