@@ -1,7 +1,7 @@
 from rag import LegalGraphRAG
 
 rag_engine = LegalGraphRAG(
-    model_name="Qwen/Qwen2.5-7B-Instruct",
+    model_name="Qwen/Qwen2.5-3B-Instruct",
     max_new_tokens=1500,
     use_local_model=False,
     use_local_weaviate_client=False,
