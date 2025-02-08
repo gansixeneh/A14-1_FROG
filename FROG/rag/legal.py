@@ -23,7 +23,8 @@ from .base import BaseGraphRAG
 
 load_dotenv()
 
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+# DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+DEVICE = "mps:0"
 
 
 class LegalGraphRAG(BaseGraphRAG):
@@ -64,9 +65,7 @@ class LegalGraphRAG(BaseGraphRAG):
             },
         )
         if generate_sparql_few_shot_messages is None:
-            self.generate_sparql_few_shot_messages = (
-                LEGAL_GENERATE_SPARQL_FEW_SHOTS
-            )
+            self.generate_sparql_few_shot_messages = LEGAL_GENERATE_SPARQL_FEW_SHOTS
         else:
             self.generate_sparql_few_shot_messages = generate_sparql_few_shot_messages
         if property_retrieval is None:
@@ -245,9 +244,9 @@ You are an assistant trained to generate SPARQL queries. Use the provided contex
                                 k = legal_entity_label(k)
                             res_dct.append({k: str(v)})
                         labeled_entities.extend(res_dct)
-                        
+
                     context = labeled_entities
-                    
+
                 context_str = f'The answer of "{question}" is '
                 for c in context[:50]:
                     for k, v in c.items():
