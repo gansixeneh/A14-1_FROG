@@ -12,13 +12,9 @@ from langchain_core.prompts import (
 from pydantic import BaseModel, Field
 from typing import List, Optional
 
+from verbalization.legal import LegalVerbalization
+from utils.helper import legal_entity_label
 from property_retrieval.legal import LegalPropertyRetrieval
-from few_shots import (
-    ENTERPRISE_GENERATE_SPARQL_FEW_SHOTS,
-    ENTERPRISE_EXTRACT_ENTITY_FEW_SHOTS,
-)
-from verbalization import EnterpriseVerbalization
-from property_retrieval import EnterprisePropertyRetrieval
 from .base import BaseGraphRAG
 
 load_dotenv()
@@ -33,7 +29,7 @@ class LegalGraphRAG(BaseGraphRAG):
         device: str = DEVICE,
         use_local_model: str = True,
         max_new_tokens: int = 1500,
-        property_retrieval: Optional[EnterprisePropertyRetrieval] = None,
+        property_retrieval: Optional[LegalPropertyRetrieval] = None,
         generate_sparql_few_shot_messages: Optional[List[dict]] = None,
         always_use_generate_sparql: bool = False,
         use_local_weaviate_client: bool = True,
@@ -51,7 +47,7 @@ class LegalGraphRAG(BaseGraphRAG):
             additional_model_kwargs,
             turtle_file_path,
         )
-        self.verbalization = EnterpriseVerbalization(
+        self.verbalization = LegalVerbalization(
             turtle_file_path=turtle_file_path,
             model_name="jinaai/jina-embeddings-v3",
             query_model_encode_kwargs={
@@ -174,19 +170,17 @@ You are an assistant trained to generate SPARQL queries. Use the provided contex
         if type(context) == list:
             if len(context) > 0:
                 if list(context[0].values())[0].startswith("http://example.org/"):
-                    context_entities = []
+                    labeled_entities = []
                     for c in context[:50]:
-                        context_entities.append(
-                            "ns1:" + list(c.values())[0].split("/")[-1]
-                        )
-                    get_label_query = f"""SELECT ?{list(c.keys())[0]} WHERE {{
-  VALUES ?item {{ {" ".join(context_entities)} }}
-  ?item rdfs:label ?{list(c.keys())[0]}.
-}}"""
-                    context = []
-                    for res in self.graph.query(get_label_query):
-                        res_dct = [{k: str(v)} for k, v in res.asdict().items()]
-                        context.extend(res_dct)
+                        res_dct = []
+                        for k, v in c:
+                            if k.startswith("http://example.org/"):
+                                k = legal_entity_label(k)
+                            res_dct.append({k: str(v)})
+                        labeled_entities.extend(res_dct)
+                        
+                    context = labeled_entities
+                    
                 context_str = f'The answer of "{question}" is '
                 for c in context[:50]:
                     for k, v in c.items():

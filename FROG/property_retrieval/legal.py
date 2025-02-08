@@ -1,7 +1,7 @@
 import pandas as pd
 from rdflib import Graph
 
-from utils.helper import legal_entity_label, separate_camel_case
+from utils.helper import legal_entity_label, legal_property_label
 from property_retrieval.base import BasePropertyRetrieval
 
 
@@ -56,7 +56,7 @@ WHERE {
                 df_entities[col] = df_entities[col].apply(lambda x: str(x))
             
             df_entities["label"] = df_entities["short"].apply(legal_entity_label)
-            df_properties["label"] = df_properties["short"].apply(lambda x: separate_camel_case(x.split(":")[-1]).lower())
+            df_properties["label"] = df_properties["short"].apply(legal_property_label)
 
             df_entities.to_csv("entities.csv")
             df_properties.to_csv("properties.csv")
@@ -66,13 +66,13 @@ WHERE {
             emb_properties = self.model_embed.encode(
                 df_properties["label"].tolist(), show_progress_bar=True
             )
-            enterprise_df_vectors = {
+            legal_df_vectors = {
                 "entities": (df_entities, emb_entities),
                 "properties": (df_properties, emb_properties),
             }
             
             with self.collection.batch.fixed_size(batch_size=20) as batch:
-                for key, (df, vector) in enterprise_df_vectors.items():
+                for key, (df, vector) in legal_df_vectors.items():
                     for i, row in df.iterrows():
                         batch.add_object(
                             properties={**row.to_dict(), "type": key},
