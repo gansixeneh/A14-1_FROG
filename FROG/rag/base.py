@@ -102,6 +102,7 @@ class BaseGraphRAG:
                 **model_kwargs,
                 cache=False,
                 huggingfacehub_api_token=HF_TOKEN,
+                # timeout=300,
             )
         self.chat_model = ChatHuggingFace(llm=llm)
         self.always_use_generate_sparql = always_use_generate_sparql
