@@ -123,6 +123,7 @@ class BaseGraphRAG:
         )
         messages.append(HumanMessage(content=question))
         print("Question: ", question)
+        print({chat_history_placeholder: messages, "input": question})
 
         completion_parsed = None
         while try_threshold > 0:
