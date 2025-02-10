@@ -43,6 +43,7 @@ load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+# DEVICE = "mps:0"
 
 
 class BaseGraphRAG:
@@ -75,7 +76,6 @@ class BaseGraphRAG:
 
         model_kwargs = {
             "do_sample": False,
-            "device": self.device,
             "max_new_tokens": max_new_tokens,
             "return_full_text": False,
             **additional_model_kwargs,
@@ -91,6 +91,7 @@ class BaseGraphRAG:
                 "text-generation",
                 model=self.model,
                 tokenizer=self.tokenizer,
+                device_map="auto",
                 **model_kwargs,
             )
             llm = HuggingFacePipeline(pipeline=pipe)
@@ -102,6 +103,7 @@ class BaseGraphRAG:
                 **model_kwargs,
                 cache=False,
                 huggingfacehub_api_token=HF_TOKEN,
+                # timeout=300,
             )
         self.chat_model = ChatHuggingFace(llm=llm)
         self.always_use_generate_sparql = always_use_generate_sparql
@@ -120,6 +122,7 @@ class BaseGraphRAG:
             {chat_history_placeholder: messages, "input": question}
         )
         messages.append(HumanMessage(content=question))
+        print("Question: ", question)
 
         completion_parsed = None
         while try_threshold > 0:
@@ -518,7 +521,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
         try_threshold: int = 10,
     ) -> tuple[str, str, list[dict[str, str]]]:
         if self.translator.detect(question).lang != "en":
-            question = self.translate(question, dest_lang="en")
+            # question = self.translate(question, dest_lang="en")
             if verbose == 1:
                 display(
                     HTML(
