@@ -580,7 +580,8 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
             else:
                 retrieved_resources = self.property_retrieval.search_entities(
                     entity, k=5
-                )[["short", "label", "score"]].rename({"short": "uri"}, axis=1)
+                )[["short", "label"]].rename({"short": "uri"}, axis=1)
+                retrieved_resources["short"] = 'https://example.org/' + retrieved_resources["short"]
             if verbose == 1:
                 display(
                     HTML(
