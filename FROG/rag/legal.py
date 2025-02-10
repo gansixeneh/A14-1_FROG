@@ -8,6 +8,10 @@ from langchain_core.prompts import (
     MessagesPlaceholder,
 )
 
+from few_shots import (
+    LEGAL_EXTRACT_ENTITY_FEW_SHOTS,
+    LEGAL_GENERATE_SPARQL_FEW_SHOTS,
+)
 
 from pydantic import BaseModel, Field
 from typing import List, Optional
@@ -20,6 +24,7 @@ from .base import BaseGraphRAG
 load_dotenv()
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+# DEVICE = "mps:0"
 
 
 class LegalGraphRAG(BaseGraphRAG):
@@ -60,9 +65,7 @@ class LegalGraphRAG(BaseGraphRAG):
             },
         )
         if generate_sparql_few_shot_messages is None:
-            self.generate_sparql_few_shot_messages = (
-                LEGAL_GENERATE_SPARQL_FEW_SHOTS
-            )
+            self.generate_sparql_few_shot_messages = LEGAL_GENERATE_SPARQL_FEW_SHOTS
         else:
             self.generate_sparql_few_shot_messages = generate_sparql_few_shot_messages
         if property_retrieval is None:
@@ -111,6 +114,69 @@ Based on the query given, extract the entities from it and return the extracted 
         )
 
         return super().extract_entity(question, chat_prompt_template, try_threshold)
+
+    def get_most_appropriate_entity_uri(
+        self,
+        entity: str,
+        question: str,
+        retrieved_entities: list[dict],
+        try_threshold: int = 10,
+    ) -> str:
+        class Resource(BaseModel):
+            """
+            Represents the most appropriate entity URI selected from a given list of retrieved entities.
+            This URI is used in SPARQL queries to accurately answer the user's question.
+            """
+
+            uri: str = Field(
+                ...,
+                description="Entity URI",
+            )
+
+        chat_prompt_template = ChatPromptTemplate.from_messages(
+            [
+                (
+                    "system",
+                    """For the entity given, find the most appropriate entity uri from the list of retrieved entities given to be used in to generate SPARQL queries to answer the given question! ONLY return the entity uri from the list of retrieved resources given. DO NOT return anything else and DO NOT hallucinate. DO NOT include any explanations or apologies in your responses.
+Based on the entity given, get the most appropriate entity uri from it and return the uri in the format below.
+{format_instructions}""",
+                ),
+                MessagesPlaceholder("chat_history"),
+                (
+                    "human",
+                    """Retrieved entities:
+{retrieved_entities}
+
+Question:
+{question}
+
+Entity: 
+{input}
+
+Entity URI:""",
+                ),
+            ]
+        )
+
+        resource = super().get_most_appropriate_entity_uri(
+            entity,
+            question,
+            retrieved_entities,
+            Resource,
+            chat_prompt_template,
+            try_threshold,
+        )
+
+        if resource is None:
+            return None
+        return resource.uri
+
+    def generate_related_properties(
+        self, question: str, try_threshold: int = 10
+    ) -> list[str]:
+        raise NotImplementedError(
+            "This method is not implemented for the Enterprise Graph RAG."
+        )
 
     def generate_sparql(
         self,
@@ -178,9 +244,9 @@ You are an assistant trained to generate SPARQL queries. Use the provided contex
                                 k = legal_entity_label(k)
                             res_dct.append({k: str(v)})
                         labeled_entities.extend(res_dct)
-                        
+
                     context = labeled_entities
-                    
+
                 context_str = f'The answer of "{question}" is '
                 for c in context[:50]:
                     for k, v in c.items():
