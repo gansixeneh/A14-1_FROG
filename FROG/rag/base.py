@@ -42,8 +42,8 @@ load_dotenv()
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
-# DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-DEVICE = "mps:0"
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+# DEVICE = "mps:0"
 
 
 class BaseGraphRAG:
