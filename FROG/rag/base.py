@@ -122,6 +122,7 @@ class BaseGraphRAG:
             {chat_history_placeholder: messages, "input": question}
         )
         messages.append(HumanMessage(content=question))
+        print("Question: ", question)
 
         completion_parsed = None
         while try_threshold > 0:
@@ -520,7 +521,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
         try_threshold: int = 10,
     ) -> tuple[str, str, list[dict[str, str]]]:
         if self.translator.detect(question).lang != "en":
-            question = self.translate(question, dest_lang="en")
+            # question = self.translate(question, dest_lang="en")
             if verbose == 1:
                 display(
                     HTML(
