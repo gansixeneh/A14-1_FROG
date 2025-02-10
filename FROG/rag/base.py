@@ -318,6 +318,7 @@ Based on the query given, decide if it is global or local and return the classif
         resource, _ = self.handle_parsing_error(
             llm_chain, output_parser, [], entity, try_threshold=try_threshold
         )
+        print("Resource: ", resource)
         return resource
 
     def generate_related_properties(
