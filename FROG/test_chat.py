@@ -4,6 +4,9 @@ from rag import LegalGraphRAG
 # - Qwen/Qwen2.5-7B-Instruct
 # - Qwen/Qwen2.5-3B-Instruct
 # - deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+# - TinyLlama/TinyLlama_v1.1
+# - meta-llama/Llama-3.2-1B-Instruct
+# - Qwen/Qwen2.5-1.5B-Instruct
 
 rag_engine = LegalGraphRAG(
     model_name="Qwen/Qwen2.5-3B-Instruct",
