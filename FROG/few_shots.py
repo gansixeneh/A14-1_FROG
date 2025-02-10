@@ -833,11 +833,11 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
             "thoughts": [
                 "1. Pertanyaan tersebut meminta isi atau teks dari pasal tertentu dalam undang-undang: 'UU Nomor 12 Tahun 2011 pasal 5'.",
                 "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2011/12/pasal/0005'.",
-                "3. Properti 'lex2kg:teks' menghubungkan suatu pasal dengan teks isinya.",
-                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2011/12/pasal/0005' dan ambil isinya melalui properti 'lex2kg:teks'.",
+                "3. Properti 'lex2kg-o:teks' menghubungkan suatu pasal dengan teks isinya.",
+                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2011/12/pasal/0005' dan ambil isinya melalui properti 'lex2kg-o:teks'.",
                 "5. Susun query SPARQL untuk mengambil isi dari 'UU Nomor 12 Tahun 2011 pasal 5'."
             ],
-            "sparql": "SELECT ?content WHERE { <https://example.org/lex2kg/uu/2011/12/pasal/0005> lex2kg:teks ?content . }"
+            "sparql": "SELECT ?content WHERE { <https://example.org/lex2kg/uu/2011/12/pasal/0005> lex2kg-o:teks ?content . }"
         }
     },
     # 2
@@ -847,11 +847,11 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
                 "thoughts": [
                     "1. Pertanyaan ini meminta informasi tentang siapa yang mengesahkan 'UU Nomor 4 Tahun 2020'.",
                     "2. Dalam ontologi, entitas yang merepresentasikan undang-undang ini mengikuti struktur 'lex2kg/uu/2020/4'.",
-                    "3. Properti 'lex2kg:disahkanOleh' menghubungkan suatu undang-undang dengan pihak yang mengesahkannya.",
-                    "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2020/4' dan ambil informasi siapa yang mengesahkan melalui properti 'lex2kg:disahkanOleh'.",
+                    "3. Properti 'lex2kg-o:disahkanOleh' menghubungkan suatu undang-undang dengan pihak yang mengesahkannya.",
+                    "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2020/4' dan ambil informasi siapa yang mengesahkan melalui properti 'lex2kg-o:disahkanOleh'.",
                     "5. Susun query SPARQL untuk mengambil pihak yang mengesahkan 'UU Nomor 4 Tahun 2020'."
                 ],
-                "sparql": "SELECT ?pengesah WHERE { <https://example.org/lex2kg/uu/2020/4> lex2kg:disahkanOleh ?pengesah . }"
+                "sparql": "SELECT ?pengesah WHERE { <https://example.org/lex2kg/uu/2020/4> lex2kg-o:disahkanOleh ?pengesah . }"
             }
     },
     # # 3

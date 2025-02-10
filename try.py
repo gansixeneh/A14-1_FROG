@@ -112,6 +112,20 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
                 "sparql": "SELECT ?pengesah WHERE { <https://example.org/lex2kg/uu/2020/4> lex2kg:disahkanOleh ?pengesah . }"
             }
     },
+    # 3
+    {
+            "input": "Apa isi dari UU Nomor 8 Tahun 2019 Pasal 4 versi 26 April 2019 ayat 3?",
+            "output": {
+                "thoughts": [
+                    "1. Pertanyaan ini meminta informasi tentang siapa yang mengesahkan 'UU Nomor 4 Tahun 2020'.",
+                    "2. Dalam ontologi, entitas yang merepresentasikan undang-undang ini mengikuti struktur 'lex2kg/uu/2020/4'.",
+                    "3. Properti 'lex2kg:disahkanOleh' menghubungkan suatu undang-undang dengan pihak yang mengesahkannya.",
+                    "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2020/4' dan ambil informasi siapa yang mengesahkan melalui properti 'lex2kg:disahkanOleh'.",
+                    "5. Susun query SPARQL untuk mengambil pihak yang mengesahkan 'UU Nomor 4 Tahun 2020'."
+                ],
+                "sparql": "SELECT ?pengesah WHERE { <https://example.org/lex2kg/uu/2020/4> lex2kg:disahkanOleh ?pengesah . }"
+            }
+    },
     # # 3
     # {
     #     "input": "UU apa yang mengatur tentang Penyelenggaraan Haji dan Umroh?",
