@@ -18,6 +18,6 @@ rag_engine = LegalGraphRAG(
 
 response = rag_engine.chat(
     "Apa teks dari UU tahun 2004 no 6 pasal 4 versi 2 Maret 2004 ayat 4?",
-    use_cot=False, try_threshold=5
+    use_cot=False, try_threshold=5, verbose=False
 )
 print(response)
