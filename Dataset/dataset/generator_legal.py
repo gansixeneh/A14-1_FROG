@@ -200,8 +200,11 @@ Output just the transformed question in Indonesian
           return f"{result}^^xsd:integer"
 
   def __filter_prop_query(self):
-    _filter = [f"contains(str(?p), '{uri}') = false" for uri in self.excluded_props]
-    return " && ".join(_filter)
+    # _filter = [f"contains(str(?p), '{uri}') = false" for uri in self.excluded_props]
+    # return " && ".join(_filter)
+    
+    _filter = [f"contains(str(?p), '{uri}') = true" for uri in self.excluded_props]
+    return " || ".join(_filter)
 
   def __random_walk(self, entity):
     filter_prop = self.__filter_prop_query()

@@ -1,0 +1,9 @@
+https://example.org/lex2kg/ontology/bab
+https://example.org/lex2kg/ontology/bagian
+https://example.org/lex2kg/ontology/ayat
+https://example.org/lex2kg/ontology/pasal
+https://example.org/lex2kg/ontology/versi
+https://example.org/lex2kg/ontology/huruf
+https://example.org/lex2kg/ontology/menyisipkan
+https://example.org/lex2kg/ontology/merujuk
+https://example.org/lex2kg/ontology/paragraf
