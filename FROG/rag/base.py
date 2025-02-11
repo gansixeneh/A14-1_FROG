@@ -106,7 +106,7 @@ class BaseGraphRAG:
                 self.model = joblib.load(MODEL_PATH)
                 print("Loaded model from cache.")
             else:
-                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, token=HF_TOKEN)
+                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, token=HF_TOKEN, torch_dtype=torch.float16)
                 joblib.dump(self.model, MODEL_PATH)
                 print("Model initialized and cached.")
             
