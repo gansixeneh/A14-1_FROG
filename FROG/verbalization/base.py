@@ -118,6 +118,7 @@ class BaseVerbalization:
                     s=str(label_s), p=str(label_p), o=str(label_o)
                 )
 
+        print("candidates: ", candidates)
         return candidates, po, sp
 
     def run(
