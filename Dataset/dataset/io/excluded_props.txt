@@ -10,3 +10,4 @@ http://example.org/has_course_code
 https://example.org/lex2kg/ontology/bagianDari
 https://example.org/lex2kg/ontology/segmen
 https://example.org/lex2kg/ontology/nomor
+https://example.org/lex2kg/ontology/teks
