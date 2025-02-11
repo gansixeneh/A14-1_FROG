@@ -18,7 +18,7 @@ category = args.category
 count = args.count
 timeout = args.timeout
 
-with open("dataset/io/excluded_props.txt", "r") as f:
+with open("dataset/io/excluded_props_count.txt", "r") as f:
     excluded_props = [line.strip() for line in f.readlines()]
     print("Successfully loaded list of excluded properties")
 
