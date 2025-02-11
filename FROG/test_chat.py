@@ -14,10 +14,11 @@ rag_engine = LegalGraphRAG(
     print_output=True,
     use_local_model=True,
     use_local_weaviate_client=False,
+    device="mps:0",
 )
 
-response = rag_engine.chat(
-    "Apa teks dari UU tahun 2004 no 6 pasal 4 versi 2 Maret 2004 ayat 4?",
-    use_cot=False, try_threshold=5, verbose=False
-)
-print(response)
+# response = rag_engine.chat(
+#     "Apa teks dari UU tahun 2004 no 6 pasal 4 versi 2 Maret 2004 ayat 4?",
+#     use_cot=False, try_threshold=5, verbose=False
+# )
+# print(response)
