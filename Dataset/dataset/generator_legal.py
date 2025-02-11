@@ -375,7 +375,6 @@ Output just the transformed question in Indonesian
   def __random_pick_entity(self):
     candidates = set()
     for (s, p, _) in self.graph:
-      print(str(p))
       if p == RDF['type'] and str(p) in self.excluded_props:
         candidates.add(s)
     entity = random.choice(list(candidates))
