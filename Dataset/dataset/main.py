@@ -22,7 +22,7 @@ with open("dataset/io/excluded_props.txt", "r") as f:
     excluded_props = [line.strip() for line in f.readlines()]
     print("Successfully loaded list of excluded properties")
 
-from dataset.generator_legal import QADatasetGenerator
+from generator_legal import QADatasetGenerator
 
 qads = QADatasetGenerator(path, excluded_props, timeout)
 qads.write_to_file(name, amount, category, count)
