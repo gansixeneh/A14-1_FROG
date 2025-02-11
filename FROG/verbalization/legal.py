@@ -10,7 +10,7 @@ class LegalVerbalization(BaseVerbalization):
 SELECT DISTINCT
     ?p ?o
 WHERE {{
-    {entity} ?p ?o. 
+    <{entity}> ?p ?o. 
     FILTER(STRSTARTS(STR(?p), STR(lex2kg-o:)))
 }}
 """
@@ -18,7 +18,7 @@ WHERE {{
 SELECT DISTINCT
     ?s ?p
 WHERE {{ 
-        ?s ?p {entity}.
+        ?s ?p <{entity}>.
         FILTER(STRSTARTS(STR(?p), STR(lex2kg-o:)))
     }}
 }}
