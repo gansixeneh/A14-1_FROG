@@ -20,7 +20,6 @@ SELECT DISTINCT
 WHERE {{ 
         ?s ?p <{entity}>.
         FILTER(STRSTARTS(STR(?p), STR(lex2kg-o:)))
-    }}
 }}
 """
 
@@ -42,7 +41,6 @@ WHERE {{
 
     def get_po(self, entity: str) -> pd.DataFrame:
         query = self.PO_TEMPLATE.format(entity=entity)
-        print(query)
         response = self.graph.query(query)
         df = pd.DataFrame(response.bindings)
         if not df.empty:
@@ -60,7 +58,6 @@ WHERE {{
 
     def get_sp(self, entity: str) -> pd.DataFrame:
         query = self.SP_TEMPLATE.format(entity=entity)
-        print(query)
         response = self.graph.query(query)
         df = pd.DataFrame(response.bindings)
         if not df.empty:
