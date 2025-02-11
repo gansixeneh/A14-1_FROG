@@ -203,7 +203,7 @@ Output just the transformed question in Indonesian
     # _filter = [f"contains(str(?p), '{uri}') = false" for uri in self.excluded_props]
     # return " && ".join(_filter)
     
-    _filter = [f"str(?p) = '<{uri}>'" for uri in self.excluded_props]
+    _filter = [f"str(?p) = '{uri}'" for uri in self.excluded_props]
     return " || ".join(_filter)
 
   def __random_walk(self, entity):
@@ -375,7 +375,8 @@ Output just the transformed question in Indonesian
   def __random_pick_entity(self):
     candidates = set()
     for (s, p, _) in self.graph:
-      if p == RDF['type']:
+      print(str(p))
+      if p == RDF['type'] and str(p) in self.excluded_props:
         candidates.add(s)
     entity = random.choice(list(candidates))
     return entity
