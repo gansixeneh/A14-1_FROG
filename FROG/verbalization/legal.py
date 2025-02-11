@@ -7,6 +7,7 @@ import pandas as pd
 class LegalVerbalization(BaseVerbalization):
     # modify depending on the enterprise ontology
     SENTENCE_TEMPLATE = "{p} dari {s} adalah {o}"
+    SENTENCE_TEMPLATE_BAGIAN_DARI = "{s} merupakan {p} {o}"
     PO_TEMPLATE = """
 SELECT DISTINCT
     ?p ?o
