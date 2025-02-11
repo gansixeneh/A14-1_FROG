@@ -307,11 +307,11 @@ Based on the query given, decide if it is global or local and return the classif
     ) -> str:
         output_parser = PydanticOutputParser(pydantic_object=resource_model)
         format_instructions = output_parser.get_format_instructions()
-        print("Retrieved entities: ", retrieved_entities)
+        print("Retrieved entities: ", retrieved_entities.to_string(index=False))
         print("Entity: ", entity)
         final_prompt = chat_prompt_template.partial(
             format_instructions=format_instructions,
-            retrieved_entities=retrieved_entities,
+            retrieved_entities=retrieved_entities.to_string(index=False),
             question=question,
         )
 
