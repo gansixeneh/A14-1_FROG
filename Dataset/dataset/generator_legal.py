@@ -203,7 +203,7 @@ Output just the transformed question in Indonesian
     # _filter = [f"contains(str(?p), '{uri}') = false" for uri in self.excluded_props]
     # return " && ".join(_filter)
     
-    _filter = [f"contains(str(?p), '{uri}') = true" for uri in self.excluded_props]
+    _filter = [f"str(?p) = '{uri}'" for uri in self.excluded_props]
     return " || ".join(_filter)
 
   def __random_walk(self, entity):
