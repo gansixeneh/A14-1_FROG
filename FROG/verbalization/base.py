@@ -118,7 +118,6 @@ class BaseVerbalization:
                     s=str(label_s), p=str(label_p), o=str(label_o)
                 )
 
-        print("candidates: ", candidates)
         return candidates, po, sp
 
     def run(
@@ -128,6 +127,8 @@ class BaseVerbalization:
         cands = list(list_of_candidates.values())
         question_embed = self.model.encode(question, **self.query_model_encode_kwargs)
         passages_embed = self.model.encode(cands, **self.passage_model_encode_kwargs)
+        
+        print("cands: ", cands)
 
         similarities = (
             self.model.similarity(question_embed, passages_embed).numpy().flatten()
