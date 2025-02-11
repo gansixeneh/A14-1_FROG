@@ -64,6 +64,8 @@ class BaseGraphRAG:
         print_output: bool = False,
         additional_model_kwargs: dict = {},
         turtle_file_path: str = None,
+        torch_dtype = torch.float32,
+        use_cache: bool = False,
     ) -> None:
         self.model_name = model_name
         self.device = device
@@ -77,13 +79,14 @@ class BaseGraphRAG:
 
         self.translator = Translator()
         if turtle_file_path:
-            if os.path.exists(GRAPH_PATH):
+            if use_cache and os.path.exists(GRAPH_PATH):
                 self.graph = joblib.load(GRAPH_PATH)
                 print("Loaded graph from cache.")
             else:
                 self.graph = Graph().parse(turtle_file_path)
-                joblib.dump(self.graph, GRAPH_PATH)
-                print("Graph initialized and cached.")
+                if use_cache:
+                    joblib.dump(self.graph, GRAPH_PATH)
+                    print("Graph initialized and cached.")
         else:
             self.graph = None
 
@@ -94,21 +97,23 @@ class BaseGraphRAG:
             **additional_model_kwargs,
         }
         if self.use_local_model:
-            if os.path.exists(TOKENIZER_PATH):
+            if use_cache and os.path.exists(TOKENIZER_PATH):
                 self.tokenizer = joblib.load(TOKENIZER_PATH)
                 print("Loaded tokenizer from cache.")
             else:
                 self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, token=HF_TOKEN)
-                joblib.dump(self.tokenizer, TOKENIZER_PATH)
-                print("Tokenizer initialized and cached.")
+                if use_cache:
+                    joblib.dump(self.tokenizer, TOKENIZER_PATH)
+                    print("Tokenizer initialized and cached.")
 
-            if os.path.exists(MODEL_PATH):
+            if use_cache and os.path.exists(MODEL_PATH):
                 self.model = joblib.load(MODEL_PATH)
                 print("Loaded model from cache.")
             else:
-                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, token=HF_TOKEN, torch_dtype=torch.float16)
-                joblib.dump(self.model, MODEL_PATH)
-                print("Model initialized and cached.")
+                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, token=HF_TOKEN, torch_dtype=torch_dtype)
+                if use_cache:
+                    joblib.dump(self.model, MODEL_PATH)
+                    print("Model initialized and cached.")
             
             pipe = pipeline(
                 "text-generation",
