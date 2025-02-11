@@ -581,7 +581,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
                 retrieved_resources = self.property_retrieval.search_entities(
                     entity, k=5
                 )[["short", "label"]].rename({"short": "uri"}, axis=1)
-                retrieved_resources["short"] = 'https://example.org/' + retrieved_resources["short"]
+                retrieved_resources["uri"] = 'https://example.org/' + retrieved_resources["uri"]
             if verbose == 1:
                 display(
                     HTML(
