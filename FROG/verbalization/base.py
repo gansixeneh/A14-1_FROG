@@ -67,6 +67,8 @@ class BaseVerbalization:
 
     def get_list_of_candidates(self, entity: str):
         po, sp = self.get_po(entity), self.get_sp(entity)
+        print("po: ",po)
+        print("sp: ",sp)
 
         candidates = dict()
 
