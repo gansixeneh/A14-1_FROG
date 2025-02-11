@@ -214,6 +214,7 @@ Output just the transformed question in Indonesian
           }}
           """
     res = list(self.graph.query(query))
+    print(res)
     choice = list(random.choice(res))
     choice.insert(0, entity)
     return tuple(choice)
