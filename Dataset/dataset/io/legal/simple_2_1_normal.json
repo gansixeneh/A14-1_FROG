@@ -1,6 +1,0 @@
-[
-    {
-        "question":"Apakah nilai dari ?x yang memenuhi kondisi tersebut?",
-        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/segmen> <https:\/\/example.org\/lex2kg\/uu\/2014\/14\/pasal\/0001\/versi\/20140723\/huruf\/0005\/text> . }"
-    }
-]

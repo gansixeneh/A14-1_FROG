@@ -1,0 +1,42 @@
+[
+    {
+        "question":"Apakah UU No. 8 tahun 1981 pasal 0160 ayat 0001 huruf A terdiri dari segmen?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/1981\/8\/pasal\/0160\/versi\/19811231\/ayat\/0001\/huruf\/a> <https:\/\/example.org\/lex2kg\/ontology\/segmen> ?x . }"
+    },
+    {
+        "question":"Apakah UU No. 7 tahun 1996 pasal 0021 huruf B merupakan bagian dari apa?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/1996\/7\/pasal\/0021\/versi\/19961104\/huruf\/b> <https:\/\/example.org\/lex2kg\/ontology\/segmen> ?x . }"
+    },
+    {
+        "question":"Berapakah tanggal dari UU No. 11 tahun 1992 pasal 0054?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/1992\/11\/pasal\/0054\/versi\/19920420> <https:\/\/example.org\/lex2kg\/ontology\/tanggal> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 12 tahun 2002 pasal 0015?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2002\/12\/pasal\/0015\/versi\/20020410\/ayat> <https:\/\/example.org\/lex2kg\/ontology\/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 2 tahun 1996 pasal 0008 ayat 0001 huruf A?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/1996\/2\/pasal\/0008\/versi\/19960322\/ayat\/0001\/huruf\/a\/text> <https:\/\/example.org\/lex2kg\/ontology\/teks> ?x . }"
+    },
+    {
+        "question":"Apakah UU No. 5 tahun 1974 pasal 0021 huruf B memiliki segmen?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/1974\/5\/pasal\/0021\/versi\/19740723\/huruf\/b> <https:\/\/example.org\/lex2kg\/ontology\/segmen> ?x . }"
+    },
+    {
+        "question":"Apakah nomor dari ayat UU No. 32 tahun 2002 pasal 0008 ayat 0003?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2002\/32\/pasal\/0008\/versi\/20021228\/ayat\/0003> <https:\/\/example.org\/lex2kg\/ontology\/nomor> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 5 tahun 2017 pasal 0057?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2017\/5\/pasal\/0057\/versi\/20170524\/ayat> <https:\/\/example.org\/lex2kg\/ontology\/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 13 tahun 2016 pasal 0058?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2016\/13\/pasal\/0058\/versi\/20160826\/ayat> <https:\/\/example.org\/lex2kg\/ontology\/ayat> ?x . }"
+    },
+    {
+        "question":"Berapakah tanggal dari UU No. 6 tahun 2014 pasal 0005?",
+        "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2014\/6\/pasal\/0005\/versi\/20140115> <https:\/\/example.org\/lex2kg\/ontology\/tanggal> ?x . }"
+    }
+]
