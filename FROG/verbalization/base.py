@@ -67,8 +67,10 @@ class BaseVerbalization:
 
     def get_list_of_candidates(self, entity: str):
         po, sp = self.get_po(entity), self.get_sp(entity)
+        print("\n\n")
         print("po: ",po.to_string())
         print("sp: ",sp.to_string())
+        print("\n\n")
 
         candidates = dict()
 
@@ -97,6 +99,11 @@ class BaseVerbalization:
                 candidates[p] = self.SENTENCE_TEMPLATE.format(
                     s=str(label_s), p=str(label_p), o=str(label_o)
                 )
+                
+                if label_p == "bagian dari":
+                    candidates[p] = self.SENTENCE_TEMPLATE_BAGIAN_DARI.format(
+                        s=str(label_s), p=str(label_p), o=str(label_o)
+                    )
 
         curr_p = None
         for _, (s, p, sLabel, pLabel, oLabel) in sp.iterrows():
@@ -117,6 +124,11 @@ class BaseVerbalization:
                 candidates[p] = self.SENTENCE_TEMPLATE.format(
                     s=str(label_s), p=str(label_p), o=str(label_o)
                 )
+                
+                if label_p == "bagian dari":
+                    candidates[p] = self.SENTENCE_TEMPLATE_BAGIAN_DARI.format(
+                        s=str(label_s), p=str(label_p), o=str(label_o)
+                    )
 
         return candidates, po, sp
 
