@@ -283,12 +283,13 @@ Output just the transformed question in Indonesian
         return triple
 
     def __concat_str_with_datatype(self, prop, o):
-        query = f"select ?range {{ <{prop}> rdfs:range ?range . }}"
         mapping = {
             "http://www.w3.org/2001/XMLSchema#": "xsd:",
             "http://dbpedia.org/datatype/": "dbd:",
         }
-        datatype = o.datatype if hasattr(o, "datatype") else None
+        datatype = getattr(o, "datatype", None)
+        if datatype is None:
+            return f"'{o}'"
         for k, v in mapping.items():
             tmp = datatype.replace(k, v)
             if tmp == "xsd:string":
