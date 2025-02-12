@@ -33,7 +33,7 @@ class QADatasetGenerator:
         self.prop_counts = defaultdict(int)
         self.entity_edge_counts = defaultdict(int)
         for s, p, _ in self.graph:
-            if p != RDF['type']:
+            if p != RDF['type'] and not 'bagianDari' in str(p):
                 self.entity_edge_counts[s] += 1
             
 
@@ -429,7 +429,7 @@ Output just the transformed question in Indonesian
     def __random_pick_entity(self):
         candidates = set()
         for s, p, _ in self.graph:
-            if p == RDF['type'] and self.entity_edge_counts[s] >= 3:
+            if p == RDF['type'] and self.entity_edge_counts[s] >= 3 and not 'bagianDari' in str(p):
             # if str(p) in self.excluded_props:
                 candidates.add(s)
         entity = random.choice(list(candidates))
