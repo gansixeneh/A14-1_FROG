@@ -224,37 +224,15 @@ Output just the transformed question in Indonesian
           }}
           """
         res = list(self.graph.query(query))
-        print(res)
         choice = list(random.choice(res))
         choice.insert(0, entity)
         return tuple(choice)
 
     def __get_one_triple_fix_p(self):
-        # allowed_props = [f"str(?p) = '{uri}'" for uri in self.excluded_props if self.prop_counts[uri] < 5]
-        # filter_prop = " || ".join(allowed_props)
-        # query = f"""
-        #       select ?s ?p ?o {{
-        #         ?s ?p ?o .
-        #         filter (
-        #           {filter_prop}
-        #         )
-        #       }}
-        #       """
-
-        # values_clause = " ".join(f"<{uri}>" for uri in allowed_props)
-
-        # query = f"""
-        #     SELECT ?s ?p ?o {{
-        #         ?s ?p ?o .
-        #         VALUES ?p {{ {values_clause} }}
-        #     }}
-        # """
-
         allowed_props = [
             uri for uri in self.excluded_props if self.prop_counts[uri] < 4
         ]
-        print("excluded props: ", self.prop_counts)
-        print("allowed props: ", allowed_props)
+        
         candidates = set()
         for s, p, o in self.graph:
             # if p == RDF['type']:
@@ -355,6 +333,8 @@ Output just the transformed question in Indonesian
     def generate_complex(self, category, max_triples=3):
         starting_triple = self.__get_one_triple()
         depth = random.choice([i for i in range(2, max_triples)])
+        
+        print("starting triple: ", starting_triple)
 
         if category == "1":
             # pattern: ?x y z ; a b .
@@ -362,6 +342,7 @@ Output just the transformed question in Indonesian
             triples = set()
             triples.add(starting_triple)
             while len(triples) <= depth:
+                print("mencoba")
                 triple = self.__get_one_triple(subject)
                 triples.add(triple)
 
