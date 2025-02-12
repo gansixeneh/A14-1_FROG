@@ -253,7 +253,7 @@ Output just the transformed question in Indonesian
         allowed_props = [
             uri for uri in self.excluded_props if self.prop_counts[uri] < 5
         ]
-        print("excluded props: ", self.excluded_props)
+        print("excluded props: ", self.prop_counts)
         print("allowed props: ", allowed_props)
         candidates = set()
         for s, p, o in self.graph:
