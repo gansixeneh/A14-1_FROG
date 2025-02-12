@@ -241,7 +241,7 @@ Output just the transformed question in Indonesian
         "http://www.w3.org/2001/XMLSchema#": "xsd:",
         "http://dbpedia.org/datatype/": "dbd:"
     }
-    datatype = list(self.graph.query(query))[0][0]
+    datatype = o.datatype if hasattr(o, 'datatype') else None
     for k, v in mapping.items():
       tmp = datatype.replace(k, v)
       if tmp == "xsd:string":
