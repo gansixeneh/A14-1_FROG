@@ -32,8 +32,9 @@ class QADatasetGenerator:
         self.graph.parse(source)
         self.prop_counts = defaultdict(int)
         self.entity_edge_counts = defaultdict(int)
-        for s, _, _ in self.graph:
-            self.entity_edge_counts[s] += 1
+        for s, p, _ in self.graph:
+            if p != RDF['type']:
+                self.entity_edge_counts[s] += 1
             
 
     def write_to_file(self, dataset_name: str, amount: int, category: str, count: bool):
