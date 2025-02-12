@@ -261,7 +261,10 @@ Output just the transformed question in Indonesian
 
         res = list(candidates)
         choice = list(random.choice(res))
-        self.prop_counts[choice[1]] += 1
+        self.prop_counts[str(choice[1])] += 1
+        # print(choice[1])
+        # print(self.prop_counts)
+        # print(self.excluded_props)
         return tuple(choice)
 
     def __get_one_triple(self, subject=None):
