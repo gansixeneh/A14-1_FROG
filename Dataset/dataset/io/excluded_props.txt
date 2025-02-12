@@ -1,0 +1,9 @@
+http://www.w3.org/1999/02/22-rdf-syntax-ns#
+http://www.w3.org/2000/01/rdf-schema#
+http://dbpedia.org/ontology/abstract
+http://dbpedia.org/ontology/wiki
+http://dbpedia.org/ontology/thumbnail
+http://www.wikidata.org/prop/direct/P646
+http://example.org/also_known_as
+http://example.org/has_credits
+http://example.org/has_course_code
