@@ -1,3 +1,4 @@
+from collections import defaultdict
 import warnings
 from util import get_next_variable, is_dbpedia_entity_iri, is_wikidata_entity_iri, replace_prefix_dbpedia, replace_prefix_wikidata
 from llm import chat_model
@@ -22,6 +23,7 @@ class QADatasetGenerator:
     self.graph = None
     self.graph = Graph()
     self.graph.parse(source)
+    self.prop_counts = defaultdict(int)
 
   def write_to_file(self, dataset_name: str, amount: int, category: str, count: bool):
     # count can be used with simple only
@@ -221,6 +223,22 @@ Output just the transformed question in Indonesian
     choice = list(random.choice(res))
     choice.insert(0, entity)
     return tuple(choice)
+  
+  def __get_one_triple_fix_p(self):
+    _filter = [f"str(?p) = '{uri}'" for uri in self.excluded_props if self.prop_counts[uri] < 5]
+    filter_prop = " || ".join(_filter)
+    query = f"""
+          select ?s ?p ?o {{
+            ?s ?p ?o .
+            filter (
+              {filter_prop}
+            )
+          }}
+          """
+    res = list(self.graph.query(query))
+    choice = list(random.choice(res))
+    self.prop_counts[choice[1]] += 1
+    return tuple(choice)
 
   def __get_one_triple(self, subject = None):
     start_given = subject != None
@@ -268,7 +286,7 @@ Output just the transformed question in Indonesian
   def generate_simple(self, category, return_question = True):
     # one triple pattern
     # supports only a b ?x
-    triple = self.__get_one_triple()
+    triple = self.__get_one_triple_fix_p()
     query_uri = "select ?x {{ <{s}> <{p}> ?x . }}"
     query_uri_reverse = "select ?x {{ ?x <{p}> {o} . }}"
 
