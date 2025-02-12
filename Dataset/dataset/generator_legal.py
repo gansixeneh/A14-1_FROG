@@ -31,6 +31,10 @@ class QADatasetGenerator:
         self.graph = Graph()
         self.graph.parse(source)
         self.prop_counts = defaultdict(int)
+        self.entity_edge_counts = defaultdict(int)
+        for s, _, _ in self.graph:
+            self.entity_edge_counts[s] += 1
+            
 
     def write_to_file(self, dataset_name: str, amount: int, category: str, count: bool):
         # count can be used with simple only
@@ -207,11 +211,11 @@ Output just the transformed question in Indonesian
                 return f"{result}^^xsd:integer"
 
     def __filter_prop_query(self):
-        # _filter = [f"contains(str(?p), '{uri}') = false" for uri in self.excluded_props]
-        # return " && ".join(_filter)
+        _filter = [f"contains(str(?p), '{uri}') = false" for uri in self.excluded_props]
+        return " && ".join(_filter)
 
-        _filter = [f"str(?p) = '{uri}'" for uri in self.excluded_props]
-        return " || ".join(_filter)
+        # _filter = [f"str(?p) = '{uri}'" for uri in self.excluded_props]
+        # return " || ".join(_filter)
 
     def __random_walk(self, entity):
         filter_prop = self.__filter_prop_query()
@@ -332,7 +336,8 @@ Output just the transformed question in Indonesian
 
     def generate_complex(self, category, max_triples=3):
         starting_triple = self.__get_one_triple()
-        depth = random.choice([i for i in range(2, max_triples)])
+        # depth = random.choice([i for i in range(2, max_triples)])
+        depth = 3
         
         print("starting triple: ", starting_triple)
 
@@ -341,10 +346,11 @@ Output just the transformed question in Indonesian
             subject = starting_triple[0]
             triples = set()
             triples.add(starting_triple)
-            while len(triples) <= depth:
-                print("mencoba")
+            while len(triples) < depth:
                 triple = self.__get_one_triple(subject)
+                # print("triple: ", triple)
                 triples.add(triple)
+                # print(len(triples))
 
             triple_pattern = []
             for _, p, o in triples:
@@ -422,8 +428,8 @@ Output just the transformed question in Indonesian
     def __random_pick_entity(self):
         candidates = set()
         for s, p, _ in self.graph:
-            # if p == RDF['type']:
-            if str(p) in self.excluded_props:
+            if p == RDF['type'] and self.entity_edge_counts[s] >= 3:
+            # if str(p) in self.excluded_props:
                 candidates.add(s)
         entity = random.choice(list(candidates))
         return entity
