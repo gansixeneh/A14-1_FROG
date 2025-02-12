@@ -1,0 +1,8 @@
+https://example.org/lex2kg/ontology/disahkanDi
+https://example.org/lex2kg/ontology/disahkanPada
+https://example.org/lex2kg/ontology/menghapus
+https://example.org/lex2kg/ontology/mengubah
+https://example.org/lex2kg/ontology/menyisipkan
+https://example.org/lex2kg/ontology/merujuk
+https://example.org/lex2kg/ontology/tahun
+https://example.org/lex2kg/ontology/tanggal

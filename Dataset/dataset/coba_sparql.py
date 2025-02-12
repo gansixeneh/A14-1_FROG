@@ -6,12 +6,10 @@ graph.parse('dataset/io/data-lex2kg.ttl')
 
 # Run the SPARQL query
 query_result = graph.query("""
-    SELECT ?p ?q WHERE {
+    SELECT DISTINCT ?o WHERE {
     ?s ?p ?o .
-    BIND(STR(?p) AS ?q)
     FILTER(
-        STR(?p) = "https://example.org/lex2kg/ontology/paragraf" ||
-        STR(?p) = "https://example.org/lex2kg/ontology/ayat"
+        STR(?p) = "https://example.org/lex2kg/ontology/yurisdiksi"
     )
 }
 LIMIT 10
@@ -21,4 +19,4 @@ LIMIT 10
 
 # Print the results
 for row in query_result:
-    print(f"p: {row.p}, q: {row.q}")
+    print(row)
