@@ -6,3 +6,4 @@ https://example.org/lex2kg/ontology/versi
 https://example.org/lex2kg/ontology/huruf
 https://example.org/lex2kg/ontology/menyisipkan
 https://example.org/lex2kg/ontology/paragraf
+https://example.org/lex2kg/ontology/merujuk
