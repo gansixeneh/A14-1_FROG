@@ -251,7 +251,7 @@ Output just the transformed question in Indonesian
         # """
 
         allowed_props = [
-            uri for uri in self.excluded_props if self.prop_counts[uri] < 5
+            uri for uri in self.excluded_props if self.prop_counts[uri] < 4
         ]
         print("excluded props: ", self.prop_counts)
         print("allowed props: ", allowed_props)
