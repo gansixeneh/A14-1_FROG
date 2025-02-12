@@ -225,8 +225,9 @@ Output just the transformed question in Indonesian
     return tuple(choice)
   
   def __get_one_triple_fix_p(self):
-    _filter = [f"str(?p) = '{uri}'" for uri in self.excluded_props if self.prop_counts[uri] < 5]
-    filter_prop = " || ".join(_filter)
+    print("hello")
+    allowed_props = [f"str(?p) = '{uri}'" for uri in self.excluded_props if self.prop_counts[uri] < 5]
+    filter_prop = " || ".join(allowed_props)
     query = f"""
           select ?s ?p ?o {{
             ?s ?p ?o .
@@ -235,6 +236,17 @@ Output just the transformed question in Indonesian
             )
           }}
           """
+    
+    # values_clause = " ".join(f"<{uri}>" for uri in allowed_props)
+
+    # query = f"""
+    #     SELECT ?s ?p ?o {{
+    #         ?s ?p ?o .
+    #         VALUES ?p {{ {values_clause} }}
+    #     }}
+    # """
+    
+    print("Query: ", query)
     res = list(self.graph.query(query))
     choice = list(random.choice(res))
     self.prop_counts[choice[1]] += 1
