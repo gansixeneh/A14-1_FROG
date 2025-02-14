@@ -339,6 +339,8 @@ Output just the transformed question in Indonesian
         starting_triple = self.__get_one_triple()
         # depth = random.choice([i for i in range(2, max_triples)])
         depth = 2
+        
+        print("starting triple: ", starting_triple)
 
         if category == "1":
             # pattern: ?x y z ; a b .
