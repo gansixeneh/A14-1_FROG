@@ -259,12 +259,10 @@ Output just the transformed question in Indonesian
         err = True
         while err:
             try:
-                print("halo")
                 if not start_given:
                     subject = self.__random_pick_entity()
                 print(subject)
                 triple = self.__random_walk(subject)
-                print("kelar")
                 err = False
             except Exception as e:
                 pass
@@ -341,7 +339,6 @@ Output just the transformed question in Indonesian
             return mapping, answer
 
     def generate_complex(self, category, max_triples=3):
-        print("udah masuk")
         starting_triple = self.__get_one_triple()
         # depth = random.choice([i for i in range(2, max_triples)])
         depth = 2
@@ -367,7 +364,7 @@ Output just the transformed question in Indonesian
                     if datatype is None:
                         triple_pattern.append(f"?x <{p}> '{o}'")
                     else:
-                        triple_pattern.append(f"?x <{p}> '{o}'^^{datatype}")
+                        triple_pattern.append(f"?x <{p}> '{o}'^^{"xsd:" + datatype.split('#')[-1]}")
                 else:
                     triple_pattern.append(f"?x <{p}> <{o}>")
 
