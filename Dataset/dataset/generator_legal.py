@@ -35,8 +35,6 @@ class QADatasetGenerator:
         for s, p, _ in self.graph:
             if p != RDF['type'] and str(p) in self.excluded_props:
                 self.entity_edge_counts[s] += 1
-                if self.entity_edge_counts[s] >= 2:
-                    print(s, self.entity_edge_counts[s])
             
 
     def write_to_file(self, dataset_name: str, amount: int, category: str, count: bool):
@@ -341,7 +339,7 @@ Output just the transformed question in Indonesian
     def generate_complex(self, category, max_triples=3):
         starting_triple = self.__get_one_triple()
         # depth = random.choice([i for i in range(2, max_triples)])
-        depth = 2
+        depth = 3
         
         print("starting triple: ", starting_triple)
 
@@ -435,7 +433,7 @@ Output just the transformed question in Indonesian
         for s, p, _ in self.graph:
             # if p == RDF['type'] and self.entity_edge_counts[s] >= 3 and not 'bagianDari' in str(p):
             # if str(p) in self.excluded_props:
-            if str(p) in self.excluded_props and self.entity_edge_counts[s] >= 2:
+            if str(p) in self.excluded_props and self.entity_edge_counts[s] >= 3:
                 candidates.add(s)
         entity = random.choice(list(candidates))
         return entity
