@@ -35,6 +35,8 @@ class QADatasetGenerator:
         for s, p, _ in self.graph:
             if p != RDF['type'] and str(p) in self.excluded_props:
                 self.entity_edge_counts[s] += 1
+                if self.entity_edge_counts[s] >= 2:
+                    print(s, self.entity_edge_counts[s])
             
 
     def write_to_file(self, dataset_name: str, amount: int, category: str, count: bool):
@@ -257,9 +259,12 @@ Output just the transformed question in Indonesian
         err = True
         while err:
             try:
+                print("halo")
                 if not start_given:
                     subject = self.__random_pick_entity()
+                print(subject)
                 triple = self.__random_walk(subject)
+                print("kelar")
                 err = False
             except Exception as e:
                 pass
@@ -336,6 +341,7 @@ Output just the transformed question in Indonesian
             return mapping, answer
 
     def generate_complex(self, category, max_triples=3):
+        print("udah masuk")
         starting_triple = self.__get_one_triple()
         # depth = random.choice([i for i in range(2, max_triples)])
         depth = 2
@@ -357,10 +363,11 @@ Output just the transformed question in Indonesian
             for _, p, o in triples:
                 if isinstance(o, Literal):
                     result = o.toPython()
-                    if type(result) is str:
+                    datatype = getattr(o, "datatype", None)
+                    if datatype is None:
                         triple_pattern.append(f"?x <{p}> '{o}'")
-                    elif type(result) is int:
-                        triple_pattern.append(f"?x <{p}> '{o}'^^xsd:integer")
+                    else:
+                        triple_pattern.append(f"?x <{p}> '{o}'^^{datatype}")
                 else:
                     triple_pattern.append(f"?x <{p}> <{o}>")
 
@@ -431,7 +438,7 @@ Output just the transformed question in Indonesian
         for s, p, _ in self.graph:
             # if p == RDF['type'] and self.entity_edge_counts[s] >= 3 and not 'bagianDari' in str(p):
             # if str(p) in self.excluded_props:
-            if p == RDF['type'] and str(p) in self.excluded_props and self.entity_edge_counts[s] >= 2:
+            if str(p) in self.excluded_props and self.entity_edge_counts[s] >= 2:
                 candidates.add(s)
         entity = random.choice(list(candidates))
         return entity
