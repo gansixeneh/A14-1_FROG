@@ -339,7 +339,7 @@ Output just the transformed question in Indonesian
     def generate_complex(self, category, max_triples=3):
         starting_triple = self.__get_one_triple()
         # depth = random.choice([i for i in range(2, max_triples)])
-        depth = 3
+        depth = 2
         
         print("starting triple: ", starting_triple)
 
@@ -433,7 +433,7 @@ Output just the transformed question in Indonesian
         for s, p, _ in self.graph:
             # if p == RDF['type'] and self.entity_edge_counts[s] >= 3 and not 'bagianDari' in str(p):
             # if str(p) in self.excluded_props:
-            if str(p) in self.excluded_props and self.entity_edge_counts[s] >= 3:
+            if str(p) in self.excluded_props and self.entity_edge_counts[s] >= 2:
                 candidates.add(s)
         entity = random.choice(list(candidates))
         return entity
