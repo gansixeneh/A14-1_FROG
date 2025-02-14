@@ -364,7 +364,7 @@ Output just the transformed question in Indonesian
                     if datatype is None:
                         triple_pattern.append(f"?x <{p}> '{o}'")
                     else:
-                        triple_pattern.append(f"?x <{p}> '{o}'^^{"xsd:" + datatype.split('#')[-1]}")
+                        triple_pattern.append(f"?x <{p}> '{o}'^^xsd:{datatype.split('#')[-1]}")
                 else:
                     triple_pattern.append(f"?x <{p}> <{o}>")
 
