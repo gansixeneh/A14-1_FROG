@@ -33,7 +33,7 @@ class QADatasetGenerator:
         self.prop_counts = defaultdict(int)
         self.entity_edge_counts = defaultdict(int)
         for s, p, _ in self.graph:
-            if p != RDF['type'] and not 'bagianDari' in str(p):
+            if p != RDF['type'] and str(p) in self.excluded_props:
                 self.entity_edge_counts[s] += 1
             
 
@@ -212,11 +212,11 @@ Output just the transformed question in Indonesian
                 return f"{result}^^xsd:integer"
 
     def __filter_prop_query(self):
-        _filter = [f"contains(str(?p), '{uri}') = false" for uri in self.excluded_props]
-        return " && ".join(_filter)
+        # _filter = [f"contains(str(?p), '{uri}') = false" for uri in self.excluded_props]
+        # return " && ".join(_filter)
 
-        # _filter = [f"str(?p) = '{uri}'" for uri in self.excluded_props]
-        # return " || ".join(_filter)
+        _filter = [f"str(?p) = '{uri}'" for uri in self.excluded_props]
+        return " || ".join(_filter)
 
     def __random_walk(self, entity):
         filter_prop = self.__filter_prop_query()
@@ -338,9 +338,7 @@ Output just the transformed question in Indonesian
     def generate_complex(self, category, max_triples=3):
         starting_triple = self.__get_one_triple()
         # depth = random.choice([i for i in range(2, max_triples)])
-        depth = 3
-        
-        print("starting triple: ", starting_triple)
+        depth = 2
 
         if category == "1":
             # pattern: ?x y z ; a b .
@@ -429,8 +427,9 @@ Output just the transformed question in Indonesian
     def __random_pick_entity(self):
         candidates = set()
         for s, p, _ in self.graph:
-            if p == RDF['type'] and self.entity_edge_counts[s] >= 3 and not 'bagianDari' in str(p):
+            # if p == RDF['type'] and self.entity_edge_counts[s] >= 3 and not 'bagianDari' in str(p):
             # if str(p) in self.excluded_props:
+            if p == RDF['type'] and str(p) in self.excluded_props and self.entity_edge_counts[s] >= 2:
                 candidates.add(s)
         entity = random.choice(list(candidates))
         return entity

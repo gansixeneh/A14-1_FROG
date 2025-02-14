@@ -6,14 +6,9 @@ graph.parse('dataset/io/data-lex2kg.ttl')
 
 # Run the SPARQL query
 query_result = graph.query("""
-    SELECT DISTINCT ?o WHERE {
-    ?s ?p ?o .
-    FILTER(
-        STR(?p) = "https://example.org/lex2kg/ontology/yurisdiksi"
-    )
+    SELECT DISTINCT ?a  WHERE {
+    ?b lex2kg-o:jenisVersi ?a .
 }
-LIMIT 10
-
 
 """)
 
