@@ -1,11 +1,13 @@
-https://example.org/lex2kg/ontology/disahkanDi
-https://example.org/lex2kg/ontology/disahkanOleh
-https://example.org/lex2kg/ontology/disahkanPada
-https://example.org/lex2kg/ontology/jenisVersi
-https://example.org/lex2kg/ontology/menghapus
-https://example.org/lex2kg/ontology/mengubah
-https://example.org/lex2kg/ontology/menyisipkan
-https://example.org/lex2kg/ontology/merujuk
-https://example.org/lex2kg/ontology/pasal
-https://example.org/lex2kg/ontology/tahun
-https://example.org/lex2kg/ontology/tanggal
+merujuk bagianDari
+merujuk tahun (coba dulu aja)
+merujuk disahkanPada
+merujuk disahkanDi (jogja geming)
+mengubah tanggal
+mengubah jenisVersi
+mengubah bagianDari
+menghapus tanggal
+menghapus jenisVersi (bukan yg original)
+menghapus bagianDari
+menyisipkan tanggal
+menyisipkan jenisVersi (bukan yg original)
+menyisipkan bagianDari

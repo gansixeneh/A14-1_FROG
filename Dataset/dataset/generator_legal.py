@@ -35,7 +35,23 @@ class QADatasetGenerator:
         for s, p, _ in self.graph:
             if p != RDF['type'] and str(p) in self.excluded_props:
                 self.entity_edge_counts[s] += 1
-            
+        
+        self.complex_2 = [
+            ("merujuk", "bagianDari"),
+            ("merujuk", "tahun"),
+            ("merujuk", "disahkanPada"),
+            ("merujuk", "disahkanDi"),
+            ("mengubah", "tanggal"),
+            ("mengubah", "jenisVersi"),
+            ("mengubah", "bagianDari"),
+            ("menghapus", "tanggal"),
+            ("menghapus", "jenisVersi"),
+            ("menghapus", "bagianDari"),
+            ("menyisipkan", "tanggal"),
+            ("menyisipkan", "jenisVersi"),
+            ("menyisipkan", "bagianDari"),
+        ]
+        self.complex_2 = [("https://example.org/lex2kg/ontology/" + a, "https://example.org/lex2kg/ontology/" + b) for a, b in self.complex_2]
 
     def write_to_file(self, dataset_name: str, amount: int, category: str, count: bool):
         # count can be used with simple only
@@ -263,6 +279,7 @@ Output just the transformed question in Indonesian
                 triple = self.__random_walk(subject)
                 err = False
             except Exception as e:
+                print(e)
                 pass
         return triple
 
@@ -339,7 +356,7 @@ Output just the transformed question in Indonesian
     def generate_complex(self, category, max_triples=3):
         starting_triple = self.__get_one_triple()
         # depth = random.choice([i for i in range(2, max_triples)])
-        depth = 3
+        depth = 2
         
         print("starting triple: ", starting_triple)
 
@@ -429,11 +446,30 @@ Output just the transformed question in Indonesian
             return refined_question, query
 
     def __random_pick_entity(self):
-        candidates = set()
-        for s, p, _ in self.graph:
-            # if p == RDF['type'] and self.entity_edge_counts[s] >= 3 and not 'bagianDari' in str(p):
-            # if str(p) in self.excluded_props:
-            if str(p) in self.excluded_props and self.entity_edge_counts[s] >= 3:
-                candidates.add(s)
-        entity = random.choice(list(candidates))
-        return entity
+        # candidates = set()
+        # for s, p, _ in self.graph:
+        #     # if p == RDF['type'] and self.entity_edge_counts[s] >= 3 and not 'bagianDari' in str(p):
+        #     # if str(p) in self.excluded_props:
+        #     if str(p) in self.excluded_props and self.entity_edge_counts[s] >= 3:
+        #         candidates.add(s)
+        # entity = random.choice(list(candidates))
+        # return entity
+        
+        print("masuk")
+        
+        values_clause = " ".join(f"('{a}' '{b}')" for a, b in self.complex_2)
+
+        query = f"""
+        SELECT DISTINCT ?s WHERE {{
+            ?s ?a ?x .
+            ?x ?b ?y .
+            VALUES (?a ?b) {{ {values_clause} }}
+        }}
+        """
+
+        results = list(self.graph.query(query))
+        print(len(results))
+        
+        print("error kenapa sih")
+
+        return random.choice(results)[0]
