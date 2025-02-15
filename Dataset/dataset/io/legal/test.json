@@ -1,0 +1,23 @@
+{
+    "question": {
+      "0": "Pasal mana yang dirujuk oleh Pasal 48 UU Nomor 9 Tahun 2020?", 
+      "1": "Apa judul dari Bab 12 UU Nomor 22 Tahun 2019?",
+      "2": "Apa isi dari Pasal 13 UU Nomor 22 Tahun 2007 versi 19 April 2007?",
+      "3": "Apa isi dari Pasal 22 Ayat 2 Huruf d UU Nomor 7 Tahun 2017 versi 15 Agustus 2017?",
+      "4": "Apa isi dari Pasal 21 Ayat 2 UU Nomor 7 Tahun 2017 versi 15 Agustus 2017?",
+      "5": "Apa bahasa yang digunakan dalam UU Nomor 37 Tahun 2009?",
+      "6": "Di mana UU Nomor 26 Tahun 2007 disahkan?",
+
+    },
+    "query": {
+      "0": "SELECT ?referenced WHERE { <https://example.org/lex2kg/uu/2020/9/pasal/0048/versi/20201026/text> lex2kg-o:merujuk ?referenced . }",
+      "1": "SELECT ?judul WHERE { <https://example.org/lex2kg/uu/2019/22/bab/0012> lex2kg-o:judul ?judul . }",
+      "2": "SELECT ?content WHERE { <https://example.org/lex2kg/uu/2007/22/pasal/0013/versi/20070419> lex2kg-o:teks ?content . }",
+      "3": "SELECT ?teks WHERE { <https://example.org/lex2kg/uu/2017/7/pasal/0022/versi/20170815/ayat/0002/huruf/d/text> lex2kg-o:teks ?teks . }",
+      "4": "SELECT ?teks WHERE { <https://example.org/lex2kg/uu/2017/7/pasal/0021/versi/20170815/ayat/0002> lex2kg-o:teks ?teks . }",
+      "5": "SELECT ?bahasa WHERE { <https://example.org/lex2kg/uu/2009/37> lex2kg-o:bahasa ?bahasa . }",
+      "6": "SELECT ?tempat WHERE { <https://example.org/lex2kg/uu/2007/26> lex2kg-o:disahkanDi ?tempat . }",
+      
+    }
+  }
+  
