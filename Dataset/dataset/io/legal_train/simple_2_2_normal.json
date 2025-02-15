@@ -1,0 +1,10 @@
+[
+    {
+        "question":"Undang-undang apa saja yang merujuk pada UU No. 31 Tahun 2002 Pasal 27 Ayat 1 versi 27 Desember 2002?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2002\/31\/pasal\/0027\/versi\/20021227\/ayat\/0001> . }"
+    },
+    {
+        "question":"Undang-undang apa yang menghapus UU No. 28 Tahun 2002 Pasal 16 versi 2 November 2020?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/menghapus> <https:\/\/example.org\/lex2kg\/uu\/2002\/28\/pasal\/0016\/versi\/20201102> . }"
+    }
+]

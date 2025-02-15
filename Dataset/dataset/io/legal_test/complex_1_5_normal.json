@@ -1,0 +1,22 @@
+[
+    {
+        "question":"Undang-undang apa yang merujuk ke UU No. 8 Tahun 2004 dan UU No. 2 Tahun 1986?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2004\/8> . ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/1986\/2> . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/jenisVersi> 'penyisipan' . ?x <https:\/\/example.org\/lex2kg\/ontology\/tanggal> '2020-11-02'^^xsd:date . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang merujuk ke UU No. 14 Tahun 2003 Pasal 5 Ayat 2 versi 31 Maret 2003 dan Pasal 5 Ayat 3 versi 31 Maret 2003?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2003\/14\/pasal\/0005\/versi\/20030331\/ayat\/0002> . ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2003\/14\/pasal\/0005\/versi\/20030331\/ayat\/0003> . }"
+    },
+    {
+        "question":"Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/disahkanDi> 'Jakarta' . ?x <https:\/\/example.org\/lex2kg\/ontology\/disahkanPada> '2014-03-22'^^xsd:date . }"
+    },
+    {
+        "question":"Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/disahkanOleh> 'DR. H. SUSILO BAMBANG YUDHOYONO' . ?x <https:\/\/example.org\/lex2kg\/ontology\/disahkanPada> '2009-01-16'^^xsd:date . }"
+    }
+]

@@ -1,0 +1,6 @@
+[
+    {
+        "question":"Ada berapa banyak pasal pada UU Nomor 9 Tahun 2020?",
+        "query":"select (count(?x) AS ?jumlahPasal) { <https://example.org/lex2kg/uu/2020/9> lex2kg-o:pasal ?x . }"
+    }
+]

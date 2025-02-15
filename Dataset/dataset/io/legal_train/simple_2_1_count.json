@@ -1,0 +1,6 @@
+[
+    {
+        "question":"Berapa jumlah undang-undang yang merujuk ke UU No. 12 Tahun 1992 Pasal 43 Ayat 1 versi 30 April 1992?",
+        "query":"select (count(?x) as ?cnt) { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/1992\/12\/pasal\/0043\/versi\/19920430\/ayat\/0001> . }"
+    }
+]

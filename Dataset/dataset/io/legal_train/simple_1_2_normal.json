@@ -1,0 +1,10 @@
+[
+    {
+        "question": "Apa isi dari UU Nomor 12 Tahun 2011 pasal 5?",
+        "query": "select ?x { <https://example.org/lex2kg/uu/2011/12/pasal/0005> lex2kg-o:teks ?x . }"
+    },
+    {
+        "question": "Siapa yang mengesahkan UU Nomor 4 Tahun 2020?",
+        "query": "select ?x { <https://example.org/lex2kg/uu/2020/4> lex2kg-o:disahkanOleh ?x .}"
+    }
+]
