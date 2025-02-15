@@ -426,6 +426,7 @@ Output just the transformed question in Indonesian
 
                 if second_triple:
                     triples = [tuple(first_triple), tuple(second_triple)]
+                    self.complex_2.remove((str(first_triple[1]), str(second_triple[1])))
                     break
                 
                 continue
