@@ -1,0 +1,22 @@
+[
+    {
+        "question":"Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?",
+        "query":"select (count(?x) as ?cnt) { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/1997\/20\/pasal\/0004> . }"
+    },
+    {
+        "question":"Berapa banyak undang-undang yang dibuat pada tanggal 5 Mei 2011?",
+        "query":"select (count(?x) as ?cnt) { ?x <https:\/\/example.org\/lex2kg\/ontology\/tanggal> '2011-05-05'^^xsd:date . }"
+    },
+    {
+        "question":"Berapa banyak pasal undang-undang yang memiliki jenis versi orisinal?",
+        "query":"select (count(?x) as ?cnt) { ?x <https:\/\/example.org\/lex2kg\/ontology\/jenisVersi> 'orisinal' . }"
+    },
+    {
+        "question":"Berapa jumlah undang-undang yang merujuk ke UU No. 10 Tahun 2010 Pasal 4 Ayat 1?",
+        "query":"select (count(?x) as ?cnt) { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2010\/10\/pasal\/0004\/versi\/20101119\/ayat\/0001> . }"
+    },
+    {
+        "question":"Berapa banyak undang-undang yang dibuat pada tanggal 30 Maret 1992?",
+        "query":"select (count(?x) as ?cnt) { ?x <https:\/\/example.org\/lex2kg\/ontology\/tanggal> '1992-03-30'^^xsd:date . }"
+    }
+]

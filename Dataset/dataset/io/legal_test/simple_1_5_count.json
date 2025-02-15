@@ -1,0 +1,22 @@
+[
+    {
+        "question":"Berapa jumlah huruf dalam UU No. 11 Tahun 2014 Pasal 24 Versi 22 Maret 2014?",
+        "query":"select (count(?x) as ?cnt) { <https:\/\/example.org\/lex2kg\/uu\/2014\/11\/pasal\/0024\/versi\/20140322\/huruf> <https:\/\/example.org\/lex2kg\/ontology\/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa jumlah versi yang terkait dengan UU No. 2 Tahun 1978 Pasal 1?",
+        "query":"select (count(?x) as ?cnt) { <https:\/\/example.org\/lex2kg\/uu\/1978\/2\/pasal\/0001> <https:\/\/example.org\/lex2kg\/ontology\/versi> ?x . }"
+    },
+    {
+        "question":"Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?",
+        "query":"select (count(?x) as ?cnt) { <https:\/\/example.org\/lex2kg\/uu\/2014\/3\/bab\/0009\/bagian> <https:\/\/example.org\/lex2kg\/ontology\/bagian> ?x . }"
+    },
+    {
+        "question":"Berapa banyak UU yang dirujuk oleh UU No. 5 Tahun 2007 Pasal 6 Ayat 1 Versi 2 Januari 2007?",
+        "query":"select (count(?x) as ?cnt) { <https:\/\/example.org\/lex2kg\/uu\/2007\/5\/pasal\/0006\/versi\/20070102\/ayat\/0001\/text> <https:\/\/example.org\/lex2kg\/ontology\/merujuk> ?x . }"
+    },
+    {
+        "question":"Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?",
+        "query":"select (count(?x) as ?cnt) { <https:\/\/example.org\/lex2kg\/uu\/1997\/20\/pasal\/0023\/versi\/19970523\/ayat> <https:\/\/example.org\/lex2kg\/ontology\/ayat> ?x . }"
+    }
+]

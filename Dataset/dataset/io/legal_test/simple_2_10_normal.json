@@ -1,0 +1,42 @@
+[
+    {
+        "question":"Undang-undang apa saja yang merujuk pada Undang-Undang No. 8 Tahun 2007 Pasal 3?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2007\/8\/pasal\/0003> . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2014\/17\/pasal\/0368> . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2007\/31\/pasal\/0002> . }"
+    },
+    {
+        "question": "Pasal apa saja yang memiliki versi 2 November 2020?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/tanggal> '2020-11-02'^^xsd:date . }"
+    },
+    {
+        "question":"Pasal apa saja yang memiliki versi 6 Oktober 2004?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/tanggal> '2004-10-06'^^xsd:date . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang disahkan di Jogjakarta?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/disahkanDi> 'Jogjakarta' . }"
+    },
+    {
+        "question":"Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/mengubah> <https:\/\/example.org\/lex2kg\/uu\/2009\/32\/pasal\/0112\/versi\/20201102> . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang disahkan pada 2 Januari 2007?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/disahkanPada> '2007-01-02'^^xsd:date . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang disahkan pada 29 Mei 1997?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/disahkanPada> '1997-05-29'^^xsd:date . }"
+    },
+    {
+        "question":"Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/menghapus> <https:\/\/example.org\/lex2kg\/uu\/2003\/13\/pasal\/0167\/versi\/20201102> . }"
+    }
+]

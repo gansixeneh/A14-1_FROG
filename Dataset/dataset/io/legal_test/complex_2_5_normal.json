@@ -1,0 +1,22 @@
+[
+    {
+        "question":"Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> ?y . ?y <https:\/\/example.org\/lex2kg\/ontology\/disahkanDi> 'Jogjakarta' . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> ?y . ?y <https:\/\/example.org\/lex2kg\/ontology\/tahun> '2012'^^xsd:integer . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang mengubah undang-undang dengan jenis versi 'pengubahan'?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/mengubah> ?y . ?y <https:\/\/example.org\/lex2kg\/ontology\/jenisVersi> 'pengubahan' . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/menghapus> ?y . ?y <https:\/\/example.org\/lex2kg\/ontology\/jenisVersi> 'penghapusan' . }"
+    },
+    {
+        "question":"Undang-undang apa saja yang menyisipkan undang-undang dengan jenis versi 'penyisipan'?",
+        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/menyisipkan> ?y . ?y <https:\/\/example.org\/lex2kg\/ontology\/jenisVersi> 'penyisipan' . }"
+    }
+]
