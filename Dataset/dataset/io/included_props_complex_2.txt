@@ -1,0 +1,13 @@
+merujuk bagianDari
+merujuk tahun (coba dulu aja)
+merujuk disahkanPada
+merujuk disahkanDi (jogja geming)
+mengubah tanggal
+mengubah jenisVersi
+mengubah bagianDari
+menghapus tanggal
+menghapus jenisVersi (bukan yg original)
+menghapus bagianDari
+menyisipkan tanggal
+menyisipkan jenisVersi (bukan yg original)
+menyisipkan bagianDari
