@@ -402,15 +402,33 @@ Output just the transformed question in Indonesian
             # excluding the properties mentioned in exclude list
             # kadang ada yg tidak ketemu match, harus repeat
             # search such that the first triple is not literal as the object
-            while self.__is_no_property(starting_triple[2]):
-                starting_triple = self.__get_one_triple()
+            subject = starting_triple[0]
+            shuffled_chains = random.sample(self.complex_2, len(self.complex_2))
             triples = []
-            triples.append(starting_triple)
+            
+            for a, b in shuffled_chains:
+                first_triple = None
+                for s, p, o in self.graph:
+                    if s == subject and str(p) == a:
+                        first_triple = (s, p, o)
+                        break
 
-            triple = starting_triple
-            while len(triples) < depth and not isinstance(triple[2], Literal):
-                triple = self.__get_one_triple(triples[-1][2])
-                triples.append(triple)
+                if not first_triple:
+                    continue
+
+                _, _, x = first_triple
+
+                second_triple = None
+                for s, p, o in self.graph:
+                    if s == x and str(p) == b:
+                        second_triple = (s, p, o)
+                        break 
+
+                if second_triple:
+                    triples = [tuple(first_triple), tuple(second_triple)]
+                    break
+                
+                continue
 
             triple_pattern = []
             curr_var = "x"
@@ -420,12 +438,11 @@ Output just the transformed question in Indonesian
                 if i == len(triples) - 1:
                     if isinstance(o, Literal):
                         result = o.toPython()
-                        if isinstance(result, str):
+                        datatype = getattr(o, "datatype", None)
+                        if datatype is None:
                             triple_pattern.append(f"?{curr_var} <{p}> '{o}'")
-                        elif isinstance(result, int):
-                            triple_pattern.append(
-                                f"?{curr_var} <{p}> '{o}'^^xsd:integer"
-                            )
+                        else:
+                            triple_pattern.append(f"?{curr_var} <{p}> '{o}'^^xsd:{datatype.split('#')[-1]}")
                     else:
                         triple_pattern.append(f"?{curr_var} <{p}> <{o}>")
                 else:
@@ -455,21 +472,30 @@ Output just the transformed question in Indonesian
         # entity = random.choice(list(candidates))
         # return entity
         
-        print("masuk")
+        # Step 1: Filter relevant triples where the predicate is in self.complex_2
+        relevant_triples = [(s, p, o) for s, p, o in self.graph if any(str(p) == a or str(p) == b for a, b in self.complex_2)]
+
+        # Step 2: Build a dictionary mapping x -> {b predicates} from (x, b, y)
+        predicate_map = {}
+        for x, b, y in relevant_triples:
+            if x not in predicate_map:
+                predicate_map[x] = set()
+            predicate_map[x].add(str(b))  # Store predicates associated with x
+
+        # Step 3: Find candidates satisfying ?s ?a ?x . ?x ?b ?y
+        candidates = set()
+        for s, a, x in relevant_triples:
+            if x in predicate_map:  # Ensure x has outgoing predicates
+                for a_val, b_val in self.complex_2:
+                    if str(a) == a_val and b_val in predicate_map[x]:  
+                        candidates.add(s)
+                        break  # No need to check further for this subject
         
-        values_clause = " ".join(f"('{a}' '{b}')" for a, b in self.complex_2)
+        print(len(candidates))
 
-        query = f"""
-        SELECT DISTINCT ?s WHERE {{
-            ?s ?a ?x .
-            ?x ?b ?y .
-            VALUES (?a ?b) {{ {values_clause} }}
-        }}
-        """
-
-        results = list(self.graph.query(query))
-        print(len(results))
+        # Step 4: Pick a random subject if available
+        # if not candidates:
+        #     return None  # No valid candidates found
         
-        print("error kenapa sih")
+        return random.choice(list(candidates))
 
-        return random.choice(results)[0]
