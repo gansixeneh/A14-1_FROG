@@ -780,8 +780,8 @@ ENTERPRISE_GENERATE_SPARQL_FEW_SHOTS = [
 LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
     # simple 1
     {
-        "input": "Apa isi dari UU Nomor 12 Tahun 2011 pasal 5?",
-        "output": {"names": ["UU tahun 2011 no 12 pasal 5"]},
+        "input": "Apa isi teks dari UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006?",
+        "output": {"names": ["UU tahun 2006 no 23 pasal 86 versi 29 Desember 2006 ayat 2"]},
     },
     {
         "input": "Siapa yang mengesahkan UU Nomor 4 Tahun 2020?",
@@ -795,17 +795,14 @@ LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
     {
         "input": "Undang-undang apa saja yang merujuk pada UU No. 31 Tahun 2002 Pasal 27 Ayat 1 versi 27 Desember 2002?",
         "output": {"names": ["UU tahun 2002 no 31 pasal 27 versi 27 Desember 2002 ayat 1"]},
-        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2002\/31\/pasal\/0027\/versi\/20021227\/ayat\/0001> . }"
     },
     {
         "input": "Undang-undang apa yang menghapus UU No. 28 Tahun 2002 Pasal 16 versi 2 November 2020?",
         "output": {"names": ["UU tahun 2002 no 28 pasal 16 versi 2 November 2020"]},
-        "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/menghapus> <https:\/\/example.org\/lex2kg\/uu\/2002\/28\/pasal\/0016\/versi\/20201102> . }"
     },
     {
         "input": "Berapa jumlah undang-undang yang merujuk ke UU No. 12 Tahun 1992 Pasal 43 Ayat 1 versi 30 April 1992?",
         "output": {"names": ["UU tahun 1992 no 12 pasal 43 versi 30 April 1992 ayat 1"]},
-        "query":"select (count(?x) as ?cnt) { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/1992\/12\/pasal\/0043\/versi\/19920430\/ayat\/0001> . }"
     },
     # complex 1
     {
@@ -820,19 +817,21 @@ LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
 ]
 
 LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
-    {
-        "input": "Apa isi dari UU Nomor 12 Tahun 2011 pasal 5?",
+    # simple 1 normal
+    { 
+        "input": "Apa isi teks dari UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006?",
         "output": {
             "thoughts": [
-                "1. Pertanyaan tersebut meminta isi atau teks dari pasal tertentu dalam undang-undang: 'UU Nomor 12 Tahun 2011 pasal 5'.",
-                "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2011/12/pasal/0005'.",
-                "3. Properti 'lex2kg-o:teks' menghubungkan suatu pasal dengan teks isinya.",
-                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2011/12/pasal/0005' dan ambil isinya melalui properti 'lex2kg-o:teks'.",
-                "5. Susun query SPARQL untuk mengambil isi dari 'UU Nomor 12 Tahun 2011 pasal 5'."
+                "1. Pertanyaan ini meminta isi atau teks dari pasal tertentu dalam undang-undang: 'UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006'.",
+                "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002'.",
+                "3. Properti 'lex2kg-o:teks' digunakan untuk menghubungkan suatu pasal dengan teks isinya.",
+                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002' dan ambil isinya melalui properti 'lex2kg-o:teks'.",
+                "5. Susun query SPARQL untuk mengambil isi dari 'UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006'."
             ],
-            "sparql": "select ?x { <https://example.org/lex2kg/uu/2011/12/pasal/0005> lex2kg-o:teks ?x . }"
+            "sparql": "SELECT ?x WHERE { <https://example.org/lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002> lex2kg-o:teks ?x . }"
         }
     },
+    # simple 1 normal
     {
         "input": "Siapa yang mengesahkan UU Nomor 4 Tahun 2020?",
         "output": {
@@ -846,6 +845,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
             "sparql": "select ?x { <https://example.org/lex2kg/uu/2020/4> lex2kg-o:disahkanOleh ?x .}"
         }
     },
+    # simple 1 count
     {
         "input": "Ada berapa banyak pasal pada UU Nomor 9 Tahun 2020?",
         "output": {
@@ -870,7 +870,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
                 "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:merujuk' dengan 'lex2kg/uu/2002/31/pasal/0027/versi/20021227/ayat/0001'.",
                 "5. Susun query SPARQL untuk mengambil semua undang-undang yang merujuk ke pasal ini."
             ],
-            "sparql": "select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2002\/31\/pasal\/0027\/versi\/20021227\/ayat\/0001> . }"
+            "sparql": "select ?x { ?x lex2kg-o:merujuk <https://example.org/lex2kg/uu/2002/31/pasal/0027/versi/20021227/ayat/0001> . }"
         }
     },
     {
@@ -883,7 +883,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
                 "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:menghapus' dengan 'lex2kg/uu/2002/28/pasal/0016/versi/20201102'.",
                 "5. Susun query SPARQL untuk mengambil semua undang-undang yang menghapus pasal ini."
             ],
-            "sparql": "select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/menghapus> <https:\/\/example.org\/lex2kg\/uu\/2002\/28\/pasal\/0016\/versi\/20201102> . }"
+            "sparql": "select ?x { ?x lex2kg-o:menghapus <https://example.org/lex2kg/uu/2002/28/pasal/0016/versi/20201102> . }"
         }
     },
     {
@@ -896,7 +896,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
                 "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:merujuk' dengan 'lex2kg/uu/1992/12/pasal/0043/versi/19920430/ayat/0001'.",
                 "5. Susun query SPARQL untuk menghitung jumlah undang-undang yang merujuk pada pasal ini."
             ],
-            "sparql": "select (count(?x) as ?cnt) { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/1992\/12\/pasal\/0043\/versi\/19920430\/ayat\/0001> . }"
+            "sparql": "select (count(?x) as ?cnt) { ?x lex2kg-o:merujuk <https://example.org/lex2kg/uu/1992/12/pasal/0043/versi/19920430/ayat/0001> . }"
         }
     },
     # complex 1
@@ -904,16 +904,16 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
         "input": "Undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?",
         "output": {
             "thoughts": [
-                "1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno.",
+                "1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh SOEKARNO.",
                 "2. Tidak ada entitas eksplisit yang bisa diekstrak, tetapi perlu mendeteksi dua literal utama:",
                 "   - '26 Oktober 1957' sebagai literal dengan format tanggal '1957-10-26'^^xsd:date.",
-                "   - 'Soekarno' sebagai literal dalam format string bertuliskan SOEKARNO",
+                "   - 'SOEKARNO' sebagai literal dalam format semua karakter berupa huruf kapital",
                 "3. Dalam ontologi, properti 'lex2kg-o:disahkanPada' digunakan untuk menunjukkan tanggal pengesahan undang-undang.",
                 "4. Properti 'lex2kg-o:disahkanOleh' digunakan untuk menunjukkan siapa yang mengesahkan undang-undang.",
-                "5. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '1957-10-26' pada properti 'lex2kg-o:disahkanPada' dan nilai 'Soekarno' pada properti 'lex2kg-o:disahkanOleh'.",
+                "5. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '1957-10-26' pada properti 'lex2kg-o:disahkanPada' dan nilai 'SOEKARNO' pada properti 'lex2kg-o:disahkanOleh'.",
                 "6. Susun query SPARQL untuk mendapatkan hasil yang sesuai."
             ],
-            "sparql": "select ?x { ?x lex2kg-o:disahkanPada '1957-10-26'^^xsd:date . ?x lex2kg-o:disahkanOleh 'Soekarno' . }"
+            "sparql": "select ?x { ?x lex2kg-o:disahkanPada '1957-10-26'^^xsd:date . ?x lex2kg-o:disahkanOleh 'SOEKARNO' . }"
         },
     },
     # complex 2
@@ -925,7 +925,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
                 "2. Tidak ada entitas spesifik yang bisa diekstrak, tetapi perlu mendeteksi literal utama:",
                 "   - '2 November 2020' sebagai literal dengan format tanggal '2020-11-02'^^xsd:date.",
                 "3. Dalam ontologi, properti 'lex2kg-o:tanggal' digunakan untuk menunjukkan tanggal pembuatan undang-undang.",
-                "4. Properti 'lex2kg-o:mengubah' digunakan untuk menunjukkan bahwa suatu undang-undang mengubah undang-undang lain.",
+                "4. Properti 'lex2kg-o:mengubah' digunakan untuk menunjukkan hubungan antara undang-undang yang mengubah pasal lain.",
                 "5. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:mengubah' dengan undang-undang yang dibuat pada tanggal '2020-11-02'.",
                 "6. Susun query SPARQL untuk mendapatkan hasil yang sesuai."
             ],
