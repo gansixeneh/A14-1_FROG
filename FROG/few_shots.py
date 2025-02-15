@@ -859,8 +859,8 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
             "sparql": "select (count(?x) AS ?jumlahPasal) { <https://example.org/lex2kg/uu/2020/9> lex2kg-o:pasal ?x . }"
         }
     },
-    # simple 2
-    {
+    # simple 2 normal
+    { 
         "input": "Undang-undang apa saja yang merujuk pada UU No. 31 Tahun 2002 Pasal 27 Ayat 1 versi 27 Desember 2002?",
         "output": {
             "thoughts": [
@@ -873,6 +873,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
             "sparql": "select ?x { ?x lex2kg-o:merujuk <https://example.org/lex2kg/uu/2002/31/pasal/0027/versi/20021227/ayat/0001> . }"
         }
     },
+    # simple 2 normal
     {
         "input": "Undang-undang apa yang menghapus UU No. 28 Tahun 2002 Pasal 16 versi 2 November 2020?",
         "output": {
@@ -886,6 +887,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
             "sparql": "select ?x { ?x lex2kg-o:menghapus <https://example.org/lex2kg/uu/2002/28/pasal/0016/versi/20201102> . }"
         }
     },
+    # simple 2 count
     {
         "input": "Berapa jumlah undang-undang yang merujuk ke UU No. 12 Tahun 1992 Pasal 43 Ayat 1 versi 30 April 1992?",
         "output": {
