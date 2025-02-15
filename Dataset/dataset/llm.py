@@ -22,8 +22,8 @@ HF_TOKEN = os.getenv('HF_TOKEN')
 # llm = HuggingFaceHub(repo_id="Qwen/Qwen2.5-3B-Instruct", model_kwargs=model_kwargs, huggingfacehub_api_token=token)
 # chat_model = ChatHuggingFace(llm=llm)
 
-model_name = "Qwen/Qwen2.5-7B-Instruct"
-# model_name = "Qwen/Qwen2.5-1.5B-Instruct"
+# model_name = "Qwen/Qwen2.5-7B-Instruct"
+model_name = "Qwen/Qwen2.5-1.5B-Instruct"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name, token=HF_TOKEN)
 model = AutoModelForCausalLM.from_pretrained(model_name, token=HF_TOKEN, torch_dtype=torch.float16)
