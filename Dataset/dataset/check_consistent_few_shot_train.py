@@ -1,17 +1,38 @@
 from rdflib import Graph
 import json
 
-from FROG.few_shots import LEGAL_GENERATE_SPARQL_FEW_SHOTS
+from FROG.few_shots import LEGAL_GENERATE_SPARQL_FEW_SHOTS, LEGAL_EXTRACT_ENTITY_FEW_SHOTS
 
 # Load the RDF graph
 graph = Graph()
-# graph.parse('dataset/io/data-lex2kg.ttl')
+graph.parse('dataset/io/data-lex2kg.ttl')
 
 with open('dataset/io/final_dataset/train.json') as f:
     json_data = json.load(f)
 
+extract_inputs = {entry["input"] for entry in LEGAL_EXTRACT_ENTITY_FEW_SHOTS}
+generate_inputs = {entry["input"] for entry in LEGAL_GENERATE_SPARQL_FEW_SHOTS}
+
+# Find differences
+missing_in_generate = extract_inputs - generate_inputs
+missing_in_extract = generate_inputs - extract_inputs
+
+if not missing_in_generate and not missing_in_extract:
+    print("✅ All inputs match between LEGAL_EXTRACT_ENTITY_FEW_SHOTS and LEGAL_GENERATE_SPARQL_FEW_SHOTS.")
+else:
+    print("⚠️ Differences found:")
+    if missing_in_generate:
+        print(f"Missing in LEGAL_GENERATE_SPARQL_FEW_SHOTS: {missing_in_generate}")
+    if missing_in_extract:
+        print(f"Missing in LEGAL_EXTRACT_ENTITY_FEW_SHOTS: {missing_in_extract}")
+
 # Run the SPARQL query
-legal_queries = {entry["input"]: print(type(entry["output"])) for entry in LEGAL_GENERATE_SPARQL_FEW_SHOTS}
+legal_queries = {
+    entry["input"]: json.loads(entry["output"])["sparql"] 
+    if isinstance(entry["output"], str) else entry["output"]["sparql"]
+    for entry in LEGAL_GENERATE_SPARQL_FEW_SHOTS
+}
+
 
 def execute_query(query):
     result = graph.query(query)
