@@ -7,11 +7,11 @@ from FROG.few_shots import LEGAL_GENERATE_SPARQL_FEW_SHOTS
 graph = Graph()
 graph.parse('dataset/io/data-lex2kg.ttl')
 
-with open('dataset/io/train.json') as f:
+with open('dataset/io/final_dataset/train.json') as f:
     json_data = json.load(f)
 
 # Run the SPARQL query
-legal_queries = {entry["input"]: entry["output"]["sparql"] for entry in LEGAL_GENERATE_SPARQL_FEW_SHOTS}
+legal_queries = {entry["input"]: print(entry["output"]) for entry in LEGAL_GENERATE_SPARQL_FEW_SHOTS}
 
 def execute_query(query):
     result = graph.query(query)
@@ -32,7 +32,7 @@ for i in range(8):
     if legal_sparql:
         print(f"Executing LEGAL SPARQL Query...")
         legal_result = execute_query(legal_sparql)
-        print(f"LEGAL Result: {legal_result}")
+        # print(f"LEGAL Result: {legal_result}")
 
         if json_result == legal_result:
             print("✅ Results MATCH")
