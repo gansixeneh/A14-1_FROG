@@ -1,10 +1,14 @@
 #!/bin/bash
 
+# models=(
+#     "nvidia/Mistral-NeMo-12B-Instruct"
+#     "meta-llama/Llama-3.1-8B-Instruct"
+#     "Qwen/Qwen2.5-Coder-7B-Instruct"
+#     "Qwen/Qwen2.5-7B-Instruct"
+# )
+
 models=(
-    "nvidia/Mistral-NeMo-12B-Instruct"
-    "meta-llama/Llama-3.1-8B-Instruct"
-    "Qwen/Qwen2.5-Coder-7B-Instruct"
-    "Qwen/Qwen2.5-7B-Instruct"
+    "Qwen/Qwen2.5-3B-Instruct"
 )
 
 for model in "${models[@]}"; do
@@ -20,6 +24,6 @@ for model in "${models[@]}"; do
         --local-model \
         --no-local-weaviate-client \
         --use-cot \
-        --max-new-tokens=300
+        --max-new-tokens=1500
     echo "================================================================================"
 done
