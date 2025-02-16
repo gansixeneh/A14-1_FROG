@@ -139,7 +139,8 @@ def main(
         )
     else:
         raise ValueError("Invalid knowledge source.")
-
+    
+    log_file_path = log_file_path[:-4] + model_name + log_file_path[-4:]
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
     detail_log_dir = log_file_path.split(".")[0]
     os.makedirs(detail_log_dir, exist_ok=True)
