@@ -64,7 +64,7 @@ class BaseGraphRAG:
         print_output: bool = False,
         additional_model_kwargs: dict = {},
         turtle_file_path: str = None,
-        torch_dtype = torch.float32,
+        # torch_dtype = torch.float32,
         use_cache: bool = False,
     ) -> None:
         self.model_name = model_name
@@ -110,7 +110,7 @@ class BaseGraphRAG:
                 self.model = joblib.load(MODEL_PATH)
                 print("Loaded model from cache.")
             else:
-                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, token=HF_TOKEN, torch_dtype=torch_dtype)
+                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, token=HF_TOKEN)
                 if use_cache:
                     joblib.dump(self.model, MODEL_PATH)
                     print("Model initialized and cached.")
