@@ -64,3 +64,22 @@ for i in range(8):
         print("ℹ️ No LEGAL_GENERATE_SPARQL_FEW_SHOTS query for this question.")
 
     print("-" * 80)
+
+with open('dataset/io/final_dataset/legal_test.json') as f:
+    json_data_test = json.load(f)
+
+# Test queries
+for i in range(40):
+    question = json_data_test["question"][str(i)]
+    json_sparql = json_data_test["query"][str(i)]
+    
+    print(f"Query {i}: {question}")
+    print(f"Executing JSON SPARQL Query...")
+    json_result = execute_query(json_sparql)
+    
+    print(len(json_result))
+    if len(json_result) == 0:
+        print("❌ No query output")
+    
+    print("-" * 80)
+    
