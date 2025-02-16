@@ -223,7 +223,9 @@ def main(
     print(f"Average Score: {current_avg_score}")
     print("Evaluation done.")
 
-    with open(f"overall_score_{model_name}.txt", "w") as f:
+    safe_model_name = model_name.replace("/", "_")
+    
+    with open(f"overall_score_{safe_model_name}.txt", "w") as f:
         for score in scores:
             f.write(f"{score}\n")
 
