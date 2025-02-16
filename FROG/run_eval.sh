@@ -19,7 +19,7 @@ for model in "${models[@]}"; do
         --knowledge-source="legal" \
         --model-name="$model" \
         --log-file-path="logs/log_$model.txt" \
-        --test-df-path="FROG/data/eval/legal_test.json" \
+        --test-df-path="data/eval/legal_test.json" \
         --llm-try-threshold=5 \
         --local-model \
         --no-local-weaviate-client \
