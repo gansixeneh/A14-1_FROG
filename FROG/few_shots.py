@@ -797,8 +797,8 @@ LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
         "output": {"names": ["UU tahun 2002 no 31 pasal 27 versi 27 Desember 2002 ayat 1"]},
     },
     {
-        "input": "Undang-undang apa yang menghapus UU No. 28 Tahun 2002 Pasal 16 versi 2 November 2020?",
-        "output": {"names": ["UU tahun 2002 no 28 pasal 16 versi 2 November 2020"]},
+        "input": "Undang-undang apa yang menghapus UU No. 28 Tahun 2002 Pasal 16 versi 20 Juli 2011?",
+        "output": {"names": ["UU tahun 2002 no 28 pasal 16 versi 20 Juli 2011"]},
     },
     {
         "input": "Berapa jumlah undang-undang yang merujuk ke UU No. 12 Tahun 1992 Pasal 43 Ayat 1 versi 30 April 1992?",
@@ -806,7 +806,7 @@ LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
     },
     # complex 1
     {
-        "input": "Undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?",
+        "input": "Undang-undang apa saja yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?",
         "output": {"names": []},
     },
     # complex 2
@@ -892,7 +892,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
         "input": "Berapa jumlah undang-undang yang merujuk ke UU No. 12 Tahun 1992 Pasal 43 Ayat 1 versi 30 April 1992?",
         "output": {
             "thoughts": [
-                "1. Pertanyaan ini meminta jumlah undang-undang yang merujuk pada 'UU No. 12 Tahun 1992 Pasal 43 Ayat 1'.",
+                "1. Pertanyaan ini meminta jumlah undang-undang yang merujuk pada 'UU No. 12 Tahun 1992 Pasal 43 Ayat 1 versi 30 April 1992'.",
                 "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/1992/12/pasal/0043/versi/19920430/ayat/0001'.",
                 "3. Properti 'lex2kg-o:merujuk' digunakan untuk menunjukkan hubungan antara suatu undang-undang dan pasal yang dirujuknya.",
                 "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:merujuk' dengan 'lex2kg/uu/1992/12/pasal/0043/versi/19920430/ayat/0001'.",
@@ -903,7 +903,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
     },
     # complex 1
     {
-        "input": "Undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?",
+        "input": "Undang-undang apa saja yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?",
         "output": {
             "thoughts": [
                 "1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh SOEKARNO.",
@@ -920,18 +920,18 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
     },
     # complex 2
     {
-        "input": "Undang-undang apa saja yang mengubah undang-undang yang dibuat pada tanggal 2 November 2020?",
+        "input": "Undang-undang apa saja yang mengubah undang-undang yang dibuat pada tanggal 20 Juli 2011?",
         "output": {
             "thoughts": [
-                "1. Pertanyaan ini meminta informasi tentang undang-undang yang mengubah undang-undang lain yang dibuat pada 2 November 2020.",
+                "1. Pertanyaan ini meminta informasi tentang undang-undang yang mengubah undang-undang lain yang dibuat pada 20 Juli 2011.",
                 "2. Tidak ada entitas spesifik yang bisa diekstrak, tetapi perlu mendeteksi literal utama:",
-                "   - '2 November 2020' sebagai literal dengan format tanggal '2020-11-02'^^xsd:date.",
+                "   - '20 Juli 2011' sebagai literal dengan format tanggal '2011-07-20'^^xsd:date.",
                 "3. Dalam ontologi, properti 'lex2kg-o:tanggal' digunakan untuk menunjukkan tanggal pembuatan undang-undang.",
                 "4. Properti 'lex2kg-o:mengubah' digunakan untuk menunjukkan hubungan antara undang-undang yang mengubah pasal lain.",
-                "5. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:mengubah' dengan undang-undang yang dibuat pada tanggal '2020-11-02'.",
+                "5. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:mengubah' dengan undang-undang yang dibuat pada tanggal '2011-07-20'.",
                 "6. Susun query SPARQL untuk mendapatkan hasil yang sesuai."
             ],
-            "sparql": "select ?x { ?x lex2kg-o:mengubah ?law . ?law lex2kg-o:tanggal '2020-11-02'^^xsd:date . }"
+            "sparql": "select ?x { ?x lex2kg-o:mengubah ?law . ?law lex2kg-o:tanggal '2011-07-20'^^xsd:date . }"
         },
     }
 ]

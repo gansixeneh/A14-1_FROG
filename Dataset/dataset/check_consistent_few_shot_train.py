@@ -7,7 +7,7 @@ from FROG.few_shots import LEGAL_GENERATE_SPARQL_FEW_SHOTS, LEGAL_EXTRACT_ENTITY
 graph = Graph()
 graph.parse('dataset/io/data-lex2kg.ttl')
 
-with open('dataset/io/final_dataset/train.json') as f:
+with open('dataset/io/final_dataset/legal_train.json') as f:
     json_data = json.load(f)
 
 extract_inputs = {entry["input"] for entry in LEGAL_EXTRACT_ENTITY_FEW_SHOTS}
