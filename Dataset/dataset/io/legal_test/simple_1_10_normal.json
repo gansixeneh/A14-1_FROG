@@ -32,11 +32,11 @@
         "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2007\/26\/pasal\/0037\/versi\/20070426\/ayat\/0003> <https:\/\/example.org\/lex2kg\/ontology\/teks> ?x . }"
     },
     {
-        "question":"UU apa saja yang dirujuk oleh UU No. 6 Tahun 2018 Pasal 93  versi 7 Agustus 2018?",
+        "question":"UU apa saja yang dirujuk oleh UU No. 6 Tahun 2018 Pasal 93 versi 7 Agustus 2018?",
         "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/2018\/6\/pasal\/0093\/versi\/20180807\/text> <https:\/\/example.org\/lex2kg\/ontology\/merujuk> ?x . }"
     },
     {
-        "question":"Apa saja sumber rujukan dari UU No. 2 Tahun 1980 Pasal 1 Huruf f versi 20 Maret 1980?",
+        "question":"Apa saja sumber rujukan dari UU No. 2 Tahun 1980 Pasal 1 Huruf 6 versi 20 Maret 1980?",
         "query":"select ?x { <https:\/\/example.org\/lex2kg\/uu\/1980\/2\/pasal\/0001\/versi\/19800320\/huruf\/0006\/text> <https:\/\/example.org\/lex2kg\/ontology\/merujuk> ?x . }"
     } 
 ]

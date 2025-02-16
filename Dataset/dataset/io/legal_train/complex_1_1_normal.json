@@ -1,6 +1,6 @@
 [
     {
-        "question": "Undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?",
-        "query": "select ?x { ?x lex2kg-o:disahkanPada '1957-10-26'^^xsd:date . ?x lex2kg-o:disahkanOleh 'Soekarno' . }"
+        "question": "Undang-undang apa saja yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?",
+        "query": "select ?x { ?x lex2kg-o:disahkanPada '1957-10-26'^^xsd:date . ?x lex2kg-o:disahkanOleh 'SOEKARNO' . }"
     }
 ]

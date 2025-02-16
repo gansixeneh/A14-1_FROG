@@ -1,6 +1,6 @@
 [
     {
-        "question":"Undang-undang apa saja yang mengubah undang-undang yang dibuat pada tanggal 2 November 2020?",
-        "query":"select ?x { ?x lex2kg-o:mengubah ?law . ?law lex2kg-o:tanggal '2020-11-02'^^xsd:date . }"
+        "question":"Undang-undang apa saja yang mengubah undang-undang yang dibuat pada tanggal 20 Juli 2011?",
+        "query":"select ?x { ?x lex2kg-o:mengubah ?law . ?law lex2kg-o:tanggal '2011-07-20'^^xsd:date . }"
     }
 ]
