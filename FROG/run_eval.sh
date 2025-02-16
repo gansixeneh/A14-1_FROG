@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# models=(
-#     "nvidia/Mistral-NeMo-12B-Instruct"
-#     "meta-llama/Llama-3.1-8B-Instruct"
-#     "Qwen/Qwen2.5-Coder-7B-Instruct"
-#     "Qwen/Qwen2.5-7B-Instruct"
-# )
-
 models=(
-    "Qwen/Qwen2.5-3B-Instruct"
+    "nvidia/Mistral-NeMo-12B-Instruct"
+    "meta-llama/Llama-3.1-8B-Instruct"
+    "Qwen/Qwen2.5-Coder-7B-Instruct"
+    "Qwen/Qwen2.5-7B-Instruct"
 )
+
+# models=(
+#     "Qwen/Qwen2.5-3B-Instruct"
+# )
 
 for model in "${models[@]}"; do
     echo "================================================================================"
@@ -19,7 +19,7 @@ for model in "${models[@]}"; do
         --knowledge-source="legal" \
         --model-name="$model" \
         --log-file-path="logs/log_$model.txt" \
-        --test-df-path="data/eval/legal_test_sedikit.json" \
+        --test-df-path="data/eval/legal_test.json" \
         --llm-try-threshold=5 \
         --local-model \
         --no-local-weaviate-client \
