@@ -220,14 +220,17 @@ def main(
             )
             log_file.flush()  # Ensure the log is saved after each iteration
         log_file.write("Average Score: " + str(current_avg_score) + "\n")
-    print(f"Average Score: {current_avg_score}")
+        
+    formatted_avg_scores = {k: f"{v:.3f}" for k, v in current_avg_score.items()}
+    print(f"Average Score: {formatted_avg_scores}")
     print("Evaluation done.")
 
     safe_model_name = model_name.replace("/", "_")
     
     with open(f"overall_score_{safe_model_name}.txt", "w") as f:
         for score in scores:
-            f.write(f"{score}\n")
+            formatted_score = {k: f"{v:.3f}" for k, v in score.items()}
+            f.write(f"{formatted_score}\n")
 
 
 if __name__ == "__main__":
