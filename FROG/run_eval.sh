@@ -25,6 +25,6 @@ for model in "${models[@]}"; do
         --no-local-weaviate-client \
         --use-cot \
         --max-new-tokens=1500 \
-        --use-transform-factoid=False
+        --no-use-transform-factoid
     echo "================================================================================"
 done
