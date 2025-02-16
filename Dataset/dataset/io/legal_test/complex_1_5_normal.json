@@ -8,7 +8,7 @@
         "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/jenisVersi> 'penyisipan' . ?x <https:\/\/example.org\/lex2kg\/ontology\/tanggal> '2020-11-02'^^xsd:date . }"
     },
     {
-        "question":"Undang-undang apa saja yang merujuk ke UU No. 14 Tahun 2003 Pasal 5 Ayat 2 versi 31 Maret 2003 dan Pasal 5 Ayat 3 versi 31 Maret 2003?",
+        "question":"Undang-undang apa saja yang merujuk ke UU No. 14 Tahun 2003 Pasal 5 Ayat 2 versi 31 Maret 2003 dan UU No. 14 Tahun 2003 Pasal 5 Ayat 3 versi 31 Maret 2003?",
         "query":"select ?x { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2003\/14\/pasal\/0005\/versi\/20030331\/ayat\/0002> . ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/2003\/14\/pasal\/0005\/versi\/20030331\/ayat\/0003> . }"
     },
     {
