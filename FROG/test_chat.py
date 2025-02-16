@@ -12,7 +12,7 @@ rag_engine = LegalGraphRAG(
     model_name="Qwen/Qwen2.5-3B-Instruct",
     max_new_tokens=300,
     print_output=True,
-    use_local_model=True,
+    use_local_model=False,
     use_local_weaviate_client=False,
     device="mps:0",
 )

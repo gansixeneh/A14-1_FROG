@@ -1,0 +1,700 @@
+[
+    {
+        "question":"Apakah UU No. 8 tahun 1981 pasal 0160 ayat 0001 huruf A terdiri dari segmen?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1981/8/pasal/0160/versi/19811231/ayat/0001/huruf/a> <https://example.org/lex2kg/ontology/segmen> ?x . }"
+    },
+    {
+        "question":"Apakah UU No. 7 tahun 1996 pasal 0021 huruf B merupakan bagian dari apa?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1996/7/pasal/0021/versi/19961104/huruf/b> <https://example.org/lex2kg/ontology/segmen> ?x . }"
+    },
+    {
+        "question":"Berapakah tanggal dari UU No. 11 tahun 1992 pasal 0054?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1992/11/pasal/0054/versi/19920420> <https://example.org/lex2kg/ontology/tanggal> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 12 tahun 2002 pasal 0015?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2002/12/pasal/0015/versi/20020410/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 2 tahun 1996 pasal 0008 ayat 0001 huruf A?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1996/2/pasal/0008/versi/19960322/ayat/0001/huruf/a/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah UU No. 5 tahun 1974 pasal 0021 huruf B memiliki segmen?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1974/5/pasal/0021/versi/19740723/huruf/b> <https://example.org/lex2kg/ontology/segmen> ?x . }"
+    },
+    {
+        "question":"Apakah nomor dari ayat UU No. 32 tahun 2002 pasal 0008 ayat 0003?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2002/32/pasal/0008/versi/20021228/ayat/0003> <https://example.org/lex2kg/ontology/nomor> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 5 tahun 2017 pasal 0057?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2017/5/pasal/0057/versi/20170524/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 13 tahun 2016 pasal 0058?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2016/13/pasal/0058/versi/20160826/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Berapakah tanggal dari UU No. 6 tahun 2014 pasal 0005?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2014/6/pasal/0005/versi/20140115> <https://example.org/lex2kg/ontology/tanggal> ?x . }"
+    }
+]
+
+[
+    {
+        "question":"Berapakah nomor pasal dalam Undang-Undang No. 6 Tahun 1991?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1991/6/bab/0002/daftarPasal> <https://example.org/lex2kg/ontology/pasal> ?x . }"
+    },
+    {
+        "question":"Apakah nomor dari UU No. 1 tahun 2016 pasal 0056 ayat 0002 huruf A?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2016/1/pasal/0056/versi/20160115/ayat/0002/huruf/a> <https://example.org/lex2kg/ontology/nomor> ?x . }"
+    },
+    {
+        "question":"Berapakah nomor dari ayat tersebut: UU No. 12 tahun 1992 pasal 0060 ayat 0001 huruf C?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1992/12/pasal/0060/versi/19920430/ayat/0001/huruf/c> <https://example.org/lex2kg/ontology/nomor> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 45 tahun 2007 pasal 0001 huruf 0017?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/45/pasal/0001/versi/20071106/huruf/0017/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 7 tahun 2014 pasal 0104 ayat 0003?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2014/7/pasal/0104/versi/20201102/ayat/0003> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 3 tahun 1972 pasal 0005 ayat 0002?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1972/3/pasal/0005/versi/19720728/ayat/0002> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah versi dari UU No. 41 tahun 2009 pasal 0063?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2009/41/pasal/0063> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Apakah nomor dari UU No. 32 tahun 1997 pasal 0012?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1997/32/pasal/0012> <https://example.org/lex2kg/ontology/nomor> ?x . }"
+    },
+    {
+        "question":"Apakah nomor dari UU No. 20 tahun 2011 pasal 0117 ayat 0002 huruf A?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2011/20/pasal/0117/versi/20201102/ayat/0002/huruf/a> <https://example.org/lex2kg/ontology/nomor> ?x . }"
+    },
+    {
+        "question":"Apakah judul dari <https://example.org/lex2kg/uu/2007/2/bab/0002/bagian/0001>?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/2/bab/0002/bagian/0001> <https://example.org/lex2kg/ontology/judul> ?x . }"
+    }
+]
+
+[
+    {
+        "question":"Apakah teks dari UU No. 24 tahun 2007 pasal 0045?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/24/pasal/0045/versi/20070426> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah versi dari UU No. 21 tahun 2019 pasal 0003?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2019/21/pasal/0003> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Apakah nomor pasal dalam Undang-Undang Nomor 20 Tahun 2002?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2002/20/bab/0002/daftarPasal> <https://example.org/lex2kg/ontology/pasal> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 24 tahun 2007 pasal 0069?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/24/pasal/0069/versi/20070426/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah jenis versi dari UU No. 18 tahun 1997 pasal 0036 yang tanggal 19970523?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1997/18/pasal/0036/versi/19970523> <https://example.org/lex2kg/ontology/jenisVersi> ?x . }"
+    },
+    {
+        "question":"Apakah versi dari UU No. 4 tahun 2008 pasal 0018?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2008/4/pasal/0018> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Apakah judul dari UU No. 25 tahun 2002?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2002/25/bab/0001> <https://example.org/lex2kg/ontology/judul> ?x . }"
+    },
+    {
+        "question":"Berapakah nomor pasal dalam Undang-Undang No. 8 Tahun 2001?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2001/8/bab/0004> <https://example.org/lex2kg/ontology/daftarPasal> ?x . }"
+    },
+    {
+        "question":"Apakah huruf dari ayat UU No. 7 tahun 1978 pasal 0015 ayat 0004?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1978/7/pasal/0015/versi/19781218/ayat/0004/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Apakah UU No. 10 tahun 2006 huruf 0001 merujuk kepada apa?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2006/10/mengingat/huruf/0001/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    }
+]
+
+[
+    {
+        "question":"Apakah versi dari UU No. 5 tahun 1974 pasal 0013?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1974/5/pasal/0013> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Apakah huruf dari ayat UU No. 4 tahun 2011 pasal 0063 ayat 0002?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 17 tahun 2012 pasal 0087 ayat 0001?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah judul dari UU No. 11 tahun 2014?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2014/11/bab/0008> <https://example.org/lex2kg/ontology/judul> ?x . }"
+    },
+    {
+        "question":"Apakah jenis versi dari UU No. 49 tahun 2008 pasal 0014?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126> <https://example.org/lex2kg/ontology/jenisVersi> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 26 tahun 2007 pasal 0054 ayat 0002?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/26/pasal/0054/versi/20070426/ayat/0002> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 11 tahun 2010 pasal 0034 ayat 0002?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2010/11/pasal/0034/versi/20101124/ayat/0002/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 26 tahun 2007 pasal 0037 ayat 0003?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah yang merujuk pada 'UU No. 6 tahun 2018 pasal 0093'?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 2 tahun 2016 pasal 0002?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2016/2/pasal/0002/versi/20160115> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah sumber dari teks UU No. 2 tahun 1980 pasal 0001 huruf 0006?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 26 tahun 2007 pasal 0033 ayat 0004?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/26/pasal/0033/versi/20070426/ayat/0004/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 13 tahun 2016 pasal 0108?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2016/13/pasal/0108/versi/20160826/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 30 tahun 2009 pasal 0017 ayat 0002?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2009/30/pasal/0017/versi/20090923/ayat/0002/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 7 tahun 2014 pasal 0052 ayat 0003?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2014/7/pasal/0052/versi/20140311/ayat/0003> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah nomor pasal dalam Undang-Undang Nomor 21 Tahun 2008?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2008/21/bab/0004/bagian/0002/daftarPasal> <https://example.org/lex2kg/ontology/pasal> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 23 tahun 2006 pasal 0086 ayat 0002?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah versi dari UU No. 7 tahun 2014 pasal 0120?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2014/7/pasal/0120> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Apakah nomor pasal dari Undang-Undang Nomor 33 Tahun 2008?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2008/33/bab/0002/bagian/0004/daftarPasal> <https://example.org/lex2kg/ontology/pasal> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 13 tahun 2010 pasal 0013 ayat 0003?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2010/13/pasal/0013/versi/20101124/ayat/0003> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 44 tahun 2009 pasal 0024?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2009/44/pasal/0024/versi/20201102/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 3 tahun 2011 pasal 0008?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2011/3/pasal/0008/versi/20110323/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 23 tahun 2006 pasal 0002 huruf F?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2006/23/pasal/0002/versi/20061229/huruf/f/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah nomor pasal dalam UU No. 40 tahun 2008?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2008/40/bab/0006> <https://example.org/lex2kg/ontology/daftarPasal> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 26 tahun 2007 pasal 0033 ayat 0004?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/26/pasal/0033/versi/20070426/ayat/0004/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 7 tahun 2016 pasal 0051 ayat 0001 huruf D?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2016/7/pasal/0051/versi/20160414/ayat/0001/huruf/d/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah versi dari UU No. 9 tahun 2019 pasal 0001?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2019/9/pasal/0001> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 5 tahun 2007 pasal 0016?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/5/pasal/0016/versi/20070102/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah UU No. 10 tahun 2009 pasal 0062 ayat 0001 merujuk ke apa?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2009/10/pasal/0062/versi/20090116/ayat/0001/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 32 tahun 2008 pasal 0014 ayat 0006?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2008/32/pasal/0014/versi/20080721/ayat/0006> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 8 tahun 2012 pasal 0092 ayat 0003?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2012/8/pasal/0092/versi/20120511/ayat/0003/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 17 tahun 2014 pasal 0294?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2014/17/pasal/0294/versi/20140805/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah nomor pasal dalam Undang-Undang Nomor 18 Tahun 2014?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2014/18/bab/0007/bagian/0001/daftarPasal> <https://example.org/lex2kg/ontology/pasal> ?x . }"
+    },
+    {
+        "question":"Apakah versi dari UU No. 22 tahun 2008 pasal 0019?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2008/22/pasal/0019> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Apakah UU No. 15 tahun 1999 pasal 0001 huruf 0001 merujuk ke apa?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1999/15/pasal/0001/versi/19990420/huruf/0001/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Apakah versi dari UU No. 36 tahun 2009 pasal 0178?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2009/36/pasal/0178> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapakah tanggal dari UU No. 17 tahun 1997 pasal 0019?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1997/17/pasal/0019/versi/19970523> <https://example.org/lex2kg/ontology/tanggal> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 39 tahun 2014 pasal 0061 ayat 0001?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2014/39/pasal/0061/versi/20141017/ayat/0001/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah jenis versi dari UU No. 31 tahun 2002 pasal 0023 yang tanggal 20021227?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2002/31/pasal/0023/versi/20021227> <https://example.org/lex2kg/ontology/jenisVersi> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 18 tahun 2017 pasal 0008 ayat 0003 huruf DESCRIPTION?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2017/18/pasal/0008/versi/20171122/ayat/0003/huruf/description> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah deskripsi tersebut merupakan bagian dari teks?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2009/32/pasal/0022/versi/20091003/huruf/h/huruf/0001/huruf/h/huruf/c/huruf/description> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 25 tahun 1992 pasal 0065?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/1992/25/pasal/0065/versi/19921021/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah UU No. 31 tahun 2007 pasal 0001 huruf 0001 merujuk ke apa?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/31/pasal/0001/versi/20070810/huruf/0001/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 7 tahun 2004 pasal 0087?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2004/7/pasal/0087/versi/20040318/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah nama ayat dari UU No. 23 tahun 2019 pasal 0012?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2019/23/pasal/0012/versi/20191024/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari dokumen UU No. 31 tahun 2007 pasal 0007 ayat 0002 huruf A?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/31/pasal/0007/versi/20070810/ayat/0002/huruf/a/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Apakah nama bagian dari UU No. 33 tahun 2007?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/33/bab/0004/bagian> <https://example.org/lex2kg/ontology/bagian> ?x . }"
+    },
+    {
+        "question":"Apakah huruf dari UU No. 37 tahun 2009?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2009/37/menimbang/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Apakah teks dari UU No. 36 tahun 2007 pasal 0014 ayat 0009?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2007/36/pasal/0014/versi/20070810/ayat/0009> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapakah nomor pasal dalam UU No. 21 tahun 2019 yang memiliki nama tersebut?",
+        "query":"select ?x { <https://example.org/lex2kg/uu/2019/21/bab/0001/daftarPasal> <https://example.org/lex2kg/ontology/pasal> ?x . }"
+    }
+]
+
+[
+    {
+        "question":"Berapa banyak pasal dalam Undang-Undang Nomor 13 Tahun 2008?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2008/13/bab/0005> <https://example.org/lex2kg/ontology/daftarPasal> ?x . }"
+    },
+    {
+        "question":"Berapa banyak item yang terkait dengan UU No. 13 tahun 2016 pasal 0134?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2016/13/pasal/0134/versi/20160826/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak huruf yang terdapat dalam UU No. 22 tahun 2009 pasal 0045 ayat 0002?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/22/pasal/0045/versi/20090622/ayat/0002> <https://example.org/lex2kg/ontology/daftarHuruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 24 tahun 2007 pasal 0074?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2007/24/pasal/0074> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 33 tahun 2004 pasal 0098?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2004/33/pasal/0098> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak teks yang terdapat dalam UU No. 24 tahun 2011 pasal 0037 ayat 0007?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2011/24/pasal/0037/versi/20111125/ayat/0007/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 15 tahun 2014 pasal 0009?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/15/pasal/0009> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak token dalam teks UU No. 32 tahun 2014 pasal 0001 huruf 0009?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/32/pasal/0001/versi/20201102/huruf/0009/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak ayat yang terdapat dalam UU No. 9 tahun 2007 pasal 0014?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2007/9/pasal/0014/versi/20070102> <https://example.org/lex2kg/ontology/daftarAyat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak huruf yang terdapat dalam UU No. 18 tahun 2008 pasal 0022 ayat 0001?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2008/18/pasal/0022/versi/20080507/ayat/0001/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak kata dalam frase 'UU No. 5 tahun 1985 pasal 0018'?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1985/5/pasal/0018/versi/19850318/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak item yang ditemukan pada UU No. 24 tahun 1997 pasal 0042 ayat 0006?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1997/24/pasal/0042/versi/19970929/ayat/0006> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak huruf dalam teks UU No. 22 tahun 2019 pasal 0006 ayat 0001 huruf D?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2019/22/pasal/0006/versi/20191018/ayat/0001/huruf/d/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 28 tahun 2003 pasal 0015?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2003/28/pasal/0015> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak nilai?x di sini?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/22/pasal/0086/versi/20090622/ayat/0003> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak elemen yang ada dalam UU No. 17 tahun 2019 pasal 0038 huruf B teks?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2019/17/pasal/0038/versi/20191015/huruf/b/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak tanggal yang terkait dengan UU No. 40 tahun 2007 pasal 0112?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2007/40/pasal/0112/versi/20070816> <https://example.org/lex2kg/ontology/tanggal> ?x . }"
+    },
+    {
+        "question":"Berapa banyak ayat yang terdapat dalam UU No. 10 tahun 2010 pasal 0034?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2010/10/pasal/0034/versi/20101119> <https://example.org/lex2kg/ontology/daftarAyat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak huruf yang terdapat dalam UU No. 1 tahun 2014?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/1/menimbang> <https://example.org/lex2kg/ontology/daftarHuruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 39 tahun 2004 pasal 0033?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2004/39/pasal/0033> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak item yang ditemukan pada UU No. 21 tahun 2007 pasal 0004?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2007/21/pasal/0004/versi/20070419/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak teks pada UU No. 10 tahun 2009 pasal 0050 ayat 0005 huruf A?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/10/pasal/0050/versi/20090116/ayat/0005/huruf/a/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak teks dalam UU No. 21 tahun 2014 pasal 0042 ayat 0002?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/21/pasal/0042/versi/20201102/ayat/0002/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak kata yang terdapat dalam UU No. 11 tahun 2020 pasal 0039?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2020/11/pasal/0039/versi/20201102/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak kata-kata dalam UU No. 26 tahun 2007 pasal 0023 ayat 0001 huruf DESCRIPTION?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2007/26/pasal/0023/versi/20070426/ayat/0001/huruf/description> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak huruf yang terdapat dalam UU No. 11 tahun 2007 pasal 0005 ayat 0001?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2007/11/pasal/0005/versi/20070102/ayat/0001/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak pasal yang terdapat dalam UU No. 2 tahun 1989?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1989/2/bab/0008> <https://example.org/lex2kg/ontology/daftarPasal> ?x . }"
+    },
+    {
+        "question":"Berapa banyak teks yang terkait dengan UU No. 11 tahun 2009 pasal 0021 huruf A?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/11/pasal/0021/versi/20090116/huruf/a/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    },
+    {
+        "question":"Berapa banyak kata dalam UU No. 7 tahun 2007?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2007/7/menimbang/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak kata yang terdapat dalam teks UU No. 25 tahun 1992 pasal 0001 huruf 0004?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1992/25/pasal/0001/versi/19921021/huruf/0004/text> <https://example.org/lex2kg/ontology/teks> ?x . }"
+    }
+]
+
+[
+    {
+        "question":"Berapa banyak bagian dari UU No. 22 tahun 2009 pasal 0060 ayat 0002?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/22/pasal/0060/versi/20201102/ayat/0002> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 11 tahun 2014 huruf D?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/11/menimbang/huruf/d/text> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 22 tahun 2009 pasal 0094 ayat 0001 huruf H?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/22/pasal/0094/versi/20090622/ayat/0001/huruf/h> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang bagian dari https://example.org/lex2kg/uu/2009/37/pasal/0002?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/37/pasal/0002> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari dari https://example.org/lex2kg/uu/2017/2/pasal/0033?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2017/2/pasal/0033> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 11 tahun 1992 pasal 0017?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1992/11/pasal/0017/versi/19920420> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 8 tahun 2018 pasal 0008?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2018/8/pasal/0008> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang bagian dari UU No. 44 tahun 2008 Pasal 0021?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2008/44/pasal/0021> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang bagian dari UU No. 14 tahun 2015 pasal 0037?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2015/14/pasal/0037> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak huruf dalam frase 'UU No. 47 tahun 2009 pasal 0024 ayat 0001'?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/47/pasal/0024/versi/20091029/ayat/0001/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 13 tahun 2003 pasal 0075?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2003/13/pasal/0075> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 8 tahun 1985 pasal 0019?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1985/8/pasal/0019/versi/19850617> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang merupakan bagian dari UU No. 15 tahun 2014 pasal 0016?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/15/pasal/0016/versi/20140723> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari dari ayat tersebut?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/38/pasal/0028/versi/20141017/ayat/0003> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 31 tahun 2002 pasal 0027 ayat 0002?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2002/31/pasal/0027/versi/20021227/ayat/0002> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang bagian dari https://example.org/lex2kg/uu/1979/5/pasal/0016?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1979/5/pasal/0016> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 21 tahun 2011 pasal 0009 huruf C?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2011/21/pasal/0009/versi/20111122/huruf/c> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari dari ayat tersebut?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/12/pasal/0001/versi/20140630/ayat/0003/text> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 24 tahun 1992 pasal 0021 ayat 0002?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1992/24/pasal/0021/versi/19921013/ayat/0002> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari dari ayat tersebut?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2019/8/pasal/0076/versi/20190426/ayat/0001/text> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari dari <https://example.org/lex2kg/uu/2002/30/mengingat/huruf/0003>?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2002/30/mengingat/huruf/0003> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 1 tahun 2013?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2013/1/bab/0004/bagian> <https://example.org/lex2kg/ontology/bagian> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 18 tahun 2004 pasal 0027 ayat 0001?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2004/18/pasal/0027/versi/20040811/ayat/0001> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 29 tahun 2014 pasal 0035 ayat 0001 huruf A?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/29/pasal/0035/versi/20141016/ayat/0001/huruf/a> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari dari urusan undang-undang no. 44 tahun 2009 pasal 30 ayat 1 huruf E?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/44/pasal/0030/versi/20091028/ayat/0001/huruf/e> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari dari ayat tersebut?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2016/13/pasal/0134/versi/20160826/ayat/0001> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari dari ayat tersebut?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2002/20/pasal/0009/versi/20020923/ayat/0004> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 7 tahun 2001 pasal 0009?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2001/7/pasal/0009> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak bagian dari UU No. 29 tahun 2004 pasal 0083?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2004/29/pasal/0083> <https://example.org/lex2kg/ontology/bagianDari> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 13 tahun 2010 pasal 0031?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2010/13/pasal/0031> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    }
+]
+
+[
+    {
+        "question":"Berapa banyak item yang ditemukan di https://example.org/lex2kg/uu/2009/22/pasal/0175/versi/20090622/ayat yang berhubungan dengan https://example.org/lex2kg/ontology/ayat?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2009/22/pasal/0175/versi/20090622/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak kata dalam UU No. 20 tahun 1992?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1992/20/mengingat/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 32 tahun 2000 pasal 0041?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2000/32/pasal/0041> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak huruf dalam UUa No. 31 tahun 1957 pasal 0001 huruf 0001?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1957/31/pasal/0001/versi/19571026/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf/0001/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak pasal yang terdapat dalam UU No. 8 tahun 2012?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2012/8/bab/0011/bagian/0002/daftarPasal> <https://example.org/lex2kg/ontology/pasal> ?x . }"
+    },
+    {
+        "question":"Berapa banyak huruf dalam frase 'UU No. 24 tahun 1992 pasal 0010 ayat 0003'?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1992/24/pasal/0010/versi/19921013/ayat/0003/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak item yang terkait dengan UU No. 8 tahun 2012 pasal 0158 versi 20120511?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2012/8/pasal/0158/versi/20120511/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 27 tahun 2003 pasal 0023?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2003/27/pasal/0023> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak nilai?x di mana https://example.org/lex2kg/uu/1999/54/pasal/0019/versi/19991004/text merujuk ke apa?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1999/54/pasal/0019/versi/19991004/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang merujuk pada https://example.org/lex2kg/uu/2008/2/pasal/0017/versi/20080104/ayat/0003/text?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2008/2/pasal/0017/versi/20080104/ayat/0003/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 9 tahun 1992 pasal 0023?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1992/9/pasal/0023> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang dimiliki subjek dengan nama UU No. 8 tahun 1999 pasal 0017?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1999/8/pasal/0017/versi/19990420/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 2 tahun 2008 pasal 0006?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2008/2/pasal/0006> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang merujuk pada <https://example.org/lex2kg/uu/2013/20/pasal/0038/versi/20130806/ayat/0002/text>?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2013/20/pasal/0038/versi/20130806/ayat/0002/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Berapa banyak pasal yang terdapat dalam UU No. 9 tahun 2016?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2016/9/bab/0003/bagian/0005/daftarPasal> <https://example.org/lex2kg/ontology/pasal> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang merujuk pada UU No. 34 tahun 2014 pasal 0035 ayat 0001?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/34/pasal/0035/versi/20141017/ayat/0001/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang terkait dengan <https://example.org/lex2kg/uu/2006/11/pasal/0009/versi/20060801/ayat> dalam ontologi https://example.org/lex2kg/ontology/ayat?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2006/11/pasal/0009/versi/20060801/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang dikaitkan dengan <https://example.org/lex2kg/uu/2004/23/pasal/0038/versi/20040922/ayat> dalam ontologi https://example.org/lex2kg/ontology/ayat?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2004/23/pasal/0038/versi/20040922/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang terkait dengan <https://example.org/lex2kg/uu/2004/27/pasal/0012/versi/20041006/ayat> dalam ontologi https://example.org/lex2kg/ontology/ayat?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2004/27/pasal/0012/versi/20041006/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang berhubungan dengan <https://example.org/lex2kg/uu/1992/24/pasal/0014/versi/19921013/ayat> dalam ontology <https://example.org/lex2kg/ontology/ayat>?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1992/24/pasal/0014/versi/19921013/ayat> <https://example.org/lex2kg/ontology/ayat> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 22 tahun 1957 pasal 0009?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1957/22/pasal/0009> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak kata-kata yang merujuk pada UU No. 7 tahun 1989 pasal 0107 ayat 0001 huruf D?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1989/7/pasal/0107/versi/19891229/ayat/0001/huruf/d/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 13 tahun 2008 pasal 0030?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2008/13/pasal/0030> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak huruf dalam UU No. 23 tahun 2011 pasal 0028 ayat 0001?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2011/23/pasal/0028/versi/20111124/ayat/0001/huruf> <https://example.org/lex2kg/ontology/huruf> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 7 tahun 1989 pasal 0035?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1989/7/pasal/0035> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 23 tahun 2006 pasal 0065?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2006/23/pasal/0065> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak versi dari UU No. 17 tahun 2019 pasal 0027?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2019/17/pasal/0027> <https://example.org/lex2kg/ontology/versi> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang merujuk pada UU No. 23 tahun 2003 pasal 0089?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2003/23/pasal/0089/versi/20030731/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Berapa banyak nilai dari <https://example.org/lex2kg/uu/1986/5/pasal/0053/versi/19861229/ayat/0002/huruf/c/text> yang merujuk ke entitas apa?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1986/5/pasal/0053/versi/19861229/ayat/0002/huruf/c/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    },
+    {
+        "question":"Berapa banyak objek yang merujuk pada UU No. 34 tahun 2004 pasal 0024 ayat 0002?",
+        "query":"select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2004/34/pasal/0024/versi/20041016/ayat/0002/text> <https://example.org/lex2kg/ontology/merujuk> ?x . }"
+    }
+]
