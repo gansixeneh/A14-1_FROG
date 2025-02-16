@@ -7,7 +7,7 @@
     "4": "Siapa yang mengesahkan UU Nomor 4 Tahun 2020?",
     "5": "Undang-undang apa saja yang mengubah undang-undang yang dibuat pada tanggal 2 November 2020?",
     "6": "Berapa jumlah undang-undang yang merujuk ke UU No. 12 Tahun 1992 Pasal 43 Ayat 1 versi 30 April 1992?",
-    "7": "Undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?"
+    "7": "Undang-undang apa saja yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?"
   },
   "query": {
     "0": "select (count(?x) AS ?jumlahPasal) { <https://example.org/lex2kg/uu/2020/9> lex2kg-o:pasal ?x . }",
@@ -15,7 +15,7 @@
     "2": "select ?x { ?x <https://example.org/lex2kg/ontology/menghapus> <https://example.org/lex2kg/uu/2002/28/pasal/0016/versi/20201102> . }",
     "3": "select ?x { <https://example.org/lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002> lex2kg-o:teks ?x . }",
     "4": "select ?x { <https://example.org/lex2kg/uu/2020/4> lex2kg-o:disahkanOleh ?x .}",
-    "5": "select ?x { ?x lex2kg-o:mengubah ?law . ?law lex2kg-o:tanggal '2020-11-02'^^xsd:date . }",
+    "5": "select ?x { ?x lex2kg-o:mengubah ?law . ?law lex2kg-o:tanggal '2011-07-20'^^xsd:date . }",
     "6": "select (count(?x) as ?cnt) { ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/1992/12/pasal/0043/versi/19920430/ayat/0001> . }",
     "7": "select ?x { ?x lex2kg-o:disahkanPada '1957-10-26'^^xsd:date . ?x lex2kg-o:disahkanOleh 'SOEKARNO' . }"
   },
