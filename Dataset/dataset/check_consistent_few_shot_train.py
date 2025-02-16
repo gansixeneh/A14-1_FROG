@@ -57,6 +57,7 @@ for i in range(8):
 
         if json_result == legal_result:
             print("✅ Results MATCH")
+            print(len(json_result))
         else:
             print("❌ Results MISMATCH")
     else:
