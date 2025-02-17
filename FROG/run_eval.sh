@@ -1,15 +1,20 @@
 #!/bin/bash
 
-models=(
-    "nvidia/Mistral-NeMo-12B-Instruct"
-    "meta-llama/Llama-3.1-8B-Instruct"
-    "Qwen/Qwen2.5-Coder-7B-Instruct"
-    "Qwen/Qwen2.5-7B-Instruct"
-)
+# models=(
+#     "nvidia/Mistral-NeMo-12B-Instruct"
+#     "meta-llama/Llama-3.1-8B-Instruct"
+#     "Qwen/Qwen2.5-Coder-7B-Instruct"
+#     "Qwen/Qwen2.5-7B-Instruct"
+# )
 
 # models=(
 #     "Qwen/Qwen2.5-3B-Instruct"
 # )
+
+models=(
+    "nvidia/Mistral-NeMo-12B-Instruct"
+)
+
 
 for model in "${models[@]}"; do
     echo "================================================================================"
