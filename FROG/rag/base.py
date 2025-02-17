@@ -429,7 +429,7 @@ Based on the query given, decide if it is global or local and return the classif
                     )
                 )
             if self.print_output:
-                print("Retrieved Resources: ", resources)
+                print("Retrieved Resources: ", resources.to_string())
 
         try:
             related_properties = self.generate_related_properties(question)[:3]
@@ -617,7 +617,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
                     )
                 )
             if self.print_output:
-                print("Retrieved Resources: ", retrieved_resources)
+                print("Retrieved Resources: ", retrieved_resources.to_string())
             entity_uri = self.get_most_appropriate_entity_uri(
                 entity, factoid_question, retrieved_resources
             )

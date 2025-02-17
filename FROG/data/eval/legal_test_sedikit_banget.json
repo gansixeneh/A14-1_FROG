@@ -1,0 +1,11 @@
+{
+    "query_name": {
+        "0": "Apa saja versi yang tersedia untuk Undang-Undang No. 5 Tahun 1974 Pasal 13?"
+    },
+    "legal_query": {
+        "0": "select ?x { <https:\/\/example.org\/lex2kg\/uu\/1974\/5\/pasal\/0013> <https:\/\/example.org\/lex2kg\/ontology\/versi> ?x . }"
+    },
+    "category": {
+        "0": "io\/legal_test\/simple_1_10_normal.json"
+    }
+}
