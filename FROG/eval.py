@@ -142,7 +142,7 @@ def main(
     
     log_file_path = log_file_path[:-4] + model_name + log_file_path[-4:]
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-    detail_log_dir = log_file_path.split(".")[0]
+    detail_log_dir = log_file_path.split(".")[0] + "halosayang"
     os.makedirs(detail_log_dir, exist_ok=True)
     with open(log_file_path, "w") as log_file:
         for i, row in tqdm(test_df.iterrows(), total=len(test_df)):
