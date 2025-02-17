@@ -12,7 +12,7 @@
 # )
 
 models=(
-    "nvidia/Mistral-NeMo-12B-Instruct"
+    "meta-llama/Llama-3.1-8B-Instruct"
 )
 
 

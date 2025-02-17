@@ -101,7 +101,7 @@ class BaseGraphRAG:
                 self.tokenizer = joblib.load(TOKENIZER_PATH)
                 print("Loaded tokenizer from cache.")
             else:
-                self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, token=HF_TOKEN, model_type='mistral')
+                self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, token=HF_TOKEN)
                 if use_cache:
                     joblib.dump(self.tokenizer, TOKENIZER_PATH)
                     print("Tokenizer initialized and cached.")
@@ -110,7 +110,7 @@ class BaseGraphRAG:
                 self.model = joblib.load(MODEL_PATH)
                 print("Loaded model from cache.")
             else:
-                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, token=HF_TOKEN, model_type='mistral')
+                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, token=HF_TOKEN)
                 if use_cache:
                     joblib.dump(self.model, MODEL_PATH)
                     print("Model initialized and cached.")
