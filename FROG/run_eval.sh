@@ -11,8 +11,12 @@
 #     "Qwen/Qwen2.5-3B-Instruct"
 # )
 
+# models=(
+#     "mistralai/Mistral-Nemo-Instruct-2407"
+# )
+
 models=(
-    "meta-llama/Llama-3.1-8B-Instruct"
+    "mistralai/Mistral-Nemo-Instruct-2407"
 )
 
 
