@@ -58,3 +58,20 @@ WHERE {{
             passage_model_encode_kwargs,
             turtle_file_path=turtle_file_path,
         )
+
+if __name__ == "__main__":
+    enterprise_verbalization = EnterpriseVerbalization(
+        turtle_file_path="data/enterprise_turtle/final_result.ttl",
+        model_name="jinaai/jina-embeddings-v3",
+        model_kwargs={"trust_remote_code": True},
+        query_model_encode_kwargs={
+            "task": "retrieval.query",
+            "prompt_name": "retrieval.query",
+        },
+        passage_model_encode_kwargs={
+            "task": "retrieval.passage",
+            "prompt_name": "retrieval.passage",
+        },
+    )
+
+    enterprise_verbalization.get_sp("ns1:reliable_software_engineering")
