@@ -43,7 +43,7 @@ load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
 # DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-DEVICE = "cuda:0,1"
+DEVICE = "cuda"
 
 CACHE_DIR = "cache"
 TOKENIZER_PATH = os.path.join(CACHE_DIR, "tokenizer.pkl")
