@@ -52,7 +52,10 @@ WHERE {{
             df["pLabel"] = df["p"].apply(legal_property_label)
             df["oLabel"] = df["o"].apply(legal_entity_label)
             
-            for col in df.columns:
+            cols = ["s", "p", "sLabel", "pLabel", "oLabel"]
+            df = df[cols]
+            
+            for col in cols:
                 df[col] = df[col].apply(lambda x: str(x))
         if df.empty:
             return pd.DataFrame(columns=["p", "o", "sLabel", "pLabel", "oLabel"])
@@ -69,8 +72,28 @@ WHERE {{
             df["pLabel"] = df["p"].apply(legal_property_label)
             df["oLabel"] = legal_entity_label(entity)
             
-            for col in df.columns:
+            cols = ["s", "p", "sLabel", "pLabel", "oLabel"]
+            df = df[cols]
+            
+            for col in cols:
                 df[col] = df[col].apply(lambda x: str(x))
         if df.empty:
             return pd.DataFrame(columns=["s", "p", "sLabel", "pLabel", "oLabel"])
         return df
+
+if __name__ == "__main__":
+    legal_verbalization = LegalVerbalization(
+        turtle_file_path="data/legal_turtle/data-lex2kg.ttl",
+        model_name="jinaai/jina-embeddings-v3",
+        model_kwargs={"trust_remote_code": True},
+        query_model_encode_kwargs={
+            "task": "retrieval.query",
+            "prompt_name": "retrieval.query",
+        },
+        passage_model_encode_kwargs={
+            "task": "retrieval.passage",
+            "prompt_name": "retrieval.passage",
+        },
+    )
+
+    legal_verbalization.get_sp("https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523")
