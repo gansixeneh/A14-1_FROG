@@ -42,8 +42,8 @@ load_dotenv()
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-# DEVICE = "mps:0"
+# DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+DEVICE = "cuda:0,1"
 
 CACHE_DIR = "cache"
 TOKENIZER_PATH = os.path.join(CACHE_DIR, "tokenizer.pkl")
@@ -52,6 +52,7 @@ LLM_PATH = os.path.join(CACHE_DIR, "llm.pkl")
 GRAPH_PATH = os.path.join(CACHE_DIR, "graph.pkl")
 
 os.makedirs(CACHE_DIR, exist_ok=True)
+
 
 class BaseGraphRAG:
     def __init__(
@@ -101,7 +102,9 @@ class BaseGraphRAG:
                 self.tokenizer = joblib.load(TOKENIZER_PATH)
                 print("Loaded tokenizer from cache.")
             else:
-                self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, token=HF_TOKEN)
+                self.tokenizer = AutoTokenizer.from_pretrained(
+                    self.model_name, token=HF_TOKEN
+                )
                 if use_cache:
                     joblib.dump(self.tokenizer, TOKENIZER_PATH)
                     print("Tokenizer initialized and cached.")
@@ -110,11 +113,13 @@ class BaseGraphRAG:
                 self.model = joblib.load(MODEL_PATH)
                 print("Loaded model from cache.")
             else:
-                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, token=HF_TOKEN)
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    self.model_name, token=HF_TOKEN
+                )
                 if use_cache:
                     joblib.dump(self.model, MODEL_PATH)
                     print("Model initialized and cached.")
-            
+
             pipe = pipeline(
                 "text-generation",
                 model=self.model,
@@ -609,7 +614,9 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
                 retrieved_resources = self.property_retrieval.search_entities(
                     entity, k=5
                 )[["short", "label"]].rename({"short": "uri"}, axis=1)
-                retrieved_resources["uri"] = 'https://example.org/' + retrieved_resources["uri"]
+                retrieved_resources["uri"] = (
+                    "https://example.org/" + retrieved_resources["uri"]
+                )
             if verbose == 1:
                 display(
                     HTML(
