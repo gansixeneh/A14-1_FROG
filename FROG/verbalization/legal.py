@@ -52,10 +52,10 @@ WHERE {{
             df["pLabel"] = df["p"].apply(legal_property_label)
             df["oLabel"] = df["o"].apply(legal_entity_label)
             
-            # cols = ["p", "o", "sLabel", "pLabel", "oLabel"]
-            # df = df[cols]
+            cols = ["p", "o", "sLabel", "pLabel", "oLabel"]
+            df = df[cols]
             
-            for col in df.columns:
+            for col in cols:
                 df[col] = df[col].apply(lambda x: str(x))
         if df.empty:
             return pd.DataFrame(columns=["p", "o", "sLabel", "pLabel", "oLabel"])
@@ -72,10 +72,10 @@ WHERE {{
             df["pLabel"] = df["p"].apply(legal_property_label)
             df["oLabel"] = legal_entity_label(entity)
             
-            # cols = ["s", "p", "sLabel", "pLabel", "oLabel"]
-            # df = df[cols]
+            cols = ["s", "p", "sLabel", "pLabel", "oLabel"]
+            df = df[cols]
             
-            for col in df.columns:
+            for col in cols:
                 df[col] = df[col].apply(lambda x: str(x))
         if df.empty:
             return pd.DataFrame(columns=["s", "p", "sLabel", "pLabel", "oLabel"])
