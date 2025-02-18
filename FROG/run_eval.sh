@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # models=(
-#     "nvidia/Mistral-NeMo-12B-Instruct"
+#     "mistralai/Mistral-Nemo-Instruct-2407"
 #     "meta-llama/Llama-3.1-8B-Instruct"
 #     "Qwen/Qwen2.5-Coder-7B-Instruct"
 #     "Qwen/Qwen2.5-7B-Instruct"
@@ -12,8 +12,9 @@
 # )
 
 models=(
-    "mistralai/Mistral-Nemo-Instruct-2407"
+    "meta-llama/Llama-3.1-8B-Instruct"
     "Qwen/Qwen2.5-Coder-7B-Instruct"
+    "Qwen/Qwen2.5-7B-Instruct"
 )
 
 # models=(
