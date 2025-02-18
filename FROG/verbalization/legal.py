@@ -52,7 +52,7 @@ WHERE {{
             df["pLabel"] = df["p"].apply(legal_property_label)
             df["oLabel"] = df["o"].apply(legal_entity_label)
             
-            cols = ["s", "p", "sLabel", "pLabel", "oLabel"]
+            cols = ["p", "o", "sLabel", "pLabel", "oLabel"]
             df = df[cols]
             
             for col in cols:
@@ -96,4 +96,16 @@ if __name__ == "__main__":
         },
     )
 
-    legal_verbalization.get_sp("https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523")
+    y = legal_verbalization.get_sp("https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523")
+    print("sp debug")
+    for _, (s, p, sLabel, pLabel, oLabel) in y.iterrows():
+        print("s: ", s)
+        print("p: ", p)
+        print()
+    
+    y = legal_verbalization.get_po("https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523")
+    print("po debug")
+    for _, (p, o, sLabel, pLabel, oLabel) in y.iterrows():
+        print("p: ", p)
+        print("o: ", o)
+        print()
