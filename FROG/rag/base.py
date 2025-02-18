@@ -42,8 +42,8 @@ load_dotenv()
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-# DEVICE = "cuda:0,1"
+# DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+DEVICE = "cuda:0,1"
 
 CACHE_DIR = "cache"
 TOKENIZER_PATH = os.path.join(CACHE_DIR, "tokenizer.pkl")
@@ -114,7 +114,7 @@ class BaseGraphRAG:
                 print("Loaded model from cache.")
             else:
                 self.model = AutoModelForCausalLM.from_pretrained(
-                    self.model_name, token=HF_TOKEN
+                    self.model_name, token=HF_TOKEN, tp_plan="auto"
                 )
                 if use_cache:
                     joblib.dump(self.model, MODEL_PATH)
