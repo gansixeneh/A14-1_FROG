@@ -98,7 +98,8 @@ class BaseGraphRAG:
             **additional_model_kwargs,
         }
         if self.use_local_model:
-            torch.distributed.init_process_group("nccl", device_id=DEVICE)
+            device = torch.device(device)
+            torch.distributed.init_process_group("nccl", device_id=device)
             if use_cache and os.path.exists(TOKENIZER_PATH):
                 self.tokenizer = joblib.load(TOKENIZER_PATH)
                 print("Loaded tokenizer from cache.")
