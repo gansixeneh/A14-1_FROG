@@ -98,8 +98,6 @@ class BaseGraphRAG:
             **additional_model_kwargs,
         }
         if self.use_local_model:
-            device = torch.device(device)
-            torch.distributed.init_process_group("nccl", device_id=device)
             if use_cache and os.path.exists(TOKENIZER_PATH):
                 self.tokenizer = joblib.load(TOKENIZER_PATH)
                 print("Loaded tokenizer from cache.")
@@ -116,7 +114,7 @@ class BaseGraphRAG:
                 print("Loaded model from cache.")
             else:
                 self.model = AutoModelForCausalLM.from_pretrained(
-                    self.model_name, token=HF_TOKEN, tp_plan="auto"
+                    self.model_name, token=HF_TOKEN
                 )
                 if use_cache:
                     joblib.dump(self.model, MODEL_PATH)
