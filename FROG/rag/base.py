@@ -42,8 +42,8 @@ load_dotenv()
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
-# DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-DEVICE = "cuda:0,1"
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+# DEVICE = "cuda:0,1"
 
 CACHE_DIR = "cache"
 TOKENIZER_PATH = os.path.join(CACHE_DIR, "tokenizer.pkl")
@@ -103,7 +103,7 @@ class BaseGraphRAG:
                 print("Loaded tokenizer from cache.")
             else:
                 self.tokenizer = AutoTokenizer.from_pretrained(
-                    self.model_name, token=HF_TOKEN, device=DEVICE
+                    self.model_name, token=HF_TOKEN
                 )
                 if use_cache:
                     joblib.dump(self.tokenizer, TOKENIZER_PATH)
@@ -114,7 +114,7 @@ class BaseGraphRAG:
                 print("Loaded model from cache.")
             else:
                 self.model = AutoModelForCausalLM.from_pretrained(
-                    self.model_name, token=HF_TOKEN, device=DEVICE
+                    self.model_name, token=HF_TOKEN
                 )
                 if use_cache:
                     joblib.dump(self.model, MODEL_PATH)
@@ -124,7 +124,7 @@ class BaseGraphRAG:
                 "text-generation",
                 model=self.model,
                 tokenizer=self.tokenizer,
-                device_map="auto",
+                device_map="balanced",
                 **model_kwargs,
             )
             llm = HuggingFacePipeline(pipeline=pipe)
