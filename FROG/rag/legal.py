@@ -24,7 +24,7 @@ from .base import BaseGraphRAG
 load_dotenv()
 
 # DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-DEVICE = "cuda:0,1"
+DEVICE = "cuda"
 
 
 class LegalGraphRAG(BaseGraphRAG):
