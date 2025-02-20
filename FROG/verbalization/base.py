@@ -177,5 +177,5 @@ class BaseVerbalization:
             )
             result.append({label_p: s if output_uri else label_s})
         if 'berapa' in question.lower():
-            result = [{'cnt': len(result)}]
+            result = [{'cnt': str(len(result))}]
         return result, similar_score
