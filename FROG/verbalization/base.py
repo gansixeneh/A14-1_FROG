@@ -75,8 +75,13 @@ class BaseVerbalization:
                 s=str(label_s), o=str(label_o)
             )
         
-        if label_p[:2] == "me" or label_p[:2] == "di":
-            result = self.SENTENCE_TEMPLATE_MEDI.format(
+        if label_p[:2] == "me":
+            result = self.SENTENCE_TEMPLATE_ME.format(
+                s=str(label_s), p=str(label_p), o=str(label_o)
+            )
+        
+        if label_p[:2] == "di":
+            result = self.SENTENCE_TEMPLATE_DI.format(
                 s=str(label_s), p=str(label_p), o=str(label_o)
             )
         
@@ -140,14 +145,10 @@ class BaseVerbalization:
     ) -> tuple[list[dict[str, str]], float]:
         list_of_candidates, po, sp = self.get_list_of_candidates(entity)
         cands = list(list_of_candidates.values())
-        question_embed = self.model.encode(question, **self.query_model_encode_kwargs)
-        passages_embed = self.model.encode(cands, **self.passage_model_encode_kwargs)
         
         print("cands: ", cands)
 
-        similarities = (
-            self.model.similarity(question_embed, passages_embed).numpy().flatten()
-        )
+        similarities = self.model.predict([question, cands]).numpy().flatten()
         similar_index = np.argmax(similarities)
         similar_score = max(similarities)
 
