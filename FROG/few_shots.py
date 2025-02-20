@@ -823,12 +823,12 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
         "output": {
             "thoughts": [
                 "1. Pertanyaan ini meminta isi atau teks dari ayat tertentu dalam undang-undang: 'UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006'.",
-                "2. Dalam ontologi, entitas yang merepresentasikan ayat ini mengikuti struktur 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002'.",
+                "2. Dalam ontologi, entitas yang merepresentasikan ayat ini mengikuti struktur 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002/text'.",
                 "3. Properti 'lex2kg-o:teks' digunakan untuk menghubungkan suatu ayat dengan teks isinya.",
-                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002' dan ambil isinya melalui properti 'lex2kg-o:teks'.",
+                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002/text' dan ambil isinya melalui properti 'lex2kg-o:teks'.",
                 "5. Susun query SPARQL untuk mengambil isi dari 'UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006'."
             ],
-            "sparql": "SELECT ?x WHERE { <https://example.org/lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002> lex2kg-o:teks ?x . }"
+            "sparql": "SELECT ?x WHERE { <https://example.org/lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002/text> lex2kg-o:teks ?x . }"
         }
     },
     # simple 1 normal
