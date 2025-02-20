@@ -658,7 +658,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
                     )
                 if self.print_output:
                     print("Error: ", e)
-            if not is_error and similarities >= 0.6 and len(result) > 0:
+            if not is_error and similarities >= 0.985 and len(result) > 0:
                 return factoid_question, "", result
 
         few_shots = deepcopy(self.generate_sparql_few_shot_messages)
