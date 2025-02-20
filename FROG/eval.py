@@ -87,7 +87,7 @@ def main(
     scores = []
     print("Loading test dataframe...")
     test_df = pd.read_json(test_df_path)
-    # test_df = test_df[30:]
+    test_df = test_df[30:]
     print("Test dataframe loaded.")
 
     print(f"Local mode: {use_local_model}")

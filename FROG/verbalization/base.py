@@ -176,4 +176,6 @@ class BaseVerbalization:
                 else replace_using_dict(s.split("/")[-1], self.MANUAL_MAPPING_DICT)
             )
             result.append({label_p: s if output_uri else label_s})
+        if 'berapa' in question.lower():
+            result = [{'cnt': len(result)}]
         return result, similar_score
