@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, CrossEncoder
 from rdflib import Graph
 
 from utils.api import BaseAPI
@@ -29,7 +29,9 @@ class BaseVerbalization:
         self.model_name = model_name
         self.query_model_encode_kwargs = query_model_encode_kwargs
         self.passage_model_encode_kwargs = passage_model_encode_kwargs
-        self.model = SentenceTransformer(model_name, **model_kwargs)
+        self.model = CrossEncoder(
+            "douglasfaisal/granularity-legal-reranker-cross-encoder-indobert-base-p2"
+        )
 
     def get_po(self, entity: str) -> pd.DataFrame:
         query = self.PO_TEMPLATE.format(entity=entity)
