@@ -150,7 +150,7 @@ class BaseVerbalization:
         
         print("cands: ", cands)
 
-        similarities = self.model.predict([question, cands]).numpy().flatten()
+        similarities = np.array([self.model.predict([question, cand]).numpy().flatten() for cand in cands])
         similar_index = np.argmax(similarities)
         similar_score = max(similarities)
 
