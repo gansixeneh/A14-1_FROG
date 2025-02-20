@@ -203,7 +203,7 @@ Entity URI:""",
                 (
                     "system",
                     """# INSTRUCTIONS
-You are an assistant trained to generate SPARQL queries. Use the provided context to generate a valid SPARQL query. Based on the given entities and properties context, please generate a valid SPARQL query to answer the question! Return only the uri or literal only. Always generate following the format instruction.
+You are an assistant trained to generate SPARQL queries. Use the provided context to generate a valid SPARQL query. Based on the given entities and properties context, please generate a valid SPARQL query to answer the question! Return only the uri or literal only. Literals always have a type xsd:string, xsd:date, or xsd:integer. Do not use entities or properties outside of the context! Always generate following the format instruction.
 
 # CONTEXT
 - Ontology candidates: 
