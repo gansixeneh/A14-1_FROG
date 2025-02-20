@@ -102,7 +102,12 @@ class BaseVerbalization:
                 
                 if label_p == "bagian dari":
                     candidates[p] = self.SENTENCE_TEMPLATE_BAGIAN_DARI.format(
-                        s=str(label_s), p=str(label_p), o=str(label_o)
+                        s=str(label_s), o=str(label_o)
+                    )
+                
+                if label_p == "merujuk":
+                    candidates[p] = self.SENTENCE_TEMPLATE_MERUJUK.format(
+                        s=str(label_s), o=str(label_o)
                     )
 
         curr_p = None
