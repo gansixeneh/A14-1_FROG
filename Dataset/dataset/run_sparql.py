@@ -8,7 +8,7 @@ graph = Graph()
 graph.parse('dataset/io/data-lex2kg.ttl')
     
 result = graph.query("""
-        select ?x { ?x lex2kg-o:mengubah ?law . ?law lex2kg-o:tanggal '2011-07-20'^^xsd:date . }             
+        select ?x where {?x lex2kg-o:merujuk ?y . ?y lex2kg-o:disahkanDi "Jogjakarta" . }            
 """)
 
 print(len(result))
