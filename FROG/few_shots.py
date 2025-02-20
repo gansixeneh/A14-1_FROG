@@ -909,7 +909,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
                 "1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh SOEKARNO.",
                 "2. Tidak ada entitas eksplisit yang bisa diekstrak, tetapi perlu mendeteksi dua literal utama:",
                 "   - '26 Oktober 1957' sebagai literal dengan format tanggal '1957-10-26'^^xsd:date.",
-                "   - 'SOEKARNO' sebagai literal dalam format semua karakter berupa huruf kapital tanpa format xsd:string eksplisit.",
+                "   - 'SOEKARNO' sebagai literal dalam format semua karakter berupa huruf kapital.",
                 "3. Dalam ontologi, properti 'lex2kg-o:disahkanPada' digunakan untuk menunjukkan tanggal pengesahan undang-undang.",
                 "4. Properti 'lex2kg-o:disahkanOleh' digunakan untuk menunjukkan siapa yang mengesahkan undang-undang.",
                 "5. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '1957-10-26' pada properti 'lex2kg-o:disahkanPada' dan nilai 'SOEKARNO' pada properti 'lex2kg-o:disahkanOleh'.",

@@ -36,9 +36,11 @@ def contains_multiple_entities(question) -> bool:
 
 def fix_query_spacing(query: str) -> str:
     # Add a space after 'select' if it's followed immediately by a variable (e.g., ?x, ?y)
-    query = re.sub(r"(select)(\?\w+)", r"\1 \2", query)
+    query = re.sub(r"(?i)\b(select)(\?\w+)", r"\1 \2", query)
     # Add a space before any variable in a predicate-object pair
     query = re.sub(r"(\w+:\w+)(\?\w+)", r"\1 \2", query)
+    # Remove '^^xsd:string'
+    query = re.sub(r"\^\^xsd:string", "", query, flags=re.IGNORECASE)
     return query
 
 def legal_entity_label(url):
