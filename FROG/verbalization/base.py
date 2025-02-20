@@ -155,27 +155,30 @@ class BaseVerbalization:
         similar_index = np.argmax(similarities)
         similar_score = max(similarities)
 
-        property_used = list(list_of_candidates.keys())[similar_index][0]
+        property_used, type = list(list_of_candidates.keys())[similar_index]
         result = []
-        for _, (p, o, _, pLabel, oLabel) in po[po["p"] == property_used].iterrows():
-            label_p = pLabel if pLabel else separate_camel_case(p.split("/")[-1])
-            if o.startswith("http"):
-                label_o = (
-                    oLabel
-                    if oLabel
-                    else replace_using_dict(o.split("/")[-1], self.MANUAL_MAPPING_DICT)
+        if type == "po":
+            for _, (p, o, _, pLabel, oLabel) in po[po["p"] == property_used].iterrows():
+                label_p = pLabel if pLabel else separate_camel_case(p.split("/")[-1])
+                if o.startswith("http"):
+                    label_o = (
+                        oLabel
+                        if oLabel
+                        else replace_using_dict(o.split("/")[-1], self.MANUAL_MAPPING_DICT)
+                    )
+                else:
+                    label_o = o
+                result.append({label_p: o if output_uri else label_o})
+        
+        if type == "sp":
+            for _, (s, p, sLabel, pLabel, _) in sp[sp["p"] == property_used].iterrows():
+                label_p = pLabel if pLabel else separate_camel_case(p.split("/")[-1])
+                label_s = (
+                    sLabel
+                    if sLabel
+                    else replace_using_dict(s.split("/")[-1], self.MANUAL_MAPPING_DICT)
                 )
-            else:
-                label_o = o
-            result.append({label_p: o if output_uri else label_o})
-        for _, (s, p, sLabel, pLabel, _) in sp[sp["p"] == property_used].iterrows():
-            label_p = pLabel if pLabel else separate_camel_case(p.split("/")[-1])
-            label_s = (
-                sLabel
-                if sLabel
-                else replace_using_dict(s.split("/")[-1], self.MANUAL_MAPPING_DICT)
-            )
-            result.append({label_p: s if output_uri else label_s})
+                result.append({label_p: s if output_uri else label_s})
         if 'berapa' in question.lower():
             result = [{'cnt': str(len(result))}]
         return result, similar_score
