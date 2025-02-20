@@ -781,11 +781,11 @@ LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
     # simple 1
     {
         "input": "Apa isi teks dari UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006?",
-        "output": {"names": ["UU tahun 2006 no 23 pasal 86 versi 29 Desember 2006 ayat 2"]},
+        "output": {"names": ["UU tahun 2006 no 23 pasal 86 versi 29 Desember 2006 ayat 2 text"]},
     },
     {
-        "input": "Siapa yang mengesahkan UU Nomor 4 Tahun 2020?",
-        "output": {"names": ["UU tahun 2020 no 4"]},
+        "input": "Apa saja huruf yang terdapat dalam UU No. 22 Tahun 1997 Pasal 11 Ayat 4 versi 1 September 1997?",
+        "output": {"names": ["UU tahun 1997 no 22 pasal 11 versi 1 September 1997 ayat 4 huruf"]},
     },
     {
         "input": "Ada berapa banyak pasal pada UU Nomor 9 Tahun 2020?",
@@ -833,16 +833,16 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
     },
     # simple 1 normal
     {
-        "input": "Siapa yang mengesahkan UU Nomor 4 Tahun 2020?",
+        "input": "Apa saja huruf yang terdapat dalam UU No. 22 Tahun 1997 Pasal 11 Ayat 4 versi 1 September 1997?",
         "output": {
             "thoughts": [
-                "1. Pertanyaan ini meminta informasi tentang siapa yang mengesahkan 'UU Nomor 4 Tahun 2020'.",
-                "2. Dalam ontologi, entitas yang merepresentasikan undang-undang ini mengikuti struktur 'lex2kg/uu/2020/4'.",
-                "3. Properti 'lex2kg-o:disahkanOleh' menghubungkan suatu undang-undang dengan pihak yang mengesahkannya.",
-                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2020/4' dan ambil informasi siapa yang mengesahkan melalui properti 'lex2kg-o:disahkanOleh'.",
-                "5. Susun query SPARQL untuk mengambil pihak yang mengesahkan 'UU Nomor 4 Tahun 2020'."
+                "1. Pertanyaan ini meminta informasi tentang huruf yang terdapat dalam 'UU No. 22 Tahun 1997 Pasal 11 Ayat 4 versi 1 September 1997'.",
+                "2. Dalam ontologi, entitas yang merepresentasikan undang-undang ini mengikuti struktur 'lex2kg/uu/1997/22/pasal/0011/versi/19970901/ayat/0004/huruf'.",
+                "3. Huruf-huruf dalam pasal ini direpresentasikan sebagai entitas yang memiliki hubungan dengan ayat tertentu melalui properti 'lex2kg-o:huruf'.",
+                "4. Untuk menyelesaikan ini, cari semua entitas huruf yang terhubung dengan 'lex2kg/uu/1997/22/pasal/0011/versi/19970901/ayat/0004/huruf' melalui properti 'lex2kg-o:huruf'.",
+                "5. Susun query SPARQL untuk mengambil huruf-huruf yang ada dalam 'UU No. 22 Tahun 1997 Pasal 11 Ayat 4 versi 1 September 1997'."
             ],
-            "sparql": "select ?x { <https://example.org/lex2kg/uu/2020/4> lex2kg-o:disahkanOleh ?x .}"
+            "sparql": "select ?huruf { <https://example.org/lex2kg/uu/1997/22/pasal/0011/versi/19970901/ayat/0004/huruf> lex2kg-o:huruf ?huruf . }"
         }
     },
     # simple 1 count
@@ -909,7 +909,7 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
                 "1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh SOEKARNO.",
                 "2. Tidak ada entitas eksplisit yang bisa diekstrak, tetapi perlu mendeteksi dua literal utama:",
                 "   - '26 Oktober 1957' sebagai literal dengan format tanggal '1957-10-26'^^xsd:date.",
-                "   - 'SOEKARNO' sebagai literal dalam format semua karakter berupa huruf kapital",
+                "   - 'SOEKARNO' sebagai literal dalam format semua karakter berupa huruf kapital tanpa format xsd:string eksplisit.",
                 "3. Dalam ontologi, properti 'lex2kg-o:disahkanPada' digunakan untuk menunjukkan tanggal pengesahan undang-undang.",
                 "4. Properti 'lex2kg-o:disahkanOleh' digunakan untuk menunjukkan siapa yang mengesahkan undang-undang.",
                 "5. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '1957-10-26' pada properti 'lex2kg-o:disahkanPada' dan nilai 'SOEKARNO' pada properti 'lex2kg-o:disahkanOleh'.",
