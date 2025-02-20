@@ -64,6 +64,23 @@ class BaseVerbalization:
         if df.empty:
             return pd.DataFrame(columns=["s", "p", "sLabel", "pLabel", "oLabel"])
         return df
+    
+    def get_kalimat(self, label_s, label_p, label_o):
+        result = self.SENTENCE_TEMPLATE.format(
+            s=str(label_s), p=str(label_p), o=str(label_o)
+        )
+        
+        if label_p == "bagian dari":
+            result = self.SENTENCE_TEMPLATE_BAGIAN_DARI.format(
+                s=str(label_s), o=str(label_o)
+            )
+        
+        if label_p[:2] == "me" or label_p[:2] == "di":
+            result = self.SENTENCE_TEMPLATE_MEDI.format(
+                s=str(label_s), p=str(label_p), o=str(label_o)
+            )
+        
+        return result
 
     def get_list_of_candidates(self, entity: str):
         po, sp = self.get_po(entity), self.get_sp(entity)
@@ -96,19 +113,7 @@ class BaseVerbalization:
                     )
                 else:
                     label_o = o
-                candidates[p] = self.SENTENCE_TEMPLATE.format(
-                    s=str(label_s), p=str(label_p), o=str(label_o)
-                )
-                
-                if label_p == "bagian dari":
-                    candidates[p] = self.SENTENCE_TEMPLATE_BAGIAN_DARI.format(
-                        s=str(label_s), o=str(label_o)
-                    )
-                
-                if label_p == "merujuk":
-                    candidates[p] = self.SENTENCE_TEMPLATE_MERUJUK.format(
-                        s=str(label_s), o=str(label_o)
-                    )
+                candidates[(p, "po")] = self.get_kalimat(label_s, label_p, label_o)
 
         curr_p = None
         for _, (s, p, sLabel, pLabel, oLabel) in sp.iterrows():
@@ -126,14 +131,7 @@ class BaseVerbalization:
 
             if label_p != curr_p:
                 curr_p = label_p
-                candidates[p] = self.SENTENCE_TEMPLATE.format(
-                    s=str(label_s), p=str(label_p), o=str(label_o)
-                )
-                
-                if label_p == "bagian dari":
-                    candidates[p] = self.SENTENCE_TEMPLATE_BAGIAN_DARI.format(
-                        s=str(label_s), p=str(label_p), o=str(label_o)
-                    )
+                candidates[(p, "sp")] = self.get_kalimat(label_s, label_p, label_o)
 
         return candidates, po, sp
 
@@ -153,7 +151,7 @@ class BaseVerbalization:
         similar_index = np.argmax(similarities)
         similar_score = max(similarities)
 
-        property_used = list(list_of_candidates.keys())[similar_index]
+        property_used = list(list_of_candidates.keys())[similar_index][0]
         result = []
         for _, (p, o, _, pLabel, oLabel) in po[po["p"] == property_used].iterrows():
             label_p = pLabel if pLabel else separate_camel_case(p.split("/")[-1])
