@@ -103,7 +103,7 @@ class BaseGraphRAG:
                 print("Loaded tokenizer from cache.")
             else:
                 self.tokenizer = AutoTokenizer.from_pretrained(
-                    self.model_name, token=HF_TOKEN
+                    self.model_name, token=HF_TOKEN, device_map="auto",
                 )
                 if use_cache:
                     joblib.dump(self.tokenizer, TOKENIZER_PATH)
@@ -114,7 +114,7 @@ class BaseGraphRAG:
                 print("Loaded model from cache.")
             else:
                 self.model = AutoModelForCausalLM.from_pretrained(
-                    self.model_name, token=HF_TOKEN
+                    self.model_name, token=HF_TOKEN, device_map="auto",
                 )
                 if use_cache:
                     joblib.dump(self.model, MODEL_PATH)
@@ -124,7 +124,7 @@ class BaseGraphRAG:
                 "text-generation",
                 model=self.model,
                 tokenizer=self.tokenizer,
-                device_map="balanced",
+                device_map="auto",
                 **model_kwargs,
             )
             llm = HuggingFacePipeline(pipeline=pipe)
