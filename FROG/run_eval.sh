@@ -18,7 +18,7 @@
 # )
 
 models=(
-    "Qwen/Qwen2.5-3B-Instruct"
+    "mistralai/Mistral-Nemo-Instruct-2407"
 )
 
 
