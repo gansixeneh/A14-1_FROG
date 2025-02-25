@@ -1,0 +1,37 @@
+Translated Question:  Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?
+Question:  Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?
+{'chat_history': [HumanMessage(content='Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?', additional_kwargs={}, response_metadata={})], 'input': 'Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?'}
+Entities:  ['UU No. 3 Tahun 2014 Bab 9']
+Retrieved Resources:                                                            uri                               label
+0               https://example.org/lex2kg/uu/2014/3/bab/0009            UU tahun 2014 no 3 bab 9
+1        https://example.org/lex2kg/uu/2014/3/bab/0009/bagian     UU tahun 2014 no 3 bab 9 bagian
+2   https://example.org/lex2kg/uu/2014/5/bab/0009/bagian/0003   UU tahun 2014 no 5 bab 9 bagian 3
+3   https://example.org/lex2kg/uu/2014/3/bab/0009/bagian/0001   UU tahun 2014 no 3 bab 9 bagian 1
+4  https://example.org/lex2kg/uu/2014/25/bab/0009/bagian/0003  UU tahun 2014 no 25 bab 9 bagian 3
+Retrieved entities:                                                         uri                              label
+             https://example.org/lex2kg/uu/2014/3/bab/0009           UU tahun 2014 no 3 bab 9
+      https://example.org/lex2kg/uu/2014/3/bab/0009/bagian    UU tahun 2014 no 3 bab 9 bagian
+ https://example.org/lex2kg/uu/2014/5/bab/0009/bagian/0003  UU tahun 2014 no 5 bab 9 bagian 3
+ https://example.org/lex2kg/uu/2014/3/bab/0009/bagian/0001  UU tahun 2014 no 3 bab 9 bagian 1
+https://example.org/lex2kg/uu/2014/25/bab/0009/bagian/0003 UU tahun 2014 no 25 bab 9 bagian 3
+Entity:  UU No. 3 Tahun 2014 Bab 9
+Question:  UU No. 3 Tahun 2014 Bab 9
+{'chat_history': [HumanMessage(content='UU No. 3 Tahun 2014 Bab 9', additional_kwargs={}, response_metadata={})], 'input': 'UU No. 3 Tahun 2014 Bab 9'}
+Resource:  uri='https://example.org/lex2kg/uu/2014/3/bab/0009'
+Entity URI:  https://example.org/lex2kg/uu/2014/3/bab/0009
+
+
+
+po:                                                    p                                                     o                    sLabel         pLabel                                         oLabel
+0         https://example.org/lex2kg/ontology/nomor                                                     9  UU tahun 2014 no 3 bab 9          nomor                                           no 9
+1         https://example.org/lex2kg/ontology/judul         TINDAKAN PENGAMANAN DAN PENYELAMATAN INDUSTRI  UU tahun 2014 no 3 bab 9          judul  tindakan pengamanan dan penyelamatan industri
+2  https://example.org/lex2kg/ontology/daftarBagian  https://example.org/lex2kg/uu/2014/3/bab/0009/bagian  UU tahun 2014 no 3 bab 9  daftar bagian                UU tahun 2014 no 3 bab 9 bagian
+3    https://example.org/lex2kg/ontology/bagianDari              https://example.org/lex2kg/uu/2014/3/bab  UU tahun 2014 no 3 bab 9    bagian dari                         UU tahun 2014 no 3 bab
+sp:                                                        s                                               p                           sLabel       pLabel                    oLabel
+0              https://example.org/lex2kg/uu/2014/3/bab         https://example.org/lex2kg/ontology/bab           UU tahun 2014 no 3 bab          bab  UU tahun 2014 no 3 bab 9
+1  https://example.org/lex2kg/uu/2014/3/bab/0009/bagian  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2014 no 3 bab 9 bagian  bagian dari  UU tahun 2014 no 3 bab 9
+
+
+
+cands:  ['nomor dari UU tahun 2014 no 3 bab 9 adalah 9', 'judul dari UU tahun 2014 no 3 bab 9 adalah TINDAKAN PENGAMANAN DAN PENYELAMATAN INDUSTRI', 'daftar bagian dari UU tahun 2014 no 3 bab 9 adalah UU tahun 2014 no 3 bab 9 bagian', 'UU tahun 2014 no 3 bab 9 merupakan bagian dari UU tahun 2014 no 3 bab', 'bab dari UU tahun 2014 no 3 bab adalah UU tahun 2014 no 3 bab 9', 'UU tahun 2014 no 3 bab 9 bagian merupakan bagian dari UU tahun 2014 no 3 bab 9']
+Result:  [{'cnt': '1'}] Similarities:  0.9875902

@@ -1,0 +1,40 @@
+Translated Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 8 Tahun 2007 Pasal 3?
+Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 8 Tahun 2007 Pasal 3?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada Undang-Undang No. 8 Tahun 2007 Pasal 3?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada Undang-Undang No. 8 Tahun 2007 Pasal 3?'}
+Entities:  ['UU tahun 2007 no 8 pasal 3']
+Retrieved Resources:                                                                          uri                                                   label
+0                           https://example.org/lex2kg/uu/2007/8/pasal/0003                              UU tahun 2007 no 8 pasal 3
+1                           https://example.org/lex2kg/uu/2007/3/pasal/0008                              UU tahun 2007 no 3 pasal 8
+2                             https://example.org/lex2kg/uu/2007/8/bab/0003                                UU tahun 2007 no 8 bab 3
+3  https://example.org/lex2kg/uu/2007/3/pasal/0008/versi/20070102/ayat/0003  UU tahun 2007 no 3 pasal 8 versi 2 Januari 2007 ayat 3
+4                           https://example.org/lex2kg/uu/2008/7/pasal/0003                              UU tahun 2008 no 7 pasal 3
+Retrieved entities:                                                                       uri                                                  label
+                         https://example.org/lex2kg/uu/2007/8/pasal/0003                             UU tahun 2007 no 8 pasal 3
+                         https://example.org/lex2kg/uu/2007/3/pasal/0008                             UU tahun 2007 no 3 pasal 8
+                           https://example.org/lex2kg/uu/2007/8/bab/0003                               UU tahun 2007 no 8 bab 3
+https://example.org/lex2kg/uu/2007/3/pasal/0008/versi/20070102/ayat/0003 UU tahun 2007 no 3 pasal 8 versi 2 Januari 2007 ayat 3
+                         https://example.org/lex2kg/uu/2008/7/pasal/0003                             UU tahun 2008 no 7 pasal 3
+Entity:  UU tahun 2007 no 8 pasal 3
+Question:  UU tahun 2007 no 8 pasal 3
+{'chat_history': [HumanMessage(content='UU tahun 2007 no 8 pasal 3', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2007 no 8 pasal 3'}
+Resource:  uri='https://example.org/lex2kg/uu/2007/8/pasal/0003'
+Entity URI:  https://example.org/lex2kg/uu/2007/8/pasal/0003
+
+
+
+po:                                                  p                                                                      o                      sLabel       pLabel                                           oLabel
+0       https://example.org/lex2kg/ontology/versi         https://example.org/lex2kg/uu/2007/8/pasal/0003/versi/20070102  UU tahun 2007 no 8 pasal 3        versi  UU tahun 2007 no 8 pasal 3 versi 2 Januari 2007
+1       https://example.org/lex2kg/ontology/nomor                                                                      3  UU tahun 2007 no 8 pasal 3        nomor                                             no 3
+2  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/8/bab/0002/bagian/0001/daftarPasal  UU tahun 2007 no 8 pasal 3  bagian dari   UU tahun 2007 no 8 bab 2 bagian 1 daftar pasal
+3  https://example.org/lex2kg/ontology/bagianDari                                   https://example.org/lex2kg/uu/2007/8  UU tahun 2007 no 8 pasal 3  bagian dari                               UU tahun 2007 no 8
+sp:                                                                                 s                                               p                                                       sLabel       pLabel                      oLabel
+0  https://example.org/lex2kg/uu/2007/8/pasal/0005/versi/20070102/ayat/0003/text     https://example.org/lex2kg/ontology/merujuk  UU tahun 2007 no 8 pasal 5 versi 2 Januari 2007 ayat 3 text      merujuk  UU tahun 2007 no 8 pasal 3
+1            https://example.org/lex2kg/uu/2007/8/pasal/0004/versi/20070102/text     https://example.org/lex2kg/ontology/merujuk         UU tahun 2007 no 8 pasal 4 versi 2 Januari 2007 text      merujuk  UU tahun 2007 no 8 pasal 3
+2                 https://example.org/lex2kg/uu/2007/8/pasal/0003/versi/20070102  https://example.org/lex2kg/ontology/bagianDari              UU tahun 2007 no 8 pasal 3 versi 2 Januari 2007  bagian dari  UU tahun 2007 no 8 pasal 3
+3                                           https://example.org/lex2kg/uu/2007/8       https://example.org/lex2kg/ontology/pasal                                           UU tahun 2007 no 8        pasal  UU tahun 2007 no 8 pasal 3
+4          https://example.org/lex2kg/uu/2007/8/bab/0002/bagian/0001/daftarPasal       https://example.org/lex2kg/ontology/pasal               UU tahun 2007 no 8 bab 2 bagian 1 daftar pasal        pasal  UU tahun 2007 no 8 pasal 3
+
+
+
+cands:  ['versi dari UU tahun 2007 no 8 pasal 3 adalah UU tahun 2007 no 8 pasal 3 versi 2 Januari 2007', 'nomor dari UU tahun 2007 no 8 pasal 3 adalah 3', 'UU tahun 2007 no 8 pasal 3 versi 2 Januari 2007 merupakan bagian dari UU tahun 2007 no 8 pasal 3', 'merujuk dari UU tahun 2007 no 8 pasal 5 versi 2 Januari 2007 ayat 3 text adalah UU tahun 2007 no 8 pasal 3', 'pasal dari UU tahun 2007 no 8 adalah UU tahun 2007 no 8 pasal 3']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2007/8'}, {'pasal': 'https://example.org/lex2kg/uu/2007/8/bab/0002/bagian/0001/daftarPasal'}] Similarities:  0.6585195

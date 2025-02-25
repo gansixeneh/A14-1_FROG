@@ -1,0 +1,179 @@
+Translated Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?
+Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?'}
+Entities:  ['Undang-Undang No. 31 Tahun 2007', 'Pasal 2']
+Retrieved Resources:                                                  uri                          label
+0             https://example.org/lex2kg/uu/2007/31            UU tahun 2007 no 31
+1         https://example.org/lex2kg/uu/2007/31/bab        UU tahun 2007 no 31 bab
+2   https://example.org/lex2kg/uu/2007/31/mengingat  UU tahun 2007 no 31 mengingat
+3    https://example.org/lex2kg/uu/2007/31/bab/0001      UU tahun 2007 no 31 bab 1
+4  https://example.org/lex2kg/uu/2007/31/pasal/0001    UU tahun 2007 no 31 pasal 1
+Retrieved entities:                                               uri                         label
+           https://example.org/lex2kg/uu/2007/31           UU tahun 2007 no 31
+       https://example.org/lex2kg/uu/2007/31/bab       UU tahun 2007 no 31 bab
+ https://example.org/lex2kg/uu/2007/31/mengingat UU tahun 2007 no 31 mengingat
+  https://example.org/lex2kg/uu/2007/31/bab/0001     UU tahun 2007 no 31 bab 1
+https://example.org/lex2kg/uu/2007/31/pasal/0001   UU tahun 2007 no 31 pasal 1
+Entity:  Undang-Undang No. 31 Tahun 2007
+Question:  Undang-Undang No. 31 Tahun 2007
+{'chat_history': [HumanMessage(content='Undang-Undang No. 31 Tahun 2007', additional_kwargs={}, response_metadata={})], 'input': 'Undang-Undang No. 31 Tahun 2007'}
+Resource:  uri='https://example.org/lex2kg/uu/2007/31'
+Entity URI:  https://example.org/lex2kg/uu/2007/31
+
+
+
+po:                                                          o                                                    p               sLabel            pLabel                                     oLabel
+0                                               Indonesia       https://example.org/lex2kg/ontology/yurisdiksi  UU tahun 2007 no 31        yurisdiksi                                  indonesia
+1                PEMBENTUKAN KOTA TUAL DI PROVINSI MALUKU          https://example.org/lex2kg/ontology/tentang  UU tahun 2007 no 31           tentang   pembentukan kota tual di provinsi maluku
+2                                                    2007            https://example.org/lex2kg/ontology/tahun  UU tahun 2007 no 31             tahun                                 tahun 2007
+3        https://example.org/lex2kg/uu/2007/31/pasal/0022            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 22
+4        https://example.org/lex2kg/uu/2007/31/pasal/0021            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 21
+5        https://example.org/lex2kg/uu/2007/31/pasal/0020            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 20
+6        https://example.org/lex2kg/uu/2007/31/pasal/0019            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 19
+7        https://example.org/lex2kg/uu/2007/31/pasal/0018            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 18
+8        https://example.org/lex2kg/uu/2007/31/pasal/0017            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 17
+9        https://example.org/lex2kg/uu/2007/31/pasal/0016            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 16
+10       https://example.org/lex2kg/uu/2007/31/pasal/0015            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 15
+11       https://example.org/lex2kg/uu/2007/31/pasal/0014            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 14
+12       https://example.org/lex2kg/uu/2007/31/pasal/0013            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 13
+13       https://example.org/lex2kg/uu/2007/31/pasal/0012            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 12
+14       https://example.org/lex2kg/uu/2007/31/pasal/0011            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 11
+15       https://example.org/lex2kg/uu/2007/31/pasal/0010            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal               UU tahun 2007 no 31 pasal 10
+16       https://example.org/lex2kg/uu/2007/31/pasal/0009            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal                UU tahun 2007 no 31 pasal 9
+17       https://example.org/lex2kg/uu/2007/31/pasal/0008            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal                UU tahun 2007 no 31 pasal 8
+18       https://example.org/lex2kg/uu/2007/31/pasal/0007            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal                UU tahun 2007 no 31 pasal 7
+19       https://example.org/lex2kg/uu/2007/31/pasal/0006            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal                UU tahun 2007 no 31 pasal 6
+20       https://example.org/lex2kg/uu/2007/31/pasal/0005            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal                UU tahun 2007 no 31 pasal 5
+21       https://example.org/lex2kg/uu/2007/31/pasal/0004            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal                UU tahun 2007 no 31 pasal 4
+22       https://example.org/lex2kg/uu/2007/31/pasal/0003            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal                UU tahun 2007 no 31 pasal 3
+23       https://example.org/lex2kg/uu/2007/31/pasal/0002            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal                UU tahun 2007 no 31 pasal 2
+24       https://example.org/lex2kg/uu/2007/31/pasal/0001            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 31             pasal                UU tahun 2007 no 31 pasal 1
+25                                                     31            https://example.org/lex2kg/ontology/nomor  UU tahun 2007 no 31             nomor                                      no 31
+26        https://example.org/lex2kg/uu/2007/31/menimbang        https://example.org/lex2kg/ontology/menimbang  UU tahun 2007 no 31         menimbang              UU tahun 2007 no 31 menimbang
+27        https://example.org/lex2kg/uu/2007/31/mengingat        https://example.org/lex2kg/ontology/mengingat  UU tahun 2007 no 31         mengingat              UU tahun 2007 no 31 mengingat
+28  https://example.org/lex2kg/ontology/jenisPeraturan/UU   https://example.org/lex2kg/ontology/jenisPeraturan  UU tahun 2007 no 31   jenis peraturan                ontology jenis peraturan uu
+29                           PRESIDEN REPUBLIK INDONESIA,  https://example.org/lex2kg/ontology/jabatanPengesah  UU tahun 2007 no 31  jabatan pengesah               presiden republik indonesia,
+30                                             2007-08-10     https://example.org/lex2kg/ontology/disahkanPada  UU tahun 2007 no 31     disahkan pada                                 2007-08-10
+31                                 Diundangkan di Jakarta     https://example.org/lex2kg/ontology/disahkanOleh  UU tahun 2007 no 31     disahkan oleh                     diundangkan di jakarta
+32                                                Jakarta       https://example.org/lex2kg/ontology/disahkanDi  UU tahun 2007 no 31       disahkan di                                    jakarta
+33              https://example.org/lex2kg/uu/2007/31/bab        https://example.org/lex2kg/ontology/daftarBab  UU tahun 2007 no 31        daftar bab                    UU tahun 2007 no 31 bab
+34                                                     id           https://example.org/lex2kg/ontology/bahasa  UU tahun 2007 no 31            bahasa                                         id
+sp:                                                   p                                                 s                        sLabel       pLabel               oLabel
+0   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0022  UU tahun 2007 no 31 pasal 22  bagian dari  UU tahun 2007 no 31
+1   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0021  UU tahun 2007 no 31 pasal 21  bagian dari  UU tahun 2007 no 31
+2   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0020  UU tahun 2007 no 31 pasal 20  bagian dari  UU tahun 2007 no 31
+3   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0019  UU tahun 2007 no 31 pasal 19  bagian dari  UU tahun 2007 no 31
+4   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0018  UU tahun 2007 no 31 pasal 18  bagian dari  UU tahun 2007 no 31
+5   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0017  UU tahun 2007 no 31 pasal 17  bagian dari  UU tahun 2007 no 31
+6   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0016  UU tahun 2007 no 31 pasal 16  bagian dari  UU tahun 2007 no 31
+7   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0015  UU tahun 2007 no 31 pasal 15  bagian dari  UU tahun 2007 no 31
+8   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0014  UU tahun 2007 no 31 pasal 14  bagian dari  UU tahun 2007 no 31
+9   https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0013  UU tahun 2007 no 31 pasal 13  bagian dari  UU tahun 2007 no 31
+10  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0012  UU tahun 2007 no 31 pasal 12  bagian dari  UU tahun 2007 no 31
+11  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0011  UU tahun 2007 no 31 pasal 11  bagian dari  UU tahun 2007 no 31
+12  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0010  UU tahun 2007 no 31 pasal 10  bagian dari  UU tahun 2007 no 31
+13  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0009   UU tahun 2007 no 31 pasal 9  bagian dari  UU tahun 2007 no 31
+14  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0008   UU tahun 2007 no 31 pasal 8  bagian dari  UU tahun 2007 no 31
+15  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0007   UU tahun 2007 no 31 pasal 7  bagian dari  UU tahun 2007 no 31
+16  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0006   UU tahun 2007 no 31 pasal 6  bagian dari  UU tahun 2007 no 31
+17  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0005   UU tahun 2007 no 31 pasal 5  bagian dari  UU tahun 2007 no 31
+18  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0004   UU tahun 2007 no 31 pasal 4  bagian dari  UU tahun 2007 no 31
+19  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0003   UU tahun 2007 no 31 pasal 3  bagian dari  UU tahun 2007 no 31
+20  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0002   UU tahun 2007 no 31 pasal 2  bagian dari  UU tahun 2007 no 31
+21  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2007/31/pasal/0001   UU tahun 2007 no 31 pasal 1  bagian dari  UU tahun 2007 no 31
+22  https://example.org/lex2kg/ontology/bagianDari         https://example.org/lex2kg/uu/2007/31/bab       UU tahun 2007 no 31 bab  bagian dari  UU tahun 2007 no 31
+
+
+
+cands:  ['yurisdiksi dari UU tahun 2007 no 31 adalah indonesia', 'tentang dari UU tahun 2007 no 31 adalah  pembentukan kota tual di provinsi maluku', 'tahun dari UU tahun 2007 no 31 adalah tahun 2007', 'UU tahun 2007 no 31 pasal 22 merupakan bagian dari UU tahun 2007 no 31', 'nomor dari UU tahun 2007 no 31 adalah no 31', 'menimbang dari UU tahun 2007 no 31 adalah UU tahun 2007 no 31 menimbang', 'mengingat dari UU tahun 2007 no 31 adalah UU tahun 2007 no 31 mengingat', 'jenis peraturan dari UU tahun 2007 no 31 adalah ontology jenis peraturan uu', 'jabatan pengesah dari UU tahun 2007 no 31 adalah presiden republik indonesia,', 'disahkan pada dari UU tahun 2007 no 31 adalah 2007-08-10', 'disahkan oleh dari UU tahun 2007 no 31 adalah diundangkan di jakarta', 'disahkan di dari UU tahun 2007 no 31 adalah jakarta', 'daftar bab dari UU tahun 2007 no 31 adalah UU tahun 2007 no 31 bab', 'bahasa dari UU tahun 2007 no 31 adalah id']
+Result:  [] Similarities:  0.6306777
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2014/32/pasal/0031
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/2007/2/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2007/7/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/1999/40/mengingat/huruf/description
+        - lex2kg/uu/1999/43/mengingat/huruf/description
+        - lex2kg/uu/2007/2/pasal/0002/versi/20070102
+        - lex2kg/uu/2007/27/pasal/0031/versi/20070717
+        - lex2kg/uu/2013/24/pasal/0068
+        - lex2kg/uu/2007/7/mengingat
+        - lex2kg/uu/2007/27/pasal/0007/versi/20070717
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/1994/3/mengingat/huruf/description
+        - lex2kg/uu/2012/8/pasal/0093
+        - lex2kg/uu/2012/17/pasal/0094
+        - lex2kg/uu/1990/6/mengingat/huruf/description
+        - lex2kg/uu
+        - lex2kg/uu/2014/37/pasal/0031
+        - lex2kg/uu/2007/2/pasal/0002/versi/20070102/text
+        - lex2kg/uu/1989/4/mengingat/huruf/description
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2007/31
+        - lex2kg/uu/2010/13/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2007/1/pasal/0007/versi/20070102
+        - lex2kg/uu/2007/7/pasal/0002/versi/20070102/text
+        - lex2kg/uu/1997/31/pasal/0031
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/1981/3/mengingat/huruf/description
+        - lex2kg/uu/1990/1/mengingat/huruf/description
+        - lex2kg/uu/1983/6/pasal/0037/versi/19831231/text
+        - lex2kg/uu/1989/1/mengingat/huruf/description
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2002/2/bab/0002/daftarPasal
+        - lex2kg/uu/2002/4/mengingat/huruf/0002
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/1983/6/pasal/0031/versi/19831231/text
+        - lex2kg/uu/2007/6/pasal/0007/versi/20070102
+        - lex2kg/uu/2007/31/bab
+        - lex2kg/uu/2007/27/pasal/0006/versi/20070717
+        - lex2kg/uu/2014/17/bab/0004/bagian/0009/paragraf/0006/daftarPasal
+        - lex2kg/uu/2013/20/mengingat/text
+        - lex2kg/uu/2002/31/pasal/0031
+        - lex2kg/uu/2002/2/pasal/0002
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2007/7
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/1999/44/mengingat/huruf/description
+        - lex2kg/uu/1954/76/mengingat/text
+        - lex2kg/uu/2007/2/pasal/0007/versi/20070102
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2007/6/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2009/4/pasal/0153
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2007/7/pasal/0007/versi/20070102
+        - lex2kg/uu/2007/7/bab
+        - lex2kg/uu/2007/29/pasal/0031/versi/20070730
+        - lex2kg/uu/2014/33/pasal/0031
+        - lex2kg/uu/2004/31/pasal/0031
+        - lex2kg/uu/2007/1/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2013/1/pasal/0031
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/1990/2/mengingat/huruf/description
+        - lex2kg/uu/1964/35/mengingat/text
+        - lex2kg/uu/2014/33/bab
+    - properties: 
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:merujuk
+        - lex2kg-o:segmen
+        - lex2kg-o:tahun
+        - lex2kg-o:judul
+        - lex2kg-o:bahasa
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:pasal
+        - lex2kg-o:daftarPasal
+        - lex2kg-o:bagianDari
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:tentang
+        - lex2kg-o:paragraf
+        - lex2kg-o:nomor
+
+Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?'}
+Thoughts:  ["1. Pertanyaan ini meminta daftar undang-undang yang merujuk pada 'Undang-Undang No. 31 Tahun 2007 Pasal 2'.", "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2007/31/pasal/0002'.", "3. Properti 'lex2kg-o:merujuk' digunakan untuk menunjukkan hubungan antara suatu undang-undang dan pasal yang dirujuknya.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:merujuk' dengan 'lex2kg/uu/2007/31/pasal/0002'.", '5. Susun query SPARQL untuk mengambil semua undang-undang yang merujuk pada pasal ini.']
+Generated SPARQL:  select?x {?x lex2kg-o:merujuk <https://example.org/lex2kg/uu/2007/31/pasal/0002>. }

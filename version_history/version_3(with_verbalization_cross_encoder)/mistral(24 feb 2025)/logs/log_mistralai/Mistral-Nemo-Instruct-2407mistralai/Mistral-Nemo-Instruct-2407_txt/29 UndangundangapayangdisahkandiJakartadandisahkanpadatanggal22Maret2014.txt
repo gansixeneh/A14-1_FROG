@@ -1,0 +1,142 @@
+Translated Question:  Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?
+Question:  Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?'}
+Entities:  ['Undang-undang', 'Jakarta', '22 Maret 2014']
+Retrieved Resources:                                       uri                label
+0   https://example.org/lex2kg/uu/2011/1   UU tahun 2011 no 1
+1   https://example.org/lex2kg/uu/2009/1   UU tahun 2009 no 1
+2   https://example.org/lex2kg/uu/2013/1   UU tahun 2013 no 1
+3  https://example.org/lex2kg/uu/2011/24  UU tahun 2011 no 24
+4   https://example.org/lex2kg/uu/2012/1   UU tahun 2012 no 1
+Retrieved entities:                                    uri               label
+ https://example.org/lex2kg/uu/2011/1  UU tahun 2011 no 1
+ https://example.org/lex2kg/uu/2009/1  UU tahun 2009 no 1
+ https://example.org/lex2kg/uu/2013/1  UU tahun 2013 no 1
+https://example.org/lex2kg/uu/2011/24 UU tahun 2011 no 24
+ https://example.org/lex2kg/uu/2012/1  UU tahun 2012 no 1
+Entity:  Undang-undang
+Question:  Undang-undang
+{'chat_history': [HumanMessage(content='Undang-undang', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang'}
+Resource:  uri='https://example.org/lex2kg/uu/2014/1'
+Entity URI:  https://example.org/lex2kg/uu/2014/1
+
+
+
+po:                                                        p                                                                                                            o              sLabel            pLabel                                                                                                       oLabel
+0        https://example.org/lex2kg/ontology/yurisdiksi                                                                                                    Indonesia  UU tahun 2014 no 1        yurisdiksi                                                                                                    indonesia
+1           https://example.org/lex2kg/ontology/tentang   PERUBAHAN ATAS UNDANG-UNDANG NOMOR 27 TAHUN 2007 TENTANG PENGELOLAAN WILAYAH PESISIR DAN PULAU-PULAU KECIL  UU tahun 2014 no 1           tentang   perubahan atas undang-undang nomor 27 tahun 2007 tentang pengelolaan wilayah pesisir dan pulau-pulau kecil
+2             https://example.org/lex2kg/ontology/tahun                                                                                                         2014  UU tahun 2014 no 1             tahun                                                                                                   tahun 2014
+3             https://example.org/lex2kg/ontology/pasal                                                              https://example.org/lex2kg/uu/2014/1/pasal/0001  UU tahun 2014 no 1             pasal                                                                                   UU tahun 2014 no 1 pasal 1
+4             https://example.org/lex2kg/ontology/nomor                                                                                                            1  UU tahun 2014 no 1             nomor                                                                                                         no 1
+5         https://example.org/lex2kg/ontology/menimbang                                                               https://example.org/lex2kg/uu/2014/1/menimbang  UU tahun 2014 no 1         menimbang                                                                                 UU tahun 2014 no 1 menimbang
+6         https://example.org/lex2kg/ontology/mengingat                                                               https://example.org/lex2kg/uu/2014/1/mengingat  UU tahun 2014 no 1         mengingat                                                                                 UU tahun 2014 no 1 mengingat
+7    https://example.org/lex2kg/ontology/jenisPeraturan                                                        https://example.org/lex2kg/ontology/jenisPeraturan/UU  UU tahun 2014 no 1   jenis peraturan                                                                                  ontology jenis peraturan uu
+8   https://example.org/lex2kg/ontology/jabatanPengesah                                                                                 PRESIDEN REPUBLIK INDONESIA,  UU tahun 2014 no 1  jabatan pengesah                                                                                 presiden republik indonesia,
+9      https://example.org/lex2kg/ontology/disahkanPada                                                                                                   2014-01-15  UU tahun 2014 no 1     disahkan pada                                                                                                   2014-01-15
+10     https://example.org/lex2kg/ontology/disahkanOleh                                                                              DR. H. SUSILO BAMBANG YUDHOYONO  UU tahun 2014 no 1     disahkan oleh                                                                              dr. h. susilo bambang yudhoyono
+11       https://example.org/lex2kg/ontology/disahkanDi                                                                                                      Jakarta  UU tahun 2014 no 1       disahkan di                                                                                                      jakarta
+12      https://example.org/lex2kg/ontology/daftarPasal                                                             https://example.org/lex2kg/uu/2014/1/daftarPasal  UU tahun 2014 no 1      daftar pasal                                                                              UU tahun 2014 no 1 daftar pasal
+13           https://example.org/lex2kg/ontology/bahasa                                                                                                           id  UU tahun 2014 no 1            bahasa                                                                                                           id
+sp:                                                                       s                                               p                                                 sLabel       pLabel              oLabel
+0  https://example.org/lex2kg/uu/2020/6/pasal/0001/versi/20200811/text     https://example.org/lex2kg/ontology/merujuk  UU tahun 2020 no 6 pasal 1 versi 11 Agustus 2020 text      merujuk  UU tahun 2014 no 1
+1          https://example.org/lex2kg/uu/2020/6/menimbang/huruf/d/text     https://example.org/lex2kg/ontology/merujuk              UU tahun 2020 no 6 menimbang huruf d text      merujuk  UU tahun 2014 no 1
+2          https://example.org/lex2kg/uu/2020/6/menimbang/huruf/c/text     https://example.org/lex2kg/ontology/merujuk              UU tahun 2020 no 6 menimbang huruf c text      merujuk  UU tahun 2014 no 1
+3       https://example.org/lex2kg/uu/2020/6/mengingat/huruf/0002/text     https://example.org/lex2kg/ontology/merujuk              UU tahun 2020 no 6 mengingat huruf 2 text      merujuk  UU tahun 2014 no 1
+4          https://example.org/lex2kg/uu/2015/2/menimbang/huruf/a/text     https://example.org/lex2kg/ontology/merujuk              UU tahun 2015 no 2 menimbang huruf a text      merujuk  UU tahun 2014 no 1
+5  https://example.org/lex2kg/uu/2015/1/pasal/0001/versi/20150202/text     https://example.org/lex2kg/ontology/merujuk  UU tahun 2015 no 1 pasal 1 versi 2 Februari 2015 text      merujuk  UU tahun 2014 no 1
+6                      https://example.org/lex2kg/uu/2014/1/pasal/0001  https://example.org/lex2kg/ontology/bagianDari                             UU tahun 2014 no 1 pasal 1  bagian dari  UU tahun 2014 no 1
+7                     https://example.org/lex2kg/uu/2014/1/daftarPasal  https://example.org/lex2kg/ontology/bagianDari                        UU tahun 2014 no 1 daftar pasal  bagian dari  UU tahun 2014 no 1
+
+
+
+cands:  ['yurisdiksi dari UU tahun 2014 no 1 adalah Indonesia', 'tentang dari UU tahun 2014 no 1 adalah  PERUBAHAN ATAS UNDANG-UNDANG NOMOR 27 TAHUN 2007 TENTANG PENGELOLAAN WILAYAH PESISIR DAN PULAU-PULAU KECIL', 'tahun dari UU tahun 2014 no 1 adalah 2014', 'pasal dari UU tahun 2014 no 1 adalah UU tahun 2014 no 1 pasal 1', 'nomor dari UU tahun 2014 no 1 adalah 1', 'Yang menimbang UU tahun 2014 no 1 menimbang adalah UU tahun 2014 no 1', 'Yang mengingat UU tahun 2014 no 1 mengingat adalah UU tahun 2014 no 1', 'jenis peraturan dari UU tahun 2014 no 1 adalah ontology jenis peraturan uu', 'jabatan pengesah dari UU tahun 2014 no 1 adalah PRESIDEN REPUBLIK INDONESIA,', 'UU tahun 2014 no 1 disahkan pada 2014-01-15', 'UU tahun 2014 no 1 disahkan oleh DR. H. SUSILO BAMBANG YUDHOYONO', 'UU tahun 2014 no 1 disahkan di Jakarta', 'daftar pasal dari UU tahun 2014 no 1 adalah UU tahun 2014 no 1 daftar pasal', 'bahasa dari UU tahun 2014 no 1 adalah id', 'Yang merujuk UU tahun 2014 no 1 adalah UU tahun 2020 no 6 pasal 1 versi 11 Agustus 2020 text', 'UU tahun 2014 no 1 pasal 1 merupakan bagian dari UU tahun 2014 no 1']
+Result:  [{'disahkan di': 'Jakarta'}] Similarities:  0.9796745
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1981/5/pasal/0002/versi/19810704/text
+        - lex2kg/uu/2008/43/bab/0002
+        - lex2kg/uu/2002/26/mengingat/huruf/description
+        - lex2kg/uu/1992/4/pasal/0022/versi/19920310/ayat
+        - lex2kg/uu/1992/5/pasal/0022/versi/19920321/ayat/0001/text
+        - lex2kg/uu/2011/23/mengingat/huruf/0022
+        - lex2kg/uu/2002/25/bab/0004
+        - lex2kg/uu/2014/11/pasal/0042/versi/20140322
+        - lex2kg/uu/2014/7/pasal/0084/versi/20140311
+        - lex2kg/uu/2002/16/mengingat/huruf/description
+        - lex2kg/uu/2014/11/pasal/0043/versi/20140322
+        - lex2kg/uu/1992/21/pasal/0022/versi/19920917/ayat
+        - lex2kg/uu/2014/14
+        - lex2kg/uu/2008/2/pasal/0034/versi/20080104/ayat/0001/text
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/1992/4/pasal/0022/versi/19920310/ayat/0004/text
+        - lex2kg/uu/1992/8/pasal/0022/versi/19920330/text
+        - lex2kg/uu/2008/49/bab/0002
+        - lex2kg/uu/2014/11/pasal/0022/versi/20140322/text
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2011/8/mengingat/text
+        - lex2kg/uu/1957/34/mengingat/text
+        - lex2kg/uu/1992/4/pasal/0022/versi/19920310/ayat/0001/text
+        - lex2kg/uu/1981/8/mengingat/huruf/0003/huruf/description
+        - lex2kg/uu/1992/21/pasal/0022/versi/19920917/ayat/0002/text
+        - lex2kg/uu/2008/2/pasal/0013/versi/20080104/huruf/j/text
+        - lex2kg/uu/2008/42/bab/0004
+        - lex2kg/uu/1992/5/pasal/0022/versi/19920321/ayat
+        - lex2kg/uu/1983/6/pasal/0029/versi/19831231/ayat/0004/text
+        - lex2kg/uu/2002/23/mengingat/huruf/description
+        - lex2kg/uu/1987/8/pasal/0003/versi/19870928/text
+        - lex2kg/uu/2004/32/mengingat/huruf/description
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/1992/5/pasal/0022/versi/19920321
+        - lex2kg/uu/2014/34/mengingat/text
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/1982/8/mengingat/huruf/description
+        - lex2kg/uu/2002/28/pasal/0010/versi/20021216/text
+        - lex2kg/uu/2003/34/mengingat/huruf/description
+        - lex2kg/uu/1981/2/pasal/0018/versi/19810401/text
+        - lex2kg/uu/1981/8/mengingat/huruf/description
+        - lex2kg/uu/2011/1
+        - lex2kg/uu/2014/11/pasal/0023/versi/20140322
+        - lex2kg/uu/2012/22/pasal/0022
+        - lex2kg/uu/2003/14/mengingat/huruf/description
+        - lex2kg/uu/2002/32/mengingat/huruf/description
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2008/54
+        - lex2kg/uu/2008/54/bab/0002
+        - lex2kg/uu/1992/5/pasal/0022/versi/19920321/ayat/0002/text
+        - lex2kg/uu/2009/1
+        - lex2kg/uu/2009/47/mengingat/huruf/0022
+        - lex2kg/uu/2002/25/mengingat/huruf/description
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/1992/4/pasal/0022/versi/19920310/ayat/0002/text
+        - lex2kg/uu/2002/24/mengingat/huruf/description
+        - lex2kg/uu/2003/32/mengingat/huruf/description
+        - lex2kg/uu/2014/11/pasal/0003/versi/20140322
+        - lex2kg/uu/1992/21/pasal/0022/versi/19920917/ayat/0001/text
+        - lex2kg/uu/2002/28/pasal/0004/versi/20021216/text
+        - lex2kg/uu/2002/28/pasal/0011/versi/20021216/text
+        - lex2kg/uu
+        - lex2kg/uu/2008/2/pasal/0034/versi/20080104/ayat/0002/text
+        - lex2kg/uu/1957/38/mengingat/text
+        - lex2kg/uu/2010/10/mengingat/huruf/0022
+        - lex2kg/uu/2014/11/pasal/0022/versi/20140322
+        - lex2kg/uu/2002/4/mengingat/huruf/description
+        - lex2kg/uu/2003/41/mengingat/huruf/description
+        - lex2kg/uu/1992/21/pasal/0022/versi/19920917
+    - properties: 
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:nomor
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:tentang
+        - lex2kg-o:paragraf
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:tahun
+        - lex2kg-o:versi
+        - lex2kg-o:judul
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:merujuk
+        - lex2kg-o:tanggal
+        - lex2kg-o:bagianDari
+
+Question:  Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?'}
+Thoughts:  ['1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan di Jakarta pada tanggal 22 Maret 2014.', "2. Dalam ontologi, properti 'lex2kg-o:disahkanDi' digunakan untuk menunjukkan tempat pengesahan undang-undang.", "3. Properti 'lex2kg-o:disahkanPada' digunakan untuk menunjukkan tanggal pengesahan undang-undang.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '2014-03-22' pada properti 'lex2kg-o:disahkanPada' dan nilai 'Jakarta' pada properti 'lex2kg-o:disahkanDi'.", '5. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  select?x {?x lex2kg-o:disahkanDi 'Jakarta'.?x lex2kg-o:disahkanPada '2014-03-22'^^xsd:date. }

@@ -1,0 +1,121 @@
+Translated Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?
+Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?'}
+Entities:  ['UU tahun 2014 no 17 pasal 368']
+Retrieved Resources:                                                                           uri                                                      label
+0                           https://example.org/lex2kg/uu/2014/17/pasal/0368                              UU tahun 2014 no 17 pasal 368
+1       https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat    UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 ayat
+2            https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805         UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014
+3  https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0001  UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 ayat 1
+4  https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0003  UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 ayat 3
+Retrieved entities:                                                                        uri                                                     label
+                         https://example.org/lex2kg/uu/2014/17/pasal/0368                             UU tahun 2014 no 17 pasal 368
+     https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat   UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 ayat
+          https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805        UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014
+https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0001 UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 ayat 1
+https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0003 UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 ayat 3
+Entity:  UU tahun 2014 no 17 pasal 368
+Question:  UU tahun 2014 no 17 pasal 368
+{'chat_history': [HumanMessage(content='UU tahun 2014 no 17 pasal 368', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2014 no 17 pasal 368'}
+Resource:  uri='https://example.org/lex2kg/uu/2014/17/pasal/0368'
+Entity URI:  https://example.org/lex2kg/uu/2014/17/pasal/0368
+
+
+
+po:                                                                          o                                               p                         sLabel       pLabel                                              oLabel
+0         https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805       https://example.org/lex2kg/ontology/versi  UU tahun 2014 no 17 pasal 368        versi  UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014
+1                                                                     368       https://example.org/lex2kg/ontology/nomor  UU tahun 2014 no 17 pasal 368        nomor                                                 368
+2  https://example.org/lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2014 no 17 pasal 368  bagian dari     UU tahun 2014 no 17 bab 6 bagian 4 daftar pasal
+3                                   https://example.org/lex2kg/uu/2014/17  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2014 no 17 pasal 368  bagian dari                                 UU tahun 2014 no 17
+sp:                                                  p                                                                               s                                                          sLabel       pLabel                         oLabel
+0     https://example.org/lex2kg/ontology/merujuk  https://example.org/lex2kg/uu/2014/17/pasal/0410/versi/20140805/ayat/0006/text  UU tahun 2014 no 17 pasal 410 versi 5 Agustus 2014 ayat 6 text      merujuk  UU tahun 2014 no 17 pasal 368
+1     https://example.org/lex2kg/ontology/merujuk            https://example.org/lex2kg/uu/2014/17/pasal/0369/versi/20140805/text         UU tahun 2014 no 17 pasal 369 versi 5 Agustus 2014 text      merujuk  UU tahun 2014 no 17 pasal 368
+2  https://example.org/lex2kg/ontology/bagianDari                 https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805              UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014  bagian dari  UU tahun 2014 no 17 pasal 368
+3       https://example.org/lex2kg/ontology/pasal                                           https://example.org/lex2kg/uu/2014/17                                             UU tahun 2014 no 17        pasal  UU tahun 2014 no 17 pasal 368
+4       https://example.org/lex2kg/ontology/pasal          https://example.org/lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal                 UU tahun 2014 no 17 bab 6 bagian 4 daftar pasal        pasal  UU tahun 2014 no 17 pasal 368
+
+
+
+cands:  ['UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 merupakan bagian dari UU tahun 2014 no 17 pasal 368', 'nomor dari UU tahun 2014 no 17 pasal 368 adalah 368', 'UU tahun 2014 no 17 pasal 368 merupakan bagian dari UU tahun 2014 no 17 bab 6 bagian 4 daftar pasal', 'merujuk dari UU tahun 2014 no 17 pasal 410 versi 5 Agustus 2014 ayat 6 text adalah UU tahun 2014 no 17 pasal 368', 'pasal dari UU tahun 2014 no 17 adalah UU tahun 2014 no 17 pasal 368']
+Result:  [] Similarities:  0.751833
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2014/17/pasal/0017
+        - lex2kg/uu/2014/37/pasal/0017/versi/20141017/text
+        - lex2kg/uu/2014/37/pasal/0017/versi/20141017
+        - lex2kg/uu/2014/17/pasal/0368
+        - lex2kg/uu/1994/3/mengingat/huruf/description
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/2013/20/mengingat/text
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/1999/40/mengingat/huruf/description
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0003
+        - lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0002/text
+        - lex2kg/uu/1997/17/pasal/0017
+        - lex2kg/uu/2014/3/pasal/0084/versi/20140115
+        - lex2kg/uu/1999/43/mengingat/huruf/description
+        - lex2kg/uu/2014/34/pasal/0017/versi/20141017/text
+        - lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0001
+        - lex2kg/uu/1954/76/mengingat/text
+        - lex2kg/uu/1964/35/mengingat/text
+        - lex2kg/uu/2014/34/pasal/0017/versi/20141017
+        - lex2kg/uu/2014/14/pasal/0017/versi/20140723
+        - lex2kg/uu/2010/10/mengingat/huruf/0017
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2014/14/bab
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2014/14
+        - lex2kg/uu/2013/17/bab/0017
+        - lex2kg/uu/2012/8/pasal/0093
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/2013/24/pasal/0068
+        - lex2kg/uu/2009/47/mengingat/huruf/0017
+        - lex2kg/uu/1989/4/mengingat/huruf/description
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/1990/2/mengingat/huruf/description
+        - lex2kg/uu/1989/1/mengingat/huruf/description
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/1990/1/mengingat/huruf/description
+        - lex2kg/uu/2014/17/bab/0004/bagian/0009/paragraf/0006/daftarPasal
+        - lex2kg/uu
+        - lex2kg/uu/1990/6/mengingat/huruf/description
+        - lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/2009/4/pasal/0153
+        - lex2kg/uu/1981/3/mengingat/huruf/description
+        - lex2kg/uu/2010/13/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2014/33/bab
+        - lex2kg/uu/2014/17/pasal/0368/versi/20140805
+        - lex2kg/uu/1999/44/mengingat/huruf/description
+        - lex2kg/uu/2012/17/pasal/0094
+        - lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0003/text
+        - lex2kg/uu/2017/18/pasal/0017
+        - lex2kg/uu/2019/17/pasal/0017
+    - properties: 
+        - lex2kg-o:judul
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:yurisdiksi
+        - lex2kg-o:merujuk
+        - lex2kg-o:bahasa
+        - lex2kg-o:nomor
+        - lex2kg-o:segmen
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:paragraf
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:daftarPasal
+        - lex2kg-o:bagianDari
+        - lex2kg-o:pasal
+        - lex2kg-o:tentang
+        - lex2kg-o:tahun
+
+Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?'}
+Thoughts:  ["1. Pertanyaan ini meminta daftar undang-undang yang merujuk pada 'Undang-Undang No. 17 Tahun 2014 Pasal 368'.", "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2014/17/pasal/0368'.", "3. Properti 'lex2kg-o:merujuk' digunakan untuk menunjukkan hubungan antara suatu undang-undang dan pasal yang dirujuknya.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:merujuk' dengan 'lex2kg/uu/2014/17/pasal/0368'.", '5. Susun query SPARQL untuk mengambil semua undang-undang yang merujuk pada pasal ini.']
+Generated SPARQL:  select?x {?x lex2kg-o:merujuk <https://example.org/lex2kg/uu/2014/17/pasal/0368>. }

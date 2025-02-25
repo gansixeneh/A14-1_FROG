@@ -1,0 +1,40 @@
+Translated Question:  Undang-undang apa yang merujuk ke UU No. 8 Tahun 2004 dan UU No. 2 Tahun 1986?
+Question:  Undang-undang apa yang merujuk ke UU No. 8 Tahun 2004 dan UU No. 2 Tahun 1986?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang merujuk ke UU No. 8 Tahun 2004 dan UU No. 2 Tahun 1986?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang merujuk ke UU No. 8 Tahun 2004 dan UU No. 2 Tahun 1986?'}
+Entities:  ['UU tahun 2004 no 8', 'UU tahun 1986 no 2']
+Retrieved Resources:                                                            uri                               label
+0                        https://example.org/lex2kg/uu/2004/8                  UU tahun 2004 no 8
+1  https://example.org/lex2kg/uu/2004/33/bab/0008/bagian/0008  UU tahun 2004 no 33 bab 8 bagian 8
+2             https://example.org/lex2kg/uu/2004/1/pasal/0008          UU tahun 2004 no 1 pasal 8
+3               https://example.org/lex2kg/uu/2004/4/bab/0008            UU tahun 2004 no 4 bab 8
+4              https://example.org/lex2kg/uu/2004/34/bab/0008           UU tahun 2004 no 34 bab 8
+Retrieved entities:                                                         uri                              label
+                      https://example.org/lex2kg/uu/2004/8                 UU tahun 2004 no 8
+https://example.org/lex2kg/uu/2004/33/bab/0008/bagian/0008 UU tahun 2004 no 33 bab 8 bagian 8
+           https://example.org/lex2kg/uu/2004/1/pasal/0008         UU tahun 2004 no 1 pasal 8
+             https://example.org/lex2kg/uu/2004/4/bab/0008           UU tahun 2004 no 4 bab 8
+            https://example.org/lex2kg/uu/2004/34/bab/0008          UU tahun 2004 no 34 bab 8
+Entity:  UU tahun 2004 no 8
+Question:  UU tahun 2004 no 8
+{'chat_history': [HumanMessage(content='UU tahun 2004 no 8', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2004 no 8'}
+Resource:  uri='https://example.org/lex2kg/uu/2004/8'
+Entity URI:  https://example.org/lex2kg/uu/2004/8
+
+
+
+po:  Empty DataFrame
+Columns: [p, o, sLabel, pLabel, oLabel]
+Index: []
+sp:                                                                   s                                            p                                      sLabel   pLabel              oLabel
+0     https://example.org/lex2kg/uu/2009/49/menimbang/huruf/b/text  https://example.org/lex2kg/ontology/merujuk  UU tahun 2009 no 49 menimbang huruf b text  merujuk  UU tahun 2004 no 8
+1  https://example.org/lex2kg/uu/2009/49/mengingat/huruf/0003/text  https://example.org/lex2kg/ontology/merujuk  UU tahun 2009 no 49 mengingat huruf 3 text  merujuk  UU tahun 2004 no 8
+2  https://example.org/lex2kg/uu/2004/14/mengingat/huruf/0004/text  https://example.org/lex2kg/ontology/merujuk  UU tahun 2004 no 14 mengingat huruf 4 text  merujuk  UU tahun 2004 no 8
+3     https://example.org/lex2kg/uu/2004/13/menimbang/huruf/d/text  https://example.org/lex2kg/ontology/merujuk  UU tahun 2004 no 13 menimbang huruf d text  merujuk  UU tahun 2004 no 8
+4  https://example.org/lex2kg/uu/2004/13/mengingat/huruf/0004/text  https://example.org/lex2kg/ontology/merujuk  UU tahun 2004 no 13 mengingat huruf 4 text  merujuk  UU tahun 2004 no 8
+5  https://example.org/lex2kg/uu/2004/12/mengingat/huruf/0004/text  https://example.org/lex2kg/ontology/merujuk  UU tahun 2004 no 12 mengingat huruf 4 text  merujuk  UU tahun 2004 no 8
+6  https://example.org/lex2kg/uu/2004/11/mengingat/huruf/0004/text  https://example.org/lex2kg/ontology/merujuk  UU tahun 2004 no 11 mengingat huruf 4 text  merujuk  UU tahun 2004 no 8
+
+
+
+cands:  ['Yang merujuk UU tahun 2004 no 8 adalah UU tahun 2009 no 49 menimbang huruf b text']
+Result:  [{'merujuk': 'https://example.org/lex2kg/uu/2009/49/menimbang/huruf/b/text'}, {'merujuk': 'https://example.org/lex2kg/uu/2009/49/mengingat/huruf/0003/text'}, {'merujuk': 'https://example.org/lex2kg/uu/2004/14/mengingat/huruf/0004/text'}, {'merujuk': 'https://example.org/lex2kg/uu/2004/13/menimbang/huruf/d/text'}, {'merujuk': 'https://example.org/lex2kg/uu/2004/13/mengingat/huruf/0004/text'}, {'merujuk': 'https://example.org/lex2kg/uu/2004/12/mengingat/huruf/0004/text'}, {'merujuk': 'https://example.org/lex2kg/uu/2004/11/mengingat/huruf/0004/text'}] Similarities:  0.98758066

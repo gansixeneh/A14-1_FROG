@@ -1,0 +1,169 @@
+Translated Question:  Undang-undang apa saja yang disahkan pada 2 Januari 2007?
+Question:  Undang-undang apa saja yang disahkan pada 2 Januari 2007?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan pada 2 Januari 2007?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan pada 2 Januari 2007?'}
+Entities:  ['Undang-undang', '2 Januari 2007']
+Retrieved Resources:                                       uri                label
+0   https://example.org/lex2kg/uu/2011/1   UU tahun 2011 no 1
+1   https://example.org/lex2kg/uu/2009/1   UU tahun 2009 no 1
+2  https://example.org/lex2kg/uu/2011/24  UU tahun 2011 no 24
+3   https://example.org/lex2kg/uu/2013/1   UU tahun 2013 no 1
+4   https://example.org/lex2kg/uu/2012/1   UU tahun 2012 no 1
+Retrieved entities:                                    uri               label
+ https://example.org/lex2kg/uu/2011/1  UU tahun 2011 no 1
+ https://example.org/lex2kg/uu/2009/1  UU tahun 2009 no 1
+https://example.org/lex2kg/uu/2011/24 UU tahun 2011 no 24
+ https://example.org/lex2kg/uu/2013/1  UU tahun 2013 no 1
+ https://example.org/lex2kg/uu/2012/1  UU tahun 2012 no 1
+Entity:  Undang-undang
+Question:  Undang-undang
+{'chat_history': [HumanMessage(content='Undang-undang', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang'}
+Resource:  uri='https://example.org/lex2kg/uu/2007/1'
+Entity URI:  https://example.org/lex2kg/uu/2007/1
+
+
+
+po:                                                                     o                                                    p              sLabel            pLabel                                                            oLabel
+0                                                          Indonesia       https://example.org/lex2kg/ontology/yurisdiksi  UU tahun 2007 no 1        yurisdiksi                                                         indonesia
+1    PEMBENTUKAN KABUPATEN EMPAT LAWANG DI PROVINSI SUMATERA SELATAN          https://example.org/lex2kg/ontology/tentang  UU tahun 2007 no 1           tentang   pembentukan kabupaten empat lawang di provinsi sumatera selatan
+2                                                               2007            https://example.org/lex2kg/ontology/tahun  UU tahun 2007 no 1             tahun                                                        tahun 2007
+3                    https://example.org/lex2kg/uu/2007/1/pasal/0023            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 23
+4                    https://example.org/lex2kg/uu/2007/1/pasal/0022            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 22
+5                    https://example.org/lex2kg/uu/2007/1/pasal/0021            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 21
+6                    https://example.org/lex2kg/uu/2007/1/pasal/0020            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 20
+7                    https://example.org/lex2kg/uu/2007/1/pasal/0019            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 19
+8                    https://example.org/lex2kg/uu/2007/1/pasal/0018            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 18
+9                    https://example.org/lex2kg/uu/2007/1/pasal/0017            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 17
+10                   https://example.org/lex2kg/uu/2007/1/pasal/0016            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 16
+11                   https://example.org/lex2kg/uu/2007/1/pasal/0015            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 15
+12                   https://example.org/lex2kg/uu/2007/1/pasal/0014            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 14
+13                   https://example.org/lex2kg/uu/2007/1/pasal/0013            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 13
+14                   https://example.org/lex2kg/uu/2007/1/pasal/0012            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 12
+15                   https://example.org/lex2kg/uu/2007/1/pasal/0011            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 11
+16                   https://example.org/lex2kg/uu/2007/1/pasal/0010            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                       UU tahun 2007 no 1 pasal 10
+17                   https://example.org/lex2kg/uu/2007/1/pasal/0009            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                        UU tahun 2007 no 1 pasal 9
+18                   https://example.org/lex2kg/uu/2007/1/pasal/0008            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                        UU tahun 2007 no 1 pasal 8
+19                   https://example.org/lex2kg/uu/2007/1/pasal/0007            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                        UU tahun 2007 no 1 pasal 7
+20                   https://example.org/lex2kg/uu/2007/1/pasal/0006            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                        UU tahun 2007 no 1 pasal 6
+21                   https://example.org/lex2kg/uu/2007/1/pasal/0005            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                        UU tahun 2007 no 1 pasal 5
+22                   https://example.org/lex2kg/uu/2007/1/pasal/0004            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                        UU tahun 2007 no 1 pasal 4
+23                   https://example.org/lex2kg/uu/2007/1/pasal/0003            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                        UU tahun 2007 no 1 pasal 3
+24                   https://example.org/lex2kg/uu/2007/1/pasal/0002            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                        UU tahun 2007 no 1 pasal 2
+25                   https://example.org/lex2kg/uu/2007/1/pasal/0001            https://example.org/lex2kg/ontology/pasal  UU tahun 2007 no 1             pasal                                        UU tahun 2007 no 1 pasal 1
+26                                                                 1            https://example.org/lex2kg/ontology/nomor  UU tahun 2007 no 1             nomor                                                              no 1
+27                    https://example.org/lex2kg/uu/2007/1/menimbang        https://example.org/lex2kg/ontology/menimbang  UU tahun 2007 no 1         menimbang                                      UU tahun 2007 no 1 menimbang
+28                    https://example.org/lex2kg/uu/2007/1/mengingat        https://example.org/lex2kg/ontology/mengingat  UU tahun 2007 no 1         mengingat                                      UU tahun 2007 no 1 mengingat
+29             https://example.org/lex2kg/ontology/jenisPeraturan/UU   https://example.org/lex2kg/ontology/jenisPeraturan  UU tahun 2007 no 1   jenis peraturan                                       ontology jenis peraturan uu
+30                                      PRESIDEN REPUBLIK INDONESIA,  https://example.org/lex2kg/ontology/jabatanPengesah  UU tahun 2007 no 1  jabatan pengesah                                      presiden republik indonesia,
+31                                                        2007-01-02     https://example.org/lex2kg/ontology/disahkanPada  UU tahun 2007 no 1     disahkan pada                                                        2007-01-02
+32                                   DR. H. SUSILO BAMBANG YUDHOYONO     https://example.org/lex2kg/ontology/disahkanOleh  UU tahun 2007 no 1     disahkan oleh                                   dr. h. susilo bambang yudhoyono
+33                                                           Jakarta       https://example.org/lex2kg/ontology/disahkanDi  UU tahun 2007 no 1       disahkan di                                                           jakarta
+34                          https://example.org/lex2kg/uu/2007/1/bab        https://example.org/lex2kg/ontology/daftarBab  UU tahun 2007 no 1        daftar bab                                            UU tahun 2007 no 1 bab
+35                                                                id           https://example.org/lex2kg/ontology/bahasa  UU tahun 2007 no 1            bahasa                                                                id
+sp:                                                   p                                                                               s                                                          sLabel       pLabel              oLabel
+0      https://example.org/lex2kg/ontology/merujuk  https://example.org/lex2kg/uu/2009/39/pasal/0048/versi/20091014/ayat/0001/text  UU tahun 2009 no 39 pasal 48 versi 14 Oktober 2009 ayat 1 text      merujuk  UU tahun 2007 no 1
+1      https://example.org/lex2kg/ontology/merujuk            https://example.org/lex2kg/uu/2007/44/pasal/0001/versi/20071101/text          UU tahun 2007 no 44 pasal 1 versi 1 November 2007 text      merujuk  UU tahun 2007 no 1
+2      https://example.org/lex2kg/ontology/merujuk                    https://example.org/lex2kg/uu/2007/44/menimbang/huruf/e/text                      UU tahun 2007 no 44 menimbang huruf e text      merujuk  UU tahun 2007 no 1
+3      https://example.org/lex2kg/ontology/merujuk                    https://example.org/lex2kg/uu/2007/44/menimbang/huruf/d/text                      UU tahun 2007 no 44 menimbang huruf d text      merujuk  UU tahun 2007 no 1
+4   https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0023                                     UU tahun 2007 no 1 pasal 23  bagian dari  UU tahun 2007 no 1
+5   https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0022                                     UU tahun 2007 no 1 pasal 22  bagian dari  UU tahun 2007 no 1
+6   https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0021                                     UU tahun 2007 no 1 pasal 21  bagian dari  UU tahun 2007 no 1
+7   https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0020                                     UU tahun 2007 no 1 pasal 20  bagian dari  UU tahun 2007 no 1
+8   https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0019                                     UU tahun 2007 no 1 pasal 19  bagian dari  UU tahun 2007 no 1
+9   https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0018                                     UU tahun 2007 no 1 pasal 18  bagian dari  UU tahun 2007 no 1
+10  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0017                                     UU tahun 2007 no 1 pasal 17  bagian dari  UU tahun 2007 no 1
+11  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0016                                     UU tahun 2007 no 1 pasal 16  bagian dari  UU tahun 2007 no 1
+12  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0015                                     UU tahun 2007 no 1 pasal 15  bagian dari  UU tahun 2007 no 1
+13  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0014                                     UU tahun 2007 no 1 pasal 14  bagian dari  UU tahun 2007 no 1
+14  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0013                                     UU tahun 2007 no 1 pasal 13  bagian dari  UU tahun 2007 no 1
+15  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0012                                     UU tahun 2007 no 1 pasal 12  bagian dari  UU tahun 2007 no 1
+16  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0011                                     UU tahun 2007 no 1 pasal 11  bagian dari  UU tahun 2007 no 1
+17  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0010                                     UU tahun 2007 no 1 pasal 10  bagian dari  UU tahun 2007 no 1
+18  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0009                                      UU tahun 2007 no 1 pasal 9  bagian dari  UU tahun 2007 no 1
+19  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0008                                      UU tahun 2007 no 1 pasal 8  bagian dari  UU tahun 2007 no 1
+20  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0007                                      UU tahun 2007 no 1 pasal 7  bagian dari  UU tahun 2007 no 1
+21  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0006                                      UU tahun 2007 no 1 pasal 6  bagian dari  UU tahun 2007 no 1
+22  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0005                                      UU tahun 2007 no 1 pasal 5  bagian dari  UU tahun 2007 no 1
+23  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0004                                      UU tahun 2007 no 1 pasal 4  bagian dari  UU tahun 2007 no 1
+24  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0003                                      UU tahun 2007 no 1 pasal 3  bagian dari  UU tahun 2007 no 1
+25  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0002                                      UU tahun 2007 no 1 pasal 2  bagian dari  UU tahun 2007 no 1
+26  https://example.org/lex2kg/ontology/bagianDari                                 https://example.org/lex2kg/uu/2007/1/pasal/0001                                      UU tahun 2007 no 1 pasal 1  bagian dari  UU tahun 2007 no 1
+27  https://example.org/lex2kg/ontology/bagianDari                                        https://example.org/lex2kg/uu/2007/1/bab                                          UU tahun 2007 no 1 bab  bagian dari  UU tahun 2007 no 1
+
+
+
+cands:  ['yurisdiksi dari UU tahun 2007 no 1 adalah indonesia', 'tentang dari UU tahun 2007 no 1 adalah  pembentukan kabupaten empat lawang di provinsi sumatera selatan', 'tahun dari UU tahun 2007 no 1 adalah tahun 2007', 'UU tahun 2007 no 1 pasal 23 merupakan bagian dari UU tahun 2007 no 1', 'nomor dari UU tahun 2007 no 1 adalah no 1', 'menimbang dari UU tahun 2007 no 1 adalah UU tahun 2007 no 1 menimbang', 'mengingat dari UU tahun 2007 no 1 adalah UU tahun 2007 no 1 mengingat', 'jenis peraturan dari UU tahun 2007 no 1 adalah ontology jenis peraturan uu', 'jabatan pengesah dari UU tahun 2007 no 1 adalah presiden republik indonesia,', 'disahkan pada dari UU tahun 2007 no 1 adalah 2007-01-02', 'disahkan oleh dari UU tahun 2007 no 1 adalah dr. h. susilo bambang yudhoyono', 'disahkan di dari UU tahun 2007 no 1 adalah jakarta', 'daftar bab dari UU tahun 2007 no 1 adalah UU tahun 2007 no 1 bab', 'bahasa dari UU tahun 2007 no 1 adalah id', 'merujuk dari UU tahun 2009 no 39 pasal 48 versi 14 Oktober 2009 ayat 1 text adalah UU tahun 2007 no 1']
+Result:  [] Similarities:  0.63691586
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/1962/12/bab/0004
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2007/2/pasal/0002/versi/20070102
+        - lex2kg/uu/2002/24/bab
+        - lex2kg/uu/2013/24/pasal/0068
+        - lex2kg/uu/2002/31/bab/0004
+        - lex2kg/uu/2007/7/mengingat
+        - lex2kg/uu/2007/7/pasal/0001/versi/20070102
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2002/2/pasal/0002/versi/20020108/text
+        - lex2kg/uu/2007/1/pasal/0001/versi/20070102
+        - lex2kg/uu/2007/2/pasal/0001/versi/20070102
+        - lex2kg/uu
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/2002/28/pasal/0004/versi/20021216/text
+        - lex2kg/uu/2014/1/pasal/0001/versi/20140115
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2002/25/pasal/0004/versi/20021025/text
+        - lex2kg/uu/2007/7/pasal/0001/versi/20070102/huruf/0001/text
+        - lex2kg/uu/2010/13/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2002/25/bab/0004
+        - lex2kg/uu/2002/28/pasal/0002/versi/20021216/text
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/2002/2/pasal/0001/versi/20020108/huruf/0014/text
+        - lex2kg/uu/2017/1/pasal/0001/versi/20170112/text
+        - lex2kg/uu/2011/1
+        - lex2kg/uu/2017/1/pasal/0001/versi/20170112
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2002/4/mengingat/huruf/0002
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/2002/2/pasal/0001/versi/20020108/huruf/0012/text
+        - lex2kg/uu/2007/7/pasal/0002/versi/20070102
+        - lex2kg/uu/2014/17/bab/0004/bagian/0009/paragraf/0006/daftarPasal
+        - lex2kg/uu/2013/20/mengingat/text
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2007/7
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2002/2/pasal/0001/versi/20020108/huruf/0001/text
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/2002/2/mengingat/huruf/0002/text
+        - lex2kg/uu/2007/2/pasal/0007/versi/20070102
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2007/7/pasal/0007/versi/20070102
+        - lex2kg/uu/2002/2/mengingat/huruf/0002
+        - lex2kg/uu/2002/30/bab/0004
+        - lex2kg/uu/2002/2/pasal/0001/versi/20020108/huruf/0002/text
+        - lex2kg/uu/1964/35/mengingat/text
+        - lex2kg/uu/2014/33/bab
+    - properties: 
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:merujuk
+        - lex2kg-o:segmen
+        - lex2kg-o:tahun
+        - lex2kg-o:judul
+        - lex2kg-o:bahasa
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:pasal
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:bagianDari
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:tentang
+        - lex2kg-o:paragraf
+        - lex2kg-o:tanggal
+        - lex2kg-o:nomor
+
+Question:  Undang-undang apa saja yang disahkan pada 2 Januari 2007?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan pada 2 Januari 2007?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan pada 2 Januari 2007?'}
+Thoughts:  ['1. Pertanyaan ini meminta daftar undang-undang yang disahkan pada tanggal 2 Januari 2007.', "2. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki properti 'lex2kg-o:disahkanPada' dengan nilai '2007-01-02'.", '3. Susun query SPARQL untuk mengambil semua undang-undang yang disahkan pada tanggal ini.']
+Generated SPARQL:  SELECT?x WHERE {?x lex2kg-o:disahkanPada '2007-01-02'^^xsd:date. }

@@ -1,0 +1,109 @@
+Translated Question:  Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?
+Question:  Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?'}
+Entities:  ['Jogjakarta']
+Retrieved Resources:                                                                                        uri                                                               label
+0                                         https://example.org/lex2kg/uu/1976/9/pasal/0054                                         UU tahun 1976 no 9 pasal 54
+1                                        https://example.org/lex2kg/uu/2002/23/pasal/0054                                        UU tahun 2002 no 23 pasal 54
+2                     https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726/text                 UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text
+3  https://example.org/lex2kg/uu/2009/24/pasal/0054/versi/20090709/ayat/0001/huruf/j/text  UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j text
+4                 https://example.org/lex2kg/uu/2009/25/pasal/0054/versi/20090718/huruf/j             UU tahun 2009 no 25 pasal 54 versi 18 Juli 2009 huruf j
+Retrieved entities:                                                                                     uri                                                              label
+                                       https://example.org/lex2kg/uu/1976/9/pasal/0054                                        UU tahun 1976 no 9 pasal 54
+                                      https://example.org/lex2kg/uu/2002/23/pasal/0054                                       UU tahun 2002 no 23 pasal 54
+                   https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726/text                UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text
+https://example.org/lex2kg/uu/2009/24/pasal/0054/versi/20090709/ayat/0001/huruf/j/text UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j text
+               https://example.org/lex2kg/uu/2009/25/pasal/0054/versi/20090718/huruf/j            UU tahun 2009 no 25 pasal 54 versi 18 Juli 2009 huruf j
+Entity:  Jogjakarta
+Question:  Jogjakarta
+{'chat_history': [HumanMessage(content='Jogjakarta', additional_kwargs={}, response_metadata={})], 'input': 'Jogjakarta'}
+Resource:  uri='https://example.org/lex2kg/uu/2009/24/pasal/0054/versi/20090709/ayat/0001/huruf/j/text'
+Entity URI:  https://example.org/lex2kg/uu/2009/24/pasal/0054/versi/20090709/ayat/0001/huruf/j/text
+
+
+
+po:                                                  p                                                                                  o                                                              sLabel       pLabel                                                         oLabel
+0        https://example.org/lex2kg/ontology/teks                                                                       notaris, dan  UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j text         teks                                                   notaris, dan
+1  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2009/24/pasal/0054/versi/20090709/ayat/0001/huruf/j  UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j text  bagian dari  UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j
+sp:                                                                                     s                                           p                                                         sLabel  pLabel                                                              oLabel
+0  https://example.org/lex2kg/uu/2009/24/pasal/0054/versi/20090709/ayat/0001/huruf/j  https://example.org/lex2kg/ontology/segmen  UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j  segmen  UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j text
+
+
+
+cands:  ['teks dari UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j text adalah notaris, dan', 'UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j text merupakan bagian dari UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j', 'segmen dari UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j adalah UU tahun 2009 no 24 pasal 54 versi 9 Juli 2009 ayat 1 huruf j text']
+Result:  [{'bagian dari': 'https://example.org/lex2kg/uu/2009/24/pasal/0054/versi/20090709/ayat/0001/huruf/j'}] Similarities:  0.100119516
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2002/23/pasal/0054
+        - lex2kg/uu/2002/26/mengingat/huruf/description
+        - lex2kg/uu
+        - lex2kg/uu/2009/26/mengingat/text
+        - lex2kg/uu/2009/24/pasal/0054/versi/20090709/ayat/0001/huruf/j/text
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/2002/28/pasal/0004/versi/20021216/text
+        - lex2kg/uu/2003/22/pasal/0065/versi/20030731/huruf/j/text
+        - lex2kg/uu/2011/15/pasal/0008/versi/20111016/ayat/0002/huruf/k/huruf/f/huruf/f/text
+        - lex2kg/uu/1976/9/pasal/0054/versi/19760726/text
+        - lex2kg/uu/1954/76/mengingat/text
+        - lex2kg/uu/2008/44
+        - lex2kg/uu/1954/46/mengingat/text
+        - lex2kg/uu/2003/34/mengingat/huruf/description
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/1981/3/mengingat/huruf/description
+        - lex2kg/uu/2002/25/mengingat/huruf/description
+        - lex2kg/uu/1994/3/mengingat/huruf/description
+        - lex2kg/uu/1954/45/mengingat/text
+        - lex2kg/uu/2002/16/mengingat/huruf/description
+        - lex2kg/uu/1999/44/mengingat/huruf/description
+        - lex2kg/uu/2002/31/mengingat/text
+        - lex2kg/uu/1999/43/mengingat/huruf/description
+        - lex2kg/uu/2008/43
+        - lex2kg/uu/1976/9/pasal/0054
+        - lex2kg/uu/2011/15/pasal/0083/versi/20111016/huruf/a/huruf/description
+        - lex2kg/uu/2011/24/pasal/0052/versi/20111125/huruf/k/huruf
+        - lex2kg/uu/2006/4/menimbang/huruf/j
+        - lex2kg/uu/2011/15/pasal/0008/versi/20111016/ayat/0002/huruf/k/huruf/f/huruf/description
+        - lex2kg/uu/1962/1
+        - lex2kg/uu/2012/23
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2006/4/menimbang/huruf/j/text
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2002/28/mengingat/text
+        - lex2kg/uu/2011/15/pasal/0008/versi/20111016/ayat/0002/huruf/k/huruf/f/huruf
+        - lex2kg/uu/2002/24/mengingat/huruf/description
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2011/24/pasal/0052/versi/20111125/huruf/k/huruf/description
+        - lex2kg/uu/1999/40/mengingat/huruf/description
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/1989/4/mengingat/huruf/description
+        - lex2kg/uu/2010/13/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2002/23/mengingat/huruf/description
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/2002/25/bab/0004
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2006/23/pasal/0058/versi/20061229/ayat/0002/huruf/j/text
+        - lex2kg/uu/2002/4/mengingat/huruf/description
+        - lex2kg/uu/2013/1
+    - properties: 
+        - lex2kg-o:merujuk
+        - lex2kg-o:pasal
+        - lex2kg-o:versi
+        - lex2kg-o:judul
+        - lex2kg-o:tentang
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:nomor
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:bahasa
+        - lex2kg-o:bagianDari
+        - lex2kg-o:yurisdiksi
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:segmen
+
+Question:  Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?'}
+Thoughts:  ['1. Pertanyaan ini meminta informasi tentang undang-undang yang merujuk ke undang-undang yang disahkan di Jogjakarta.', "2. Dalam ontologi, properti 'lex2kg-o:disahkanDi' digunakan untuk menunjukkan lokasi pengesahan undang-undang.", "3. Properti 'lex2kg-o:merujuk' digunakan untuk menunjukkan hubungan antara suatu undang-undang dan pasal yang dirujuknya.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:merujuk' dengan undang-undang yang disahkan di Jogjakarta.", '5. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  select?x {?x lex2kg-o:merujuk?y.?y lex2kg-o:disahkanDi 'Jogjakarta'. }

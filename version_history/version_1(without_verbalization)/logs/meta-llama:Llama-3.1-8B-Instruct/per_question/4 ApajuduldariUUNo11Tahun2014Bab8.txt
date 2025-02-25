@@ -1,0 +1,101 @@
+Translated Question:  Apa judul dari UU No. 11 Tahun 2014 Bab 8?
+Question:  Apa judul dari UU No. 11 Tahun 2014 Bab 8?
+{'chat_history': [HumanMessage(content='Apa judul dari UU No. 11 Tahun 2014 Bab 8?', additional_kwargs={}, response_metadata={})], 'input': 'Apa judul dari UU No. 11 Tahun 2014 Bab 8?'}
+Entities:  ['UU tahun 2014 no 11 bab 8']
+Retrieved Resources:                                                  uri                        label
+0    https://example.org/lex2kg/uu/2014/11/bab/0008    UU tahun 2014 no 11 bab 8
+1    https://example.org/lex2kg/uu/2014/14/bab/0008    UU tahun 2014 no 14 bab 8
+2  https://example.org/lex2kg/uu/2014/11/pasal/0008  UU tahun 2014 no 11 pasal 8
+3    https://example.org/lex2kg/uu/2014/15/bab/0008    UU tahun 2014 no 15 bab 8
+4    https://example.org/lex2kg/uu/2014/25/bab/0008    UU tahun 2014 no 25 bab 8
+Retrieved entities:                                               uri                       label
+  https://example.org/lex2kg/uu/2014/11/bab/0008   UU tahun 2014 no 11 bab 8
+  https://example.org/lex2kg/uu/2014/14/bab/0008   UU tahun 2014 no 14 bab 8
+https://example.org/lex2kg/uu/2014/11/pasal/0008 UU tahun 2014 no 11 pasal 8
+  https://example.org/lex2kg/uu/2014/15/bab/0008   UU tahun 2014 no 15 bab 8
+  https://example.org/lex2kg/uu/2014/25/bab/0008   UU tahun 2014 no 25 bab 8
+Entity:  UU tahun 2014 no 11 bab 8
+Question:  UU tahun 2014 no 11 bab 8
+{'chat_history': [HumanMessage(content='UU tahun 2014 no 11 bab 8', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2014 no 11 bab 8'}
+Resource:  uri='https://example.org/lex2kg/uu/2014/11/bab/0008'
+Entity URI:  https://example.org/lex2kg/uu/2014/11/bab/0008
+
+
+
+po:                                                              o                                                p                     sLabel        pLabel                                  oLabel
+0                                                           8        https://example.org/lex2kg/ontology/nomor  UU tahun 2014 no 11 bab 8         nomor                                    no 8
+1                      PENGEMBANGAN KEPROFESIAN BERKELANJUTAN        https://example.org/lex2kg/ontology/judul  UU tahun 2014 no 11 bab 8         judul  pengembangan keprofesian berkelanjutan
+2  https://example.org/lex2kg/uu/2014/11/bab/0008/daftarPasal  https://example.org/lex2kg/ontology/daftarPasal  UU tahun 2014 no 11 bab 8  daftar pasal  UU tahun 2014 no 11 bab 8 daftar pasal
+3                   https://example.org/lex2kg/uu/2014/11/bab   https://example.org/lex2kg/ontology/bagianDari  UU tahun 2014 no 11 bab 8   bagian dari                 UU tahun 2014 no 11 bab
+sp:                                                  p                                                           s                                  sLabel       pLabel                     oLabel
+0         https://example.org/lex2kg/ontology/bab                   https://example.org/lex2kg/uu/2014/11/bab                 UU tahun 2014 no 11 bab          bab  UU tahun 2014 no 11 bab 8
+1  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2014/11/bab/0008/daftarPasal  UU tahun 2014 no 11 bab 8 daftar pasal  bagian dari  UU tahun 2014 no 11 bab 8
+
+
+
+cands:  ['nomor dari UU tahun 2014 no 11 bab 8 adalah no 8', 'judul dari UU tahun 2014 no 11 bab 8 adalah pengembangan keprofesian berkelanjutan', 'UU tahun 2014 no 11 bab 8 daftar pasal merupakan bagian dari UU tahun 2014 no 11 bab 8', 'bab dari UU tahun 2014 no 11 bab adalah UU tahun 2014 no 11 bab 8']
+Result:  [] Similarities:  0.6489405
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1964/35/mengingat/text
+        - lex2kg/uu/2014/3/pasal/0011/versi/20140115
+        - lex2kg/uu/2014/6/pasal/0011/versi/20140115
+        - lex2kg/uu/2014/15/bab
+        - lex2kg/uu/2014/25/pasal/0011/versi/20141014
+        - lex2kg/uu
+        - lex2kg/uu/2014/25/bab/0008/bagian
+        - lex2kg/uu/2014/5/bab/0008/bagian
+        - lex2kg/uu/2008/8/bab/0008
+        - lex2kg/uu/2/11
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2008/48/mengingat/huruf/0008
+        - lex2kg/uu/2013/8/mengingat/huruf/0008
+        - lex2kg/uu/1985/8/bab/0008
+        - lex2kg/uu/2010/4/mengingat/huruf/0008
+        - lex2kg/uu/2014/11/bab/0008
+        - lex2kg/uu/2014/14/bab/0008
+        - lex2kg/uu/2010/8/bab/0008/bagian
+        - lex2kg/uu/1950/3/mengingat/huruf/b
+        - lex2kg/uu/2011/14/pasal/0011/versi/20110919
+        - lex2kg/uu/1954/45/mengingat/text
+        - lex2kg/uu/2008/8/mengingat/huruf/0008
+        - lex2kg/uu/1995/10/menimbang/huruf/b
+        - lex2kg/uu/2011/15/pasal/0011/versi/20111016/huruf/description
+        - lex2kg/uu/2014/11/mengingat
+        - lex2kg/uu/2004/29/mengingat/text
+        - lex2kg/uu/2008/8/bab/0008/daftarPasal
+        - lex2kg/uu/1995/4/mengingat/text
+        - lex2kg/uu/2011/14/pasal/0011/versi/20110919/text
+        - lex2kg/uu/2014/6/bab/0008/bagian
+        - lex2kg/uu/2014/11
+        - lex2kg/uu/1950/3/mengingat/huruf/b/text
+        - lex2kg/uu/2011/23/mengingat/huruf/0011/text
+        - lex2kg/uu/2014/29/bab
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2014/14/bab
+        - lex2kg/uu/2010/10/mengingat/huruf/0008
+        - lex2kg/uu/1986/5/menimbang/huruf/b
+        - lex2kg/uu/2014/34/bab/0008
+        - lex2kg/uu/2014/3/pasal/0084/versi/20140115
+        - lex2kg/uu/1985/8/bab/0008/daftarPasal
+        - lex2kg/uu/2014/25/bab
+        - lex2kg/uu/2014/34/bab
+        - lex2kg/uu/2014/14
+    - properties: 
+        - lex2kg-o:tahun
+        - lex2kg-o:bagianDari
+        - lex2kg-o:bab
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:nomor
+        - lex2kg-o:tentang
+        - lex2kg-o:daftarBab
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:judul
+        - lex2kg-o:daftarPasal
+        - lex2kg-o:disahkanOleh
+
+Question:  Apa judul dari UU No. 11 Tahun 2014 Bab 8?
+{'chat_history': [HumanMessage(content='Apa judul dari UU No. 11 Tahun 2014 Bab 8?', additional_kwargs={}, response_metadata={})], 'input': 'Apa judul dari UU No. 11 Tahun 2014 Bab 8?'}
+Thoughts:  ['1. Pertanyaan ini meminta informasi tentang judul dari UU No. 11 Tahun 2014 Bab 8.', "2. Dalam ontologi, entitas yang merepresentasikan bab ini mengikuti struktur 'lex2kg/uu/2014/11/bab/0008'.", "3. Properti 'lex2kg-o:judul' digunakan untuk menunjukkan judul dari suatu bab.", "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2014/11/bab/0008' dan ambil nilai judul melalui properti 'lex2kg-o:judul'.", '5. Susun query SPARQL untuk mengambil judul dari bab ini.']
+Generated SPARQL:  SELECT?x WHERE { <https://example.org/lex2kg/uu/2014/11/bab/0008> lex2kg-o:judul?x. }

@@ -1,0 +1,34 @@
+Translated Question:  Apa teks dari UU No. 26 Tahun 2007 Pasal 37 Ayat 3 versi 26 April 2007?
+Question:  Apa teks dari UU No. 26 Tahun 2007 Pasal 37 Ayat 3 versi 26 April 2007?
+{'chat_history': [HumanMessage(content='Apa teks dari UU No. 26 Tahun 2007 Pasal 37 Ayat 3 versi 26 April 2007?', additional_kwargs={}, response_metadata={})], 'input': 'Apa teks dari UU No. 26 Tahun 2007 Pasal 37 Ayat 3 versi 26 April 2007?'}
+Entities:  ['UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text']
+Retrieved Resources:                                                                                uri                                                         label
+0  https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003/text  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text
+1       https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003       UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3
+2  https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0001/text  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 1 text
+3  https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0002/text  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 2 text
+4  https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0007/text  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 7 text
+Retrieved entities:                                                                             uri                                                        label
+https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003/text UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text
+     https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003      UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3
+https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0001/text UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 1 text
+https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0002/text UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 2 text
+https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0007/text UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 7 text
+Entity:  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text
+Question:  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text
+{'chat_history': [HumanMessage(content='UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text'}
+Resource:  uri='https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003/text'
+Entity URI:  https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003/text
+
+
+
+po:                                                  p                                                                                                                       o                                                        sLabel       pLabel                                                                                                                  oLabel
+0        https://example.org/lex2kg/ontology/teks  Izin pemanfaatan ruang yang dikeluarkan dan/atau diperoleh dengan tidak melalui prosedur yang benar, batal demi hukum.  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text         teks  izin pemanfaatan ruang yang dikeluarkan dan atau diperoleh dengan tidak melalui prosedur yang benar, batal demi hukum.
+1  https://example.org/lex2kg/ontology/bagianDari                                               https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text  bagian dari                                                                 UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3
+sp:                                                                             s                                           p                                                   sLabel  pLabel                                                        oLabel
+0  https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003  https://example.org/lex2kg/ontology/segmen  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3  segmen  UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text
+
+
+
+cands:  ['teks dari UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text adalah Izin pemanfaatan ruang yang dikeluarkan dan/atau diperoleh dengan tidak melalui prosedur yang benar, batal demi hukum.', 'UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text merupakan bagian dari UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3', 'segmen dari UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 adalah UU tahun 2007 no 26 pasal 37 versi 26 April 2007 ayat 3 text']
+Result:  [{'teks': 'Izin pemanfaatan ruang yang dikeluarkan dan/atau diperoleh dengan tidak melalui prosedur yang benar, batal demi hukum.'}] Similarities:  0.99133706

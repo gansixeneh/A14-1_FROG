@@ -1,0 +1,40 @@
+Translated Question:  Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?
+Question:  Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?'}
+Entities:  ['UU tahun 2003 no 13 pasal 167']
+Retrieved Resources:                                                                           uri                                                     label
+0                           https://example.org/lex2kg/uu/2003/13/pasal/0167                             UU tahun 2003 no 13 pasal 167
+1       https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325/ayat    UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003 ayat
+2  https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325/ayat/0001  UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003 ayat 1
+3            https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325         UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003
+4  https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325/ayat/0002  UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003 ayat 2
+Retrieved entities:                                                                        uri                                                    label
+                         https://example.org/lex2kg/uu/2003/13/pasal/0167                            UU tahun 2003 no 13 pasal 167
+     https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325/ayat   UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003 ayat
+https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325/ayat/0001 UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003 ayat 1
+          https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325        UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003
+https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325/ayat/0002 UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003 ayat 2
+Entity:  UU tahun 2003 no 13 pasal 167
+Question:  UU tahun 2003 no 13 pasal 167
+{'chat_history': [HumanMessage(content='UU tahun 2003 no 13 pasal 167', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2003 no 13 pasal 167'}
+Resource:  uri='https://example.org/lex2kg/uu/2003/13/pasal/0167'
+Entity URI:  https://example.org/lex2kg/uu/2003/13/pasal/0167
+
+
+
+po:                                                  p                                                                o                         sLabel       pLabel                                               oLabel
+0       https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102  UU tahun 2003 no 13 pasal 167        versi  UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+1       https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325  UU tahun 2003 no 13 pasal 167        versi    UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003
+2       https://example.org/lex2kg/ontology/nomor                                                              167  UU tahun 2003 no 13 pasal 167        nomor                                                  167
+3  https://example.org/lex2kg/ontology/bagianDari       https://example.org/lex2kg/uu/2003/13/bab/0012/daftarPasal  UU tahun 2003 no 13 pasal 167  bagian dari              UU tahun 2003 no 13 bab 12 daftar pasal
+4  https://example.org/lex2kg/ontology/bagianDari                            https://example.org/lex2kg/uu/2003/13  UU tahun 2003 no 13 pasal 167  bagian dari                                  UU tahun 2003 no 13
+sp:                                                                   s                                               p                                               sLabel       pLabel                         oLabel
+0  https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2003 no 13 pasal 167 versi 2 November 2020  bagian dari  UU tahun 2003 no 13 pasal 167
+1  https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20030325  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2003 no 13 pasal 167 versi 25 Maret 2003  bagian dari  UU tahun 2003 no 13 pasal 167
+2                            https://example.org/lex2kg/uu/2003/13       https://example.org/lex2kg/ontology/pasal                                  UU tahun 2003 no 13        pasal  UU tahun 2003 no 13 pasal 167
+3       https://example.org/lex2kg/uu/2003/13/bab/0012/daftarPasal       https://example.org/lex2kg/ontology/pasal              UU tahun 2003 no 13 bab 12 daftar pasal        pasal  UU tahun 2003 no 13 pasal 167
+
+
+
+cands:  ['versi dari UU tahun 2003 no 13 pasal 167 adalah UU tahun 2003 no 13 pasal 167 versi 2 November 2020', 'nomor dari UU tahun 2003 no 13 pasal 167 adalah 167', 'UU tahun 2003 no 13 pasal 167 merupakan bagian dari UU tahun 2003 no 13 bab 12 daftar pasal', 'UU tahun 2003 no 13 pasal 167 versi 2 November 2020 merupakan bagian dari UU tahun 2003 no 13 pasal 167', 'pasal dari UU tahun 2003 no 13 adalah UU tahun 2003 no 13 pasal 167']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2003/13'}, {'pasal': 'https://example.org/lex2kg/uu/2003/13/bab/0012/daftarPasal'}] Similarities:  0.9869856

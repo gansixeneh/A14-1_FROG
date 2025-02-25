@@ -1,0 +1,121 @@
+Translated Question:  Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?
+Question:  Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?'}
+Entities:  ['Jakarta', '22 Maret 2014']
+Retrieved Resources:                                                      uri                               label
+0  https://example.org/lex2kg/uu/1957/38/mengingat/text  UU tahun 1957 no 38 mengingat text
+1  https://example.org/lex2kg/uu/1957/34/mengingat/text  UU tahun 1957 no 34 mengingat text
+2  https://example.org/lex2kg/uu/1957/36/mengingat/text  UU tahun 1957 no 36 mengingat text
+3  https://example.org/lex2kg/uu/1982/18/mengingat/text  UU tahun 1982 no 18 mengingat text
+4  https://example.org/lex2kg/uu/1957/31/mengingat/text  UU tahun 1957 no 31 mengingat text
+Retrieved entities:                                                   uri                              label
+https://example.org/lex2kg/uu/1957/38/mengingat/text UU tahun 1957 no 38 mengingat text
+https://example.org/lex2kg/uu/1957/34/mengingat/text UU tahun 1957 no 34 mengingat text
+https://example.org/lex2kg/uu/1957/36/mengingat/text UU tahun 1957 no 36 mengingat text
+https://example.org/lex2kg/uu/1982/18/mengingat/text UU tahun 1982 no 18 mengingat text
+https://example.org/lex2kg/uu/1957/31/mengingat/text UU tahun 1957 no 31 mengingat text
+Entity:  Jakarta
+Question:  Jakarta
+{'chat_history': [HumanMessage(content='Jakarta', additional_kwargs={}, response_metadata={})], 'input': 'Jakarta'}
+Resource:  uri='https://example.org/lex2kg/uu/1982/18/mengingat/text'
+Entity URI:  https://example.org/lex2kg/uu/1982/18/mengingat/text
+
+
+
+po:                                                  p                                                o                              sLabel       pLabel                         oLabel
+0        https://example.org/lex2kg/ontology/teks                                                   UU tahun 1982 no 18 mengingat text         teks                               
+1  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/1982/18/mengingat  UU tahun 1982 no 18 mengingat text  bagian dari  UU tahun 1982 no 18 mengingat
+sp:                                                   s                                           p                         sLabel  pLabel                              oLabel
+0  https://example.org/lex2kg/uu/1982/18/mengingat  https://example.org/lex2kg/ontology/segmen  UU tahun 1982 no 18 mengingat  segmen  UU tahun 1982 no 18 mengingat text
+
+
+
+cands:  ['teks dari UU tahun 1982 no 18 mengingat text adalah ', 'UU tahun 1982 no 18 mengingat text merupakan bagian dari UU tahun 1982 no 18 mengingat', 'segmen dari UU tahun 1982 no 18 mengingat adalah UU tahun 1982 no 18 mengingat text']
+Result:  [{'teks': ''}] Similarities:  0.16823922
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1962/12/bab/0004
+        - lex2kg/uu/2012/22/pasal/0022
+        - lex2kg/uu/1991/4/pasal/0002/versi/19910718/text
+        - lex2kg/uu/1992/21/pasal/0022/versi/19920917/ayat/0002/text
+        - lex2kg/uu/2003/32/mengingat/huruf/description
+        - lex2kg/uu/2002/16/mengingat/huruf/description
+        - lex2kg/uu/1992/4/pasal/0031/versi/19920310/text
+        - lex2kg/uu/2011/23/mengingat/huruf/0022
+        - lex2kg/uu/1981/8/mengingat/huruf/0003/huruf/description
+        - lex2kg/uu/2002/19/pasal/0031/versi/20141016/huruf/d/text
+        - lex2kg/uu/2008/42/bab/0004
+        - lex2kg/uu/2002/25/mengingat/huruf/description
+        - lex2kg/uu/2002/23/mengingat/huruf/description
+        - lex2kg/uu/2014/11/pasal/0042/versi/20140322
+        - lex2kg/uu/1981/8/mengingat/huruf/description
+        - lex2kg/uu/2008/43/bab/0002
+        - lex2kg/uu/2002/25/bab/0004
+        - lex2kg/uu/2002/26/mengingat/huruf/description
+        - lex2kg/uu/1992/5/pasal/0022/versi/19920321/ayat/0002/text
+        - lex2kg/uu
+        - lex2kg/uu/2014/11/pasal/0022/versi/20140322
+        - lex2kg/uu/2014/14
+        - lex2kg/uu/1992/8/pasal/0022/versi/19920330/text
+        - lex2kg/uu/2014/11/pasal/0022/versi/20140322/text
+        - lex2kg/uu/2014/7/pasal/0084/versi/20140311
+        - lex2kg/uu/2013/16
+        - lex2kg/uu/2014/34/mengingat/text
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2008/2/pasal/0034/versi/20080104/ayat/0001/text
+        - lex2kg/uu/1992/4/pasal/0022/versi/19920310/ayat/0001/text
+        - lex2kg/uu/2009/47/mengingat/huruf/0022
+        - lex2kg/uu/2003/14/mengingat/huruf/description
+        - lex2kg/uu/2002/24/mengingat/huruf/description
+        - lex2kg/uu/2008/54
+        - lex2kg/uu/2014/11/pasal/0023/versi/20140322
+        - lex2kg/uu/1992/5/pasal/0022/versi/19920321/ayat/0001/text
+        - lex2kg/uu/1992/4/pasal/0022/versi/19920310/ayat
+        - lex2kg/uu/2008/2/pasal/0034/versi/20080104/ayat/0002/text
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2014/11/pasal/0003/versi/20140322
+        - lex2kg/uu/2002/28/pasal/0010/versi/20021216/text
+        - lex2kg/uu/1992/5/pasal/0022/versi/19920321/ayat
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/1992/5/pasal/0022/versi/19920321
+        - lex2kg/uu/1957/38/mengingat/text
+        - lex2kg/uu/1992/4/pasal/0022/versi/19920310/ayat/0002/text
+        - lex2kg/uu/2002/28/pasal/0004/versi/20021216/text
+        - lex2kg/uu/2010/10/mengingat/huruf/0022
+        - lex2kg/uu/2008/2/pasal/0013/versi/20080104/huruf/j/text
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/1992/4/pasal/0022/versi/19920310/ayat/0004/text
+        - lex2kg/uu/1957/34/mengingat/text
+        - lex2kg/uu/1982/8/mengingat/huruf/description
+        - lex2kg/uu/1992/21/pasal/0022/versi/19920917/ayat
+        - lex2kg/uu/1981/5/pasal/0002/versi/19810704/text
+        - lex2kg/uu/2014/33/bab
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/1981/2/pasal/0018/versi/19810401/text
+        - lex2kg/uu/1992/21/pasal/0022/versi/19920917/ayat/0001/text
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2008/49/bab/0002
+        - lex2kg/uu/2004/32/mengingat/huruf/description
+        - lex2kg/uu/2014/11/pasal/0043/versi/20140322
+        - lex2kg/uu/2002/28/pasal/0011/versi/20021216/text
+        - lex2kg/uu/1992/21/pasal/0022/versi/19920917
+        - lex2kg/uu/2011/8/mengingat/text
+    - properties: 
+        - lex2kg-o:paragraf
+        - lex2kg-o:nomor
+        - lex2kg-o:tahun
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:tentang
+        - lex2kg-o:versi
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:merujuk
+        - lex2kg-o:bagianDari
+        - lex2kg-o:tanggal
+        - lex2kg-o:judul
+        - lex2kg-o:disahkanPada
+
+Question:  Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?'}
+Thoughts:  ['1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan di Jakarta pada tanggal 22 Maret 2014.', "2. Dalam ontologi, properti 'lex2kg-o:disahkanDi' digunakan untuk menunjukkan tempat pengesahan undang-undang.", "3. Properti 'lex2kg-o:disahkanPada' digunakan untuk menunjukkan tanggal pengesahan undang-undang.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '2014-03-22' pada properti 'lex2kg-o:disahkanPada' dan nilai 'Jakarta' pada properti 'lex2kg-o:disahkanDi'.", '5. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  select?x {?x lex2kg-o:disahkanDi 'Jakarta'.?x lex2kg-o:disahkanPada '2014-03-22'^^xsd:date. }

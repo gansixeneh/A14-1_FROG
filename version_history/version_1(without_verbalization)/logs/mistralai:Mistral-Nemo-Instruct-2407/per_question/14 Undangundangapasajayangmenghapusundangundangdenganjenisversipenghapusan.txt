@@ -1,0 +1,103 @@
+Translated Question:  Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?
+Question:  Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?
+{'chat_history': [HumanMessage(content="Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?", additional_kwargs={}, response_metadata={})], 'input': "Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?"}
+Entities:  ['undang-undang', 'versi']
+Retrieved Resources:                                                  uri                          label
+0  https://example.org/lex2kg/uu/2012/17/pasal/0094   UU tahun 2012 no 17 pasal 94
+1  https://example.org/lex2kg/uu/2009/22/pasal/0128  UU tahun 2009 no 22 pasal 128
+2         https://example.org/lex2kg/uu/2012/23/bab        UU tahun 2012 no 23 bab
+3   https://example.org/lex2kg/uu/2012/8/pasal/0094    UU tahun 2012 no 8 pasal 94
+4              https://example.org/lex2kg/uu/2012/1             UU tahun 2012 no 1
+Retrieved entities:                                               uri                         label
+https://example.org/lex2kg/uu/2012/17/pasal/0094  UU tahun 2012 no 17 pasal 94
+https://example.org/lex2kg/uu/2009/22/pasal/0128 UU tahun 2009 no 22 pasal 128
+       https://example.org/lex2kg/uu/2012/23/bab       UU tahun 2012 no 23 bab
+ https://example.org/lex2kg/uu/2012/8/pasal/0094   UU tahun 2012 no 8 pasal 94
+            https://example.org/lex2kg/uu/2012/1            UU tahun 2012 no 1
+Entity:  undang-undang
+Question:  undang-undang
+{'chat_history': [HumanMessage(content='undang-undang', additional_kwargs={}, response_metadata={})], 'input': 'undang-undang'}
+Resource:  uri='https://example.org/lex2kg/uu/2012/17/pasal/0094'
+Entity URI:  https://example.org/lex2kg/uu/2012/17/pasal/0094
+
+
+
+po:                                                                   o                                               p                        sLabel       pLabel                                              oLabel
+0  https://example.org/lex2kg/uu/2012/17/pasal/0094/versi/20121029       https://example.org/lex2kg/ontology/versi  UU tahun 2012 no 17 pasal 94        versi  UU tahun 2012 no 17 pasal 94 versi 29 Oktober 2012
+1                                                               94       https://example.org/lex2kg/ontology/nomor  UU tahun 2012 no 17 pasal 94        nomor                                               no 94
+2       https://example.org/lex2kg/uu/2012/17/bab/0010/daftarPasal  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2012 no 17 pasal 94  bagian dari             UU tahun 2012 no 17 bab 10 daftar pasal
+3                            https://example.org/lex2kg/uu/2012/17  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2012 no 17 pasal 94  bagian dari                                 UU tahun 2012 no 17
+sp:                                                  p                                                                s                                              sLabel       pLabel                        oLabel
+0  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2012/17/pasal/0094/versi/20121029  UU tahun 2012 no 17 pasal 94 versi 29 Oktober 2012  bagian dari  UU tahun 2012 no 17 pasal 94
+1       https://example.org/lex2kg/ontology/pasal                            https://example.org/lex2kg/uu/2012/17                                 UU tahun 2012 no 17        pasal  UU tahun 2012 no 17 pasal 94
+2       https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/bab/0010/daftarPasal             UU tahun 2012 no 17 bab 10 daftar pasal        pasal  UU tahun 2012 no 17 pasal 94
+
+
+
+cands:  ['UU tahun 2012 no 17 pasal 94 versi 29 Oktober 2012 merupakan bagian dari UU tahun 2012 no 17 pasal 94', 'nomor dari UU tahun 2012 no 17 pasal 94 adalah no 94', 'UU tahun 2012 no 17 pasal 94 merupakan bagian dari UU tahun 2012 no 17 bab 10 daftar pasal', 'pasal dari UU tahun 2012 no 17 adalah UU tahun 2012 no 17 pasal 94']
+Result:  [] Similarities:  0.25620013
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2008/49/bab/0004
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/1957/34/menimbang/text
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2013/24/pasal/0068
+        - lex2kg/uu/2013/4
+        - lex2kg/uu/1957/58/menimbang/text
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2004/39/mengingat/text
+        - lex2kg/uu/2012/23/bab
+        - lex2kg/uu/2012/17/pasal/0094
+        - lex2kg/uu
+        - lex2kg/uu/2012/23/mengingat/huruf/description
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2010/13/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/2009/26/mengingat/text
+        - lex2kg/uu/2004/13/mengingat/huruf/0001/text
+        - lex2kg/uu/2008/49/mengingat/huruf/0004/text
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2002/4/mengingat/huruf/description
+        - lex2kg/uu/2000/23/mengingat/huruf/description
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/1957/57/menimbang/text
+        - lex2kg/uu/2004/34/mengingat/huruf/0001/text
+        - lex2kg/uu/1957/41/menimbang/text
+        - lex2kg/uu/2014/17/bab/0004/bagian/0009/paragraf/0006/daftarPasal
+        - lex2kg/uu/2009/48/bab/0004
+        - lex2kg/uu/2013/20/mengingat/text
+        - lex2kg/uu/2011/23/mengingat/huruf/description
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/2012/11/pasal/0093/versi/20120730/huruf/description
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/1999/44
+        - lex2kg/uu/2009/22/pasal/0128
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/2002/19/pasal/0047/versi/20141016/huruf/b/huruf/description
+        - lex2kg/uu/1957/43/menimbang/text
+        - lex2kg/uu/1964/35/mengingat/text
+        - lex2kg/uu/2014/33/bab
+    - properties: 
+        - lex2kg-o:segmen
+        - lex2kg-o:judul
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:bahasa
+        - lex2kg-o:pasal
+        - lex2kg-o:versi
+        - lex2kg-o:bagianDari
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:mengubah
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:menghapus
+        - lex2kg-o:tentang
+        - lex2kg-o:jenisVersi
+        - lex2kg-o:merujuk
+
+Question:  Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?
+{'chat_history': [HumanMessage(content="Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?", additional_kwargs={}, response_metadata={})], 'input': "Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?"}
+Thoughts:  ["1. Pertanyaan ini meminta informasi tentang undang-undang yang menghapus undang-undang lain dengan jenis versi 'penghapusan'.", "2. Dalam ontologi, properti 'lex2kg-o:menghapus' digunakan untuk menunjukkan hubungan antara undang-undang yang menghapus undang-undang lain.", "3. Entitas undang-undang yang dihapus memiliki properti 'lex2kg-o:jenisVersi' dengan nilai 'penghapusan'.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:menghapus' dengan entitas undang-undang lain yang memiliki properti 'lex2kg-o:jenisVersi' dengan nilai 'penghapusan'.", '5. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  SELECT?x WHERE {?x lex2kg-o:menghapus?y.?y lex2kg-o:jenisVersi 'penghapusan'. }

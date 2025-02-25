@@ -1,0 +1,36 @@
+Translated Question:  Apa saja sumber rujukan dari UU No. 2 Tahun 1980 Pasal 1 Huruf 6 versi 20 Maret 1980?
+Question:  Apa saja sumber rujukan dari UU No. 2 Tahun 1980 Pasal 1 Huruf 6 versi 20 Maret 1980?
+{'chat_history': [HumanMessage(content='Apa saja sumber rujukan dari UU No. 2 Tahun 1980 Pasal 1 Huruf 6 versi 20 Maret 1980?', additional_kwargs={}, response_metadata={})], 'input': 'Apa saja sumber rujukan dari UU No. 2 Tahun 1980 Pasal 1 Huruf 6 versi 20 Maret 1980?'}
+Entities:  ['UU tahun 1980 no 2 pasal 1 huruf 6 versi 20 Maret 1980']
+Retrieved Resources:                                                                                uri                                                        label
+0       https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006       UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6
+1  https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006/text  UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6 text
+2        https://example.org/lex2kg/uu/1980/1/pasal/0002/versi/19800310/ayat/0006        UU tahun 1980 no 1 pasal 2 versi 10 Maret 1980 ayat 6
+3       https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0002       UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 2
+4       https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0001       UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 1
+Retrieved entities:                                                                             uri                                                       label
+     https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006      UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6
+https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006/text UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6 text
+      https://example.org/lex2kg/uu/1980/1/pasal/0002/versi/19800310/ayat/0006       UU tahun 1980 no 1 pasal 2 versi 10 Maret 1980 ayat 6
+     https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0002      UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 2
+     https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0001      UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 1
+Entity:  UU tahun 1980 no 2 pasal 1 huruf 6 versi 20 Maret 1980
+Question:  UU tahun 1980 no 2 pasal 1 huruf 6 versi 20 Maret 1980
+{'chat_history': [HumanMessage(content='UU tahun 1980 no 2 pasal 1 huruf 6 versi 20 Maret 1980', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 1980 no 2 pasal 1 huruf 6 versi 20 Maret 1980'}
+Resource:  uri='https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006'
+Entity URI:  https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006
+
+
+
+po:                                                  p                                                                               o                                                  sLabel       pLabel                                                       oLabel
+0      https://example.org/lex2kg/ontology/segmen  https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006/text  UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6       segmen  UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6 text
+1       https://example.org/lex2kg/ontology/nomor                                                                               6  UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6        nomor                                                         no 6
+2  https://example.org/lex2kg/ontology/bagianDari            https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf  UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6  bagian dari         UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf
+sp:                                                                                  s                                               p                                                       sLabel       pLabel                                                  oLabel
+0            https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf       https://example.org/lex2kg/ontology/huruf         UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf        huruf  UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6
+1  https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006/text  https://example.org/lex2kg/ontology/bagianDari  UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6 text  bagian dari  UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6
+
+
+
+cands:  ['segmen dari UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6 adalah UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6 text', 'nomor dari UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6 adalah 6', 'UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6 text merupakan bagian dari UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6', 'huruf dari UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf adalah UU tahun 1980 no 2 pasal 1 versi 20 Maret 1980 huruf 6']
+Result:  [{'nomor': '6'}] Similarities:  0.6526825

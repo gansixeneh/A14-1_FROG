@@ -1,0 +1,285 @@
+Translated Question:  Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?
+Question:  Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?
+{'chat_history': [HumanMessage(content='Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?', additional_kwargs={}, response_metadata={})], 'input': 'Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?'}
+Entities:  ['UU No. 11 Tahun 2010', 'Pasal 34 Ayat 2', 'versi 24 November 2010']
+Retrieved Resources:                                                                 uri                                                label
+0                            https://example.org/lex2kg/uu/2010/11                                  UU tahun 2010 no 11
+1                   https://example.org/lex2kg/uu/2010/11/bab/0011                           UU tahun 2010 no 11 bab 11
+2  https://example.org/lex2kg/uu/2010/11/pasal/0011/versi/20101124  UU tahun 2010 no 11 pasal 11 versi 24 November 2010
+3                 https://example.org/lex2kg/uu/2010/11/pasal/0011                         UU tahun 2010 no 11 pasal 11
+4                        https://example.org/lex2kg/uu/2010/11/bab                              UU tahun 2010 no 11 bab
+Retrieved entities:                                                              uri                                               label
+                          https://example.org/lex2kg/uu/2010/11                                 UU tahun 2010 no 11
+                 https://example.org/lex2kg/uu/2010/11/bab/0011                          UU tahun 2010 no 11 bab 11
+https://example.org/lex2kg/uu/2010/11/pasal/0011/versi/20101124 UU tahun 2010 no 11 pasal 11 versi 24 November 2010
+               https://example.org/lex2kg/uu/2010/11/pasal/0011                        UU tahun 2010 no 11 pasal 11
+                      https://example.org/lex2kg/uu/2010/11/bab                             UU tahun 2010 no 11 bab
+Entity:  UU No. 11 Tahun 2010
+Question:  UU No. 11 Tahun 2010
+{'chat_history': [HumanMessage(content='UU No. 11 Tahun 2010', additional_kwargs={}, response_metadata={})], 'input': 'UU No. 11 Tahun 2010'}
+Resource:  uri='https://example.org/lex2kg/uu/2010/11'
+Entity URI:  https://example.org/lex2kg/uu/2010/11
+
+
+
+po:                                                         p                                                      o               sLabel            pLabel                           oLabel
+0         https://example.org/lex2kg/ontology/yurisdiksi                                              Indonesia  UU tahun 2010 no 11        yurisdiksi                        indonesia
+1            https://example.org/lex2kg/ontology/tentang                                           CAGAR BUDAYA  UU tahun 2010 no 11           tentang                     cagar budaya
+2              https://example.org/lex2kg/ontology/tahun                                                   2010  UU tahun 2010 no 11             tahun                       tahun 2010
+3              https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0120  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 120
+4              https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0119  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 119
+5              https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0118  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 118
+6              https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0117  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 117
+7              https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0116  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 116
+8              https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0115  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 115
+9              https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0114  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 114
+10             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0113  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 113
+11             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0112  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 112
+12             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0111  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 111
+13             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0110  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 110
+14             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0109  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 109
+15             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0108  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 108
+16             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0107  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 107
+17             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0106  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 106
+18             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0105  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 105
+19             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0104  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 104
+20             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0103  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 103
+21             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0102  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 102
+22             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0101  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 101
+23             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0100  UU tahun 2010 no 11             pasal    UU tahun 2010 no 11 pasal 100
+24             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0099  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 99
+25             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0098  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 98
+26             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0097  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 97
+27             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0096  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 96
+28             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0095  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 95
+29             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0094  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 94
+30             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0093  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 93
+31             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0092  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 92
+32             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0091  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 91
+33             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0090  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 90
+34             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0089  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 89
+35             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0088  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 88
+36             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0087  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 87
+37             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0086  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 86
+38             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0085  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 85
+39             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0084  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 84
+40             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0083  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 83
+41             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0082  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 82
+42             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0081  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 81
+43             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0080  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 80
+44             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0079  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 79
+45             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0078  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 78
+46             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0077  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 77
+47             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0076  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 76
+48             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0075  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 75
+49             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0074  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 74
+50             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0073  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 73
+51             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0072  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 72
+52             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0071  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 71
+53             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0070  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 70
+54             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0069  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 69
+55             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0068  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 68
+56             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0067  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 67
+57             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0066  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 66
+58             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0065  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 65
+59             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0064  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 64
+60             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0063  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 63
+61             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0062  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 62
+62             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0061  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 61
+63             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0060  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 60
+64             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0059  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 59
+65             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0058  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 58
+66             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0057  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 57
+67             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0056  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 56
+68             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0055  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 55
+69             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0054  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 54
+70             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0053  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 53
+71             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0052  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 52
+72             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0051  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 51
+73             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0050  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 50
+74             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0049  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 49
+75             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0048  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 48
+76             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0047  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 47
+77             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0046  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 46
+78             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0045  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 45
+79             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0044  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 44
+80             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0043  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 43
+81             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0042  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 42
+82             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0041  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 41
+83             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0040  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 40
+84             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0039  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 39
+85             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0038  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 38
+86             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0037  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 37
+87             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0036  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 36
+88             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0035  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 35
+89             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0034  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 34
+90             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0033  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 33
+91             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0032  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 32
+92             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0031  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 31
+93             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0030  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 30
+94             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0029  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 29
+95             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0028  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 28
+96             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0027  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 27
+97             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0026  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 26
+98             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0025  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 25
+99             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0024  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 24
+100            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0023  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 23
+101            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0022  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 22
+102            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0021  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 21
+103            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0020  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 20
+104            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0019  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 19
+105            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0018  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 18
+106            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0017  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 17
+107            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0016  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 16
+108            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0015  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 15
+109            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0014  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 14
+110            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0013  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 13
+111            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0012  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 12
+112            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0011  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 11
+113            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0010  UU tahun 2010 no 11             pasal     UU tahun 2010 no 11 pasal 10
+114            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0009  UU tahun 2010 no 11             pasal      UU tahun 2010 no 11 pasal 9
+115            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0008  UU tahun 2010 no 11             pasal      UU tahun 2010 no 11 pasal 8
+116            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0007  UU tahun 2010 no 11             pasal      UU tahun 2010 no 11 pasal 7
+117            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0006  UU tahun 2010 no 11             pasal      UU tahun 2010 no 11 pasal 6
+118            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0005  UU tahun 2010 no 11             pasal      UU tahun 2010 no 11 pasal 5
+119            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0004  UU tahun 2010 no 11             pasal      UU tahun 2010 no 11 pasal 4
+120            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0003  UU tahun 2010 no 11             pasal      UU tahun 2010 no 11 pasal 3
+121            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0002  UU tahun 2010 no 11             pasal      UU tahun 2010 no 11 pasal 2
+122            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2010/11/pasal/0001  UU tahun 2010 no 11             pasal      UU tahun 2010 no 11 pasal 1
+123            https://example.org/lex2kg/ontology/nomor                                                     11  UU tahun 2010 no 11             nomor                            no 11
+124        https://example.org/lex2kg/ontology/menimbang        https://example.org/lex2kg/uu/2010/11/menimbang  UU tahun 2010 no 11         menimbang    UU tahun 2010 no 11 menimbang
+125        https://example.org/lex2kg/ontology/mengingat        https://example.org/lex2kg/uu/2010/11/mengingat  UU tahun 2010 no 11         mengingat    UU tahun 2010 no 11 mengingat
+126   https://example.org/lex2kg/ontology/jenisPeraturan  https://example.org/lex2kg/ontology/jenisPeraturan/UU  UU tahun 2010 no 11   jenis peraturan      ontology jenis peraturan uu
+127  https://example.org/lex2kg/ontology/jabatanPengesah                           PRESIDEN REPUBLIK INDONESIA,  UU tahun 2010 no 11  jabatan pengesah     presiden republik indonesia,
+128     https://example.org/lex2kg/ontology/disahkanPada                                             2010-11-24  UU tahun 2010 no 11     disahkan pada                       2010-11-24
+129     https://example.org/lex2kg/ontology/disahkanOleh                        DR. H. SUSILO BAMBANG YUDHOYONO  UU tahun 2010 no 11     disahkan oleh  dr. h. susilo bambang yudhoyono
+130       https://example.org/lex2kg/ontology/disahkanDi                                                Jakarta  UU tahun 2010 no 11       disahkan di                          jakarta
+131        https://example.org/lex2kg/ontology/daftarBab              https://example.org/lex2kg/uu/2010/11/bab  UU tahun 2010 no 11        daftar bab          UU tahun 2010 no 11 bab
+132           https://example.org/lex2kg/ontology/bahasa                                                     id  UU tahun 2010 no 11            bahasa                               id
+sp:                                                      s                                               p                         sLabel       pLabel               oLabel
+0    https://example.org/lex2kg/uu/2010/11/pasal/0120  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 120  bagian dari  UU tahun 2010 no 11
+1    https://example.org/lex2kg/uu/2010/11/pasal/0119  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 119  bagian dari  UU tahun 2010 no 11
+2    https://example.org/lex2kg/uu/2010/11/pasal/0118  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 118  bagian dari  UU tahun 2010 no 11
+3    https://example.org/lex2kg/uu/2010/11/pasal/0117  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 117  bagian dari  UU tahun 2010 no 11
+4    https://example.org/lex2kg/uu/2010/11/pasal/0116  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 116  bagian dari  UU tahun 2010 no 11
+5    https://example.org/lex2kg/uu/2010/11/pasal/0115  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 115  bagian dari  UU tahun 2010 no 11
+6    https://example.org/lex2kg/uu/2010/11/pasal/0114  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 114  bagian dari  UU tahun 2010 no 11
+7    https://example.org/lex2kg/uu/2010/11/pasal/0113  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 113  bagian dari  UU tahun 2010 no 11
+8    https://example.org/lex2kg/uu/2010/11/pasal/0112  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 112  bagian dari  UU tahun 2010 no 11
+9    https://example.org/lex2kg/uu/2010/11/pasal/0111  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 111  bagian dari  UU tahun 2010 no 11
+10   https://example.org/lex2kg/uu/2010/11/pasal/0110  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 110  bagian dari  UU tahun 2010 no 11
+11   https://example.org/lex2kg/uu/2010/11/pasal/0109  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 109  bagian dari  UU tahun 2010 no 11
+12   https://example.org/lex2kg/uu/2010/11/pasal/0108  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 108  bagian dari  UU tahun 2010 no 11
+13   https://example.org/lex2kg/uu/2010/11/pasal/0107  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 107  bagian dari  UU tahun 2010 no 11
+14   https://example.org/lex2kg/uu/2010/11/pasal/0106  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 106  bagian dari  UU tahun 2010 no 11
+15   https://example.org/lex2kg/uu/2010/11/pasal/0105  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 105  bagian dari  UU tahun 2010 no 11
+16   https://example.org/lex2kg/uu/2010/11/pasal/0104  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 104  bagian dari  UU tahun 2010 no 11
+17   https://example.org/lex2kg/uu/2010/11/pasal/0103  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 103  bagian dari  UU tahun 2010 no 11
+18   https://example.org/lex2kg/uu/2010/11/pasal/0102  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 102  bagian dari  UU tahun 2010 no 11
+19   https://example.org/lex2kg/uu/2010/11/pasal/0101  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 101  bagian dari  UU tahun 2010 no 11
+20   https://example.org/lex2kg/uu/2010/11/pasal/0100  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2010 no 11 pasal 100  bagian dari  UU tahun 2010 no 11
+21   https://example.org/lex2kg/uu/2010/11/pasal/0099  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 99  bagian dari  UU tahun 2010 no 11
+22   https://example.org/lex2kg/uu/2010/11/pasal/0098  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 98  bagian dari  UU tahun 2010 no 11
+23   https://example.org/lex2kg/uu/2010/11/pasal/0097  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 97  bagian dari  UU tahun 2010 no 11
+24   https://example.org/lex2kg/uu/2010/11/pasal/0096  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 96  bagian dari  UU tahun 2010 no 11
+25   https://example.org/lex2kg/uu/2010/11/pasal/0095  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 95  bagian dari  UU tahun 2010 no 11
+26   https://example.org/lex2kg/uu/2010/11/pasal/0094  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 94  bagian dari  UU tahun 2010 no 11
+27   https://example.org/lex2kg/uu/2010/11/pasal/0093  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 93  bagian dari  UU tahun 2010 no 11
+28   https://example.org/lex2kg/uu/2010/11/pasal/0092  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 92  bagian dari  UU tahun 2010 no 11
+29   https://example.org/lex2kg/uu/2010/11/pasal/0091  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 91  bagian dari  UU tahun 2010 no 11
+30   https://example.org/lex2kg/uu/2010/11/pasal/0090  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 90  bagian dari  UU tahun 2010 no 11
+31   https://example.org/lex2kg/uu/2010/11/pasal/0089  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 89  bagian dari  UU tahun 2010 no 11
+32   https://example.org/lex2kg/uu/2010/11/pasal/0088  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 88  bagian dari  UU tahun 2010 no 11
+33   https://example.org/lex2kg/uu/2010/11/pasal/0087  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 87  bagian dari  UU tahun 2010 no 11
+34   https://example.org/lex2kg/uu/2010/11/pasal/0086  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 86  bagian dari  UU tahun 2010 no 11
+35   https://example.org/lex2kg/uu/2010/11/pasal/0085  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 85  bagian dari  UU tahun 2010 no 11
+36   https://example.org/lex2kg/uu/2010/11/pasal/0084  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 84  bagian dari  UU tahun 2010 no 11
+37   https://example.org/lex2kg/uu/2010/11/pasal/0083  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 83  bagian dari  UU tahun 2010 no 11
+38   https://example.org/lex2kg/uu/2010/11/pasal/0082  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 82  bagian dari  UU tahun 2010 no 11
+39   https://example.org/lex2kg/uu/2010/11/pasal/0081  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 81  bagian dari  UU tahun 2010 no 11
+40   https://example.org/lex2kg/uu/2010/11/pasal/0080  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 80  bagian dari  UU tahun 2010 no 11
+41   https://example.org/lex2kg/uu/2010/11/pasal/0079  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 79  bagian dari  UU tahun 2010 no 11
+42   https://example.org/lex2kg/uu/2010/11/pasal/0078  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 78  bagian dari  UU tahun 2010 no 11
+43   https://example.org/lex2kg/uu/2010/11/pasal/0077  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 77  bagian dari  UU tahun 2010 no 11
+44   https://example.org/lex2kg/uu/2010/11/pasal/0076  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 76  bagian dari  UU tahun 2010 no 11
+45   https://example.org/lex2kg/uu/2010/11/pasal/0075  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 75  bagian dari  UU tahun 2010 no 11
+46   https://example.org/lex2kg/uu/2010/11/pasal/0074  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 74  bagian dari  UU tahun 2010 no 11
+47   https://example.org/lex2kg/uu/2010/11/pasal/0073  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 73  bagian dari  UU tahun 2010 no 11
+48   https://example.org/lex2kg/uu/2010/11/pasal/0072  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 72  bagian dari  UU tahun 2010 no 11
+49   https://example.org/lex2kg/uu/2010/11/pasal/0071  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 71  bagian dari  UU tahun 2010 no 11
+50   https://example.org/lex2kg/uu/2010/11/pasal/0070  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 70  bagian dari  UU tahun 2010 no 11
+51   https://example.org/lex2kg/uu/2010/11/pasal/0069  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 69  bagian dari  UU tahun 2010 no 11
+52   https://example.org/lex2kg/uu/2010/11/pasal/0068  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 68  bagian dari  UU tahun 2010 no 11
+53   https://example.org/lex2kg/uu/2010/11/pasal/0067  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 67  bagian dari  UU tahun 2010 no 11
+54   https://example.org/lex2kg/uu/2010/11/pasal/0066  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 66  bagian dari  UU tahun 2010 no 11
+55   https://example.org/lex2kg/uu/2010/11/pasal/0065  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 65  bagian dari  UU tahun 2010 no 11
+56   https://example.org/lex2kg/uu/2010/11/pasal/0064  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 64  bagian dari  UU tahun 2010 no 11
+57   https://example.org/lex2kg/uu/2010/11/pasal/0063  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 63  bagian dari  UU tahun 2010 no 11
+58   https://example.org/lex2kg/uu/2010/11/pasal/0062  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 62  bagian dari  UU tahun 2010 no 11
+59   https://example.org/lex2kg/uu/2010/11/pasal/0061  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 61  bagian dari  UU tahun 2010 no 11
+60   https://example.org/lex2kg/uu/2010/11/pasal/0060  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 60  bagian dari  UU tahun 2010 no 11
+61   https://example.org/lex2kg/uu/2010/11/pasal/0059  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 59  bagian dari  UU tahun 2010 no 11
+62   https://example.org/lex2kg/uu/2010/11/pasal/0058  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 58  bagian dari  UU tahun 2010 no 11
+63   https://example.org/lex2kg/uu/2010/11/pasal/0057  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 57  bagian dari  UU tahun 2010 no 11
+64   https://example.org/lex2kg/uu/2010/11/pasal/0056  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 56  bagian dari  UU tahun 2010 no 11
+65   https://example.org/lex2kg/uu/2010/11/pasal/0055  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 55  bagian dari  UU tahun 2010 no 11
+66   https://example.org/lex2kg/uu/2010/11/pasal/0054  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 54  bagian dari  UU tahun 2010 no 11
+67   https://example.org/lex2kg/uu/2010/11/pasal/0053  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 53  bagian dari  UU tahun 2010 no 11
+68   https://example.org/lex2kg/uu/2010/11/pasal/0052  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 52  bagian dari  UU tahun 2010 no 11
+69   https://example.org/lex2kg/uu/2010/11/pasal/0051  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 51  bagian dari  UU tahun 2010 no 11
+70   https://example.org/lex2kg/uu/2010/11/pasal/0050  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 50  bagian dari  UU tahun 2010 no 11
+71   https://example.org/lex2kg/uu/2010/11/pasal/0049  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 49  bagian dari  UU tahun 2010 no 11
+72   https://example.org/lex2kg/uu/2010/11/pasal/0048  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 48  bagian dari  UU tahun 2010 no 11
+73   https://example.org/lex2kg/uu/2010/11/pasal/0047  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 47  bagian dari  UU tahun 2010 no 11
+74   https://example.org/lex2kg/uu/2010/11/pasal/0046  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 46  bagian dari  UU tahun 2010 no 11
+75   https://example.org/lex2kg/uu/2010/11/pasal/0045  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 45  bagian dari  UU tahun 2010 no 11
+76   https://example.org/lex2kg/uu/2010/11/pasal/0044  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 44  bagian dari  UU tahun 2010 no 11
+77   https://example.org/lex2kg/uu/2010/11/pasal/0043  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 43  bagian dari  UU tahun 2010 no 11
+78   https://example.org/lex2kg/uu/2010/11/pasal/0042  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 42  bagian dari  UU tahun 2010 no 11
+79   https://example.org/lex2kg/uu/2010/11/pasal/0041  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 41  bagian dari  UU tahun 2010 no 11
+80   https://example.org/lex2kg/uu/2010/11/pasal/0040  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 40  bagian dari  UU tahun 2010 no 11
+81   https://example.org/lex2kg/uu/2010/11/pasal/0039  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 39  bagian dari  UU tahun 2010 no 11
+82   https://example.org/lex2kg/uu/2010/11/pasal/0038  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 38  bagian dari  UU tahun 2010 no 11
+83   https://example.org/lex2kg/uu/2010/11/pasal/0037  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 37  bagian dari  UU tahun 2010 no 11
+84   https://example.org/lex2kg/uu/2010/11/pasal/0036  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 36  bagian dari  UU tahun 2010 no 11
+85   https://example.org/lex2kg/uu/2010/11/pasal/0035  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 35  bagian dari  UU tahun 2010 no 11
+86   https://example.org/lex2kg/uu/2010/11/pasal/0034  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 34  bagian dari  UU tahun 2010 no 11
+87   https://example.org/lex2kg/uu/2010/11/pasal/0033  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 33  bagian dari  UU tahun 2010 no 11
+88   https://example.org/lex2kg/uu/2010/11/pasal/0032  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 32  bagian dari  UU tahun 2010 no 11
+89   https://example.org/lex2kg/uu/2010/11/pasal/0031  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 31  bagian dari  UU tahun 2010 no 11
+90   https://example.org/lex2kg/uu/2010/11/pasal/0030  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 30  bagian dari  UU tahun 2010 no 11
+91   https://example.org/lex2kg/uu/2010/11/pasal/0029  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 29  bagian dari  UU tahun 2010 no 11
+92   https://example.org/lex2kg/uu/2010/11/pasal/0028  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 28  bagian dari  UU tahun 2010 no 11
+93   https://example.org/lex2kg/uu/2010/11/pasal/0027  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 27  bagian dari  UU tahun 2010 no 11
+94   https://example.org/lex2kg/uu/2010/11/pasal/0026  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 26  bagian dari  UU tahun 2010 no 11
+95   https://example.org/lex2kg/uu/2010/11/pasal/0025  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 25  bagian dari  UU tahun 2010 no 11
+96   https://example.org/lex2kg/uu/2010/11/pasal/0024  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 24  bagian dari  UU tahun 2010 no 11
+97   https://example.org/lex2kg/uu/2010/11/pasal/0023  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 23  bagian dari  UU tahun 2010 no 11
+98   https://example.org/lex2kg/uu/2010/11/pasal/0022  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 22  bagian dari  UU tahun 2010 no 11
+99   https://example.org/lex2kg/uu/2010/11/pasal/0021  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 21  bagian dari  UU tahun 2010 no 11
+100  https://example.org/lex2kg/uu/2010/11/pasal/0020  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 20  bagian dari  UU tahun 2010 no 11
+101  https://example.org/lex2kg/uu/2010/11/pasal/0019  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 19  bagian dari  UU tahun 2010 no 11
+102  https://example.org/lex2kg/uu/2010/11/pasal/0018  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 18  bagian dari  UU tahun 2010 no 11
+103  https://example.org/lex2kg/uu/2010/11/pasal/0017  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 17  bagian dari  UU tahun 2010 no 11
+104  https://example.org/lex2kg/uu/2010/11/pasal/0016  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 16  bagian dari  UU tahun 2010 no 11
+105  https://example.org/lex2kg/uu/2010/11/pasal/0015  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 15  bagian dari  UU tahun 2010 no 11
+106  https://example.org/lex2kg/uu/2010/11/pasal/0014  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 14  bagian dari  UU tahun 2010 no 11
+107  https://example.org/lex2kg/uu/2010/11/pasal/0013  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 13  bagian dari  UU tahun 2010 no 11
+108  https://example.org/lex2kg/uu/2010/11/pasal/0012  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 12  bagian dari  UU tahun 2010 no 11
+109  https://example.org/lex2kg/uu/2010/11/pasal/0011  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 11  bagian dari  UU tahun 2010 no 11
+110  https://example.org/lex2kg/uu/2010/11/pasal/0010  https://example.org/lex2kg/ontology/bagianDari   UU tahun 2010 no 11 pasal 10  bagian dari  UU tahun 2010 no 11
+111  https://example.org/lex2kg/uu/2010/11/pasal/0009  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2010 no 11 pasal 9  bagian dari  UU tahun 2010 no 11
+112  https://example.org/lex2kg/uu/2010/11/pasal/0008  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2010 no 11 pasal 8  bagian dari  UU tahun 2010 no 11
+113  https://example.org/lex2kg/uu/2010/11/pasal/0007  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2010 no 11 pasal 7  bagian dari  UU tahun 2010 no 11
+114  https://example.org/lex2kg/uu/2010/11/pasal/0006  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2010 no 11 pasal 6  bagian dari  UU tahun 2010 no 11
+115  https://example.org/lex2kg/uu/2010/11/pasal/0005  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2010 no 11 pasal 5  bagian dari  UU tahun 2010 no 11
+116  https://example.org/lex2kg/uu/2010/11/pasal/0004  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2010 no 11 pasal 4  bagian dari  UU tahun 2010 no 11
+117  https://example.org/lex2kg/uu/2010/11/pasal/0003  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2010 no 11 pasal 3  bagian dari  UU tahun 2010 no 11
+118  https://example.org/lex2kg/uu/2010/11/pasal/0002  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2010 no 11 pasal 2  bagian dari  UU tahun 2010 no 11
+119  https://example.org/lex2kg/uu/2010/11/pasal/0001  https://example.org/lex2kg/ontology/bagianDari    UU tahun 2010 no 11 pasal 1  bagian dari  UU tahun 2010 no 11
+120         https://example.org/lex2kg/uu/2010/11/bab  https://example.org/lex2kg/ontology/bagianDari        UU tahun 2010 no 11 bab  bagian dari  UU tahun 2010 no 11
+
+
+
+cands:  ['yurisdiksi dari UU tahun 2010 no 11 adalah Indonesia', 'tentang dari UU tahun 2010 no 11 adalah  CAGAR BUDAYA', 'tahun dari UU tahun 2010 no 11 adalah 2010', 'pasal dari UU tahun 2010 no 11 adalah UU tahun 2010 no 11 pasal 120', 'nomor dari UU tahun 2010 no 11 adalah 11', 'Yang menimbang UU tahun 2010 no 11 menimbang adalah UU tahun 2010 no 11', 'Yang mengingat UU tahun 2010 no 11 mengingat adalah UU tahun 2010 no 11', 'jenis peraturan dari UU tahun 2010 no 11 adalah ontology jenis peraturan uu', 'jabatan pengesah dari UU tahun 2010 no 11 adalah PRESIDEN REPUBLIK INDONESIA,', 'UU tahun 2010 no 11 disahkan pada 2010-11-24', 'UU tahun 2010 no 11 disahkan oleh DR. H. SUSILO BAMBANG YUDHOYONO', 'UU tahun 2010 no 11 disahkan di Jakarta', 'daftar bab dari UU tahun 2010 no 11 adalah UU tahun 2010 no 11 bab', 'bahasa dari UU tahun 2010 no 11 adalah id', 'UU tahun 2010 no 11 pasal 120 merupakan bagian dari UU tahun 2010 no 11']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0120'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0119'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0118'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0117'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0116'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0115'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0114'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0113'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0112'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0111'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0110'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0109'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0108'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0107'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0106'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0105'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0104'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0103'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0102'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0101'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0100'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0099'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0098'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0097'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0096'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0095'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0094'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0093'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0092'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0091'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0090'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0089'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0088'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0087'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0086'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0085'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0084'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0083'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0082'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0081'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0080'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0079'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0078'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0077'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0076'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0075'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0074'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0073'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0072'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0071'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0070'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0069'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0068'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0067'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0066'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0065'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0064'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0063'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0062'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0061'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0060'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0059'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0058'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0057'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0056'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0055'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0054'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0053'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0052'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0051'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0050'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0049'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0048'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0047'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0046'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0045'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0044'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0043'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0042'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0041'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0040'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0039'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0038'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0037'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0036'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0035'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0034'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0033'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0032'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0031'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0030'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0029'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0028'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0027'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0026'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0025'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0024'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0023'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0022'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0021'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0020'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0019'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0018'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0017'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0016'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0015'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0014'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0013'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0012'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0011'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0010'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0009'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0008'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0007'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0006'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0005'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0004'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0003'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0002'}, {'pasal': 'https://example.org/lex2kg/uu/2010/11/pasal/0001'}] Similarities:  0.9875975

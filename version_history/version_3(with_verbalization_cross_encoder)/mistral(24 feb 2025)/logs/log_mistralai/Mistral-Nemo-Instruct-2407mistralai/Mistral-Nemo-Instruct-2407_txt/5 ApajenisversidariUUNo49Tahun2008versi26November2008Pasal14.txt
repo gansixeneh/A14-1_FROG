@@ -1,0 +1,38 @@
+Translated Question:  Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?
+Question:  Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?
+{'chat_history': [HumanMessage(content='Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?', additional_kwargs={}, response_metadata={})], 'input': 'Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?'}
+Entities:  ['UU No. 49 Tahun 2008 Pasal 14']
+Retrieved Resources:                                                                           uri                                                       label
+0                           https://example.org/lex2kg/uu/2008/49/pasal/0014                                UU tahun 2008 no 49 pasal 14
+1       https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat    UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat
+2  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0001  UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 1
+3  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0004  UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 4
+4  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0002  UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 2
+Retrieved entities:                                                                        uri                                                      label
+                         https://example.org/lex2kg/uu/2008/49/pasal/0014                               UU tahun 2008 no 49 pasal 14
+     https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat   UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat
+https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0001 UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 1
+https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0004 UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 4
+https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0002 UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 2
+Entity:  UU No. 49 Tahun 2008 Pasal 14
+Question:  UU No. 49 Tahun 2008 Pasal 14
+{'chat_history': [HumanMessage(content='UU No. 49 Tahun 2008 Pasal 14', additional_kwargs={}, response_metadata={})], 'input': 'UU No. 49 Tahun 2008 Pasal 14'}
+Resource:  uri='https://example.org/lex2kg/uu/2008/49/pasal/0014'
+Entity URI:  https://example.org/lex2kg/uu/2008/49/pasal/0014
+
+
+
+po:                                                  p                                                                o                        sLabel       pLabel                                               oLabel
+0       https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126  UU tahun 2008 no 49 pasal 14        versi  UU tahun 2008 no 49 pasal 14 versi 26 November 2008
+1       https://example.org/lex2kg/ontology/nomor                                                               14  UU tahun 2008 no 49 pasal 14        nomor                                                no 14
+2  https://example.org/lex2kg/ontology/bagianDari       https://example.org/lex2kg/uu/2008/49/bab/0005/daftarPasal  UU tahun 2008 no 49 pasal 14  bagian dari               UU tahun 2008 no 49 bab 5 daftar pasal
+3  https://example.org/lex2kg/ontology/bagianDari                            https://example.org/lex2kg/uu/2008/49  UU tahun 2008 no 49 pasal 14  bagian dari                                  UU tahun 2008 no 49
+sp:                                                                   s                                               p                                               sLabel       pLabel                        oLabel
+0  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2008 no 49 pasal 14 versi 26 November 2008  bagian dari  UU tahun 2008 no 49 pasal 14
+1                            https://example.org/lex2kg/uu/2008/49       https://example.org/lex2kg/ontology/pasal                                  UU tahun 2008 no 49        pasal  UU tahun 2008 no 49 pasal 14
+2       https://example.org/lex2kg/uu/2008/49/bab/0005/daftarPasal       https://example.org/lex2kg/ontology/pasal               UU tahun 2008 no 49 bab 5 daftar pasal        pasal  UU tahun 2008 no 49 pasal 14
+
+
+
+cands:  ['versi dari UU tahun 2008 no 49 pasal 14 adalah UU tahun 2008 no 49 pasal 14 versi 26 November 2008', 'nomor dari UU tahun 2008 no 49 pasal 14 adalah 14', 'UU tahun 2008 no 49 pasal 14 merupakan bagian dari UU tahun 2008 no 49 bab 5 daftar pasal', 'UU tahun 2008 no 49 pasal 14 versi 26 November 2008 merupakan bagian dari UU tahun 2008 no 49 pasal 14', 'pasal dari UU tahun 2008 no 49 adalah UU tahun 2008 no 49 pasal 14']
+Result:  [{'versi': 'https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126'}] Similarities:  0.9908484
