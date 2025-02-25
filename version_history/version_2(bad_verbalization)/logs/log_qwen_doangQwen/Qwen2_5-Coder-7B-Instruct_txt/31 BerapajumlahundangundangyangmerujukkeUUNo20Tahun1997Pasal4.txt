@@ -1,0 +1,40 @@
+Translated Question:  Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?
+Question:  Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?
+{'chat_history': [HumanMessage(content='Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?', additional_kwargs={}, response_metadata={})], 'input': 'Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?'}
+Entities:  ['UU tahun 1997 no 20 pasal 4']
+Retrieved Resources:                                                                            uri                                                  label
+0                            https://example.org/lex2kg/uu/1997/20/pasal/0004                            UU tahun 1997 no 20 pasal 4
+1                              https://example.org/lex2kg/uu/1997/20/bab/0004                              UU tahun 1997 no 20 bab 4
+2             https://example.org/lex2kg/uu/1997/20/pasal/0004/versi/19970523          UU tahun 1997 no 20 pasal 4 versi 23 Mei 1997
+3  https://example.org/lex2kg/uu/1997/20/pasal/0001/versi/19970523/huruf/0004  UU tahun 1997 no 20 pasal 1 versi 23 Mei 1997 huruf 4
+4   https://example.org/lex2kg/uu/1997/20/pasal/0014/versi/19970523/ayat/0004  UU tahun 1997 no 20 pasal 14 versi 23 Mei 1997 ayat 4
+Retrieved entities:                                                                         uri                                                 label
+                          https://example.org/lex2kg/uu/1997/20/pasal/0004                           UU tahun 1997 no 20 pasal 4
+                            https://example.org/lex2kg/uu/1997/20/bab/0004                             UU tahun 1997 no 20 bab 4
+           https://example.org/lex2kg/uu/1997/20/pasal/0004/versi/19970523         UU tahun 1997 no 20 pasal 4 versi 23 Mei 1997
+https://example.org/lex2kg/uu/1997/20/pasal/0001/versi/19970523/huruf/0004 UU tahun 1997 no 20 pasal 1 versi 23 Mei 1997 huruf 4
+ https://example.org/lex2kg/uu/1997/20/pasal/0014/versi/19970523/ayat/0004 UU tahun 1997 no 20 pasal 14 versi 23 Mei 1997 ayat 4
+Entity:  UU tahun 1997 no 20 pasal 4
+Question:  UU tahun 1997 no 20 pasal 4
+{'chat_history': [HumanMessage(content='UU tahun 1997 no 20 pasal 4', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 1997 no 20 pasal 4'}
+Resource:  uri='https://example.org/lex2kg/uu/1997/20/pasal/0004'
+Entity URI:  https://example.org/lex2kg/uu/1997/20/pasal/0004
+
+
+
+po:                                                  p                                                                o                       sLabel       pLabel                                         oLabel
+0       https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/1997/20/pasal/0004/versi/19970523  UU tahun 1997 no 20 pasal 4        versi  UU tahun 1997 no 20 pasal 4 versi 23 Mei 1997
+1       https://example.org/lex2kg/ontology/nomor                                                                4  UU tahun 1997 no 20 pasal 4        nomor                                           no 4
+2  https://example.org/lex2kg/ontology/bagianDari       https://example.org/lex2kg/uu/1997/20/bab/0003/daftarPasal  UU tahun 1997 no 20 pasal 4  bagian dari         UU tahun 1997 no 20 bab 3 daftar pasal
+3  https://example.org/lex2kg/ontology/bagianDari                            https://example.org/lex2kg/uu/1997/20  UU tahun 1997 no 20 pasal 4  bagian dari                            UU tahun 1997 no 20
+sp:                                                                                  s                                               p                                                     sLabel       pLabel                       oLabel
+0  https://example.org/lex2kg/uu/1997/20/pasal/0008/versi/19970523/ayat/0001/text     https://example.org/lex2kg/ontology/merujuk  UU tahun 1997 no 20 pasal 8 versi 23 Mei 1997 ayat 1 text      merujuk  UU tahun 1997 no 20 pasal 4
+1  https://example.org/lex2kg/uu/1997/20/pasal/0006/versi/19970523/ayat/0002/text     https://example.org/lex2kg/ontology/merujuk  UU tahun 1997 no 20 pasal 6 versi 23 Mei 1997 ayat 2 text      merujuk  UU tahun 1997 no 20 pasal 4
+2                 https://example.org/lex2kg/uu/1997/20/pasal/0004/versi/19970523  https://example.org/lex2kg/ontology/bagianDari              UU tahun 1997 no 20 pasal 4 versi 23 Mei 1997  bagian dari  UU tahun 1997 no 20 pasal 4
+3                                           https://example.org/lex2kg/uu/1997/20       https://example.org/lex2kg/ontology/pasal                                        UU tahun 1997 no 20        pasal  UU tahun 1997 no 20 pasal 4
+4                      https://example.org/lex2kg/uu/1997/20/bab/0003/daftarPasal       https://example.org/lex2kg/ontology/pasal                     UU tahun 1997 no 20 bab 3 daftar pasal        pasal  UU tahun 1997 no 20 pasal 4
+
+
+
+cands:  ['versi dari UU tahun 1997 no 20 pasal 4 adalah UU tahun 1997 no 20 pasal 4 versi 23 Mei 1997', 'nomor dari UU tahun 1997 no 20 pasal 4 adalah 4', 'UU tahun 1997 no 20 pasal 4 versi 23 Mei 1997 merupakan bagian dari UU tahun 1997 no 20 pasal 4', 'merujuk dari UU tahun 1997 no 20 pasal 8 versi 23 Mei 1997 ayat 1 text adalah UU tahun 1997 no 20 pasal 4', 'pasal dari UU tahun 1997 no 20 adalah UU tahun 1997 no 20 pasal 4']
+Result:  [{'nomor': '4'}] Similarities:  0.7514158

@@ -1,0 +1,162 @@
+Translated Question:  Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?
+Question:  Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?
+{'chat_history': [HumanMessage(content="Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?", additional_kwargs={}, response_metadata={})], 'input': "Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?"}
+Entities:  ['Undang-undang', "versi 'penyisipan'"]
+Retrieved Resources:                                       uri                label
+0   https://example.org/lex2kg/uu/2011/1   UU tahun 2011 no 1
+1   https://example.org/lex2kg/uu/2009/1   UU tahun 2009 no 1
+2  https://example.org/lex2kg/uu/2011/24  UU tahun 2011 no 24
+3   https://example.org/lex2kg/uu/2013/1   UU tahun 2013 no 1
+4   https://example.org/lex2kg/uu/2012/1   UU tahun 2012 no 1
+Retrieved entities:                                    uri               label
+ https://example.org/lex2kg/uu/2011/1  UU tahun 2011 no 1
+ https://example.org/lex2kg/uu/2009/1  UU tahun 2009 no 1
+https://example.org/lex2kg/uu/2011/24 UU tahun 2011 no 24
+ https://example.org/lex2kg/uu/2013/1  UU tahun 2013 no 1
+ https://example.org/lex2kg/uu/2012/1  UU tahun 2012 no 1
+Entity:  Undang-undang
+Question:  Undang-undang
+{'chat_history': [HumanMessage(content='Undang-undang', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang'}
+Resource:  uri='https://example.org/lex2kg/uu/2020/1'
+Entity URI:  https://example.org/lex2kg/uu/2020/1
+
+
+
+po:                                                        p                                                                                                                                              o              sLabel            pLabel                                                                                                                                         oLabel
+0        https://example.org/lex2kg/ontology/yurisdiksi                                                                                                                                      Indonesia  UU tahun 2020 no 1        yurisdiksi                                                                                                                                      indonesia
+1           https://example.org/lex2kg/ontology/tentang   PENGESAHAN PERSETUJUAN KEMITRAAN EKONOMI KOMPREHENSIF INDONESIA-AUSTRALIA (#NDONESIA-AUSTRALIA COMPREHENSIVE ECONOMIC PARTNERSHIP AGREEMENT)  UU tahun 2020 no 1           tentang   pengesahan persetujuan kemitraan ekonomi komprehensif indonesia-australia (#ndonesia-australia comprehensive economic partnership agreement)
+2             https://example.org/lex2kg/ontology/tahun                                                                                                                                           2020  UU tahun 2020 no 1             tahun                                                                                                                                     tahun 2020
+3             https://example.org/lex2kg/ontology/pasal                                                                                                https://example.org/lex2kg/uu/2020/1/pasal/0001  UU tahun 2020 no 1             pasal                                                                                                                     UU tahun 2020 no 1 pasal 1
+4             https://example.org/lex2kg/ontology/nomor                                                                                                                                              1  UU tahun 2020 no 1             nomor                                                                                                                                           no 1
+5         https://example.org/lex2kg/ontology/menimbang                                                                                                 https://example.org/lex2kg/uu/2020/1/menimbang  UU tahun 2020 no 1         menimbang                                                                                                                   UU tahun 2020 no 1 menimbang
+6         https://example.org/lex2kg/ontology/mengingat                                                                                                 https://example.org/lex2kg/uu/2020/1/mengingat  UU tahun 2020 no 1         mengingat                                                                                                                   UU tahun 2020 no 1 mengingat
+7    https://example.org/lex2kg/ontology/jenisPeraturan                                                                                          https://example.org/lex2kg/ontology/jenisPeraturan/UU  UU tahun 2020 no 1   jenis peraturan                                                                                                                    ontology jenis peraturan uu
+8   https://example.org/lex2kg/ontology/jabatanPengesah                                                                                                                   PRESIDEN REPUBLIK INDONESIA,  UU tahun 2020 no 1  jabatan pengesah                                                                                                                   presiden republik indonesia,
+9      https://example.org/lex2kg/ontology/disahkanPada                                                                                                                                     2020-02-28  UU tahun 2020 no 1     disahkan pada                                                                                                                                     2020-02-28
+10     https://example.org/lex2kg/ontology/disahkanOleh                                                                                                                                    JOKO WIDODO  UU tahun 2020 no 1     disahkan oleh                                                                                                                                    joko widodo
+11       https://example.org/lex2kg/ontology/disahkanDi                                                                                                                                        Jakarta  UU tahun 2020 no 1       disahkan di                                                                                                                                        jakarta
+12      https://example.org/lex2kg/ontology/daftarPasal                                                                                               https://example.org/lex2kg/uu/2020/1/daftarPasal  UU tahun 2020 no 1      daftar pasal                                                                                                                UU tahun 2020 no 1 daftar pasal
+13           https://example.org/lex2kg/ontology/bahasa                                                                                                                                             id  UU tahun 2020 no 1            bahasa                                                                                                                                             id
+sp:                                                                                 s                                               p                                                         sLabel       pLabel              oLabel
+0  https://example.org/lex2kg/uu/2020/9/pasal/0023/versi/20201026/ayat/0001/text     https://example.org/lex2kg/ontology/merujuk  UU tahun 2020 no 9 pasal 23 versi 26 Oktober 2020 ayat 1 text      merujuk  UU tahun 2020 no 1
+1            https://example.org/lex2kg/uu/2020/2/pasal/0001/versi/20200516/text     https://example.org/lex2kg/ontology/merujuk              UU tahun 2020 no 2 pasal 1 versi 16 Mei 2020 text      merujuk  UU tahun 2020 no 1
+2                    https://example.org/lex2kg/uu/2020/2/menimbang/huruf/e/text     https://example.org/lex2kg/ontology/merujuk                      UU tahun 2020 no 2 menimbang huruf e text      merujuk  UU tahun 2020 no 1
+3                    https://example.org/lex2kg/uu/2020/2/menimbang/huruf/d/text     https://example.org/lex2kg/ontology/merujuk                      UU tahun 2020 no 2 menimbang huruf d text      merujuk  UU tahun 2020 no 1
+4                                https://example.org/lex2kg/uu/2020/1/pasal/0001  https://example.org/lex2kg/ontology/bagianDari                                     UU tahun 2020 no 1 pasal 1  bagian dari  UU tahun 2020 no 1
+5                               https://example.org/lex2kg/uu/2020/1/daftarPasal  https://example.org/lex2kg/ontology/bagianDari                                UU tahun 2020 no 1 daftar pasal  bagian dari  UU tahun 2020 no 1
+
+
+
+cands:  ['yurisdiksi dari UU tahun 2020 no 1 adalah Indonesia', 'tentang dari UU tahun 2020 no 1 adalah  PENGESAHAN PERSETUJUAN KEMITRAAN EKONOMI KOMPREHENSIF INDONESIA-AUSTRALIA (#NDONESIA-AUSTRALIA COMPREHENSIVE ECONOMIC PARTNERSHIP AGREEMENT)', 'tahun dari UU tahun 2020 no 1 adalah 2020', 'pasal dari UU tahun 2020 no 1 adalah UU tahun 2020 no 1 pasal 1', 'nomor dari UU tahun 2020 no 1 adalah 1', 'menimbang dari UU tahun 2020 no 1 adalah UU tahun 2020 no 1 menimbang', 'mengingat dari UU tahun 2020 no 1 adalah UU tahun 2020 no 1 mengingat', 'jenis peraturan dari UU tahun 2020 no 1 adalah ontology jenis peraturan uu', 'jabatan pengesah dari UU tahun 2020 no 1 adalah PRESIDEN REPUBLIK INDONESIA,', 'disahkan pada dari UU tahun 2020 no 1 adalah 2020-02-28', 'disahkan oleh dari UU tahun 2020 no 1 adalah JOKO WIDODO', 'disahkan di dari UU tahun 2020 no 1 adalah Jakarta', 'daftar pasal dari UU tahun 2020 no 1 adalah UU tahun 2020 no 1 daftar pasal', 'bahasa dari UU tahun 2020 no 1 adalah id', 'merujuk dari UU tahun 2020 no 9 pasal 23 versi 26 Oktober 2020 ayat 1 text adalah UU tahun 2020 no 1', 'UU tahun 2020 no 1 pasal 1 merupakan bagian dari UU tahun 2020 no 1']
+Result:  [{'disahkan pada': '2020-02-28'}] Similarities:  0.56350553
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2020/11/pasal/0110/versi/20201102
+        - lex2kg/uu/2002/4/mengingat/huruf/0002
+        - lex2kg/uu/2008/49/mengingat/huruf
+        - lex2kg/uu/2012/15/pasal/0003/versi/20121005/ayat/0002/huruf/d/huruf/d/huruf/description
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125/huruf/description
+        - lex2kg/uu/2020/11/pasal/0002/versi/20201102
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/2010/8/pasal/0034
+        - lex2kg/uu/2012/9/mengingat/huruf/description
+        - lex2kg/uu/2009/1
+        - lex2kg/uu/2009/50/mengingat/huruf
+        - lex2kg/uu/2012/23/mengingat/huruf/description
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2020/11/pasal/0011/versi/20201102
+        - lex2kg/uu/1982/4/bab/0001
+        - lex2kg/uu/1957/43/menimbang/text
+        - lex2kg/uu/1977/1/mengingat/huruf/0003/text
+        - lex2kg/uu/2020/1
+        - lex2kg/uu/1982/8/mengingat/huruf/description
+        - lex2kg/uu/1982/2/mengingat/huruf/0002
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/2011/8/mengingat/text
+        - lex2kg/uu/2002/2/mengingat/huruf/0002
+        - lex2kg/uu/1995/9/pasal/0034
+        - lex2kg/uu/1977/1/mengingat/huruf/description
+        - lex2kg/uu/2011/1
+        - lex2kg/uu/2002/4/mengingat/huruf/description
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2007/16/mengingat/huruf/description
+        - lex2kg/uu/1981/8/mengingat/huruf/0003/huruf/description
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2013/20/mengingat/text
+        - lex2kg/uu/2010/11/pasal/0011/versi/20101124
+        - lex2kg/uu/1981/2/pasal/0034/versi/19810401/ayat/0001/huruf/description
+        - lex2kg/uu/2009/15/mengingat/huruf
+        - lex2kg/uu/2/11
+        - lex2kg/uu/1964/35/mengingat/text
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2006/9/pasal/0034
+        - lex2kg/uu/1976/7/mengingat/huruf/description
+        - lex2kg/uu/1957/58/menimbang/text
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/1957/41/menimbang/text
+        - lex2kg/uu/2004/34/mengingat/huruf/description
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2000/23/mengingat/huruf/description
+        - lex2kg/uu/1976/9/mengingat/huruf/description
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/2020/10
+        - lex2kg/uu/1981/8/mengingat/huruf/description
+        - lex2kg/uu/1977/1/mengingat/huruf/0004/text
+        - lex2kg/uu
+        - lex2kg/uu/1978/6/mengingat/huruf/description
+        - lex2kg/uu/1957/57/menimbang/text
+        - lex2kg/uu/1996/7/pasal/0034
+        - lex2kg/uu/2007/12/mengingat/huruf/description
+        - lex2kg/uu/1975/3/pasal/0016/versi/19750827/text
+        - lex2kg/uu/2009/51/mengingat/huruf
+        - lex2kg/uu/1995/1/pasal/0034/versi/19950307/ayat
+        - lex2kg/uu/1982/4/pasal/0001/versi/19820311/huruf/0006/huruf/description
+        - lex2kg/uu/2016/9/pasal/0034
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/2003/34/mengingat/huruf/description
+        - lex2kg/uu/2002/8/mengingat/huruf/0002/text
+        - lex2kg/uu/1986/2/pasal/0054/versi/19860308/ayat/0001/text
+        - lex2kg/uu/2012/21/mengingat/huruf/description
+        - lex2kg/uu/2014/17/bab/0004/bagian/0009/paragraf/0006/daftarPasal
+        - lex2kg/uu/1957/34/menimbang/text
+        - lex2kg/uu/1982/2/mengingat/huruf/0002/text
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125/huruf/d/text
+        - lex2kg/uu/1999/54/mengingat/huruf/0006/huruf/description
+        - lex2kg/uu/2011/22/pasal/0011/versi/20111125
+        - lex2kg/uu/2002/19/pasal/0031/versi/20141016/huruf/d/text
+        - lex2kg/uu/2006/15/pasal/0034
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2007/48/mengingat/huruf/description
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2012/15/mengingat/huruf/description
+        - lex2kg/uu/2008/49/mengingat/huruf/description
+        - lex2kg/uu/2009/49/mengingat/huruf
+        - lex2kg/uu/2014/33/bab
+    - properties: 
+        - lex2kg-o:paragraf
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:tentang
+        - lex2kg-o:pasal
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:bahasa
+        - lex2kg-o:merujuk
+        - lex2kg-o:tanggal
+        - lex2kg-o:mengingat
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:segmen
+        - lex2kg-o:nomor
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:menyisipkan
+        - lex2kg-o:tahun
+        - lex2kg-o:versi
+        - lex2kg-o:jenisVersi
+        - lex2kg-o:bagianDari
+        - lex2kg-o:judul
+        - lex2kg-o:disahkanPada
+
+Question:  Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?
+{'chat_history': [HumanMessage(content="Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?", additional_kwargs={}, response_metadata={})], 'input': "Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?"}
+Thoughts:  ["1. Pertanyaan ini meminta informasi tentang undang-undang yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020.", "2. Dalam ontologi, properti 'lex2kg-o:jenisVersi' digunakan untuk menunjukkan jenis versi undang-undang.", "3. Properti 'lex2kg-o:tanggal' digunakan untuk menunjukkan tanggal pengesahan undang-undang.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai 'penyisipan' pada properti 'lex2kg-o:jenisVersi' dan nilai '2020-11-02' pada properti 'lex2kg-o:tanggal'.", '5. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  select?x {?x lex2kg-o:jenisVersi 'penyisipan'.?x lex2kg-o:tanggal '2020-11-02'^^xsd:date. }

@@ -1,0 +1,174 @@
+Translated Question:  Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?
+Question:  Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?
+{'chat_history': [HumanMessage(content="Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?", additional_kwargs={}, response_metadata={})], 'input': "Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?"}
+Entities:  ['Undang-undang', "versi 'penyisipan'"]
+Retrieved Resources:                                       uri                label
+0   https://example.org/lex2kg/uu/2011/1   UU tahun 2011 no 1
+1   https://example.org/lex2kg/uu/2009/1   UU tahun 2009 no 1
+2   https://example.org/lex2kg/uu/2013/1   UU tahun 2013 no 1
+3  https://example.org/lex2kg/uu/2011/24  UU tahun 2011 no 24
+4   https://example.org/lex2kg/uu/2012/1   UU tahun 2012 no 1
+Retrieved entities:                                    uri               label
+ https://example.org/lex2kg/uu/2011/1  UU tahun 2011 no 1
+ https://example.org/lex2kg/uu/2009/1  UU tahun 2009 no 1
+ https://example.org/lex2kg/uu/2013/1  UU tahun 2013 no 1
+https://example.org/lex2kg/uu/2011/24 UU tahun 2011 no 24
+ https://example.org/lex2kg/uu/2012/1  UU tahun 2012 no 1
+Entity:  Undang-undang
+Question:  Undang-undang
+{'chat_history': [HumanMessage(content='Undang-undang', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang'}
+Resource:  uri='https://example.org/lex2kg/uu/2011/1'
+Entity URI:  https://example.org/lex2kg/uu/2011/1
+
+
+
+po:                                              p                                                o              sLabel pLabel                        oLabel
+0   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0153  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 153
+1   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0151  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 151
+2   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0150  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 150
+3   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0134  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 134
+4   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0114  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 114
+5   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0109  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 109
+6   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0107  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 107
+7   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0055  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 55
+8   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0053  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 53
+9   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0042  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 42
+10  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0040  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 40
+11  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0036  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 36
+12  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0035  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 35
+13  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0033  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 33
+14  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0029  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 29
+15  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0026  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 26
+sp:                                                                                 s                                               p                                                           sLabel       pLabel              oLabel
+0   https://example.org/lex2kg/uu/2020/11/pasal/0049/versi/20201102/huruf/a/text     https://example.org/lex2kg/ontology/merujuk  UU tahun 2020 no 11 pasal 49 versi 2 November 2020 huruf a text      merujuk  UU tahun 2011 no 1
+1                 https://example.org/lex2kg/uu/2016/4/mengingat/huruf/0002/text     https://example.org/lex2kg/ontology/merujuk                        UU tahun 2016 no 4 mengingat huruf 2 text      merujuk  UU tahun 2011 no 1
+2                                https://example.org/lex2kg/uu/2011/1/pasal/0153  https://example.org/lex2kg/ontology/bagianDari                                     UU tahun 2011 no 1 pasal 153  bagian dari  UU tahun 2011 no 1
+3                                https://example.org/lex2kg/uu/2011/1/pasal/0151  https://example.org/lex2kg/ontology/bagianDari                                     UU tahun 2011 no 1 pasal 151  bagian dari  UU tahun 2011 no 1
+4                                https://example.org/lex2kg/uu/2011/1/pasal/0150  https://example.org/lex2kg/ontology/bagianDari                                     UU tahun 2011 no 1 pasal 150  bagian dari  UU tahun 2011 no 1
+5                                https://example.org/lex2kg/uu/2011/1/pasal/0134  https://example.org/lex2kg/ontology/bagianDari                                     UU tahun 2011 no 1 pasal 134  bagian dari  UU tahun 2011 no 1
+6                                https://example.org/lex2kg/uu/2011/1/pasal/0114  https://example.org/lex2kg/ontology/bagianDari                                     UU tahun 2011 no 1 pasal 114  bagian dari  UU tahun 2011 no 1
+7                                https://example.org/lex2kg/uu/2011/1/pasal/0109  https://example.org/lex2kg/ontology/bagianDari                                     UU tahun 2011 no 1 pasal 109  bagian dari  UU tahun 2011 no 1
+8                                https://example.org/lex2kg/uu/2011/1/pasal/0107  https://example.org/lex2kg/ontology/bagianDari                                     UU tahun 2011 no 1 pasal 107  bagian dari  UU tahun 2011 no 1
+9                                https://example.org/lex2kg/uu/2011/1/pasal/0055  https://example.org/lex2kg/ontology/bagianDari                                      UU tahun 2011 no 1 pasal 55  bagian dari  UU tahun 2011 no 1
+10                               https://example.org/lex2kg/uu/2011/1/pasal/0053  https://example.org/lex2kg/ontology/bagianDari                                      UU tahun 2011 no 1 pasal 53  bagian dari  UU tahun 2011 no 1
+11                               https://example.org/lex2kg/uu/2011/1/pasal/0042  https://example.org/lex2kg/ontology/bagianDari                                      UU tahun 2011 no 1 pasal 42  bagian dari  UU tahun 2011 no 1
+12                               https://example.org/lex2kg/uu/2011/1/pasal/0040  https://example.org/lex2kg/ontology/bagianDari                                      UU tahun 2011 no 1 pasal 40  bagian dari  UU tahun 2011 no 1
+13                               https://example.org/lex2kg/uu/2011/1/pasal/0036  https://example.org/lex2kg/ontology/bagianDari                                      UU tahun 2011 no 1 pasal 36  bagian dari  UU tahun 2011 no 1
+14                               https://example.org/lex2kg/uu/2011/1/pasal/0035  https://example.org/lex2kg/ontology/bagianDari                                      UU tahun 2011 no 1 pasal 35  bagian dari  UU tahun 2011 no 1
+15                               https://example.org/lex2kg/uu/2011/1/pasal/0033  https://example.org/lex2kg/ontology/bagianDari                                      UU tahun 2011 no 1 pasal 33  bagian dari  UU tahun 2011 no 1
+16                               https://example.org/lex2kg/uu/2011/1/pasal/0029  https://example.org/lex2kg/ontology/bagianDari                                      UU tahun 2011 no 1 pasal 29  bagian dari  UU tahun 2011 no 1
+17                               https://example.org/lex2kg/uu/2011/1/pasal/0026  https://example.org/lex2kg/ontology/bagianDari                                      UU tahun 2011 no 1 pasal 26  bagian dari  UU tahun 2011 no 1
+
+
+
+cands:  ['pasal dari UU tahun 2011 no 1 adalah UU tahun 2011 no 1 pasal 153', 'Yang merujuk UU tahun 2011 no 1 adalah UU tahun 2020 no 11 pasal 49 versi 2 November 2020 huruf a text', 'UU tahun 2011 no 1 pasal 153 merupakan bagian dari UU tahun 2011 no 1']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0153'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0151'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0150'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0134'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0114'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0109'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0107'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0055'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0053'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0042'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0040'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0036'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0035'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0033'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0029'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0026'}] Similarities:  0.77586424
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2012/15/pasal/0003/versi/20121005/ayat/0002/huruf/d/huruf/d/huruf/description
+        - lex2kg/uu/1976/7/mengingat/huruf/description
+        - lex2kg/uu/2009/51/mengingat/huruf
+        - lex2kg/uu/2004/34/mengingat/huruf/description
+        - lex2kg/uu/2007/16/mengingat/huruf/description
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/1982/8/mengingat/huruf/description
+        - lex2kg/uu/1986/2/pasal/0054/versi/19860308/ayat/0001/text
+        - lex2kg/uu/1981/8/mengingat/huruf/description
+        - lex2kg/uu/1978/6/mengingat/huruf/description
+        - lex2kg/uu/1982/2/mengingat/huruf/0002/text
+        - lex2kg/uu/2011/15/pasal/0027/versi/20111016/huruf/g/huruf/c/huruf/a/text
+        - lex2kg/uu/1977/1/mengingat/huruf/description
+        - lex2kg/uu/1977/1/mengingat/huruf/0004/text
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2009/50/mengingat/huruf
+        - lex2kg/uu/1957/58/menimbang/text
+        - lex2kg/uu/1982/4/bab/0001
+        - lex2kg/uu/1986/2/pasal/0054/versi/19860308/ayat/0002/text
+        - lex2kg/uu/2009/49/mengingat/huruf
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/1999/54/mengingat/huruf/0006/huruf/description
+        - lex2kg/uu/1957/34/menimbang/text
+        - lex2kg/uu/1996/7/pasal/0034
+        - lex2kg/uu/1981/2/pasal/0034/versi/19810401/ayat/0001/huruf/description
+        - lex2kg/uu/2012/21/mengingat/huruf/description
+        - lex2kg/uu/2011/1
+        - lex2kg/uu/2011/22/pasal/0011/versi/20111125
+        - lex2kg/uu/2007/12/mengingat/huruf/description
+        - lex2kg/uu/2012/15/mengingat/huruf/description
+        - lex2kg/uu/1957/43/menimbang/text
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2006/9/pasal/0034
+        - lex2kg/uu/1957/57/menimbang/text
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/2020/1
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125/huruf/d/text
+        - lex2kg/uu/2009/1
+        - lex2kg/uu
+        - lex2kg/uu/2000/23/mengingat/huruf/description
+        - lex2kg/uu/2/11
+        - lex2kg/uu/2011/15/pasal/0083/versi/20111016/huruf/a/huruf/description
+        - lex2kg/uu/1995/9/pasal/0034
+        - lex2kg/uu/2010/8/pasal/0034
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2011/8/mengingat/text
+        - lex2kg/uu/2008/49/mengingat/huruf
+        - lex2kg/uu/2008/49/mengingat/huruf/description
+        - lex2kg/uu/2007/48/mengingat/huruf/description
+        - lex2kg/uu/2020/11/pasal/0011/versi/20201102
+        - lex2kg/uu/2002/14/mengingat/huruf/description
+        - lex2kg/uu/2010/11/pasal/0011/versi/20101124
+        - lex2kg/uu/2003/34/mengingat/huruf/description
+        - lex2kg/uu/1982/2/mengingat/huruf/0002
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125/huruf/description
+        - lex2kg/uu/2009/15/mengingat/huruf
+        - lex2kg/uu/1977/1/mengingat/huruf/0003/text
+        - lex2kg/uu/2002/8/mengingat/huruf/0002/text
+        - lex2kg/uu/2020/10
+        - lex2kg/uu/2020/11/pasal/0110/versi/20201102
+        - lex2kg/uu/2002/4/mengingat/huruf/description
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2016/9/pasal/0034
+        - lex2kg/uu/1985/2/pasal/0001/versi/19850107/huruf/0032/huruf/f/huruf/description
+        - lex2kg/uu/1957/41/menimbang/text
+        - lex2kg/uu/1981/8/mengingat/huruf/0003/huruf/description
+        - lex2kg/uu/2003/22/pasal/0065/versi/20030731/huruf/j/text
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/2020/11/pasal/0002/versi/20201102
+        - lex2kg/uu/1987/8/pasal/0003/versi/19870928/text
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125
+        - lex2kg/uu/1983/6/pasal/0029/versi/19831231/ayat/0004/text
+        - lex2kg/uu/2011/15/pasal/0027/versi/20111016/huruf/g/huruf/c/huruf/description
+        - lex2kg/uu/1975/3/pasal/0016/versi/19750827/text
+        - lex2kg/uu/2002/2/mengingat/huruf/0002
+        - lex2kg/uu/2002/4/mengingat/huruf/0002
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2008/51/mengingat/huruf/description
+        - lex2kg/uu/2012/23/mengingat/huruf/description
+    - properties: 
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:nomor
+        - lex2kg-o:menyisipkan
+        - lex2kg-o:versi
+        - lex2kg-o:mengingat
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:judul
+        - lex2kg-o:bagianDari
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:jenisVersi
+        - lex2kg-o:pasal
+        - lex2kg-o:segmen
+        - lex2kg-o:tahun
+        - lex2kg-o:merujuk
+        - lex2kg-o:tanggal
+        - lex2kg-o:tentang
+        - lex2kg-o:paragraf
+        - lex2kg-o:bahasa
+        - lex2kg-o:jenisPeraturan
+
+Question:  Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?
+{'chat_history': [HumanMessage(content="Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?", additional_kwargs={}, response_metadata={})], 'input': "Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?"}
+Thoughts:  ["1. Pertanyaan ini meminta undang-undang yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020.", "2. Dalam ontologi, properti 'lex2kg-o:jenisVersi' digunakan untuk menunjukkan jenis versi undang-undang.", "3. Properti 'lex2kg-o:tanggal' digunakan untuk menunjukkan tanggal pengesahan undang-undang.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai 'penyisipan' pada properti 'lex2kg-o:jenisVersi' dan nilai '2020-11-02' pada properti 'lex2kg-o:tanggal'.", '5. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  select?x {?x lex2kg-o:jenisVersi 'penyisipan'.?x lex2kg-o:tanggal '2020-11-02'^^xsd:date. }

@@ -1,0 +1,125 @@
+Translated Question:  Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?
+Question:  Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?'}
+Entities:  ['UU tahun 2003 no 13 pasal 167 versi 2 November 2020']
+Retrieved Resources:                                                                           uri                                                       label
+0            https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102         UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+1            https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102         UU tahun 2003 no 13 pasal 157 versi 2 November 2020
+2  https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102/ayat/0001  UU tahun 2003 no 13 pasal 157 versi 2 November 2020 ayat 1
+3  https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102/ayat/0003  UU tahun 2003 no 13 pasal 157 versi 2 November 2020 ayat 3
+4  https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102/ayat/0002  UU tahun 2003 no 13 pasal 157 versi 2 November 2020 ayat 2
+Retrieved entities:                                                                        uri                                                      label
+          https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102        UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+          https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102        UU tahun 2003 no 13 pasal 157 versi 2 November 2020
+https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102/ayat/0001 UU tahun 2003 no 13 pasal 157 versi 2 November 2020 ayat 1
+https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102/ayat/0003 UU tahun 2003 no 13 pasal 157 versi 2 November 2020 ayat 3
+https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102/ayat/0002 UU tahun 2003 no 13 pasal 157 versi 2 November 2020 ayat 2
+Entity:  UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+Question:  UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+{'chat_history': [HumanMessage(content='UU tahun 2003 no 13 pasal 167 versi 2 November 2020', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2003 no 13 pasal 167 versi 2 November 2020'}
+Resource:  uri='https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102'
+Entity URI:  https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102
+
+
+
+po:                                                    o                                               p                                               sLabel       pLabel                         oLabel
+0                                                          https://example.org/lex2kg/ontology/teks  UU tahun 2003 no 13 pasal 167 versi 2 November 2020         teks                               
+1                                        2020-11-02     https://example.org/lex2kg/ontology/tanggal  UU tahun 2003 no 13 pasal 167 versi 2 November 2020      tanggal                     2020-11-02
+2                                       penghapusan  https://example.org/lex2kg/ontology/jenisVersi  UU tahun 2003 no 13 pasal 167 versi 2 November 2020  jenis versi                    penghapusan
+3  https://example.org/lex2kg/uu/2003/13/pasal/0167  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2003 no 13 pasal 167 versi 2 November 2020  bagian dari  UU tahun 2003 no 13 pasal 167
+sp:                                                 p                                                                           s                                                       sLabel     pLabel                                               oLabel
+0  https://example.org/lex2kg/ontology/menghapus  https://example.org/lex2kg/uu/2020/11/pasal/0081/versi/20201102/huruf/0056  UU tahun 2020 no 11 pasal 81 versi 2 November 2020 huruf 56  menghapus  UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+1      https://example.org/lex2kg/ontology/versi                            https://example.org/lex2kg/uu/2003/13/pasal/0167                                UU tahun 2003 no 13 pasal 167      versi  UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+
+
+
+cands:  ['teks dari UU tahun 2003 no 13 pasal 167 versi 2 November 2020 adalah teks', 'tanggal dari UU tahun 2003 no 13 pasal 167 versi 2 November 2020 adalah 2020-11-02', 'jenis versi dari UU tahun 2003 no 13 pasal 167 versi 2 November 2020 adalah penghapusan', 'versi dari UU tahun 2003 no 13 pasal 167 adalah UU tahun 2003 no 13 pasal 167 versi 2 November 2020', 'menghapus dari UU tahun 2020 no 11 pasal 81 versi 2 November 2020 huruf 56 adalah UU tahun 2003 no 13 pasal 167 versi 2 November 2020']
+Result:  [] Similarities:  0.70762205
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2017/7/pasal/0067/versi/20170815/ayat/0002/text
+        - lex2kg/uu/2020/10
+        - lex2kg/uu/2003/13/pasal/0154/versi/20030325
+        - lex2kg/uu/2003/13/pasal/0167/versi/20030325/ayat/0006/text
+        - lex2kg/uu/2013/19/pasal/0013/versi/20130806
+        - lex2kg/uu/2009/4/pasal/0167
+        - lex2kg/uu/2020/11/pasal/0167
+        - lex2kg/uu/1957/41/menimbang/text
+        - lex2kg/uu/2014/17/pasal/0167
+        - lex2kg/uu/2010/11/pasal/0011/versi/20101124
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/2020/11/pasal/0011/versi/20201102
+        - lex2kg/uu/2020/11/pasal/0110/versi/20201102
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2004/39/mengingat/text
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/1981/8/pasal/0167
+        - lex2kg/uu/2013/13/mengingat
+        - lex2kg/uu/2003/13/pasal/0167/versi/20201102
+        - lex2kg/uu/2006/11/pasal/0167
+        - lex2kg/uu/2020/1
+        - lex2kg/uu/1957/34/menimbang/text
+        - lex2kg/uu/2013/9/pasal/0001/versi/20130313/huruf/0014/huruf/description
+        - lex2kg/uu/1957/57/menimbang/text
+        - lex2kg/uu/1957/58/menimbang/text
+        - lex2kg/uu/2013/16/pasal/0013
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125/huruf/description
+        - lex2kg/uu/2008/49/mengingat/huruf/0004/text
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2017/2/pasal/0087/versi/20170112/text
+        - lex2kg/uu/2002/4/mengingat/huruf/0002
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125
+        - lex2kg/uu/2013/13
+        - lex2kg/uu/2003/33/bab
+        - lex2kg/uu/2010/10/mengingat/huruf/0013
+        - lex2kg/uu/2003/13/pasal/0167/versi/20030325/ayat/0004/text
+        - lex2kg/uu/2003/33/mengingat
+        - lex2kg/uu/2013/16
+        - lex2kg/uu/2/11
+        - lex2kg/uu/2003/13/pasal/0167/versi/20030325/ayat
+        - lex2kg/uu/1957/43/menimbang/text
+        - lex2kg/uu/2003/13/pasal/0013/versi/20030325
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2017/2/pasal/0067/versi/20170112/ayat/0002/text
+        - lex2kg/uu/2013/16/pasal/0013/versi/20130710/ayat
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125/huruf/d/text
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/2013/13/pasal/0013
+        - lex2kg/uu/2003/13/pasal/0167
+        - lex2kg/uu
+        - lex2kg/uu/2003/24/mengingat
+        - lex2kg/uu/2015/2/pasal/0002/versi/20150202/text
+        - lex2kg/uu/2009/4/pasal/0153
+        - lex2kg/uu/2016/13/pasal/0167
+        - lex2kg/uu/2011/22/pasal/0011/versi/20111125
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2014/33/bab
+        - lex2kg/uu/2003/13/pasal/0167/versi/20030325
+        - lex2kg/uu/2013/19/pasal/0013
+        - lex2kg/uu/2020/11/pasal/0002/versi/20201102
+        - lex2kg/uu/1957/47/menimbang/text
+        - lex2kg/uu/2013/16/pasal/0013/versi/20130710
+        - lex2kg/uu/2002/2/mengingat/huruf/0002/text
+        - lex2kg/uu/2012/8/pasal/0167
+        - lex2kg/uu/2015/1/pasal/0002/versi/20150202/text
+    - properties: 
+        - lex2kg-o:tentang
+        - lex2kg-o:judul
+        - lex2kg-o:merujuk
+        - lex2kg-o:nomor
+        - lex2kg-o:menghapus
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:jenisVersi
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:daftarPasal
+        - lex2kg-o:bagianDari
+        - lex2kg-o:pasal
+        - lex2kg-o:versi
+        - lex2kg-o:tanggal
+        - lex2kg-o:tahun
+
+Question:  Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?'}
+Thoughts:  ["1. Pertanyaan ini meminta informasi tentang undang-undang yang menghapus 'UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020'.", "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2003/13/pasal/0167/versi/20201102'.", "3. Properti 'lex2kg-o:menghapus' digunakan untuk menunjukkan hubungan antara undang-undang yang menghapus pasal lain.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:menghapus' dengan 'lex2kg/uu/2003/13/pasal/0167/versi/20201102'.", '5. Susun query SPARQL untuk mengambil semua undang-undang yang menghapus pasal ini.']
+Generated SPARQL:  select?x {?x lex2kg-o:menghapus <https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102>. }

@@ -1,0 +1,90 @@
+Translated Question:  Undang-undang apa saja yang disahkan di Jogjakarta?
+Question:  Undang-undang apa saja yang disahkan di Jogjakarta?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan di Jogjakarta?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan di Jogjakarta?'}
+Entities:  ['Jogjakarta']
+Retrieved Resources:                                                                     uri                                                label
+0                      https://example.org/lex2kg/uu/1976/9/pasal/0054                          UU tahun 1976 no 9 pasal 54
+1                     https://example.org/lex2kg/uu/2002/23/pasal/0054                         UU tahun 2002 no 23 pasal 54
+2  https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726/text  UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text
+3  https://example.org/lex2kg/uu/1973/5/pasal/0014/versi/19730716/text  UU tahun 1973 no 5 pasal 14 versi 16 Juli 1973 text
+4                 https://example.org/lex2kg/uu/1957/34/mengingat/text                   UU tahun 1957 no 34 mengingat text
+Retrieved entities:                                                                  uri                                               label
+                    https://example.org/lex2kg/uu/1976/9/pasal/0054                         UU tahun 1976 no 9 pasal 54
+                   https://example.org/lex2kg/uu/2002/23/pasal/0054                        UU tahun 2002 no 23 pasal 54
+https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726/text UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text
+https://example.org/lex2kg/uu/1973/5/pasal/0014/versi/19730716/text UU tahun 1973 no 5 pasal 14 versi 16 Juli 1973 text
+               https://example.org/lex2kg/uu/1957/34/mengingat/text                  UU tahun 1957 no 34 mengingat text
+Entity:  Jogjakarta
+Question:  Jogjakarta
+{'chat_history': [HumanMessage(content='Jogjakarta', additional_kwargs={}, response_metadata={})], 'input': 'Jogjakarta'}
+Resource:  uri='https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726/text'
+Entity URI:  https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726/text
+
+
+
+po:                                                                                                                                                                                                                                                                                o                                               p                                               sLabel       pLabel                                                                                                                                                                                                                                                                        oLabel
+0  Selama peraturan perundang-undangan untuk melaksanakan ketentuan dalam Undang-undang ini belum dikeluarkan, maka peraturan dalam bidang narkotika yang ada pada waktu Undang-undang ini mulai berlaku, tetap berlaku sepanj ang tidak bertentangan dengan Undang-undang ini.        https://example.org/lex2kg/ontology/teks  UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text         teks  selama peraturan perundang-undangan untuk melaksanakan ketentuan dalam undang-undang ini belum dikeluarkan, maka peraturan dalam bidang narkotika yang ada pada waktu undang-undang ini mulai berlaku, tetap berlaku sepanj ang tidak bertentangan dengan undang-undang ini.
+1                                                                                                                                                                                                                https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726  https://example.org/lex2kg/ontology/bagianDari  UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text  bagian dari                                                                                                                                                                                                                                UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976
+sp:                                              p                                                               s                                          sLabel  pLabel                                               oLabel
+0  https://example.org/lex2kg/ontology/segmen  https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726  UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976  segmen  UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text
+
+
+
+cands:  ['teks dari UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text adalah selama peraturan perundang-undangan untuk melaksanakan ketentuan dalam undang-undang ini belum dikeluarkan, maka peraturan dalam bidang narkotika yang ada pada waktu undang-undang ini mulai berlaku, tetap berlaku sepanj ang tidak bertentangan dengan undang-undang ini.', 'segmen dari UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 adalah UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text']
+Result:  [] Similarities:  0.3141311
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1964/35/mengingat/text
+        - lex2kg/uu/2006/23/pasal/0058/versi/20061229/ayat/0002/huruf/j/text
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2013/24/pasal/0068
+        - lex2kg/uu
+        - lex2kg/uu/2002/26/mengingat/huruf/description
+        - lex2kg/uu/2002/25/bab/0004
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2002/30/bab/0004
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2002/23/mengingat/huruf/description
+        - lex2kg/uu/2002/16/mengingat/huruf/description
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2002/28/pasal/0004/versi/20021216/text
+        - lex2kg/uu/2014/33/bab
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/2002/25/mengingat/huruf/description
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2010/13/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/2002/31/bab/0004
+        - lex2kg/uu/1976/9/pasal/0054/versi/19760726/text
+        - lex2kg/uu/2002/23/pasal/0054
+        - lex2kg/uu/2002/24/mengingat/huruf/description
+        - lex2kg/uu/1962/12/bab/0004
+        - lex2kg/uu/1976/9/pasal/0054
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/2013/20/mengingat/text
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/2014/17/bab/0004/bagian/0009/paragraf/0006/daftarPasal
+    - properties: 
+        - lex2kg-o:bagianDari
+        - lex2kg-o:versi
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:segmen
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:nomor
+        - lex2kg-o:pasal
+        - lex2kg-o:tentang
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:merujuk
+        - lex2kg-o:judul
+        - lex2kg-o:bahasa
+
+Question:  Undang-undang apa saja yang disahkan di Jogjakarta?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan di Jogjakarta?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan di Jogjakarta?'}
+Thoughts:  ['1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan di Jogjakarta.', "2. Dalam ontologi, properti 'lex2kg-o:disahkanDi' digunakan untuk menunjukkan lokasi pengesahan undang-undang.", "3. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai 'Jogjakarta' pada properti 'lex2kg-o:disahkanDi'.", '4. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  select?x {?x lex2kg-o:disahkanDi 'Jogjakarta'. }

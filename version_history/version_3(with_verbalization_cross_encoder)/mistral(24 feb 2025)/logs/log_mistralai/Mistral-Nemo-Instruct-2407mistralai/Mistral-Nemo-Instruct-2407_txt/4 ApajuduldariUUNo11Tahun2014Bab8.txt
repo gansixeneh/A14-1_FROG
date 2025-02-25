@@ -1,0 +1,37 @@
+Translated Question:  Apa judul dari UU No. 11 Tahun 2014 Bab 8?
+Question:  Apa judul dari UU No. 11 Tahun 2014 Bab 8?
+{'chat_history': [HumanMessage(content='Apa judul dari UU No. 11 Tahun 2014 Bab 8?', additional_kwargs={}, response_metadata={})], 'input': 'Apa judul dari UU No. 11 Tahun 2014 Bab 8?'}
+Entities:  ['UU No. 11 Tahun 2014 Bab 8']
+Retrieved Resources:                                                uri                      label
+0  https://example.org/lex2kg/uu/2014/11/bab/0008  UU tahun 2014 no 11 bab 8
+1  https://example.org/lex2kg/uu/2014/14/bab/0008  UU tahun 2014 no 14 bab 8
+2  https://example.org/lex2kg/uu/2014/25/bab/0008  UU tahun 2014 no 25 bab 8
+3  https://example.org/lex2kg/uu/2014/15/bab/0008  UU tahun 2014 no 15 bab 8
+4   https://example.org/lex2kg/uu/2014/5/bab/0008   UU tahun 2014 no 5 bab 8
+Retrieved entities:                                             uri                     label
+https://example.org/lex2kg/uu/2014/11/bab/0008 UU tahun 2014 no 11 bab 8
+https://example.org/lex2kg/uu/2014/14/bab/0008 UU tahun 2014 no 14 bab 8
+https://example.org/lex2kg/uu/2014/25/bab/0008 UU tahun 2014 no 25 bab 8
+https://example.org/lex2kg/uu/2014/15/bab/0008 UU tahun 2014 no 15 bab 8
+ https://example.org/lex2kg/uu/2014/5/bab/0008  UU tahun 2014 no 5 bab 8
+Entity:  UU No. 11 Tahun 2014 Bab 8
+Question:  UU No. 11 Tahun 2014 Bab 8
+{'chat_history': [HumanMessage(content='UU No. 11 Tahun 2014 Bab 8', additional_kwargs={}, response_metadata={})], 'input': 'UU No. 11 Tahun 2014 Bab 8'}
+Resource:  uri='https://example.org/lex2kg/uu/2014/11/bab/0008'
+Entity URI:  https://example.org/lex2kg/uu/2014/11/bab/0008
+
+
+
+po:                                                   p                                                           o                     sLabel        pLabel                                  oLabel
+0        https://example.org/lex2kg/ontology/nomor                                                           8  UU tahun 2014 no 11 bab 8         nomor                                    no 8
+1        https://example.org/lex2kg/ontology/judul                      PENGEMBANGAN KEPROFESIAN BERKELANJUTAN  UU tahun 2014 no 11 bab 8         judul  pengembangan keprofesian berkelanjutan
+2  https://example.org/lex2kg/ontology/daftarPasal  https://example.org/lex2kg/uu/2014/11/bab/0008/daftarPasal  UU tahun 2014 no 11 bab 8  daftar pasal  UU tahun 2014 no 11 bab 8 daftar pasal
+3   https://example.org/lex2kg/ontology/bagianDari                   https://example.org/lex2kg/uu/2014/11/bab  UU tahun 2014 no 11 bab 8   bagian dari                 UU tahun 2014 no 11 bab
+sp:                                                              s                                               p                                  sLabel       pLabel                     oLabel
+0                   https://example.org/lex2kg/uu/2014/11/bab         https://example.org/lex2kg/ontology/bab                 UU tahun 2014 no 11 bab          bab  UU tahun 2014 no 11 bab 8
+1  https://example.org/lex2kg/uu/2014/11/bab/0008/daftarPasal  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2014 no 11 bab 8 daftar pasal  bagian dari  UU tahun 2014 no 11 bab 8
+
+
+
+cands:  ['nomor dari UU tahun 2014 no 11 bab 8 adalah 8', 'judul dari UU tahun 2014 no 11 bab 8 adalah PENGEMBANGAN KEPROFESIAN BERKELANJUTAN', 'daftar pasal dari UU tahun 2014 no 11 bab 8 adalah UU tahun 2014 no 11 bab 8 daftar pasal', 'UU tahun 2014 no 11 bab 8 merupakan bagian dari UU tahun 2014 no 11 bab', 'bab dari UU tahun 2014 no 11 bab adalah UU tahun 2014 no 11 bab 8', 'UU tahun 2014 no 11 bab 8 daftar pasal merupakan bagian dari UU tahun 2014 no 11 bab 8']
+Result:  [{'judul': 'PENGEMBANGAN KEPROFESIAN BERKELANJUTAN'}] Similarities:  0.9915963

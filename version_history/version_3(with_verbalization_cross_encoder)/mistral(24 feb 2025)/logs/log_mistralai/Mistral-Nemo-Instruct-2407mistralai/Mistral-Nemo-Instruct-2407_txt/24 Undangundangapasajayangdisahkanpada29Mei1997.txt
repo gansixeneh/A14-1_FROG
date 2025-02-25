@@ -1,0 +1,140 @@
+Translated Question:  Undang-undang apa saja yang disahkan pada 29 Mei 1997?
+Question:  Undang-undang apa saja yang disahkan pada 29 Mei 1997?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan pada 29 Mei 1997?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan pada 29 Mei 1997?'}
+Entities:  ['Undang-undang', '29 Mei 1997']
+Retrieved Resources:                                       uri                label
+0   https://example.org/lex2kg/uu/2011/1   UU tahun 2011 no 1
+1   https://example.org/lex2kg/uu/2009/1   UU tahun 2009 no 1
+2   https://example.org/lex2kg/uu/2013/1   UU tahun 2013 no 1
+3  https://example.org/lex2kg/uu/2011/24  UU tahun 2011 no 24
+4   https://example.org/lex2kg/uu/2012/1   UU tahun 2012 no 1
+Retrieved entities:                                    uri               label
+ https://example.org/lex2kg/uu/2011/1  UU tahun 2011 no 1
+ https://example.org/lex2kg/uu/2009/1  UU tahun 2009 no 1
+ https://example.org/lex2kg/uu/2013/1  UU tahun 2013 no 1
+https://example.org/lex2kg/uu/2011/24 UU tahun 2011 no 24
+ https://example.org/lex2kg/uu/2012/1  UU tahun 2012 no 1
+Entity:  Undang-undang
+Question:  Undang-undang
+{'chat_history': [HumanMessage(content='Undang-undang', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang'}
+Resource:  uri='https://example.org/lex2kg/uu/1997/1'
+Entity URI:  https://example.org/lex2kg/uu/1997/1
+
+
+
+po:                                                        p                                                      o              sLabel            pLabel                                                       oLabel
+0        https://example.org/lex2kg/ontology/yurisdiksi                                              Indonesia  UU tahun 1997 no 1        yurisdiksi                                                    indonesia
+1           https://example.org/lex2kg/ontology/tentang   PERHITUNGAN ANGGARAN NEGARA TAHUN ANGGARAN 1994/1995  UU tahun 1997 no 1           tentang   perhitungan anggaran negara tahun anggaran 1994 tahun 1995
+2             https://example.org/lex2kg/ontology/tahun                                                   1997  UU tahun 1997 no 1             tahun                                                   tahun 1997
+3             https://example.org/lex2kg/ontology/pasal        https://example.org/lex2kg/uu/1997/1/pasal/0004  UU tahun 1997 no 1             pasal                                   UU tahun 1997 no 1 pasal 4
+4             https://example.org/lex2kg/ontology/pasal        https://example.org/lex2kg/uu/1997/1/pasal/0003  UU tahun 1997 no 1             pasal                                   UU tahun 1997 no 1 pasal 3
+5             https://example.org/lex2kg/ontology/pasal        https://example.org/lex2kg/uu/1997/1/pasal/0002  UU tahun 1997 no 1             pasal                                   UU tahun 1997 no 1 pasal 2
+6             https://example.org/lex2kg/ontology/pasal        https://example.org/lex2kg/uu/1997/1/pasal/0001  UU tahun 1997 no 1             pasal                                   UU tahun 1997 no 1 pasal 1
+7             https://example.org/lex2kg/ontology/nomor                                                      1  UU tahun 1997 no 1             nomor                                                         no 1
+8         https://example.org/lex2kg/ontology/menimbang         https://example.org/lex2kg/uu/1997/1/menimbang  UU tahun 1997 no 1         menimbang                                 UU tahun 1997 no 1 menimbang
+9         https://example.org/lex2kg/ontology/mengingat         https://example.org/lex2kg/uu/1997/1/mengingat  UU tahun 1997 no 1         mengingat                                 UU tahun 1997 no 1 mengingat
+10   https://example.org/lex2kg/ontology/jenisPeraturan  https://example.org/lex2kg/ontology/jenisPeraturan/UU  UU tahun 1997 no 1   jenis peraturan                                  ontology jenis peraturan uu
+11  https://example.org/lex2kg/ontology/jabatanPengesah                            PRESIDEN REPUBLIK INDONESIA  UU tahun 1997 no 1  jabatan pengesah                                  presiden republik indonesia
+12     https://example.org/lex2kg/ontology/disahkanPada                                             1997-01-03  UU tahun 1997 no 1     disahkan pada                                                   1997-01-03
+13     https://example.org/lex2kg/ontology/disahkanOleh                                               SOEHARTO  UU tahun 1997 no 1     disahkan oleh                                                     soeharto
+14       https://example.org/lex2kg/ontology/disahkanDi                                                Jakarta  UU tahun 1997 no 1       disahkan di                                                      jakarta
+15      https://example.org/lex2kg/ontology/daftarPasal       https://example.org/lex2kg/uu/1997/1/daftarPasal  UU tahun 1997 no 1      daftar pasal                              UU tahun 1997 no 1 daftar pasal
+16           https://example.org/lex2kg/ontology/bahasa                                                     id  UU tahun 1997 no 1            bahasa                                                           id
+sp:                                                    s                                               p                           sLabel       pLabel              oLabel
+0   https://example.org/lex2kg/uu/1997/1/pasal/0004  https://example.org/lex2kg/ontology/bagianDari       UU tahun 1997 no 1 pasal 4  bagian dari  UU tahun 1997 no 1
+1   https://example.org/lex2kg/uu/1997/1/pasal/0003  https://example.org/lex2kg/ontology/bagianDari       UU tahun 1997 no 1 pasal 3  bagian dari  UU tahun 1997 no 1
+2   https://example.org/lex2kg/uu/1997/1/pasal/0002  https://example.org/lex2kg/ontology/bagianDari       UU tahun 1997 no 1 pasal 2  bagian dari  UU tahun 1997 no 1
+3   https://example.org/lex2kg/uu/1997/1/pasal/0001  https://example.org/lex2kg/ontology/bagianDari       UU tahun 1997 no 1 pasal 1  bagian dari  UU tahun 1997 no 1
+4  https://example.org/lex2kg/uu/1997/1/daftarPasal  https://example.org/lex2kg/ontology/bagianDari  UU tahun 1997 no 1 daftar pasal  bagian dari  UU tahun 1997 no 1
+
+
+
+cands:  ['yurisdiksi dari UU tahun 1997 no 1 adalah Indonesia', 'tentang dari UU tahun 1997 no 1 adalah  PERHITUNGAN ANGGARAN NEGARA TAHUN ANGGARAN 1994/1995', 'tahun dari UU tahun 1997 no 1 adalah 1997', 'pasal dari UU tahun 1997 no 1 adalah UU tahun 1997 no 1 pasal 4', 'nomor dari UU tahun 1997 no 1 adalah 1', 'Yang menimbang UU tahun 1997 no 1 menimbang adalah UU tahun 1997 no 1', 'Yang mengingat UU tahun 1997 no 1 mengingat adalah UU tahun 1997 no 1', 'jenis peraturan dari UU tahun 1997 no 1 adalah ontology jenis peraturan uu', 'jabatan pengesah dari UU tahun 1997 no 1 adalah PRESIDEN REPUBLIK INDONESIA', 'UU tahun 1997 no 1 disahkan pada 1997-01-03', 'UU tahun 1997 no 1 disahkan oleh SOEHARTO', 'UU tahun 1997 no 1 disahkan di Jakarta', 'daftar pasal dari UU tahun 1997 no 1 adalah UU tahun 1997 no 1 daftar pasal', 'bahasa dari UU tahun 1997 no 1 adalah id', 'UU tahun 1997 no 1 pasal 4 merupakan bagian dari UU tahun 1997 no 1']
+Result:  [{'disahkan pada': '1997-01-03'}] Similarities:  0.96243364
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1997/15/pasal/0007/versi/19970509/text
+        - lex2kg/uu/2017/5/pasal/0029/versi/20170524
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2009/47/pasal/0029
+        - lex2kg/uu/2002/25/bab/0004
+        - lex2kg/uu/2011/15/pasal/0083/versi/20111016/huruf/a/huruf/description
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829
+        - lex2kg/uu/2009/48/pasal/0029
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/1997/25/pasal/0087/versi/19971003
+        - lex2kg/uu/2009/32/pasal/0029
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2002/4/mengingat/huruf/description
+        - lex2kg/uu/1997/2/pasal/0007/versi/19970103
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829/ayat/0001/text
+        - lex2kg/uu/1979/1/pasal/0029/versi/19790118/text
+        - lex2kg/uu/2002/24/bab
+        - lex2kg/uu/2003/22/pasal/0065/versi/20030731/huruf/j/text
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/2002/25/pasal/0004/versi/20021025/text
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/1997/17/pasal/0027/versi/19970523
+        - lex2kg/uu/1997/18/pasal/0029/versi/19970523
+        - lex2kg/uu/2011/1
+        - lex2kg/uu/1950/1/pasal/0029/versi/19500506
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/2011/15/pasal/0027/versi/20111016/huruf/g/huruf/c/huruf/description
+        - lex2kg/uu/2002/32/mengingat/huruf/description
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829/ayat/0002/text
+        - lex2kg/uu/1950/5/pasal/0029
+        - lex2kg/uu/1997/15/pasal/0007/versi/19970509
+        - lex2kg/uu/2011/15/pasal/0027/versi/20111016/huruf/g/huruf/c/huruf/a/text
+        - lex2kg/uu/1997/17/pasal/0029/versi/19970523/text
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/2017/5/pasal/0028/versi/20170524/ayat
+        - lex2kg/uu/1997/25/pasal/0027/versi/19971003
+        - lex2kg/uu/1997/5/pasal/0029/versi/19970311
+        - lex2kg/uu/2017/5/pasal/0013/versi/20170524/ayat/0006/text
+        - lex2kg/uu/2009/1
+        - lex2kg/uu/2002/25/mengingat/huruf/description
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2002/24/mengingat/huruf/description
+        - lex2kg/uu/1997/5/pasal/0027/versi/19970311/text
+        - lex2kg/uu/1979/5/pasal/0029
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2002/30/bab/0004
+        - lex2kg/uu/2002/28/pasal/0004/versi/20021216/text
+        - lex2kg/uu
+        - lex2kg/uu/1950/1/pasal/0029/versi/19500506/huruf/0001
+        - lex2kg/uu/2002/28/pasal/0029/versi/20021216/text
+        - lex2kg/uu/2002/31/bab/0004
+        - lex2kg/uu/1997/25/pasal/0047/versi/19971003
+        - lex2kg/uu/1997/27/mengingat
+        - lex2kg/uu/1950/1/pasal/0029/versi/19500506/huruf/0001/text
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/1997/17/pasal/0029/versi/19970523
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829/ayat
+        - lex2kg/uu/2009/36/pasal/0029
+        - lex2kg/uu/2017/5/pasal/0029/versi/20170524/text
+    - properties: 
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:nomor
+        - lex2kg-o:versi
+        - lex2kg-o:mengingat
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:judul
+        - lex2kg-o:menimbang
+        - lex2kg-o:bagianDari
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:pasal
+        - lex2kg-o:segmen
+        - lex2kg-o:tahun
+        - lex2kg-o:merujuk
+        - lex2kg-o:tanggal
+        - lex2kg-o:tentang
+        - lex2kg-o:paragraf
+        - lex2kg-o:bahasa
+        - lex2kg-o:jenisPeraturan
+
+Question:  Undang-undang apa saja yang disahkan pada 29 Mei 1997?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan pada 29 Mei 1997?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan pada 29 Mei 1997?'}
+Thoughts:  ['1. Pertanyaan ini meminta daftar undang-undang yang disahkan pada tanggal 29 Mei 1997.', "2. Dalam ontologi, properti 'lex2kg-o:disahkanPada' digunakan untuk menunjukkan tanggal pengesahan undang-undang.", "3. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '1997-05-29' pada properti 'lex2kg-o:disahkanPada'.", '4. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  select?x {?x lex2kg-o:disahkanPada '1997-05-29'^^xsd:date. }

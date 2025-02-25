@@ -1,0 +1,38 @@
+Translated Question:  Berapa jumlah versi yang terkait dengan UU No. 2 Tahun 1978 Pasal 1?
+Question:  Berapa jumlah versi yang terkait dengan UU No. 2 Tahun 1978 Pasal 1?
+{'chat_history': [HumanMessage(content='Berapa jumlah versi yang terkait dengan UU No. 2 Tahun 1978 Pasal 1?', additional_kwargs={}, response_metadata={})], 'input': 'Berapa jumlah versi yang terkait dengan UU No. 2 Tahun 1978 Pasal 1?'}
+Entities:  ['UU tahun 1978 no 2 pasal 1']
+Retrieved Resources:                                                                     uri                                                label
+0                      https://example.org/lex2kg/uu/1978/2/pasal/0001                           UU tahun 1978 no 2 pasal 1
+1       https://example.org/lex2kg/uu/1978/2/pasal/0001/versi/19780318       UU tahun 1978 no 2 pasal 1 versi 18 Maret 1978
+2  https://example.org/lex2kg/uu/1978/2/pasal/0001/versi/19780318/text  UU tahun 1978 no 2 pasal 1 versi 18 Maret 1978 text
+3                      https://example.org/lex2kg/uu/1978/2/pasal/0002                           UU tahun 1978 no 2 pasal 2
+4       https://example.org/lex2kg/uu/1978/2/pasal/0002/versi/19780318       UU tahun 1978 no 2 pasal 2 versi 18 Maret 1978
+Retrieved entities:                                                                  uri                                               label
+                    https://example.org/lex2kg/uu/1978/2/pasal/0001                          UU tahun 1978 no 2 pasal 1
+     https://example.org/lex2kg/uu/1978/2/pasal/0001/versi/19780318      UU tahun 1978 no 2 pasal 1 versi 18 Maret 1978
+https://example.org/lex2kg/uu/1978/2/pasal/0001/versi/19780318/text UU tahun 1978 no 2 pasal 1 versi 18 Maret 1978 text
+                    https://example.org/lex2kg/uu/1978/2/pasal/0002                          UU tahun 1978 no 2 pasal 2
+     https://example.org/lex2kg/uu/1978/2/pasal/0002/versi/19780318      UU tahun 1978 no 2 pasal 2 versi 18 Maret 1978
+Entity:  UU tahun 1978 no 2 pasal 1
+Question:  UU tahun 1978 no 2 pasal 1
+{'chat_history': [HumanMessage(content='UU tahun 1978 no 2 pasal 1', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 1978 no 2 pasal 1'}
+Resource:  uri='https://example.org/lex2kg/uu/1978/2/pasal/0001'
+Entity URI:  https://example.org/lex2kg/uu/1978/2/pasal/0001
+
+
+
+po:                                                  p                                                               o                      sLabel       pLabel                                          oLabel
+0       https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/1978/2/pasal/0001/versi/19780318  UU tahun 1978 no 2 pasal 1        versi  UU tahun 1978 no 2 pasal 1 versi 18 Maret 1978
+1       https://example.org/lex2kg/ontology/nomor                                                               1  UU tahun 1978 no 2 pasal 1        nomor                                            no 1
+2  https://example.org/lex2kg/ontology/bagianDari                https://example.org/lex2kg/uu/1978/2/daftarPasal  UU tahun 1978 no 2 pasal 1  bagian dari                 UU tahun 1978 no 2 daftar pasal
+3  https://example.org/lex2kg/ontology/bagianDari                            https://example.org/lex2kg/uu/1978/2  UU tahun 1978 no 2 pasal 1  bagian dari                              UU tahun 1978 no 2
+sp:                                                                  s                                               p                                          sLabel       pLabel                      oLabel
+0  https://example.org/lex2kg/uu/1978/2/pasal/0001/versi/19780318  https://example.org/lex2kg/ontology/bagianDari  UU tahun 1978 no 2 pasal 1 versi 18 Maret 1978  bagian dari  UU tahun 1978 no 2 pasal 1
+1                            https://example.org/lex2kg/uu/1978/2       https://example.org/lex2kg/ontology/pasal                              UU tahun 1978 no 2        pasal  UU tahun 1978 no 2 pasal 1
+2                https://example.org/lex2kg/uu/1978/2/daftarPasal       https://example.org/lex2kg/ontology/pasal                 UU tahun 1978 no 2 daftar pasal        pasal  UU tahun 1978 no 2 pasal 1
+
+
+
+cands:  ['versi dari UU tahun 1978 no 2 pasal 1 adalah UU tahun 1978 no 2 pasal 1 versi 18 Maret 1978', 'nomor dari UU tahun 1978 no 2 pasal 1 adalah 1', 'UU tahun 1978 no 2 pasal 1 versi 18 Maret 1978 merupakan bagian dari UU tahun 1978 no 2 pasal 1', 'pasal dari UU tahun 1978 no 2 adalah UU tahun 1978 no 2 pasal 1']
+Result:  [{'nomor': '1'}] Similarities:  0.7139617

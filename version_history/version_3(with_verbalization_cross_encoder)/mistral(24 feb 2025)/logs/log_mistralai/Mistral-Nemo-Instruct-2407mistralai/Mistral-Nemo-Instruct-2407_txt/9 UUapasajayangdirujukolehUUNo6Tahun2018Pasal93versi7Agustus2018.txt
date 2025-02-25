@@ -1,0 +1,38 @@
+Translated Question:  UU apa saja yang dirujuk oleh UU No. 6 Tahun 2018 Pasal 93 versi 7 Agustus 2018?
+Question:  UU apa saja yang dirujuk oleh UU No. 6 Tahun 2018 Pasal 93 versi 7 Agustus 2018?
+{'chat_history': [HumanMessage(content='UU apa saja yang dirujuk oleh UU No. 6 Tahun 2018 Pasal 93 versi 7 Agustus 2018?', additional_kwargs={}, response_metadata={})], 'input': 'UU apa saja yang dirujuk oleh UU No. 6 Tahun 2018 Pasal 93 versi 7 Agustus 2018?'}
+Entities:  ['UU tahun 2018 no 6 pasal 93']
+Retrieved Resources:                                                                          uri                                                    label
+0                           https://example.org/lex2kg/uu/2018/6/pasal/0093                              UU tahun 2018 no 6 pasal 93
+1  https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807/ayat/0001  UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018 ayat 1
+2            https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807         UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018
+3       https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807/text    UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018 text
+4                           https://example.org/lex2kg/uu/2018/6/pasal/0094                              UU tahun 2018 no 6 pasal 94
+Retrieved entities:                                                                       uri                                                   label
+                         https://example.org/lex2kg/uu/2018/6/pasal/0093                             UU tahun 2018 no 6 pasal 93
+https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807/ayat/0001 UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018 ayat 1
+          https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807        UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018
+     https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807/text   UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018 text
+                         https://example.org/lex2kg/uu/2018/6/pasal/0094                             UU tahun 2018 no 6 pasal 94
+Entity:  UU tahun 2018 no 6 pasal 93
+Question:  UU tahun 2018 no 6 pasal 93
+{'chat_history': [HumanMessage(content='UU tahun 2018 no 6 pasal 93', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2018 no 6 pasal 93'}
+Resource:  uri='https://example.org/lex2kg/uu/2018/6/pasal/0093'
+Entity URI:  https://example.org/lex2kg/uu/2018/6/pasal/0093
+
+
+
+po:                                                  p                                                               o                       sLabel       pLabel                                            oLabel
+0       https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807  UU tahun 2018 no 6 pasal 93        versi  UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018
+1       https://example.org/lex2kg/ontology/nomor                                                              93  UU tahun 2018 no 6 pasal 93        nomor                                             no 93
+2  https://example.org/lex2kg/ontology/bagianDari       https://example.org/lex2kg/uu/2018/6/bab/0013/daftarPasal  UU tahun 2018 no 6 pasal 93  bagian dari            UU tahun 2018 no 6 bab 13 daftar pasal
+3  https://example.org/lex2kg/ontology/bagianDari                            https://example.org/lex2kg/uu/2018/6  UU tahun 2018 no 6 pasal 93  bagian dari                                UU tahun 2018 no 6
+sp:                                                                  s                                               p                                            sLabel       pLabel                       oLabel
+0  https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018  bagian dari  UU tahun 2018 no 6 pasal 93
+1                            https://example.org/lex2kg/uu/2018/6       https://example.org/lex2kg/ontology/pasal                                UU tahun 2018 no 6        pasal  UU tahun 2018 no 6 pasal 93
+2       https://example.org/lex2kg/uu/2018/6/bab/0013/daftarPasal       https://example.org/lex2kg/ontology/pasal            UU tahun 2018 no 6 bab 13 daftar pasal        pasal  UU tahun 2018 no 6 pasal 93
+
+
+
+cands:  ['versi dari UU tahun 2018 no 6 pasal 93 adalah UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018', 'nomor dari UU tahun 2018 no 6 pasal 93 adalah 93', 'UU tahun 2018 no 6 pasal 93 merupakan bagian dari UU tahun 2018 no 6 bab 13 daftar pasal', 'UU tahun 2018 no 6 pasal 93 versi 7 Agustus 2018 merupakan bagian dari UU tahun 2018 no 6 pasal 93', 'pasal dari UU tahun 2018 no 6 adalah UU tahun 2018 no 6 pasal 93']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2018/6'}, {'pasal': 'https://example.org/lex2kg/uu/2018/6/bab/0013/daftarPasal'}] Similarities:  0.9878643

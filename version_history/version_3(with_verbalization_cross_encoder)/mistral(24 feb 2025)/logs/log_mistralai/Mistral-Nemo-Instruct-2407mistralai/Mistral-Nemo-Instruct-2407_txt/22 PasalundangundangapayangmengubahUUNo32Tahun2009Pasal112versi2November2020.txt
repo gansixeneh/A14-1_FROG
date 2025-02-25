@@ -1,0 +1,35 @@
+Translated Question:  Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?
+Question:  Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?
+{'chat_history': [HumanMessage(content='Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?', additional_kwargs={}, response_metadata={})], 'input': 'Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?'}
+Entities:  ['UU tahun 2009 no 32 pasal 112']
+Retrieved Resources:                                                  uri                          label
+0  https://example.org/lex2kg/uu/2009/32/pasal/0112  UU tahun 2009 no 32 pasal 112
+1  https://example.org/lex2kg/uu/2009/35/pasal/0112  UU tahun 2009 no 35 pasal 112
+2  https://example.org/lex2kg/uu/2009/22/pasal/0112  UU tahun 2009 no 22 pasal 112
+3   https://example.org/lex2kg/uu/2009/1/pasal/0112   UU tahun 2009 no 1 pasal 112
+4  https://example.org/lex2kg/uu/2009/36/pasal/0112  UU tahun 2009 no 36 pasal 112
+Retrieved entities:                                               uri                         label
+https://example.org/lex2kg/uu/2009/32/pasal/0112 UU tahun 2009 no 32 pasal 112
+https://example.org/lex2kg/uu/2009/35/pasal/0112 UU tahun 2009 no 35 pasal 112
+https://example.org/lex2kg/uu/2009/22/pasal/0112 UU tahun 2009 no 22 pasal 112
+ https://example.org/lex2kg/uu/2009/1/pasal/0112  UU tahun 2009 no 1 pasal 112
+https://example.org/lex2kg/uu/2009/36/pasal/0112 UU tahun 2009 no 36 pasal 112
+Entity:  UU tahun 2009 no 32 pasal 112
+Question:  UU tahun 2009 no 32 pasal 112
+{'chat_history': [HumanMessage(content='UU tahun 2009 no 32 pasal 112', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2009 no 32 pasal 112'}
+Resource:  uri='https://example.org/lex2kg/uu/2009/32/pasal/0112'
+Entity URI:  https://example.org/lex2kg/uu/2009/32/pasal/0112
+
+
+
+po:                                                  p                                                                o                         sLabel       pLabel                                               oLabel
+0       https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/2009/32/pasal/0112/versi/20201102  UU tahun 2009 no 32 pasal 112        versi  UU tahun 2009 no 32 pasal 112 versi 2 November 2020
+1  https://example.org/lex2kg/ontology/bagianDari                            https://example.org/lex2kg/uu/2009/32  UU tahun 2009 no 32 pasal 112  bagian dari                                  UU tahun 2009 no 32
+sp:                                                                   s                                               p                                               sLabel       pLabel                         oLabel
+0  https://example.org/lex2kg/uu/2009/32/pasal/0112/versi/20201102  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2009 no 32 pasal 112 versi 2 November 2020  bagian dari  UU tahun 2009 no 32 pasal 112
+1                            https://example.org/lex2kg/uu/2009/32       https://example.org/lex2kg/ontology/pasal                                  UU tahun 2009 no 32        pasal  UU tahun 2009 no 32 pasal 112
+
+
+
+cands:  ['versi dari UU tahun 2009 no 32 pasal 112 adalah UU tahun 2009 no 32 pasal 112 versi 2 November 2020', 'UU tahun 2009 no 32 pasal 112 merupakan bagian dari UU tahun 2009 no 32', 'UU tahun 2009 no 32 pasal 112 versi 2 November 2020 merupakan bagian dari UU tahun 2009 no 32 pasal 112', 'pasal dari UU tahun 2009 no 32 adalah UU tahun 2009 no 32 pasal 112']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2009/32'}] Similarities:  0.98573816

@@ -1,0 +1,50 @@
+Translated Question:  Berapa jumlah huruf dalam UU No. 11 Tahun 2014 Pasal 24 Versi 22 Maret 2014?
+Question:  Berapa jumlah huruf dalam UU No. 11 Tahun 2014 Pasal 24 Versi 22 Maret 2014?
+{'chat_history': [HumanMessage(content='Berapa jumlah huruf dalam UU No. 11 Tahun 2014 Pasal 24 Versi 22 Maret 2014?', additional_kwargs={}, response_metadata={})], 'input': 'Berapa jumlah huruf dalam UU No. 11 Tahun 2014 Pasal 24 Versi 22 Maret 2014?'}
+Entities:  ['UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf']
+Retrieved Resources:                                                                                   uri                                                               label
+0              https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf              UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+1  https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/description  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf description
+2       https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/a/text       UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf a text
+3       https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/b/text       UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf b text
+4       https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/d/text       UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf d text
+Retrieved entities:                                                                                uri                                                              label
+            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf             UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/description UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf description
+     https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/a/text      UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf a text
+     https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/b/text      UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf b text
+     https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/d/text      UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf d text
+Entity:  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+Question:  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+{'chat_history': [HumanMessage(content='UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf'}
+<IPython.core.display.HTML object>
+Error: Failed to parse Resource from completion "https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf". Got: 1 validation error for Resource
+  Input should be a valid dictionary or instance of Resource [type=model_type, input_value='https://example.org/lex2...24/versi/20140322/huruf', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/model_type
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+Resource:  uri='https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf'
+Entity URI:  https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf
+
+
+
+po:                                                  p                                                                                  o                                                  sLabel       pLabel                                                              oLabel
+0      https://example.org/lex2kg/ontology/segmen  https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/description  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf       segmen  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf description
+1       https://example.org/lex2kg/ontology/huruf            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/e  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf        huruf            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf e
+2       https://example.org/lex2kg/ontology/huruf            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/d  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf        huruf            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf d
+3       https://example.org/lex2kg/ontology/huruf            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/c  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf        huruf            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf c
+4       https://example.org/lex2kg/ontology/huruf            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/b  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf        huruf            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf b
+5       https://example.org/lex2kg/ontology/huruf            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/a  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf        huruf            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf a
+6  https://example.org/lex2kg/ontology/bagianDari                    https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf  bagian dari                    UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014
+sp:                                                                                     s                                                p                                                              sLabel        pLabel                                                  oLabel
+0                    https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322  https://example.org/lex2kg/ontology/daftarHuruf                    UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014  daftar huruf  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+1            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/e   https://example.org/lex2kg/ontology/bagianDari            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf e   bagian dari  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+2            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/d   https://example.org/lex2kg/ontology/bagianDari            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf d   bagian dari  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+3  https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/description   https://example.org/lex2kg/ontology/bagianDari  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf description   bagian dari  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+4            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/c   https://example.org/lex2kg/ontology/bagianDari            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf c   bagian dari  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+5            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/b   https://example.org/lex2kg/ontology/bagianDari            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf b   bagian dari  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+6            https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322/huruf/a   https://example.org/lex2kg/ontology/bagianDari            UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf a   bagian dari  UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf
+
+
+
+cands:  ['segmen dari UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf adalah UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf description', 'huruf dari UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf adalah UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf e', 'UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf merupakan bagian dari UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014', 'daftar huruf dari UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 adalah UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf', 'UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf e merupakan bagian dari UU tahun 2014 no 11 pasal 24 versi 22 Maret 2014 huruf']
+Result:  [{'cnt': '1'}] Similarities:  0.9891422

@@ -1,0 +1,48 @@
+Translated Question:  Apa saja huruf yang terdapat dalam UU No. 4 Tahun 2011 versi 21 April 2011 Pasal 63 Ayat 2?
+Question:  Apa saja huruf yang terdapat dalam UU No. 4 Tahun 2011 versi 21 April 2011 Pasal 63 Ayat 2?
+{'chat_history': [HumanMessage(content='Apa saja huruf yang terdapat dalam UU No. 4 Tahun 2011 versi 21 April 2011 Pasal 63 Ayat 2?', additional_kwargs={}, response_metadata={})], 'input': 'Apa saja huruf yang terdapat dalam UU No. 4 Tahun 2011 versi 21 April 2011 Pasal 63 Ayat 2?'}
+Entities:  ['UU tahun 2011 no 4 versi 21 April 2011 pasal 63 ayat 2 huruf']
+Retrieved Resources:                                                                                  uri                                                           label
+0    https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf    UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf
+1          https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002          UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2
+2  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/a  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf a
+3  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/b  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf b
+4  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/d  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf d
+Retrieved entities:                                                                               uri                                                          label
+  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf   UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf
+        https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002         UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2
+https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/a UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf a
+https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/b UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf b
+https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/d UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf d
+Entity:  UU tahun 2011 no 4 versi 21 April 2011 pasal 63 ayat 2 huruf
+Question:  UU tahun 2011 no 4 versi 21 April 2011 pasal 63 ayat 2 huruf
+{'chat_history': [HumanMessage(content='UU tahun 2011 no 4 versi 21 April 2011 pasal 63 ayat 2 huruf', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2011 no 4 versi 21 April 2011 pasal 63 ayat 2 huruf'}
+<IPython.core.display.HTML object>
+Error: Failed to parse Resource from completion "https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf". Got: 1 validation error for Resource
+  Input should be a valid dictionary or instance of Resource [type=model_type, input_value='https://example.org/lex2...0110421/ayat/0002/huruf', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/model_type
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+Resource:  uri='https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf'
+Entity URI:  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf
+
+
+
+po:                                                  p                                                                                           o                                                        sLabel       pLabel                                                                    oLabel
+0      https://example.org/lex2kg/ontology/segmen  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/description  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf       segmen  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf description
+1       https://example.org/lex2kg/ontology/huruf            https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/d  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf        huruf            UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf d
+2       https://example.org/lex2kg/ontology/huruf            https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/c  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf        huruf            UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf c
+3       https://example.org/lex2kg/ontology/huruf            https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/b  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf        huruf            UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf b
+4       https://example.org/lex2kg/ontology/huruf            https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/a  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf        huruf            UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf a
+5  https://example.org/lex2kg/ontology/bagianDari                    https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf  bagian dari                    UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2
+sp:                                                                                              s                                                p                                                                    sLabel        pLabel                                                        oLabel
+0                    https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002  https://example.org/lex2kg/ontology/daftarHuruf                    UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2  daftar huruf  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf
+1            https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/d   https://example.org/lex2kg/ontology/bagianDari            UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf d   bagian dari  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf
+2  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/description   https://example.org/lex2kg/ontology/bagianDari  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf description   bagian dari  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf
+3            https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/c   https://example.org/lex2kg/ontology/bagianDari            UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf c   bagian dari  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf
+4            https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/b   https://example.org/lex2kg/ontology/bagianDari            UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf b   bagian dari  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf
+5            https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/a   https://example.org/lex2kg/ontology/bagianDari            UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf a   bagian dari  UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf
+
+
+
+cands:  ['segmen dari UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf adalah UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf description', 'huruf dari UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf adalah UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf d', 'UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf merupakan bagian dari UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2', 'daftar huruf dari UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 adalah UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf', 'UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf d merupakan bagian dari UU tahun 2011 no 4 pasal 63 versi 21 April 2011 ayat 2 huruf']
+Result:  [{'huruf': 'https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/d'}, {'huruf': 'https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/c'}, {'huruf': 'https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/b'}, {'huruf': 'https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/a'}] Similarities:  0.98983943

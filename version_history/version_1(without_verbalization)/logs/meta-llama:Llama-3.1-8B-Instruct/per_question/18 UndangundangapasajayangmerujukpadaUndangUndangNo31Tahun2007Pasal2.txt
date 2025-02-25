@@ -1,0 +1,130 @@
+Translated Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?
+Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?'}
+Entities:  ['UU tahun 2007 no 31 pasal 2']
+Retrieved Resources:                                                                 uri                                              label
+0                 https://example.org/lex2kg/uu/2007/31/pasal/0002                        UU tahun 2007 no 31 pasal 2
+1                   https://example.org/lex2kg/uu/2007/31/bab/0002                          UU tahun 2007 no 31 bab 2
+2       https://example.org/lex2kg/uu/2007/31/bab/0002/bagian/0002                 UU tahun 2007 no 31 bab 2 bagian 2
+3            https://example.org/lex2kg/uu/2007/31/bab/0002/bagian                   UU tahun 2007 no 31 bab 2 bagian
+4  https://example.org/lex2kg/uu/2007/31/pasal/0002/versi/20070810  UU tahun 2007 no 31 pasal 2 versi 10 Agustus 2007
+Retrieved entities:                                                              uri                                             label
+               https://example.org/lex2kg/uu/2007/31/pasal/0002                       UU tahun 2007 no 31 pasal 2
+                 https://example.org/lex2kg/uu/2007/31/bab/0002                         UU tahun 2007 no 31 bab 2
+     https://example.org/lex2kg/uu/2007/31/bab/0002/bagian/0002                UU tahun 2007 no 31 bab 2 bagian 2
+          https://example.org/lex2kg/uu/2007/31/bab/0002/bagian                  UU tahun 2007 no 31 bab 2 bagian
+https://example.org/lex2kg/uu/2007/31/pasal/0002/versi/20070810 UU tahun 2007 no 31 pasal 2 versi 10 Agustus 2007
+Entity:  UU tahun 2007 no 31 pasal 2
+Question:  UU tahun 2007 no 31 pasal 2
+{'chat_history': [HumanMessage(content='UU tahun 2007 no 31 pasal 2', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2007 no 31 pasal 2'}
+Resource:  uri='https://example.org/lex2kg/uu/2007/31/pasal/0002'
+Entity URI:  https://example.org/lex2kg/uu/2007/31/pasal/0002
+
+
+
+po:                                                                          o                                               p                       sLabel       pLabel                                             oLabel
+0         https://example.org/lex2kg/uu/2007/31/pasal/0002/versi/20070810       https://example.org/lex2kg/ontology/versi  UU tahun 2007 no 31 pasal 2        versi  UU tahun 2007 no 31 pasal 2 versi 10 Agustus 2007
+1                                                                       2       https://example.org/lex2kg/ontology/nomor  UU tahun 2007 no 31 pasal 2        nomor                                               no 2
+2  https://example.org/lex2kg/uu/2007/31/bab/0002/bagian/0001/daftarPasal  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2007 no 31 pasal 2  bagian dari    UU tahun 2007 no 31 bab 2 bagian 1 daftar pasal
+3                                   https://example.org/lex2kg/uu/2007/31  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2007 no 31 pasal 2  bagian dari                                UU tahun 2007 no 31
+sp:                                                  p                                                                               s                                                         sLabel       pLabel                       oLabel
+0     https://example.org/lex2kg/ontology/merujuk  https://example.org/lex2kg/uu/2007/31/pasal/0006/versi/20070810/ayat/0001/text  UU tahun 2007 no 31 pasal 6 versi 10 Agustus 2007 ayat 1 text      merujuk  UU tahun 2007 no 31 pasal 2
+1     https://example.org/lex2kg/ontology/merujuk            https://example.org/lex2kg/uu/2007/31/pasal/0004/versi/20070810/text         UU tahun 2007 no 31 pasal 4 versi 10 Agustus 2007 text      merujuk  UU tahun 2007 no 31 pasal 2
+2  https://example.org/lex2kg/ontology/bagianDari                 https://example.org/lex2kg/uu/2007/31/pasal/0002/versi/20070810              UU tahun 2007 no 31 pasal 2 versi 10 Agustus 2007  bagian dari  UU tahun 2007 no 31 pasal 2
+3       https://example.org/lex2kg/ontology/pasal                                           https://example.org/lex2kg/uu/2007/31                                            UU tahun 2007 no 31        pasal  UU tahun 2007 no 31 pasal 2
+4       https://example.org/lex2kg/ontology/pasal          https://example.org/lex2kg/uu/2007/31/bab/0002/bagian/0001/daftarPasal                UU tahun 2007 no 31 bab 2 bagian 1 daftar pasal        pasal  UU tahun 2007 no 31 pasal 2
+
+
+
+cands:  ['UU tahun 2007 no 31 pasal 2 versi 10 Agustus 2007 merupakan bagian dari UU tahun 2007 no 31 pasal 2', 'nomor dari UU tahun 2007 no 31 pasal 2 adalah no 2', 'UU tahun 2007 no 31 pasal 2 merupakan bagian dari UU tahun 2007 no 31 bab 2 bagian 1 daftar pasal', 'merujuk dari UU tahun 2007 no 31 pasal 6 versi 10 Agustus 2007 ayat 1 text adalah UU tahun 2007 no 31 pasal 2', 'pasal dari UU tahun 2007 no 31 adalah UU tahun 2007 no 31 pasal 2']
+Result:  [] Similarities:  0.65869033
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2004/31/pasal/0031
+        - lex2kg/uu/1964/35/mengingat/text
+        - lex2kg/uu/2007/2/pasal/0007/versi/20070102
+        - lex2kg/uu/1999/43/mengingat/huruf/description
+        - lex2kg/uu/1990/2/mengingat/huruf/description
+        - lex2kg/uu/2007/7/pasal/0007/versi/20070102
+        - lex2kg/uu/1989/1/mengingat/huruf/description
+        - lex2kg/uu/2007/29/pasal/0031/versi/20070730
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2013/24/pasal/0068
+        - lex2kg/uu
+        - lex2kg/uu/2012/8/pasal/0093
+        - lex2kg/uu/2014/32/pasal/0031
+        - lex2kg/uu/2007/2/pasal/0002/versi/20070102/text
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2009/4/pasal/0153
+        - lex2kg/uu/2013/1/pasal/0031
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2002/31/pasal/0031
+        - lex2kg/uu/2007/1/pasal/0007/versi/20070102
+        - lex2kg/uu/2007/27/pasal/0006/versi/20070717
+        - lex2kg/uu/2007/6/pasal/0007/versi/20070102
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2014/33/bab
+        - lex2kg/uu/1983/6/pasal/0031/versi/19831231/text
+        - lex2kg/uu/1990/6/mengingat/huruf/description
+        - lex2kg/uu/1999/40/mengingat/huruf/description
+        - lex2kg/uu/1954/76/mengingat/text
+        - lex2kg/uu/2007/27/pasal/0007/versi/20070717
+        - lex2kg/uu/2007/31/bab/0002
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/2012/17/pasal/0094
+        - lex2kg/uu/2008/43/mengingat/text
+        - lex2kg/uu/1997/31/pasal/0031
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2007/27/pasal/0031/versi/20070717
+        - lex2kg/uu/2007/2/pasal/0002/versi/20070102
+        - lex2kg/uu/2010/13/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2007/2/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/2007/1/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2007/31/pasal/0002
+        - lex2kg/uu/1994/3/mengingat/huruf/description
+        - lex2kg/uu/2007/31/bab/0002/bagian/0002
+        - lex2kg/uu/2002/2/bab/0002/daftarPasal
+        - lex2kg/uu/2014/37/pasal/0031
+        - lex2kg/uu/1990/1/mengingat/huruf/description
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/1983/6/pasal/0037/versi/19831231/text
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2002/4/mengingat/huruf/0002
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2007/7/bab
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/2007/7/pasal/0002/versi/20070102/text
+        - lex2kg/uu/2007/7/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2013/20/mengingat/text
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2007/6/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2007/7/mengingat
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/2007/7
+        - lex2kg/uu/2014/33/pasal/0031
+        - lex2kg/uu/1989/4/mengingat/huruf/description
+        - lex2kg/uu/1981/3/mengingat/huruf/description
+        - lex2kg/uu/1999/44/mengingat/huruf/description
+        - lex2kg/uu/2014/17/bab/0004/bagian/0009/paragraf/0006/daftarPasal
+    - properties: 
+        - lex2kg-o:tahun
+        - lex2kg-o:bagianDari
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:segmen
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:daftarBagian
+        - lex2kg-o:nomor
+        - lex2kg-o:pasal
+        - lex2kg-o:tentang
+        - lex2kg-o:paragraf
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:merujuk
+        - lex2kg-o:daftarPasal
+        - lex2kg-o:judul
+        - lex2kg-o:bahasa
+
+Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?'}
+Thoughts:  ["1. Pertanyaan ini meminta informasi tentang undang-undang yang merujuk pada 'Undang-Undang No. 31 Tahun 2007 Pasal 2'.", "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2007/31/pasal/0002'.", "3. Properti 'lex2kg-o:merujuk' digunakan untuk menunjukkan hubungan antara suatu undang-undang dan pasal yang dirujuknya.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:merujuk' dengan 'lex2kg/uu/2007/31/pasal/0002'.", '5. Susun query SPARQL untuk mengambil semua undang-undang yang merujuk ke pasal ini.']
+Generated SPARQL:  select?x {?x lex2kg-o:merujuk <https://example.org/lex2kg/uu/2007/31/pasal/0002>. }

@@ -1,0 +1,143 @@
+Translated Question:  Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?
+Question:  Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?
+{'chat_history': [HumanMessage(content='Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?', additional_kwargs={}, response_metadata={})], 'input': 'Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?'}
+Entities:  ['UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1']
+Retrieved Resources:                                                                           uri                                                      label
+0  https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1
+1       https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat    UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat
+2  https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0002  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 2
+3            https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029         UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012
+4  https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0003  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 3
+Retrieved entities:                                                                        uri                                                     label
+https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001 UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1
+     https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat   UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat
+https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0002 UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 2
+          https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029        UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012
+https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0003 UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 3
+Entity:  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1
+Question:  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1
+{'chat_history': [HumanMessage(content='UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1', additional_kwargs={}, response_metadata={})], 'input': 'UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1'}
+Resource:  uri='https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001'
+Entity URI:  https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001
+
+
+
+po:                                                                                                                                       o                                               p                                                     sLabel       pLabel                                                                                                                               oLabel
+0  Koperasi menjalankan kegiatan usaha yang berkaitan langsung dan sesuai dengan jenis Koperasi yang dicantumkan dalam Anggaran Dasar.        https://example.org/lex2kg/ontology/teks  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1         teks  koperasi menjalankan kegiatan usaha yang berkaitan langsung dan sesuai dengan jenis koperasi yang dicantumkan dalam anggaran dasar.
+1                                                       https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001/text      https://example.org/lex2kg/ontology/segmen  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1       segmen                                                                       UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1 text
+2                                                                                                                                    1       https://example.org/lex2kg/ontology/nomor  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1        nomor                                                                                                                                 no 1
+3                                                                 https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat  https://example.org/lex2kg/ontology/bagianDari  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1  bagian dari                                                                              UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat
+sp:                                                  p                                                                               s                                                          sLabel       pLabel                                                     oLabel
+0        https://example.org/lex2kg/ontology/ayat            https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat         UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat         ayat  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1
+1  https://example.org/lex2kg/ontology/bagianDari  https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001/text  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1 text  bagian dari  UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1
+
+
+
+cands:  ['teks dari UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1 adalah koperasi menjalankan kegiatan usaha yang berkaitan langsung dan sesuai dengan jenis koperasi yang dicantumkan dalam anggaran dasar.', 'UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1 text merupakan bagian dari UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1', 'nomor dari UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1 adalah no 1', 'ayat dari UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat adalah UU tahun 2012 no 17 pasal 87 versi 29 Oktober 2012 ayat 1']
+Result:  [] Similarities:  0.69426095
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1995/1/pasal/0087
+        - lex2kg/uu/2009/47/pasal/0029
+        - lex2kg/uu/1981/8/pasal/0087
+        - lex2kg/uu/2008/50/menimbang/huruf/a/text
+        - lex2kg/uu/2010/10/mengingat/huruf/0017
+        - lex2kg/uu/2014/17/pasal/0017
+        - lex2kg/uu/1957/58/menimbang/text
+        - lex2kg/uu/1997/25/pasal/0087
+        - lex2kg/uu/2012/17/pasal/0087
+        - lex2kg/uu/2012/12/pasal/0087/versi/20120810/text
+        - lex2kg/uu/2012/1/pasal/0001/versi/20120104
+        - lex2kg/uu/1986/5/pasal/0087
+        - lex2kg/uu/1986/4/menimbang/text
+        - lex2kg/uu/2012/2/pasal/0002/versi/20120114
+        - lex2kg/uu/1957/57/menimbang/text
+        - lex2kg/uu/2012/17/pasal/0017/versi/20121029
+        - lex2kg/uu/2009/32/pasal/0029
+        - lex2kg/uu/2009/4/pasal/0153
+        - lex2kg/uu/2012/17/pasal/0010/versi/20121029
+        - lex2kg/uu/1997/17/pasal/0087
+        - lex2kg/uu/2009/47/pasal/0029/versi/20091029/text
+        - lex2kg/uu/1983/4/menimbang/text
+        - lex2kg/uu/2001/1/mengingat/huruf/0001
+        - lex2kg/uu/2019/17/pasal/0017
+        - lex2kg/uu/2009/48/pasal/0029/versi/20091029
+        - lex2kg/uu/2009/52/pasal/0029/versi/20091029
+        - lex2kg/uu/2012/17/pasal/0017
+        - lex2kg/uu/2010/10/mengingat/huruf/0010
+        - lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat
+        - lex2kg/uu/1989/7/pasal/0087
+        - lex2kg/uu/2014/29/pasal/0029
+        - lex2kg/uu/2009/47/pasal/0029/versi/20091029
+        - lex2kg/uu/1987/6/menimbang/text
+        - lex2kg/uu/2/12
+        - lex2kg/uu/2012/18/pasal/0087
+        - lex2kg/uu/2012/1/pasal/0002/versi/20120104
+        - lex2kg/uu/1987/1/mengingat/text
+        - lex2kg/uu/2012/12/mengingat
+        - lex2kg/uu/2009/48/pasal/0029
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829/ayat/0001/text
+        - lex2kg/uu/2012/17
+        - lex2kg/uu/1989/7/pasal/0087/versi/19891229/ayat/0001/text
+        - lex2kg/uu/2012/1/pasal/0002/versi/20120104/text
+        - lex2kg/uu/1957/43/menimbang/text
+        - lex2kg/uu/2014/37/mengingat/text
+        - lex2kg/uu/1997/1/mengingat/huruf/0001
+        - lex2kg/uu/2008/49/mengingat/huruf/0001/text
+        - lex2kg/uu/2001/4/mengingat/huruf/0001
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829/ayat/0002/text
+        - lex2kg/uu/2008/49/menimbang/huruf/a/text
+        - lex2kg/uu/2012/8/pasal/0087
+        - lex2kg/uu/2008/47/mengingat/huruf/0001/text
+        - lex2kg/uu/2017/17
+        - lex2kg/uu/2012/17/pasal/0017/versi/20121029/ayat
+        - lex2kg/uu/1987/5/menimbang/text
+        - lex2kg/uu/2012/17/pasal/0029/versi/20121029
+        - lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0002
+        - lex2kg/uu/2012/17/pasal/0087/versi/20121029
+        - lex2kg/uu/2012/12/mengingat/text
+        - lex2kg/uu/1997/31/pasal/0087
+        - lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0003
+        - lex2kg/uu/2009/36/pasal/0029
+        - lex2kg/uu/1957/41/menimbang/text
+        - lex2kg/uu/2014/32/mengingat/text
+        - lex2kg/uu/1982/8/menimbang/text
+        - lex2kg/uu
+        - lex2kg/uu/2009/46/pasal/0029/versi/20091029
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/2009/47/mengingat/huruf/0017
+        - lex2kg/uu/2012/12/bab
+        - lex2kg/uu/2007/48/mengingat/huruf/0001/text
+        - lex2kg/uu/2012/12/pasal/0087
+        - lex2kg/uu/2017/18/pasal/0017
+        - lex2kg/uu/1997/17/pasal/0017
+        - lex2kg/uu/2009/48/pasal/0030/versi/20091029
+        - lex2kg/uu/2012/19/pasal/0029/versi/20121116
+        - lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001
+        - lex2kg/uu/2012/12/pasal/0017/versi/20120810
+        - lex2kg/uu/1957/37/mengingat/text
+        - lex2kg/uu/2017/15/pasal/0017
+        - lex2kg/uu/1992/21/pasal/0087
+        - lex2kg/uu/1985/2/menimbang/text
+        - lex2kg/uu/1957/34/menimbang/text
+        - lex2kg/uu/2000/29/pasal/0029
+    - properties: 
+        - lex2kg-o:teks
+        - lex2kg-o:ayat
+        - lex2kg-o:tahun
+        - lex2kg-o:bagianDari
+        - lex2kg-o:versi
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:jenisVersi
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:nomor
+        - lex2kg-o:pasal
+        - lex2kg-o:tentang
+        - lex2kg-o:judul
+        - lex2kg-o:daftarPasal
+        - lex2kg-o:daftarAyat
+        - lex2kg-o:tanggal
+
+Question:  Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?
+{'chat_history': [HumanMessage(content='Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?', additional_kwargs={}, response_metadata={})], 'input': 'Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?'}
+Thoughts:  ["1. Pertanyaan ini meminta isi teks dari 'UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1'.", "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001'.", "3. Properti 'lex2kg-o:teks' digunakan untuk menghubungkan suatu ayat dengan teks isinya.", "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001' dan ambil isinya melalui properti 'lex2kg-o:teks'.", "5. Susun query SPARQL untuk mengambil isi dari 'UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1'."]
+Generated SPARQL:  SELECT?x WHERE { <https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001> lex2kg-o:teks?x. }
