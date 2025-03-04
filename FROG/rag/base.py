@@ -549,13 +549,22 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
         return sparql_query_result.sparql, result
     
     def is_count_question(self, question: str, try_threshold: int = 10) -> bool:
-        response_schemas = [
-            ResponseSchema(
-                name="is_count_question",
-                description="True if the question asks for a number, quantity, amount, measurement, or count, otherwise False."
+        # response_schemas = [
+        #     ResponseSchema(
+        #         name="is_count_question",
+        #         description="True if the question asks for a number, quantity, amount, measurement, or count, otherwise False."
+        #     )
+        # ]
+        # output_parser = StructuredOutputParser.from_response_schemas(response_schemas)
+        class CountQuestionResponse(BaseModel):
+            """Determines whether a given question asks for a numerical value, quantity, measurement, or count."""
+            
+            is_count_question: bool = Field(
+                ..., 
+                description="True if the question asks for a number, quantity, amount, measurement, or count; otherwise, False."
             )
-        ]
-        output_parser = StructuredOutputParser.from_response_schemas(response_schemas)
+
+        output_parser = PydanticOutputParser(pydantic_object=CountQuestionResponse)
         format_instructions = output_parser.get_format_instructions()
         
         query_prompt = ChatPromptTemplate.from_messages([
@@ -574,7 +583,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
         )
         print(question, response)
         
-        return response["is_count_question"]
+        return response.is_count_question
 
     def run(
         self,
