@@ -561,7 +561,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
         query_prompt = ChatPromptTemplate.from_messages([
             ("system", 
             """You will determine if a given question is asking for a numerical value, quantity, measurement, or count.
-            Respond only with 'true' or 'false'.
+            Respond only with True or False.
             
             {format_instructions}"""),
             MessagesPlaceholder("chat_history"),
@@ -572,9 +572,9 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
         response, _ = self.handle_parsing_error(
             llm_chain, output_parser, [], question, try_threshold=try_threshold,
         )
-        print(question, response.is_count_question)
+        print(question, response)
         
-        return response.is_count_question
+        return response["is_count_question"]
 
     def run(
         self,
