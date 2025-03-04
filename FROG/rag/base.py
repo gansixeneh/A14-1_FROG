@@ -572,6 +572,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
         response, _ = self.handle_parsing_error(
             llm_chain, output_parser, [], question, try_threshold=try_threshold,
         )
+        print(question, response)
         
         return response.lower().strip() == "true"
 
