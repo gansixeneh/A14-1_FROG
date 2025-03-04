@@ -557,11 +557,11 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
         # ]
         # output_parser = StructuredOutputParser.from_response_schemas(response_schemas)
         class CountQuestionResponse(BaseModel):
-            """Determines whether a given question asks for a numerical value, quantity, measurement, or count."""
+            """Determines whether a given question, written in Indonesian, asks for a numerical value, quantity, measurement, or count."""
             
             is_count_question: bool = Field(
                 ..., 
-                description="True if the question asks for a number, quantity, amount, measurement, or count; otherwise, False."
+                description="True if the question asks for a number, quantity, amount, measurement, or count in Indonesian; otherwise, False."
             )
 
         output_parser = PydanticOutputParser(pydantic_object=CountQuestionResponse)
@@ -569,7 +569,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
         
         query_prompt = ChatPromptTemplate.from_messages([
             ("system", 
-            """You will determine if a given question is asking for a numerical value, quantity, measurement, or count.
+            """You will determine if a given question, written in Indonesian, is asking for a numerical value, quantity, measurement, or count.
             Respond only with True or False.
             
             {format_instructions}"""),
