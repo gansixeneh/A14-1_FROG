@@ -288,12 +288,28 @@ if __name__ == '__main__':
     )
     
     questions = [
-        "Berapa harga laptop ini?",  # Count question
-        "Siapa pemilik laptop ini?",  # Not a count question
-        "Brp harga laptop ini?",  # Count question (abbreviated "berapa")
-        "Banyak UU pada tahun 2020 adalah?",  # Count question
-        "Kapan laptop ini dirilis?"  # Not a count question
+        "Berapa harga laptop ini?",
+        "Ada berapa siswa di kelas ini?",
+        "Berapa jumlah penduduk di Indonesia?",
+        "Berapa panjang jembatan Suramadu?",
+        "Berapa banyak bahasa yang digunakan di dunia?",
+        "Berapa tahun usia planet Bumi?",
+        "Berapa liter air yang dibutuhkan untuk mandi?",
+        "Berapa kali kamu pergi ke gym dalam seminggu?",
+        "Berapa berat badanmu sekarang?",
+        "Berapa suhu di Jakarta saat ini?",
+        "Siapa presiden Indonesia saat ini?",
+        "Apa warna favoritmu?",
+        "Di mana letak Candi Borobudur?",
+        "Mengapa langit berwarna biru?",
+        "Bagaimana cara membuat kue brownies?",
+        "Siapa penemu listrik?",
+        "Apa yang menyebabkan gempa bumi?",
+        "Kapan Hari Kemerdekaan Indonesia?",
+        "Siapa yang menulis novel 'Laskar Pelangi'?",
+        "Apa arti kata 'demokrasi'?"
     ]
+
     ans = []
     for question in questions:
         ans.append(rag_engine.is_count_question(question))
