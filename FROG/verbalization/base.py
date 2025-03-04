@@ -141,7 +141,7 @@ class BaseVerbalization:
                 candidates[(p, "sp")] = self.get_kalimat(label_s, label_p, label_o)
 
         return candidates, po, sp
-
+    
     def run(
         self, question: str, entity: str, output_uri=False
     ) -> tuple[list[dict[str, str]], float]:
@@ -179,6 +179,5 @@ class BaseVerbalization:
                     else replace_using_dict(s.split("/")[-1], self.MANUAL_MAPPING_DICT)
                 )
                 result.append({label_p: s if output_uri else label_s})
-        if 'berapa' in question.lower():
-            result = [{'cnt': str(len(result))}]
+        
         return result, similar_score

@@ -547,6 +547,33 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
                 # success
                 break
         return sparql_query_result.sparql, result
+    
+    def is_count_question(self, question: str, try_threshold: int = 10) -> bool:
+        response_schemas = [
+            ResponseSchema(
+                name="is_count_question",
+                description="True if the question asks for a number, quantity, amount, measurement, or count, otherwise False."
+            )
+        ]
+        output_parser = StructuredOutputParser.from_response_schemas(response_schemas)
+        format_instructions = output_parser.get_format_instructions()
+        
+        query_prompt = ChatPromptTemplate.from_messages([
+            ("system", 
+            """You will determine if a given question is asking for a numerical value, quantity, measurement, or count.
+            Respond only with 'true' or 'false'.
+            
+            {format_instructions}"""),
+            MessagesPlaceholder("chat_history"),
+            ("human", "{input}")
+        ]).partial(format_instructions=format_instructions)
+        
+        llm_chain = query_prompt | self.chat_model | StrOutputParser()
+        response, _ = self.handle_parsing_error(
+            llm_chain, output_parser, [], question, try_threshold=try_threshold,
+        )
+        
+        return response.lower().strip() == "true"
 
     def run(
         self,
@@ -659,6 +686,8 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
                 if self.print_output:
                     print("Error: ", e)
             if not is_error and similarities >= 0.985 and len(result) > 0:
+                if 'berapa' in factoid_question.lower():
+                    result = [{'cnt': str(len(result))}]
                 return factoid_question, "", result
 
         few_shots = deepcopy(self.generate_sparql_few_shot_messages)
