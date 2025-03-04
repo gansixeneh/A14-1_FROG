@@ -294,5 +294,8 @@ if __name__ == '__main__':
         "Banyak UU pada tahun 2020 adalah?",  # Count question
         "Kapan laptop ini dirilis?"  # Not a count question
     ]
+    ans = []
     for question in questions:
-        print(rag_engine.is_count_question(question))
+        ans.append(rag_engine.is_count_question(question))
+    
+    print(ans)
