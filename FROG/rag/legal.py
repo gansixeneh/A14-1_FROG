@@ -275,3 +275,24 @@ You are an assistant trained to generate SPARQL queries. Use the provided contex
             verbose=verbose,
             try_threshold=try_threshold,
         )
+
+if __name__ == '__main__':
+    rag_engine = LegalGraphRAG(
+        model_name="Qwen/Qwen2.5-3B-Instruct",
+        use_local_model=True,
+        max_new_tokens=1500,
+        always_use_generate_sparql=False,
+        use_local_weaviate_client=False,
+        print_output=True,
+        turtle_file_path="data/legal_turtle/data-lex2kg.ttl",
+    )
+    
+    questions = [
+        "Berapa harga laptop ini?",  # Count question
+        "Siapa pemilik laptop ini?",  # Not a count question
+        "Brp harga laptop ini?",  # Count question (abbreviated "berapa")
+        "Banyak UU pada tahun 2020 adalah?",  # Count question
+        "Kapan laptop ini dirilis?"  # Not a count question
+    ]
+    for question in questions:
+        print(rag_engine.is_count_question(question))
