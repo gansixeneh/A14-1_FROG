@@ -15,7 +15,7 @@ for subj, pred, obj in graph:
             graph.add((subj, pred, Literal("Jakarta")))
 
     # Remove unnecessary /text suffix on lex2kg-o:merujuk
-    if isinstance(subj, URIRef) and subj.endswith("/text"):
+    if isinstance(subj, URIRef) and subj.endswith("/text") and pred.endswith("merujuk"):
         new_subj = URIRef(str(subj).replace("/text", ""))
         graph.remove((subj, pred, obj))
         graph.add((new_subj, pred, obj))
