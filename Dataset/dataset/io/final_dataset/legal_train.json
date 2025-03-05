@@ -17,7 +17,7 @@
         "4": "select ?x { <https:\/\/example.org\/lex2kg\/uu\/2020\/4> lex2kg-o:disahkanOleh ?x .}",
         "5": "select ?x { ?x lex2kg-o:mengubah ?law . ?law lex2kg-o:tanggal '2011-07-20'^^xsd:date . }",
         "6": "select (count(?x) as ?cnt) { ?x <https:\/\/example.org\/lex2kg\/ontology\/merujuk> <https:\/\/example.org\/lex2kg\/uu\/1992\/12\/pasal\/0043\/versi\/19920430\/ayat\/0001> . }",
-        "7": "select ?x { ?x lex2kg-o:disahkanPada '1957-10-26'^^xsd:date . ?x lex2kg-o:disahkanOleh 'SOEKARNO' . }"
+        "7": "select ?x { ?x lex2kg-o:disahkanPada '1957-10-26'^^xsd:date . ?x lex2kg-o:disahkanOleh 'Soekarno' . }"
     },
     "category": {
         "0": "io\/legal_train\/simple_1_1_count.json",
