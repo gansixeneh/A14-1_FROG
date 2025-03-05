@@ -136,7 +136,7 @@ def main(
             always_use_generate_sparql=always_use_generate_sparql,
             use_local_weaviate_client=use_local_weaviate_client,
             print_output=True,
-            turtle_file_path="data/legal_turtle/data-lex2kg.ttl",
+            turtle_file_path="data/legal_turtle/modified_data-lex2kg.ttl",
         )
     else:
         raise ValueError("Invalid knowledge source.")

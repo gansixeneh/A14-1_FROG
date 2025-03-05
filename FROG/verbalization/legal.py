@@ -82,39 +82,3 @@ WHERE {{
         if df.empty:
             return pd.DataFrame(columns=["s", "p", "sLabel", "pLabel", "oLabel"])
         return df
-
-if __name__ == "__main__":
-    legal_verbalization = LegalVerbalization(
-        turtle_file_path="data/legal_turtle/data-lex2kg.ttl",
-        model_name="jinaai/jina-embeddings-v3",
-        model_kwargs={"trust_remote_code": True},
-        query_model_encode_kwargs={
-            "task": "retrieval.query",
-            "prompt_name": "retrieval.query",
-        },
-        passage_model_encode_kwargs={
-            "task": "retrieval.passage",
-            "prompt_name": "retrieval.passage",
-        },
-    )
-    
-    # coba 1
-    
-    # y = legal_verbalization.get_sp("https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat")
-    # print("sp debug")
-    # for _, (s, p, sLabel, pLabel, oLabel) in y.iterrows():
-    #     print("s: ", s)
-    #     print("p: ", p)
-    #     print()
-    
-    # y = legal_verbalization.get_po("https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat")
-    # print("po debug")
-    # for _, (p, o, sLabel, pLabel, oLabel) in y.iterrows():
-    #     print("p: ", p)
-    #     print("o: ", o)
-    #     print()
-    
-    # coba 2
-    
-    # (candidates, po, sp) = legal_verbalization.get_list_of_candidates("https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat")
-    # print(candidates)

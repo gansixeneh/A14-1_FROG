@@ -1,30 +1,30 @@
 ,short,label
-0,lex2kg-o:nomor,nomor
-1,lex2kg-o:versi,versi
-2,lex2kg-o:segmen,segmen
-3,lex2kg-o:teks,teks
-4,lex2kg-o:jenisVersi,jenis versi
-5,lex2kg-o:merujuk,merujuk
-6,lex2kg-o:tanggal,tanggal
+0,lex2kg-o:segmen,segmen
+1,lex2kg-o:teks,teks
+2,lex2kg-o:nomor,nomor
+3,lex2kg-o:jenisVersi,jenis versi
+4,lex2kg-o:bab,bab
+5,lex2kg-o:ayat,ayat
+6,lex2kg-o:merujuk,merujuk
 7,lex2kg-o:huruf,huruf
 8,lex2kg-o:pasal,pasal
-9,lex2kg-o:daftarPasal,daftar pasal
-10,lex2kg-o:bahasa,bahasa
-11,lex2kg-o:ayat,ayat
-12,lex2kg-o:judul,judul
-13,lex2kg-o:tentang,tentang
-14,lex2kg-o:disahkanDi,disahkan di
-15,lex2kg-o:tahun,tahun
-16,lex2kg-o:disahkanPada,disahkan pada
-17,lex2kg-o:jenisPeraturan,jenis peraturan
-18,lex2kg-o:disahkanOleh,disahkan oleh
-19,lex2kg-o:bab,bab
+9,lex2kg-o:versi,versi
+10,lex2kg-o:daftarPasal,daftar pasal
+11,lex2kg-o:yurisdiksi,yurisdiksi
+12,lex2kg-o:tanggal,tanggal
+13,lex2kg-o:judul,judul
+14,lex2kg-o:menimbang,menimbang
+15,lex2kg-o:disahkanDi,disahkan di
+16,lex2kg-o:mengubah,mengubah
+17,lex2kg-o:mengingat,mengingat
+18,lex2kg-o:jenisPeraturan,jenis peraturan
+19,lex2kg-o:disahkanOleh,disahkan oleh
 20,lex2kg-o:bagian,bagian
-21,lex2kg-o:mengubah,mengubah
-22,lex2kg-o:jabatanPengesah,jabatan pengesah
-23,lex2kg-o:paragraf,paragraf
-24,lex2kg-o:menghapus,menghapus
-25,lex2kg-o:mengingat,mengingat
-26,lex2kg-o:yurisdiksi,yurisdiksi
-27,lex2kg-o:menimbang,menimbang
-28,lex2kg-o:menyisipkan,menyisipkan
+21,lex2kg-o:paragraf,paragraf
+22,lex2kg-o:tentang,tentang
+23,lex2kg-o:bahasa,bahasa
+24,lex2kg-o:tahun,tahun
+25,lex2kg-o:menyisipkan,menyisipkan
+26,lex2kg-o:menghapus,menghapus
+27,lex2kg-o:disahkanPada,disahkan pada
+28,lex2kg-o:jabatanPengesah,jabatan pengesah
