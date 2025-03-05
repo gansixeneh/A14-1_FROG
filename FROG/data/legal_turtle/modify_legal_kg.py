@@ -72,9 +72,9 @@ for subj, pred, obj in graph:
             "Diundangkan di Jakarta": "unknown",
             "ttd.": "unknown",
             "ttd": "unknown",
-            "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 155": "unknown",
-            "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 153": "unknown",
-            "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 115": "unknown",
+            "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 155": "Megawati Soekarnoputri",
+            "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 153": "Megawati Soekarnoputri",
+            "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 115": "Megawati Soekarnoputri",
         }
            
         graph.remove((subj, pred, obj))
