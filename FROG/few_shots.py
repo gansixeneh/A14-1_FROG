@@ -778,14 +778,14 @@ ENTERPRISE_GENERATE_SPARQL_FEW_SHOTS = [
     },
 ]
 LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
-    # simple 1
+    # simple 1 new
     {
         "input": "Apa isi teks dari UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006?",
-        "output": {"names": ["UU tahun 2006 no 23 pasal 86 versi 29 Desember 2006 ayat 2 text"]},
+        "output": {"names": ["UU tahun 2006 no 23 pasal 86 versi 29 Desember 2006 ayat 2"]},
     },
     {
         "input": "Apa saja huruf yang terdapat dalam UU No. 22 Tahun 1997 Pasal 11 Ayat 4 versi 1 September 1997?",
-        "output": {"names": ["UU tahun 1997 no 22 pasal 11 versi 1 September 1997 ayat 4 huruf"]},
+        "output": {"names": ["UU tahun 1997 no 22 pasal 11 versi 1 September 1997 ayat 4"]},
     },
     {
         "input": "Ada berapa banyak pasal pada UU Nomor 9 Tahun 2020?",
@@ -817,18 +817,18 @@ LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
 ]
 
 LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
-    # simple 1 normal
+    # simple 1 normal new
     { 
         "input": "Apa isi teks dari UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006?",
         "output": {
             "thoughts": [
                 "1. Pertanyaan ini meminta isi atau teks dari ayat tertentu dalam undang-undang: 'UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006'.",
-                "2. Dalam ontologi, entitas yang merepresentasikan ayat ini mengikuti struktur 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002/text'.",
+                "2. Dalam ontologi, entitas yang merepresentasikan ayat ini mengikuti struktur 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002'.",
                 "3. Properti 'lex2kg-o:teks' digunakan untuk menghubungkan suatu ayat dengan teks isinya.",
-                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002/text' dan ambil isinya melalui properti 'lex2kg-o:teks'.",
+                "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002' dan ambil isinya melalui properti 'lex2kg-o:teks'.",
                 "5. Susun query SPARQL untuk mengambil isi dari 'UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006'."
             ],
-            "sparql": "SELECT ?x WHERE { <https://example.org/lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002/text> lex2kg-o:teks ?x . }"
+            "sparql": "SELECT ?x WHERE { <https://example.org/lex2kg/uu/2006/23/pasal/0086/versi/20061229/ayat/0002> lex2kg-o:teks ?x . }"
         }
     },
     # simple 1 normal
@@ -837,12 +837,12 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
         "output": {
             "thoughts": [
                 "1. Pertanyaan ini meminta informasi tentang huruf yang terdapat dalam 'UU No. 22 Tahun 1997 Pasal 11 Ayat 4 versi 1 September 1997'.",
-                "2. Dalam ontologi, entitas yang merepresentasikan undang-undang ini mengikuti struktur 'lex2kg/uu/1997/22/pasal/0011/versi/19970901/ayat/0004/huruf'.",
+                "2. Dalam ontologi, entitas yang merepresentasikan undang-undang ini mengikuti struktur 'lex2kg/uu/1997/22/pasal/0011/versi/19970901/ayat/0004'.",
                 "3. Huruf-huruf dalam pasal ini direpresentasikan sebagai entitas yang memiliki hubungan dengan ayat tertentu melalui properti 'lex2kg-o:huruf'.",
-                "4. Untuk menyelesaikan ini, cari semua entitas huruf yang terhubung dengan 'lex2kg/uu/1997/22/pasal/0011/versi/19970901/ayat/0004/huruf' melalui properti 'lex2kg-o:huruf'.",
+                "4. Untuk menyelesaikan ini, cari semua entitas huruf yang terhubung dengan 'lex2kg/uu/1997/22/pasal/0011/versi/19970901/ayat/0004' melalui properti 'lex2kg-o:huruf'.",
                 "5. Susun query SPARQL untuk mengambil huruf-huruf yang ada dalam 'UU No. 22 Tahun 1997 Pasal 11 Ayat 4 versi 1 September 1997'."
             ],
-            "sparql": "select ?huruf { <https://example.org/lex2kg/uu/1997/22/pasal/0011/versi/19970901/ayat/0004/huruf> lex2kg-o:huruf ?huruf . }"
+            "sparql": "select ?huruf { <https://example.org/lex2kg/uu/1997/22/pasal/0011/versi/19970901/ayat/0004> lex2kg-o:huruf ?huruf . }"
         }
     },
     # simple 1 count
@@ -906,16 +906,16 @@ LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
         "input": "Undang-undang apa saja yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno?",
         "output": {
             "thoughts": [
-                "1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh SOEKARNO.",
+                "1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan pada tanggal 26 Oktober 1957 dan disahkan oleh Soekarno.",
                 "2. Tidak ada entitas eksplisit yang bisa diekstrak, tetapi perlu mendeteksi dua literal utama:",
                 "   - '26 Oktober 1957' sebagai literal dengan format tanggal '1957-10-26'^^xsd:date.",
-                "   - 'SOEKARNO' sebagai literal dalam format semua karakter berupa huruf kapital.",
+                "   - 'Soekarno' sebagai literal dalam format semua karakter berupa huruf kapital.",
                 "3. Dalam ontologi, properti 'lex2kg-o:disahkanPada' digunakan untuk menunjukkan tanggal pengesahan undang-undang.",
                 "4. Properti 'lex2kg-o:disahkanOleh' digunakan untuk menunjukkan siapa yang mengesahkan undang-undang.",
-                "5. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '1957-10-26' pada properti 'lex2kg-o:disahkanPada' dan nilai 'SOEKARNO' pada properti 'lex2kg-o:disahkanOleh'.",
+                "5. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '1957-10-26' pada properti 'lex2kg-o:disahkanPada' dan nilai 'Soekarno' pada properti 'lex2kg-o:disahkanOleh'.",
                 "6. Susun query SPARQL untuk mendapatkan hasil yang sesuai."
             ],
-            "sparql": "select ?x { ?x lex2kg-o:disahkanPada '1957-10-26'^^xsd:date . ?x lex2kg-o:disahkanOleh 'SOEKARNO' . }"
+            "sparql": "select ?x { ?x lex2kg-o:disahkanPada '1957-10-26'^^xsd:date . ?x lex2kg-o:disahkanOleh 'Soekarno' . }"
         },
     },
     # complex 2
