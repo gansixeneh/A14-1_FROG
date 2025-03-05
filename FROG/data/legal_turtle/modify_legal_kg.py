@@ -23,17 +23,62 @@ for subj, pred, obj in graph:
     # Remove all triples with lex2kg-o:bagianDari
     if pred.endswith("bagianDari"):
         graph.remove((subj, pred, obj))
-
+    
+    # Correct jabatanPengesah literals
     if pred.endswith("jabatanPengesah"):
         if obj.value == "Diundangkan di Jakarta":
-            new_obj = Literal('MENTERI HUKUM DAN HAK AZASI MANUSIA REPUBLIK INDONESIA')
+            new_obj = Literal('Menteri Hukum dan Hak Azasi Manusia Republik Indonesia')
         elif obj.value == "WAKIL PRESIDEN REPUBLIK INDONESIA,":
-            new_obj = Literal("WAKIL PRESIDEN REPUBLIK INDONESIA")
+            new_obj = Literal("Wakil Presiden Republik Indonesia")
         else:
-            new_obj = Literal("PRESIDEN REPUBLIK INDONESIA")
+            new_obj = Literal("Presiden Republik Indonesia")
             
         graph.remove((subj, pred, obj))
         graph.add((subj, pred, new_obj))
+    
+    # Correct disahkanOleh literals
+    if pred.endswith("disahkanOleh"):
+        mapping = {
+            "JOKO WIDODO": "Joko Widodo",
+            "DR. H. SUSILO BAMBANG YUDHOYONO": "DR. H. Susilo Bambang Yudhoyono",
+            "DR.H. SUSILO BAMBANG YUDHOYONO": "DR. H. Susilo Bambang Yudhoyono",
+            "MEGAWATI SOEKARNOPUTRI": "Megawati Soekarnoputri",
+            "MEGAWATI SOEFKARNOPUTRI": "Megawati Soekarnoputri",
+            "MEGAWATI SOEKARNOP UTRI": "Megawati Soekarnoputri",
+            "ABDURRAHMAN WAHID": "Abdurrahman Wahid",
+            "BACHARUDDIN JUSUF HABIBIE": "Bacharuddin Jusuf Habibie",
+            "BACHRUDDIN JUSUF HABIBIE": "Bacharuddin Jusuf Habibie",
+            "SOEHARTO": "Soeharto",
+            "S0EHARTO": "Soeharto",
+            "SOEHARTO.": "Soeharto",
+            "SOEHAR TO": "Soeharto",
+            "JENDERAL TNI": "Jenderal TNI",
+            "JENDERAL TNI.": "Jenderal TNI",
+            "JENDERAL TNI .": "Jenderal TNI",
+            "JENDERAL T.N.I.": "Jenderal TNI",
+            "JENDERAL - TNI": "Jenderal TNI",
+            "Jenderal TNI": "Jenderal TNI",
+            "Jenderal T NI": "Jenderal TNI",
+            "SUKARNO": "Soekarno",
+            "SUKARNO.": "Soekarno",
+            "SOEKARNO": "Soekarno",
+            "SOEKARNO.": "Soekarno",
+            "PERDANA MENTERI,": "Soekarno",
+            "MOHAMMAD HATTA": "Mohammad Hatta",
+            "ASSAAT.": "Assaat",
+            "ASSAAT": "Assaat",
+            "MENTERI HUKUM DAN HAK AZASI MANUSIA": "Hamid Awaludin",
+            "Diundangkan": "unknown",
+            "Diundangkan di Jakarta": "unknown",
+            "ttd.": "unknown",
+            "ttd": "unknown",
+            "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 155": "unknown",
+            "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 153": "unknown",
+            "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 115": "unknown",
+        }
+           
+        graph.remove((subj, pred, obj))
+        graph.add((subj, pred, Literal(mapping[obj.value])))
 
 lex2kg_o = Namespace("https://example.org/lex2kg/ontology/")
 
