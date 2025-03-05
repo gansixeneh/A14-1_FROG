@@ -778,7 +778,7 @@ ENTERPRISE_GENERATE_SPARQL_FEW_SHOTS = [
     },
 ]
 LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
-    # simple 1 new
+    # simple 1
     {
         "input": "Apa isi teks dari UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006?",
         "output": {"names": ["UU tahun 2006 no 23 pasal 86 versi 29 Desember 2006 ayat 2"]},
@@ -817,7 +817,7 @@ LEGAL_EXTRACT_ENTITY_FEW_SHOTS = [
 ]
 
 LEGAL_GENERATE_SPARQL_FEW_SHOTS = [
-    # simple 1 normal new
+    # simple 1 normal
     { 
         "input": "Apa isi teks dari UU No. 23 Tahun 2006 Pasal 86 Ayat 2 versi 29 Desember 2006?",
         "output": {

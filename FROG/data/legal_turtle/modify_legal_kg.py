@@ -14,8 +14,15 @@ for subj, pred, obj in graph:
             graph.remove((subj, pred, obj))
             graph.add((subj, pred, Literal("Jakarta")))
 
-    # Remove unnecessary /text suffix on lex2kg-o:merujuk
-    if isinstance(subj, URIRef) and subj.endswith("/text") and pred.endswith("merujuk"):
+    # Remove unnecessary /text suffix on lex2kg-o:me-***
+    if any(pred.endswith(suffix) for suffix in ["merujuk", "menghapus", "mengingat", "mengubah", "menimbang", "menyisipkan"]):
+        new_subj = URIRef(str(subj).replace("/text", ""))
+        new_obj = URIRef(str(obj).replace("/text", ""))
+        graph.remove((subj, pred, obj))
+        graph.add((new_subj, pred, new_obj))
+    
+    # Move lex2kg-o:teks from /text entities to their parent entities
+    if pred.endswith("teks"):
         new_subj = URIRef(str(subj).replace("/text", ""))
         graph.remove((subj, pred, obj))
         graph.add((new_subj, pred, obj))
