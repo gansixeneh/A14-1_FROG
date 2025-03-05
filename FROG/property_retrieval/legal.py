@@ -38,7 +38,7 @@ WHERE {
 """
         
         super().__init__(
-            db_collection_name="legal_property_db",
+            db_collection_name="modified_legal_property_db",
             embedding_model_name=embedding_model_name,
             is_local_client=is_local_client,
         )
@@ -112,3 +112,10 @@ WHERE {
                     result[type] = list(set(result[type]))
 
         return result
+
+if __name__ == '__main__':
+    property_retrieval = LegalPropertyRetrieval(
+        embedding_model_name="jinaai/jina-embeddings-v3",
+        is_local_client=False,
+        turtle_file_path='data/legal_turtle/modified_data-lex2kg.ttl',
+    )
