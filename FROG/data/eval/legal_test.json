@@ -1,5 +1,5 @@
 {
-    "question": {
+    "query_name": {
         "0": "Apa saja versi yang tersedia untuk Undang-Undang No. 5 Tahun 1974 Pasal 13?",
         "1": "Apa saja huruf yang terdapat dalam UU No. 4 Tahun 2011 versi 21 April 2011 Pasal 63 Ayat 2?",
         "2": "Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?",
@@ -41,7 +41,7 @@
         "38": "Berapa banyak UU yang dirujuk oleh UU No. 5 Tahun 2007 Pasal 6 Ayat 1 Versi 2 Januari 2007?",
         "39": "Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?"
     },
-    "query": {
+    "legal_query": {
         "0": "select ?x { <https:\/\/example.org\/lex2kg\/uu\/1974\/5\/pasal\/0013> <https:\/\/example.org\/lex2kg\/ontology\/versi> ?x . }",
         "1": "select ?x { <https:\/\/example.org\/lex2kg\/uu\/2011\/4\/pasal\/0063\/versi\/20110421\/ayat\/0002> <https:\/\/example.org\/lex2kg\/ontology\/huruf> ?x . }",
         "2": "select ?x { <https:\/\/example.org\/lex2kg\/uu\/2012\/17\/pasal\/0087\/versi\/20121029\/ayat\/0001> <https:\/\/example.org\/lex2kg\/ontology\/teks> ?x . }",
