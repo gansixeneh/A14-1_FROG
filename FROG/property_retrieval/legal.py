@@ -10,7 +10,7 @@ class LegalPropertyRetrieval(BasePropertyRetrieval):
         self,
         embedding_model_name: str = "jinaai/jina-embeddings-v3",
         is_local_client: bool = False,
-        turtle_file_path: str = "data/legal_turtle/data-lex2kg.ttl",
+        turtle_file_path: str = "data/legal_turtle/modified_data-lex2kg.ttl",
     ) -> None:
         get_entities_query = """
 SELECT DISTINCT
@@ -112,10 +112,3 @@ WHERE {
                     result[type] = list(set(result[type]))
 
         return result
-
-if __name__ == '__main__':
-    property_retrieval = LegalPropertyRetrieval(
-        embedding_model_name="jinaai/jina-embeddings-v3",
-        is_local_client=False,
-        turtle_file_path='data/legal_turtle/modified_data-lex2kg.ttl',
-    )

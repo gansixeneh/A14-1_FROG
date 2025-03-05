@@ -40,7 +40,7 @@ class LegalGraphRAG(BaseGraphRAG):
         use_local_weaviate_client: bool = True,
         print_output: bool = False,
         additional_model_kwargs: dict = {},
-        turtle_file_path: str = "data/legal_turtle/data-lex2kg.ttl",
+        turtle_file_path: str = "modified_data-lex2kg.ttl",
     ) -> None:
         super().__init__(
             model_name,
@@ -275,43 +275,3 @@ You are an assistant trained to generate SPARQL queries. Use the provided contex
             verbose=verbose,
             try_threshold=try_threshold,
         )
-
-if __name__ == '__main__':
-    rag_engine = LegalGraphRAG(
-        model_name="Qwen/Qwen2.5-3B-Instruct",
-        use_local_model=True,
-        max_new_tokens=1500,
-        always_use_generate_sparql=False,
-        use_local_weaviate_client=False,
-        print_output=True,
-        turtle_file_path="data/legal_turtle/data-lex2kg.ttl",
-    )
-    
-    questions = [
-        "Berapa harga laptop ini?",
-        "Ada berapa siswa di kelas ini?",
-        "Berapa jumlah penduduk di Indonesia?",
-        "Berapa panjang jembatan Suramadu?",
-        "Berapa banyak bahasa yang digunakan di dunia?",
-        "Berapa tahun usia planet Bumi?",
-        "Berapa liter air yang dibutuhkan untuk mandi?",
-        "Berapa kali kamu pergi ke gym dalam seminggu?",
-        "Berapa berat badanmu sekarang?",
-        "Berapa suhu di Jakarta saat ini?",
-        "Siapa presiden Indonesia saat ini?",
-        "Apa warna favoritmu?",
-        "Di mana letak Candi Borobudur?",
-        "Mengapa langit berwarna biru?",
-        "Bagaimana cara membuat kue brownies?",
-        "Siapa penemu listrik?",
-        "Apa yang menyebabkan gempa bumi?",
-        "Kapan Hari Kemerdekaan Indonesia?",
-        "Siapa yang menulis novel 'Laskar Pelangi'?",
-        "Apa arti kata 'demokrasi'?"
-    ]
-
-    ans = []
-    for question in questions:
-        ans.append(rag_engine.is_count_question(question))
-    
-    print(ans)
