@@ -694,7 +694,7 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
                     )
                 if self.print_output:
                     print("Error: ", e)
-            if not is_error and similarities >= 0.985 and len(result) > 0:
+            if not is_error and similarities >= 0.986 and len(result) > 0:
                 if 'berapa' in factoid_question.lower():
                     result = [{'cnt': str(len(result))}]
                 return factoid_question, "", result
