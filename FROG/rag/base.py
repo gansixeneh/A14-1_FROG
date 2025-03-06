@@ -340,8 +340,6 @@ Based on the query given, decide if it is global or local and return the classif
     ) -> str:
         output_parser = PydanticOutputParser(pydantic_object=resource_model)
         format_instructions = output_parser.get_format_instructions()
-        print("Retrieved entities: ", retrieved_entities.to_string(index=False))
-        print("Entity: ", entity)
         final_prompt = chat_prompt_template.partial(
             format_instructions=format_instructions,
             retrieved_entities=retrieved_entities.to_string(index=False),
@@ -662,9 +660,10 @@ DO NOT include any explanations or apologies in your responses. No pre-amble. Ma
                 )
             if self.print_output:
                 print("Retrieved Resources: ", retrieved_resources.to_string())
-            entity_uri = self.get_most_appropriate_entity_uri(
-                entity, factoid_question, retrieved_resources
-            )
+            # entity_uri = self.get_most_appropriate_entity_uri(
+            #     entity, factoid_question, retrieved_resources
+            # )
+            entity_uri = retrieved_resources["uri"].iloc[0]
             if verbose == 1:
                 display(
                     HTML(

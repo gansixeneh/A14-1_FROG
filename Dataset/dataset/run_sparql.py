@@ -10,7 +10,7 @@ graph.parse('dataset/io/data-lex2kg.ttl')
     
     
 # query = "SELECT?referencedLaw WHERE { <https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807> lex2kg-o:merujuk?referencedLaw. }"
-query = "select?x { <https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006> lex2kg-o:merujuk?x. }"
+query = "SELECT?x WHERE {?x lex2kg-o:jenisVersi \"penyisipan\"^^xsd:string ; lex2kg-o:disahkanPada \"2020-11-02\"^^xsd:date. }"
 query = fix_query_spacing(query)
 print(query)
 
