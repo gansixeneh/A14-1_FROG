@@ -1,0 +1,278 @@
+Translated Question:  Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?
+Question:  Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?
+{'chat_history': [HumanMessage(content='Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?', additional_kwargs={}, response_metadata={})], 'input': 'Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?'}
+Entities:  ['UU No. 17 Tahun 2012', 'Pasal 87 Ayat 1', 'versi 29 Oktober 2012']
+Retrieved Resources:                                                                           uri                                                      label
+0                                      https://example.org/lex2kg/uu/2012/17                                        UU tahun 2012 no 17
+1                           https://example.org/lex2kg/uu/2012/17/pasal/0017                               UU tahun 2012 no 17 pasal 17
+2                             https://example.org/lex2kg/uu/2012/17/bab/0017                                 UU tahun 2012 no 17 bab 17
+3            https://example.org/lex2kg/uu/2012/17/pasal/0017/versi/20121029         UU tahun 2012 no 17 pasal 17 versi 29 Oktober 2012
+4  https://example.org/lex2kg/uu/2012/17/pasal/0017/versi/20121029/ayat/0001  UU tahun 2012 no 17 pasal 17 versi 29 Oktober 2012 ayat 1
+Entity URI:  https://example.org/lex2kg/uu/2012/17
+
+
+
+po:                                                         p                                                      o               sLabel            pLabel                           oLabel
+0                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0001  UU tahun 2012 no 17               bab        UU tahun 2012 no 17 bab 1
+1                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0002  UU tahun 2012 no 17               bab        UU tahun 2012 no 17 bab 2
+2                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0003  UU tahun 2012 no 17               bab        UU tahun 2012 no 17 bab 3
+3                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0004  UU tahun 2012 no 17               bab        UU tahun 2012 no 17 bab 4
+4                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0005  UU tahun 2012 no 17               bab        UU tahun 2012 no 17 bab 5
+5                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0006  UU tahun 2012 no 17               bab        UU tahun 2012 no 17 bab 6
+6                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0007  UU tahun 2012 no 17               bab        UU tahun 2012 no 17 bab 7
+7                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0008  UU tahun 2012 no 17               bab        UU tahun 2012 no 17 bab 8
+8                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0009  UU tahun 2012 no 17               bab        UU tahun 2012 no 17 bab 9
+9                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0010  UU tahun 2012 no 17               bab       UU tahun 2012 no 17 bab 10
+10               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0011  UU tahun 2012 no 17               bab       UU tahun 2012 no 17 bab 11
+11               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0012  UU tahun 2012 no 17               bab       UU tahun 2012 no 17 bab 12
+12               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0013  UU tahun 2012 no 17               bab       UU tahun 2012 no 17 bab 13
+13               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0014  UU tahun 2012 no 17               bab       UU tahun 2012 no 17 bab 14
+14               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0015  UU tahun 2012 no 17               bab       UU tahun 2012 no 17 bab 15
+15               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0016  UU tahun 2012 no 17               bab       UU tahun 2012 no 17 bab 16
+16               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/17/bab/0017  UU tahun 2012 no 17               bab       UU tahun 2012 no 17 bab 17
+17            https://example.org/lex2kg/ontology/bahasa                                                     id  UU tahun 2012 no 17            bahasa                               id
+18        https://example.org/lex2kg/ontology/disahkanDi                                                Jakarta  UU tahun 2012 no 17       disahkan di                          jakarta
+19      https://example.org/lex2kg/ontology/disahkanOleh                        DR. H. Susilo Bambang Yudhoyono  UU tahun 2012 no 17     disahkan oleh  dr. h. susilo bambang yudhoyono
+20      https://example.org/lex2kg/ontology/disahkanPada                                             2012-10-29  UU tahun 2012 no 17     disahkan pada                       2012-10-29
+21   https://example.org/lex2kg/ontology/jabatanPengesah                            Presiden Republik Indonesia  UU tahun 2012 no 17  jabatan pengesah      presiden republik indonesia
+22    https://example.org/lex2kg/ontology/jenisPeraturan  https://example.org/lex2kg/ontology/jenisPeraturan/UU  UU tahun 2012 no 17   jenis peraturan      ontology jenis peraturan uu
+23         https://example.org/lex2kg/ontology/mengingat        https://example.org/lex2kg/uu/2012/17/mengingat  UU tahun 2012 no 17         mengingat    UU tahun 2012 no 17 mengingat
+24         https://example.org/lex2kg/ontology/menimbang        https://example.org/lex2kg/uu/2012/17/menimbang  UU tahun 2012 no 17         menimbang    UU tahun 2012 no 17 menimbang
+25             https://example.org/lex2kg/ontology/nomor                                                     17  UU tahun 2012 no 17             nomor                            no 17
+26             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0001  UU tahun 2012 no 17             pasal      UU tahun 2012 no 17 pasal 1
+27             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0002  UU tahun 2012 no 17             pasal      UU tahun 2012 no 17 pasal 2
+28             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0003  UU tahun 2012 no 17             pasal      UU tahun 2012 no 17 pasal 3
+29             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0004  UU tahun 2012 no 17             pasal      UU tahun 2012 no 17 pasal 4
+30             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0005  UU tahun 2012 no 17             pasal      UU tahun 2012 no 17 pasal 5
+31             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0006  UU tahun 2012 no 17             pasal      UU tahun 2012 no 17 pasal 6
+32             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0007  UU tahun 2012 no 17             pasal      UU tahun 2012 no 17 pasal 7
+33             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0008  UU tahun 2012 no 17             pasal      UU tahun 2012 no 17 pasal 8
+34             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0009  UU tahun 2012 no 17             pasal      UU tahun 2012 no 17 pasal 9
+35             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0010  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 10
+36             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0011  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 11
+37             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0012  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 12
+38             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0013  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 13
+39             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0014  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 14
+40             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0015  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 15
+41             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0016  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 16
+42             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0017  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 17
+43             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0018  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 18
+44             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0019  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 19
+45             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0020  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 20
+46             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0021  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 21
+47             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0022  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 22
+48             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0023  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 23
+49             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0024  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 24
+50             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0025  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 25
+51             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0026  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 26
+52             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0027  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 27
+53             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0028  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 28
+54             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0029  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 29
+55             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0030  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 30
+56             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0031  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 31
+57             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0032  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 32
+58             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0033  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 33
+59             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0034  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 34
+60             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0035  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 35
+61             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0036  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 36
+62             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0037  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 37
+63             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0038  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 38
+64             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0039  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 39
+65             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0040  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 40
+66             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0041  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 41
+67             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0042  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 42
+68             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0043  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 43
+69             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0044  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 44
+70             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0045  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 45
+71             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0046  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 46
+72             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0047  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 47
+73             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0048  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 48
+74             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0049  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 49
+75             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0050  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 50
+76             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0051  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 51
+77             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0052  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 52
+78             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0053  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 53
+79             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0054  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 54
+80             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0055  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 55
+81             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0056  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 56
+82             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0057  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 57
+83             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0058  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 58
+84             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0059  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 59
+85             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0060  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 60
+86             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0061  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 61
+87             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0062  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 62
+88             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0063  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 63
+89             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0064  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 64
+90             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0065  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 65
+91             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0066  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 66
+92             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0067  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 67
+93             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0068  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 68
+94             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0069  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 69
+95             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0070  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 70
+96             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0071  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 71
+97             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0072  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 72
+98             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0073  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 73
+99             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0074  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 74
+100            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0075  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 75
+101            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0076  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 76
+102            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0077  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 77
+103            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0078  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 78
+104            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0079  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 79
+105            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0080  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 80
+106            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0081  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 81
+107            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0082  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 82
+108            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0083  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 83
+109            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0084  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 84
+110            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0085  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 85
+111            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0086  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 86
+112            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0087  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 87
+113            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0088  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 88
+114            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0089  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 89
+115            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0090  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 90
+116            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0091  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 91
+117            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0092  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 92
+118            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0093  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 93
+119            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0094  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 94
+120            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0095  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 95
+121            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0096  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 96
+122            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0097  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 97
+123            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0098  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 98
+124            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0099  UU tahun 2012 no 17             pasal     UU tahun 2012 no 17 pasal 99
+125            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0100  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 100
+126            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0101  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 101
+127            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0102  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 102
+128            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0103  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 103
+129            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0104  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 104
+130            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0105  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 105
+131            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0106  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 106
+132            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0107  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 107
+133            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0108  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 108
+134            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0109  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 109
+135            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0110  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 110
+136            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0111  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 111
+137            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0112  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 112
+138            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0113  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 113
+139            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0114  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 114
+140            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0115  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 115
+141            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0116  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 116
+142            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0117  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 117
+143            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0118  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 118
+144            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0119  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 119
+145            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0120  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 120
+146            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0121  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 121
+147            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0122  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 122
+148            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0123  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 123
+149            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0124  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 124
+150            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0125  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 125
+151            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/17/pasal/0126  UU tahun 2012 no 17             pasal    UU tahun 2012 no 17 pasal 126
+152            https://example.org/lex2kg/ontology/tahun                                                   2012  UU tahun 2012 no 17             tahun                       tahun 2012
+153          https://example.org/lex2kg/ontology/tentang                                          PERKOPERASIAN  UU tahun 2012 no 17           tentang                    perkoperasian
+154       https://example.org/lex2kg/ontology/yurisdiksi                                              Indonesia  UU tahun 2012 no 17        yurisdiksi                        indonesia
+sp:  Empty DataFrame
+Columns: [s, p, sLabel, pLabel, oLabel]
+Index: []
+
+
+
+cands:  ['bab dari UU tahun 2012 no 17 adalah UU tahun 2012 no 17 bab 1', 'bahasa dari UU tahun 2012 no 17 adalah id', 'UU tahun 2012 no 17 disahkan di Jakarta', 'UU tahun 2012 no 17 disahkan oleh DR. H. Susilo Bambang Yudhoyono', 'UU tahun 2012 no 17 disahkan pada 2012-10-29', 'jabatan pengesah dari UU tahun 2012 no 17 adalah Presiden Republik Indonesia', 'jenis peraturan dari UU tahun 2012 no 17 adalah ontology jenis peraturan uu', 'Yang mengingat UU tahun 2012 no 17 mengingat adalah UU tahun 2012 no 17', 'Yang menimbang UU tahun 2012 no 17 menimbang adalah UU tahun 2012 no 17', 'nomor dari UU tahun 2012 no 17 adalah 17', 'pasal dari UU tahun 2012 no 17 adalah UU tahun 2012 no 17 pasal 1', 'tahun dari UU tahun 2012 no 17 adalah 2012', 'tentang dari UU tahun 2012 no 17 adalah  PERKOPERASIAN', 'yurisdiksi dari UU tahun 2012 no 17 adalah Indonesia']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0001'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0002'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0003'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0004'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0005'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0006'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0007'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0008'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0009'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0010'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0011'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0012'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0013'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0014'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0015'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0016'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0017'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0018'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0019'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0020'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0021'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0022'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0023'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0024'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0025'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0026'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0027'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0028'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0029'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0030'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0031'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0032'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0033'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0034'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0035'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0036'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0037'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0038'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0039'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0040'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0041'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0042'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0043'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0044'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0045'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0046'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0047'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0048'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0049'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0050'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0051'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0052'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0053'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0054'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0055'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0056'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0057'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0058'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0059'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0060'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0061'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0062'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0063'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0064'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0065'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0066'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0067'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0068'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0069'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0070'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0071'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0072'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0073'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0074'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0075'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0076'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0077'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0078'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0079'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0080'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0081'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0082'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0083'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0084'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0085'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0086'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0087'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0088'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0089'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0090'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0091'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0092'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0093'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0094'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0095'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0096'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0097'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0098'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0099'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0100'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0101'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0102'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0103'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0104'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0105'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0106'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0107'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0108'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0109'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0110'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0111'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0112'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0113'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0114'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0115'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0116'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0117'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0118'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0119'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0120'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0121'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0122'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0123'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0124'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0125'}, {'pasal': 'https://example.org/lex2kg/uu/2012/17/pasal/0126'}] Similarities:  0.9853801
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2007/38/mengingat/huruf/0001/text
+        - lex2kg/uu/2012/18/pasal/0087
+        - lex2kg/uu/1983/4/menimbang/text
+        - lex2kg/uu/2001/1/mengingat/huruf/0001
+        - lex2kg/uu/2009/52/pasal/0029/versi/20091029
+        - lex2kg/uu/2014/17/pasal/0017
+        - lex2kg/uu/2012/8/pasal/0087
+        - lex2kg/uu/2012/17/bab/0017
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829/ayat/0001/text
+        - lex2kg/uu/1957/34/menimbang/text
+        - lex2kg/uu/1997/17/pasal/0017
+        - lex2kg/uu/1992/21/pasal/0087
+        - lex2kg/uu/2009/48/pasal/0029/versi/20091029
+        - lex2kg/uu/2012/2/pasal/0002/versi/20120114
+        - lex2kg/uu/2014/32/mengingat/text
+        - lex2kg/uu/2012/17/pasal/0010/versi/20121029
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829/ayat/0002/text
+        - lex2kg/uu/2010/10/mengingat/huruf/0010
+        - lex2kg/uu/1957/48/menimbang/text
+        - lex2kg/uu/2008/49/mengingat/huruf/0001/text
+        - lex2kg/uu/2008/47/mengingat/huruf/0001/text
+        - lex2kg/uu/2009/46/pasal/0029/versi/20091029
+        - lex2kg/uu/1995/1/pasal/0087
+        - lex2kg/uu/1997/17/pasal/0087
+        - lex2kg/uu/1985/2/menimbang/text
+        - lex2kg/uu/2009/47/mengingat/huruf/0017
+        - lex2kg/uu/1989/7/pasal/0087/versi/19891229/ayat/0001/text
+        - lex2kg/uu/2009/47/pasal/0029/versi/20091029/text
+        - lex2kg/uu/2009/48/pasal/0030/versi/20091029
+        - lex2kg/uu/2008/49/menimbang/huruf/a/text
+        - lex2kg/uu/1989/7/pasal/0087
+        - lex2kg/uu/2017/15/pasal/0017
+        - lex2kg/uu/1987/5/menimbang/text
+        - lex2kg/uu/2/12
+        - lex2kg/uu/1987/6/menimbang/text
+        - lex2kg/uu/2009/47/pasal/0029
+        - lex2kg/uu/1982/8/menimbang/text
+        - lex2kg/uu/2007/48/mengingat/huruf/0001/text
+        - lex2kg/uu/1986/5/pasal/0087
+        - lex2kg/uu/1957/41/menimbang/text
+        - lex2kg/uu/2012/17/pasal/0017/versi/20121029
+        - lex2kg/uu/2012/12
+        - lex2kg/uu/2012/17
+        - lex2kg/uu/1997/1/mengingat/huruf/0001
+        - lex2kg/uu/2009/48/pasal/0029
+        - lex2kg/uu/2009/36/pasal/0029
+        - lex2kg/uu/1997/25/pasal/0087
+        - lex2kg/uu/2009/32/pasal/0029
+        - lex2kg/uu/2001/4/mengingat/huruf/0001
+        - lex2kg/uu/2012/17/pasal/0029/versi/20121029
+        - lex2kg/uu/2009/4/pasal/0153
+        - lex2kg/uu/1987/1/mengingat/text
+        - lex2kg/uu/2009/47/pasal/0029/versi/20091029
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/2012/12/mengingat/text
+        - lex2kg/uu/1986/4/menimbang/text
+        - lex2kg/uu/2012/1/pasal/0002/versi/20120104/text
+        - lex2kg/uu/2012/12/pasal/0017/versi/20120810
+        - lex2kg/uu/2012/19/pasal/0029/versi/20121116
+        - lex2kg/uu
+        - lex2kg/uu/2016/13/pasal/0087/versi/20160826/ayat/0002/text
+        - lex2kg/uu/2012/17/pasal/0087
+        - lex2kg/uu/2010/10/mengingat/huruf/0017
+        - lex2kg/uu/2019/17/pasal/0017
+        - lex2kg/uu/2008/50/menimbang/huruf/a/text
+        - lex2kg/uu/2000/29/pasal/0029
+        - lex2kg/uu/2012/12/pasal/0087
+        - lex2kg/uu/2012/1/pasal/0002/versi/20120104
+        - lex2kg/uu/2017/17
+        - lex2kg/uu/1981/8/pasal/0087
+        - lex2kg/uu/2017/18/pasal/0017
+        - lex2kg/uu/1997/31/pasal/0087
+        - lex2kg/uu/1957/58/menimbang/text
+        - lex2kg/uu/2012/12/pasal/0087/versi/20120810/text
+        - lex2kg/uu/1957/57/menimbang/text
+        - lex2kg/uu/2012/1/pasal/0001/versi/20120104
+        - lex2kg/uu/2014/37/mengingat/text
+        - lex2kg/uu/2014/29/pasal/0029
+        - lex2kg/uu/2012/17/pasal/0017
+    - properties: 
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:nomor
+        - lex2kg-o:teks
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:pasal
+        - lex2kg-o:judul
+        - lex2kg-o:tanggal
+        - lex2kg-o:tentang
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:tahun
+        - lex2kg-o:jenisVersi
+        - lex2kg-o:ayat
+        - lex2kg-o:versi
+        - lex2kg-o:daftarPasal
+
+Question:  Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?
+{'chat_history': [HumanMessage(content='Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?', additional_kwargs={}, response_metadata={})], 'input': 'Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?'}
+Thoughts:  ["1. Pertanyaan ini meminta teks dari ayat tertentu dalam undang-undang: 'UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1'.", "2. Dalam ontologi, entitas yang merepresentasikan ayat ini mengikuti struktur 'lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001'.", "3. Properti 'lex2kg-o:teks' digunakan untuk menghubungkan suatu ayat dengan teks isinya.", "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001' dan ambil isinya melalui properti 'lex2kg-o:teks'.", "5. Susun query SPARQL untuk mengambil teks dari 'UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1'."]
+Generated SPARQL:  SELECT?x WHERE { <https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001> lex2kg-o:teks?x. }

@@ -1,0 +1,25 @@
+Translated Question:  Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?
+Question:  Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?
+{'chat_history': [HumanMessage(content='Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?', additional_kwargs={}, response_metadata={})], 'input': 'Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?'}
+Entities:  ['UU No. 49 Tahun 2008 Pasal 14']
+Retrieved Resources:                                                                           uri                                                       label
+0                           https://example.org/lex2kg/uu/2008/49/pasal/0014                                UU tahun 2008 no 49 pasal 14
+1  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0001  UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 1
+2  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0004  UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 4
+3  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0009  UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 9
+4  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126/ayat/0002  UU tahun 2008 no 49 pasal 14 versi 26 November 2008 ayat 2
+Entity URI:  https://example.org/lex2kg/uu/2008/49/pasal/0014
+
+
+
+po:                                             p                                                                o                        sLabel pLabel                                               oLabel
+0  https://example.org/lex2kg/ontology/nomor                                                               14  UU tahun 2008 no 49 pasal 14  nomor                                                no 14
+1  https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126  UU tahun 2008 no 49 pasal 14  versi  UU tahun 2008 no 49 pasal 14 versi 26 November 2008
+sp:                                                              s                                          p                                  sLabel pLabel                        oLabel
+0                       https://example.org/lex2kg/uu/2008/49  https://example.org/lex2kg/ontology/pasal                     UU tahun 2008 no 49  pasal  UU tahun 2008 no 49 pasal 14
+1  https://example.org/lex2kg/uu/2008/49/bab/0005/daftarPasal  https://example.org/lex2kg/ontology/pasal  UU tahun 2008 no 49 bab 5 daftar pasal  pasal  UU tahun 2008 no 49 pasal 14
+
+
+
+cands:  ['nomor dari UU tahun 2008 no 49 pasal 14 adalah 14', 'versi dari UU tahun 2008 no 49 pasal 14 adalah UU tahun 2008 no 49 pasal 14 versi 26 November 2008', 'pasal dari UU tahun 2008 no 49 adalah UU tahun 2008 no 49 pasal 14']
+Result:  [{'versi': 'https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126'}] Similarities:  0.9908484

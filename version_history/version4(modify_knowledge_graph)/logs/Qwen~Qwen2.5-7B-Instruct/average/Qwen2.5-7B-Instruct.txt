@@ -1,0 +1,716 @@
+QUESTION 1
+Question: Apa saja versi yang tersedia untuk Undang-Undang No. 5 Tahun 1974 Pasal 13?,
+Generated Factoid Question: Apa saja versi yang tersedia untuk Undang-Undang No. 5 Tahun 1974 Pasal 13?,
+True Query: select ?x { <https://example.org/lex2kg/uu/1974/5/pasal/0013> <https://example.org/lex2kg/ontology/versi> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                x
+0  https://example.org/lex2kg/uu/1974/5/pasal/0013/versi/19740723
+Top 10 Generated Answer:
+                                                            versi
+0  https://example.org/lex2kg/uu/1974/5/pasal/0013/versi/19740723
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1.0, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 2
+Question: Apa saja huruf yang terdapat dalam UU No. 4 Tahun 2011 versi 21 April 2011 Pasal 63 Ayat 2?,
+Generated Factoid Question: Apa saja huruf yang terdapat dalam UU No. 4 Tahun 2011 versi 21 April 2011 Pasal 63 Ayat 2?,
+True Query: select ?x { <https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002> <https://example.org/lex2kg/ontology/huruf> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                                  x
+0  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/a
+1  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/b
+2  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/c
+3  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/d
+Top 10 Generated Answer:
+                                                                              huruf
+0  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/a
+1  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/b
+2  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/c
+3  https://example.org/lex2kg/uu/2011/4/pasal/0063/versi/20110421/ayat/0002/huruf/d
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 4, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 2.5, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 3
+Question: Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?,
+Generated Factoid Question: Apa isi teks dari UU No. 17 Tahun 2012 versi 29 Oktober 2012 Pasal 87 Ayat 1?,
+True Query: select ?x { <https://example.org/lex2kg/uu/2012/17/pasal/0087/versi/20121029/ayat/0001> <https://example.org/lex2kg/ontology/teks> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                                                                                     x
+0  Koperasi menjalankan kegiatan usaha yang berkaitan langsung dan sesuai dengan jenis Koperasi yang dicantumkan dalam Anggaran Dasar.
+Top 10 Generated Answer:
+                                                                                                                                  teks
+0  Koperasi menjalankan kegiatan usaha yang berkaitan langsung dan sesuai dengan jenis Koperasi yang dicantumkan dalam Anggaran Dasar.
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 2.0, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 4
+Question: Apa judul dari UU No. 11 Tahun 2014 Bab 8?,
+Generated Factoid Question: Apa judul dari UU No. 11 Tahun 2014 Bab 8?,
+True Query: select ?x { <https://example.org/lex2kg/uu/2014/11/bab/0008> <https://example.org/lex2kg/ontology/judul> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                        x
+0  PENGEMBANGAN KEPROFESIAN BERKELANJUTAN
+Top 10 Generated Answer:
+                                    judul
+0  PENGEMBANGAN KEPROFESIAN BERKELANJUTAN
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1.75, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 5
+Question: Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?,
+Generated Factoid Question: Apa jenis versi dari UU No. 49 Tahun 2008 versi 26 November 2008 Pasal 14 ?,
+True Query: select ?x { <https://example.org/lex2kg/uu/2008/49/pasal/0014/versi/20081126> <https://example.org/lex2kg/ontology/jenisVersi> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+          x
+0  orisinal
+Top 10 Generated Answer:
+  jenis versi
+0    orisinal
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1.6, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 6
+Question: Apa isi teks dari UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2?,
+Generated Factoid Question: Apa isi teks dari UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2?,
+True Query: select ?x { <https://example.org/lex2kg/uu/2007/26/pasal/0054/versi/20070426/ayat/0002> <https://example.org/lex2kg/ontology/teks> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              x
+0  Ketentuan lebih lanjut mengenai penataan ruang kawasan perdesaan sebagaimana dimaksud pada ayat (1) untuk kawasan agropolitan yang berada dalam 1 (satu) kabupaten diatur dengan peraturan daerah kabupaten, untuk kawasan agropolitan yang berada pada 2 (dua) atau lebih wilayah kabupaten diatur dengan peraturan daerah provinsi, dan untuk kawasan agropolitan yang berada pada 2 (dua) atau lebih wilayah provinsi diatur dengan peraturan pemerintah.
+Top 10 Generated Answer:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                           teks
+0  Ketentuan lebih lanjut mengenai penataan ruang kawasan perdesaan sebagaimana dimaksud pada ayat (1) untuk kawasan agropolitan yang berada dalam 1 (satu) kabupaten diatur dengan peraturan daerah kabupaten, untuk kawasan agropolitan yang berada pada 2 (dua) atau lebih wilayah kabupaten diatur dengan peraturan daerah provinsi, dan untuk kawasan agropolitan yang berada pada 2 (dua) atau lebih wilayah provinsi diatur dengan peraturan pemerintah.
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1.5, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 7
+Question: Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?,
+Generated Factoid Question: Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?,
+True Query: select ?x { <https://example.org/lex2kg/uu/2010/11/pasal/0034/versi/20101124/ayat/0002> <https://example.org/lex2kg/ontology/teks> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                                                                                   x
+0  Situs Cagar Budaya atau Kawasan Cagar Budaya yang berada di 2 (dua) provinsi atau lebih ditetapkan sebagai Cagar Budaya nasional.
+Top 10 Generated Answer:
+                                                                                                                                teks
+0  Situs Cagar Budaya atau Kawasan Cagar Budaya yang berada di 2 (dua) provinsi atau lebih ditetapkan sebagai Cagar Budaya nasional.
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1.4285714285714286, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 8
+Question: Apa teks dari UU No. 26 Tahun 2007 Pasal 37 Ayat 3 versi 26 April 2007?,
+Generated Factoid Question: Apa teks dari UU No. 26 Tahun 2007 Pasal 37 Ayat 3 versi 26 April 2007?,
+True Query: select ?x { <https://example.org/lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0003> <https://example.org/lex2kg/ontology/teks> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                                                                        x
+0  Izin pemanfaatan ruang yang dikeluarkan dan/atau diperoleh dengan tidak melalui prosedur yang benar, batal demi hukum.
+Top 10 Generated Answer:
+                                                                                                                     teks
+0  Izin pemanfaatan ruang yang dikeluarkan dan/atau diperoleh dengan tidak melalui prosedur yang benar, batal demi hukum.
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1.375, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 9
+Question: UU apa saja yang dirujuk oleh UU No. 6 Tahun 2018 Pasal 93 versi 7 Agustus 2018?,
+Generated Factoid Question: UU apa saja yang dirujuk oleh UU No. 6 Tahun 2018 Pasal 93 versi 7 Agustus 2018?,
+True Query: select ?x { <https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807> <https://example.org/lex2kg/ontology/merujuk> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                          x
+0  https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807/ayat/0001
+Top 10 Generated Answer:
+                                                                    merujuk
+0  https://example.org/lex2kg/uu/2018/6/pasal/0093/versi/20180807/ayat/0001
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1.3333333333333333, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 10
+Question: Apa saja sumber rujukan dari UU No. 2 Tahun 1980 Pasal 1 Huruf 6 versi 20 Maret 1980?,
+Generated Factoid Question: Apa saja sumber rujukan dari UU No. 2 Tahun 1980 Pasal 1 Huruf 6 versi 20 Maret 1980?,
+True Query: select ?x { <https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006> <https://example.org/lex2kg/ontology/merujuk> ?x . },
+Generated Query: select?x { <https://example.org/lex2kg/uu/1980/2/pasal/0001/versi/19800320/huruf/0006> lex2kg-o:merujuk?x. },
+Top 10 Ground Truth:
+                                                 x
+0  https://example.org/lex2kg/uu/1980/2/pasal/0013
+1  https://example.org/lex2kg/uu/1980/2/pasal/0014
+Top 10 Generated Answer:
+                                                 x
+0  https://example.org/lex2kg/uu/1980/2/pasal/0013
+1  https://example.org/lex2kg/uu/1980/2/pasal/0014
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 2, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1.4, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 11
+Question: Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?,
+Generated Factoid Question: Undang-undang apa saja yang merujuk ke undang-undang yang disahkan di Jogjakarta?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/merujuk> ?y . ?y <https://example.org/lex2kg/ontology/disahkanDi> 'Jogjakarta' . },
+Generated Query: select?x {?x lex2kg-o:merujuk?y.?y lex2kg-o:disahkanDi "Jogjakarta". },
+Top 10 Ground Truth:
+                                                                            x
+0                  https://example.org/lex2kg/uu/2007/12/mengingat/huruf/0003
+1  https://example.org/lex2kg/uu/2007/12/pasal/0001/versi/20070102/huruf/0004
+2                  https://example.org/lex2kg/uu/2007/32/mengingat/huruf/0002
+3  https://example.org/lex2kg/uu/2007/32/pasal/0001/versi/20070810/huruf/0004
+4                  https://example.org/lex2kg/uu/2008/51/mengingat/huruf/0002
+5  https://example.org/lex2kg/uu/2008/51/pasal/0001/versi/20081126/huruf/0004
+Top 10 Generated Answer:
+                                                                            x
+0                  https://example.org/lex2kg/uu/2007/12/mengingat/huruf/0003
+1  https://example.org/lex2kg/uu/2007/12/pasal/0001/versi/20070102/huruf/0004
+2                  https://example.org/lex2kg/uu/2007/32/mengingat/huruf/0002
+3  https://example.org/lex2kg/uu/2007/32/pasal/0001/versi/20070810/huruf/0004
+4                  https://example.org/lex2kg/uu/2008/51/mengingat/huruf/0002
+5  https://example.org/lex2kg/uu/2008/51/pasal/0001/versi/20081126/huruf/0004
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 6, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1.8181818181818181, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 12
+Question: Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?,
+Generated Factoid Question: Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/merujuk> ?y . ?y <https://example.org/lex2kg/ontology/tahun> '2012'^^xsd:integer . },
+Generated Query: None,
+Top 10 Ground Truth:
+                                                                           x
+0    https://example.org/lex2kg/uu/2020/11/pasal/0059/versi/20201102/huruf/e
+1    https://example.org/lex2kg/uu/2020/11/pasal/0122/versi/20201102/huruf/a
+2  https://example.org/lex2kg/uu/2013/2/pasal/0001/versi/20130111/huruf/0003
+3                            https://example.org/lex2kg/uu/2012/20/mengingat
+4                 https://example.org/lex2kg/uu/2012/22/mengingat/huruf/0005
+5                 https://example.org/lex2kg/uu/2012/23/mengingat/huruf/0005
+6                 https://example.org/lex2kg/uu/2012/24/mengingat/huruf/0005
+7                 https://example.org/lex2kg/uu/2013/12/mengingat/huruf/0004
+8                 https://example.org/lex2kg/uu/2013/13/mengingat/huruf/0009
+9                 https://example.org/lex2kg/uu/2013/14/mengingat/huruf/0010
+Top 10 Generated Answer:
+Empty DataFrame
+Columns: []
+Index: []
+Score: {'jaccard': 0, 'recall': 0, 'precision': 0, 'f1': 0, 'tp': 0, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.9166666666666666, 'recall': 0.9166666666666666, 'precision': 0.9166666666666666, 'f1': 0.9166666666666666, 'tp': 1.6666666666666667, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 13
+Question: Undang-undang apa saja yang mengubah undang-undang dengan jenis versi 'pengubahan'?,
+Generated Factoid Question: Undang-undang apa saja yang mengubah undang-undang dengan jenis versi 'pengubahan'?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/mengubah> ?y . ?y <https://example.org/lex2kg/ontology/jenisVersi> 'pengubahan' . },
+Generated Query: select?x {?x lex2kg-o:mengubah?y.?y lex2kg-o:jenisVersi "pengubahan". },
+Top 10 Ground Truth:
+                                                                            x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0047/versi/20201102/huruf/0001
+1  https://example.org/lex2kg/uu/2020/11/pasal/0047/versi/20201102/huruf/0002
+2  https://example.org/lex2kg/uu/2020/11/pasal/0047/versi/20201102/huruf/0003
+3  https://example.org/lex2kg/uu/2020/11/pasal/0047/versi/20201102/huruf/0004
+4  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0001
+5  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0002
+6  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0003
+7  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0004
+8  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0006
+9  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0007
+Top 10 Generated Answer:
+                                                                            x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0047/versi/20201102/huruf/0001
+1  https://example.org/lex2kg/uu/2020/11/pasal/0047/versi/20201102/huruf/0002
+2  https://example.org/lex2kg/uu/2020/11/pasal/0047/versi/20201102/huruf/0003
+3  https://example.org/lex2kg/uu/2020/11/pasal/0047/versi/20201102/huruf/0004
+4  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0001
+5  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0002
+6  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0003
+7  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0004
+8  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0006
+9  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0007
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 951, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.9230769230769231, 'recall': 0.9230769230769231, 'precision': 0.9230769230769231, 'f1': 0.9230769230769231, 'tp': 74.6923076923077, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 14
+Question: Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?,
+Generated Factoid Question: Undang-undang apa saja yang menghapus undang-undang dengan jenis versi 'penghapusan'?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/menghapus> ?y . ?y <https://example.org/lex2kg/ontology/jenisVersi> 'penghapusan' . },
+Generated Query: select?x {?x lex2kg-o:menghapus?y.?y lex2kg-o:jenisVersi "penghapusan". },
+Top 10 Ground Truth:
+                                                                            x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0005
+1  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0010
+2  https://example.org/lex2kg/uu/2020/11/pasal/0043/versi/20201102/huruf/0005
+3  https://example.org/lex2kg/uu/2020/11/pasal/0043/versi/20201102/huruf/0008
+4  https://example.org/lex2kg/uu/2020/11/pasal/0071/versi/20201102/huruf/0009
+5  https://example.org/lex2kg/uu/2020/11/pasal/0071/versi/20201102/huruf/0011
+6  https://example.org/lex2kg/uu/2020/11/pasal/0118/versi/20201102/huruf/0005
+7  https://example.org/lex2kg/uu/2020/11/pasal/0024/versi/20201102/huruf/0005
+8  https://example.org/lex2kg/uu/2020/11/pasal/0024/versi/20201102/huruf/0006
+9  https://example.org/lex2kg/uu/2020/11/pasal/0024/versi/20201102/huruf/0007
+Top 10 Generated Answer:
+                                                                            x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0005
+1  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0010
+2  https://example.org/lex2kg/uu/2020/11/pasal/0043/versi/20201102/huruf/0005
+3  https://example.org/lex2kg/uu/2020/11/pasal/0043/versi/20201102/huruf/0008
+4  https://example.org/lex2kg/uu/2020/11/pasal/0071/versi/20201102/huruf/0009
+5  https://example.org/lex2kg/uu/2020/11/pasal/0071/versi/20201102/huruf/0011
+6  https://example.org/lex2kg/uu/2020/11/pasal/0118/versi/20201102/huruf/0005
+7  https://example.org/lex2kg/uu/2020/11/pasal/0024/versi/20201102/huruf/0005
+8  https://example.org/lex2kg/uu/2020/11/pasal/0024/versi/20201102/huruf/0006
+9  https://example.org/lex2kg/uu/2020/11/pasal/0024/versi/20201102/huruf/0007
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 184, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.9285714285714286, 'recall': 0.9285714285714286, 'precision': 0.9285714285714286, 'f1': 0.9285714285714286, 'tp': 82.5, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 15
+Question: Undang-undang apa saja yang menyisipkan undang-undang dengan jenis versi 'penyisipan'?,
+Generated Factoid Question: Undang-undang apa saja yang menyisipkan undang-undang dengan jenis versi 'penyisipan'?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/menyisipkan> ?y . ?y <https://example.org/lex2kg/ontology/jenisVersi> 'penyisipan' . },
+Generated Query: SELECT?x WHERE {?x lex2kg-o:menyisipkan?y.?y lex2kg-o:jenisVersi "penyisipan". },
+Top 10 Ground Truth:
+                                                                            x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0011
+1  https://example.org/lex2kg/uu/2020/11/pasal/0086/versi/20201102/huruf/0006
+2  https://example.org/lex2kg/uu/2020/11/pasal/0043/versi/20201102/huruf/0001
+3  https://example.org/lex2kg/uu/2020/11/pasal/0043/versi/20201102/huruf/0004
+4  https://example.org/lex2kg/uu/2020/11/pasal/0071/versi/20201102/huruf/0007
+5  https://example.org/lex2kg/uu/2020/11/pasal/0071/versi/20201102/huruf/0007
+6  https://example.org/lex2kg/uu/2020/11/pasal/0036/versi/20201102/huruf/0008
+7  https://example.org/lex2kg/uu/2020/11/pasal/0036/versi/20201102/huruf/0008
+8  https://example.org/lex2kg/uu/2020/11/pasal/0036/versi/20201102/huruf/0018
+9  https://example.org/lex2kg/uu/2020/11/pasal/0040/versi/20201102/huruf/0005
+Top 10 Generated Answer:
+                                                                            x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0113/versi/20201102/huruf/0011
+1  https://example.org/lex2kg/uu/2020/11/pasal/0086/versi/20201102/huruf/0006
+2  https://example.org/lex2kg/uu/2020/11/pasal/0043/versi/20201102/huruf/0001
+3  https://example.org/lex2kg/uu/2020/11/pasal/0043/versi/20201102/huruf/0004
+4  https://example.org/lex2kg/uu/2020/11/pasal/0071/versi/20201102/huruf/0007
+5  https://example.org/lex2kg/uu/2020/11/pasal/0071/versi/20201102/huruf/0007
+6  https://example.org/lex2kg/uu/2020/11/pasal/0036/versi/20201102/huruf/0008
+7  https://example.org/lex2kg/uu/2020/11/pasal/0036/versi/20201102/huruf/0008
+8  https://example.org/lex2kg/uu/2020/11/pasal/0036/versi/20201102/huruf/0018
+9  https://example.org/lex2kg/uu/2020/11/pasal/0040/versi/20201102/huruf/0005
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 78, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.9333333333333333, 'recall': 0.9333333333333333, 'precision': 0.9333333333333333, 'f1': 0.9333333333333333, 'tp': 82.2, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 16
+Question: Undang-undang apa saja yang merujuk pada Undang-Undang No. 8 Tahun 2007 Pasal 3?,
+Generated Factoid Question: Undang-undang apa saja yang merujuk pada Undang-Undang No. 8 Tahun 2007 Pasal 3?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/2007/8/pasal/0003> . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                          x
+0            https://example.org/lex2kg/uu/2007/8/pasal/0004/versi/20070102
+1  https://example.org/lex2kg/uu/2007/8/pasal/0005/versi/20070102/ayat/0003
+Top 10 Generated Answer:
+                                                                    merujuk
+0            https://example.org/lex2kg/uu/2007/8/pasal/0004/versi/20070102
+1  https://example.org/lex2kg/uu/2007/8/pasal/0005/versi/20070102/ayat/0003
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 2, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.9375, 'recall': 0.9375, 'precision': 0.9375, 'f1': 0.9375, 'tp': 77.1875, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 17
+Question: Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?,
+Generated Factoid Question: Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/2014/17/pasal/0368> . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                           x
+0            https://example.org/lex2kg/uu/2014/17/pasal/0369/versi/20140805
+1  https://example.org/lex2kg/uu/2014/17/pasal/0410/versi/20140805/ayat/0006
+Top 10 Generated Answer:
+                                                                     merujuk
+0            https://example.org/lex2kg/uu/2014/17/pasal/0369/versi/20140805
+1  https://example.org/lex2kg/uu/2014/17/pasal/0410/versi/20140805/ayat/0006
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 2, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.9411764705882353, 'recall': 0.9411764705882353, 'precision': 0.9411764705882353, 'f1': 0.9411764705882353, 'tp': 72.76470588235294, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 18
+Question: Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?,
+Generated Factoid Question: Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/2007/31/pasal/0002> . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                           x
+0            https://example.org/lex2kg/uu/2007/31/pasal/0004/versi/20070810
+1  https://example.org/lex2kg/uu/2007/31/pasal/0006/versi/20070810/ayat/0001
+Top 10 Generated Answer:
+                                                                     merujuk
+0            https://example.org/lex2kg/uu/2007/31/pasal/0004/versi/20070810
+1  https://example.org/lex2kg/uu/2007/31/pasal/0006/versi/20070810/ayat/0001
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 2, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.9444444444444444, 'recall': 0.9444444444444444, 'precision': 0.9444444444444444, 'f1': 0.9444444444444444, 'tp': 68.83333333333333, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 19
+Question: Pasal apa saja yang memiliki versi 2 November 2020?,
+Generated Factoid Question: Pasal apa saja yang memiliki versi 2 November 2020?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/tanggal> '2020-11-02'^^xsd:date . },
+Generated Query: None,
+Top 10 Ground Truth:
+                                                                 x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0001/versi/20201102
+1  https://example.org/lex2kg/uu/2020/11/pasal/0002/versi/20201102
+2  https://example.org/lex2kg/uu/2020/11/pasal/0003/versi/20201102
+3  https://example.org/lex2kg/uu/2020/11/pasal/0004/versi/20201102
+4  https://example.org/lex2kg/uu/2020/11/pasal/0005/versi/20201102
+5  https://example.org/lex2kg/uu/2020/11/pasal/0006/versi/20201102
+6  https://example.org/lex2kg/uu/2020/11/pasal/0007/versi/20201102
+7  https://example.org/lex2kg/uu/2020/11/pasal/0008/versi/20201102
+8  https://example.org/lex2kg/uu/2020/11/pasal/0009/versi/20201102
+9  https://example.org/lex2kg/uu/2020/11/pasal/0010/versi/20201102
+Top 10 Generated Answer:
+Empty DataFrame
+Columns: []
+Index: []
+Score: {'jaccard': 0, 'recall': 0, 'precision': 0, 'f1': 0, 'tp': 0, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8947368421052632, 'recall': 0.8947368421052632, 'precision': 0.8947368421052632, 'f1': 0.8947368421052632, 'tp': 65.21052631578948, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 20
+Question: Pasal apa saja yang memiliki versi 6 Oktober 2004?,
+Generated Factoid Question: Pasal apa saja yang memiliki versi 6 Oktober 2004?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/tanggal> '2004-10-06'^^xsd:date . },
+Generated Query: None,
+Top 10 Ground Truth:
+                                                                 x
+0  https://example.org/lex2kg/uu/2004/27/pasal/0001/versi/20041006
+1  https://example.org/lex2kg/uu/2004/27/pasal/0002/versi/20041006
+2  https://example.org/lex2kg/uu/2004/27/pasal/0003/versi/20041006
+3  https://example.org/lex2kg/uu/2004/27/pasal/0004/versi/20041006
+4  https://example.org/lex2kg/uu/2004/27/pasal/0005/versi/20041006
+5  https://example.org/lex2kg/uu/2004/27/pasal/0006/versi/20041006
+6  https://example.org/lex2kg/uu/2004/27/pasal/0007/versi/20041006
+7  https://example.org/lex2kg/uu/2004/27/pasal/0008/versi/20041006
+8  https://example.org/lex2kg/uu/2004/27/pasal/0009/versi/20041006
+9  https://example.org/lex2kg/uu/2004/27/pasal/0010/versi/20041006
+Top 10 Generated Answer:
+Empty DataFrame
+Columns: []
+Index: []
+Score: {'jaccard': 0, 'recall': 0, 'precision': 0, 'f1': 0, 'tp': 0, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.85, 'recall': 0.85, 'precision': 0.85, 'f1': 0.85, 'tp': 61.95, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 21
+Question: Undang-undang apa saja yang disahkan di Jogjakarta?,
+Generated Factoid Question: Undang-undang apa saja yang disahkan di Jogjakarta?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/disahkanDi> 'Jogjakarta' . },
+Generated Query: None,
+Top 10 Ground Truth:
+                                       x
+0  https://example.org/lex2kg/uu/1950/15
+1  https://example.org/lex2kg/uu/1950/14
+Top 10 Generated Answer:
+Empty DataFrame
+Columns: []
+Index: []
+Score: {'jaccard': 0, 'recall': 0, 'precision': 0, 'f1': 0, 'tp': 0, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8095238095238095, 'recall': 0.8095238095238095, 'precision': 0.8095238095238095, 'f1': 0.8095238095238095, 'tp': 59.0, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 22
+Question: Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?,
+Generated Factoid Question: Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/mengubah> <https://example.org/lex2kg/uu/2009/32/pasal/0112/versi/20201102> . },
+Generated Query: select?x {?x lex2kg-o:mengubah <https://example.org/lex2kg/uu/2009/32/pasal/0112/versi/20201102>. },
+Top 10 Ground Truth:
+                                                                            x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0022/versi/20201102/huruf/0039
+Top 10 Generated Answer:
+                                                                            x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0022/versi/20201102/huruf/0039
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8181818181818182, 'recall': 0.8181818181818182, 'precision': 0.8181818181818182, 'f1': 0.8181818181818182, 'tp': 56.36363636363637, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 23
+Question: Undang-undang apa saja yang disahkan pada 2 Januari 2007?,
+Generated Factoid Question: Undang-undang apa saja yang disahkan pada 2 Januari 2007?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/disahkanPada> '2007-01-02'^^xsd:date . },
+Generated Query: SELECT?x WHERE {?x lex2kg-o:disahkanPada '2007-01-02'^^xsd:date. },
+Top 10 Ground Truth:
+                                       x
+0  https://example.org/lex2kg/uu/2007/11
+1  https://example.org/lex2kg/uu/2007/12
+2  https://example.org/lex2kg/uu/2007/15
+3  https://example.org/lex2kg/uu/2007/16
+4   https://example.org/lex2kg/uu/2007/3
+5   https://example.org/lex2kg/uu/2007/5
+6   https://example.org/lex2kg/uu/2007/6
+7   https://example.org/lex2kg/uu/2007/7
+8   https://example.org/lex2kg/uu/2007/8
+9   https://example.org/lex2kg/uu/2007/9
+Top 10 Generated Answer:
+                                       x
+0  https://example.org/lex2kg/uu/2007/11
+1  https://example.org/lex2kg/uu/2007/12
+2  https://example.org/lex2kg/uu/2007/15
+3  https://example.org/lex2kg/uu/2007/16
+4   https://example.org/lex2kg/uu/2007/3
+5   https://example.org/lex2kg/uu/2007/5
+6   https://example.org/lex2kg/uu/2007/6
+7   https://example.org/lex2kg/uu/2007/7
+8   https://example.org/lex2kg/uu/2007/8
+9   https://example.org/lex2kg/uu/2007/9
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 16, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8260869565217391, 'recall': 0.8260869565217391, 'precision': 0.8260869565217391, 'f1': 0.8260869565217391, 'tp': 54.608695652173914, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 24
+Question: Undang-undang apa saja yang disahkan pada 29 Mei 1997?,
+Generated Factoid Question: Undang-undang apa saja yang disahkan pada 29 Mei 1997?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/disahkanPada> '1997-05-29'^^xsd:date . },
+Generated Query: SELECT?x WHERE {?x lex2kg-o:disahkanPada '1997-05-29'^^xsd:date. },
+Top 10 Ground Truth:
+                                       x
+0  https://example.org/lex2kg/uu/1997/21
+Top 10 Generated Answer:
+                                       x
+0  https://example.org/lex2kg/uu/1997/21
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8333333333333334, 'recall': 0.8333333333333334, 'precision': 0.8333333333333334, 'f1': 0.8333333333333334, 'tp': 52.375, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 25
+Question: Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?,
+Generated Factoid Question: Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/menghapus> <https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102> . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                                            x
+0  https://example.org/lex2kg/uu/2020/11/pasal/0081/versi/20201102/huruf/0056
+Top 10 Generated Answer:
+                                                                    menghapus
+0  https://example.org/lex2kg/uu/2020/11/pasal/0081/versi/20201102/huruf/0056
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.84, 'recall': 0.84, 'precision': 0.84, 'f1': 0.84, 'tp': 50.32, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 26
+Question: Undang-undang apa yang merujuk ke UU No. 8 Tahun 2004 dan UU No. 2 Tahun 1986?,
+Generated Factoid Question: Undang-undang apa yang merujuk ke UU No. 8 Tahun 2004 dan UU No. 2 Tahun 1986?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/2004/8> . ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/1986/2> . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+                                                            x
+0  https://example.org/lex2kg/uu/2004/11/mengingat/huruf/0004
+1  https://example.org/lex2kg/uu/2004/12/mengingat/huruf/0004
+2  https://example.org/lex2kg/uu/2004/13/mengingat/huruf/0004
+3     https://example.org/lex2kg/uu/2004/13/menimbang/huruf/d
+4  https://example.org/lex2kg/uu/2004/14/mengingat/huruf/0004
+5  https://example.org/lex2kg/uu/2009/49/mengingat/huruf/0003
+6     https://example.org/lex2kg/uu/2009/49/menimbang/huruf/b
+Top 10 Generated Answer:
+                                                      merujuk
+0  https://example.org/lex2kg/uu/2004/11/mengingat/huruf/0004
+1  https://example.org/lex2kg/uu/2004/12/mengingat/huruf/0004
+2  https://example.org/lex2kg/uu/2004/13/mengingat/huruf/0004
+3     https://example.org/lex2kg/uu/2004/13/menimbang/huruf/d
+4  https://example.org/lex2kg/uu/2004/14/mengingat/huruf/0004
+5  https://example.org/lex2kg/uu/2009/49/mengingat/huruf/0003
+6     https://example.org/lex2kg/uu/2009/49/menimbang/huruf/b
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 7, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8461538461538461, 'recall': 0.8461538461538461, 'precision': 0.8461538461538461, 'f1': 0.8461538461538461, 'tp': 48.65384615384615, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 27
+Question: Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?,
+Generated Factoid Question: Undang-undang apa saja yang memiliki jenis versi 'penyisipan' dan ditetapkan pada tanggal 2 November 2020?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/jenisVersi> 'penyisipan' . ?x <https://example.org/lex2kg/ontology/tanggal> '2020-11-02'^^xsd:date . },
+Generated Query: None,
+Top 10 Ground Truth:
+                                                                  x
+0   https://example.org/lex2kg/uu/1983/6/pasal/0027B/versi/20201102
+1  https://example.org/lex2kg/uu/1992/25/pasal/0044A/versi/20201102
+2  https://example.org/lex2kg/uu/1997/10/pasal/0002A/versi/20201102
+3  https://example.org/lex2kg/uu/1997/10/pasal/0009A/versi/20201102
+4  https://example.org/lex2kg/uu/1999/36/pasal/0034A/versi/20201102
+5  https://example.org/lex2kg/uu/1999/36/pasal/0034B/versi/20201102
+6  https://example.org/lex2kg/uu/1999/41/pasal/0029A/versi/20201102
+7  https://example.org/lex2kg/uu/1999/41/pasal/0029B/versi/20201102
+8  https://example.org/lex2kg/uu/1999/41/pasal/0050A/versi/20201102
+9  https://example.org/lex2kg/uu/2001/22/pasal/0023A/versi/20201102
+Top 10 Generated Answer:
+Empty DataFrame
+Columns: []
+Index: []
+Score: {'jaccard': 0, 'recall': 0, 'precision': 0, 'f1': 0, 'tp': 0, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8148148148148148, 'recall': 0.8148148148148148, 'precision': 0.8148148148148148, 'f1': 0.8148148148148148, 'tp': 46.851851851851855, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 28
+Question: Undang-undang apa saja yang merujuk ke UU No. 14 Tahun 2003 Pasal 5 Ayat 2 versi 31 Maret 2003 dan UU No. 14 Tahun 2003 Pasal 5 Ayat 3 versi 31 Maret 2003?,
+Generated Factoid Question: Undang-undang apa saja yang merujuk ke UU No. 14 Tahun 2003 Pasal 5 Ayat 2 versi 31 Maret 2003 dan UU No. 14 Tahun 2003 Pasal 5 Ayat 3 versi 31 Maret 2003?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/2003/14/pasal/0005/versi/20030331/ayat/0002> . ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/2003/14/pasal/0005/versi/20030331/ayat/0003> . },
+Generated Query: select?x {?x lex2kg-o:merujuk <https://example.org/lex2kg/uu/2003/14/pasal/0005/versi/20030331/ayat/0002>.?x lex2kg-o:merujuk <https://example.org/lex2kg/uu/2003/14/pasal/0005/versi/20030331/ayat/0003>. },
+Top 10 Ground Truth:
+                                                                           x
+0  https://example.org/lex2kg/uu/2003/14/pasal/0005/versi/20030331/ayat/0004
+Top 10 Generated Answer:
+                                                                           x
+0  https://example.org/lex2kg/uu/2003/14/pasal/0005/versi/20030331/ayat/0004
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8214285714285714, 'recall': 0.8214285714285714, 'precision': 0.8214285714285714, 'f1': 0.8214285714285714, 'tp': 45.214285714285715, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 29
+Question: Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?,
+Generated Factoid Question: Undang-undang apa yang disahkan di Jakarta dan disahkan pada tanggal 22 Maret 2014?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/disahkanDi> 'Jakarta' . ?x <https://example.org/lex2kg/ontology/disahkanPada> '2014-03-22'^^xsd:date . },
+Generated Query: select?x {?x lex2kg-o:disahkanDi "Jakarta".?x lex2kg-o:disahkanPada '2014-03-22'^^xsd:date. },
+Top 10 Ground Truth:
+                                       x
+0  https://example.org/lex2kg/uu/2014/11
+Top 10 Generated Answer:
+                                       x
+0  https://example.org/lex2kg/uu/2014/11
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8275862068965517, 'recall': 0.8275862068965517, 'precision': 0.8275862068965517, 'f1': 0.8275862068965517, 'tp': 43.689655172413794, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 30
+Question: Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?,
+Generated Factoid Question: Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?,
+True Query: select ?x { ?x <https://example.org/lex2kg/ontology/disahkanOleh> 'DR. H. Susilo Bambang Yudhoyono' . ?x <https://example.org/lex2kg/ontology/disahkanPada> '2009-01-16'^^xsd:date . },
+Generated Query: None,
+Top 10 Ground Truth:
+                                       x
+0  https://example.org/lex2kg/uu/2009/10
+1  https://example.org/lex2kg/uu/2009/11
+2  https://example.org/lex2kg/uu/2009/12
+3  https://example.org/lex2kg/uu/2009/13
+4   https://example.org/lex2kg/uu/2009/9
+Top 10 Generated Answer:
+Empty DataFrame
+Columns: []
+Index: []
+Score: {'jaccard': 0, 'recall': 0, 'precision': 0, 'f1': 0, 'tp': 0, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8, 'recall': 0.8, 'precision': 0.8, 'f1': 0.8, 'tp': 42.233333333333334, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 31
+Question: Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?,
+Generated Factoid Question: Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?,
+True Query: select (count(?x) as ?cnt) { ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/1997/20/pasal/0004> . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+  cnt
+0   2
+Top 10 Generated Answer:
+  cnt
+0   2
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8064516129032258, 'recall': 0.8064516129032258, 'precision': 0.8064516129032258, 'f1': 0.8064516129032258, 'tp': 40.903225806451616, 'fp': 0.0, 'fn': 0.0, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 32
+Question: Berapa banyak undang-undang yang dibuat pada tanggal 5 Mei 2011?,
+Generated Factoid Question: Berapa banyak undang-undang yang dibuat pada tanggal 5 Mei 2011?,
+True Query: select (count(?x) as ?cnt) { ?x <https://example.org/lex2kg/ontology/tanggal> '2011-05-05'^^xsd:date . },
+Generated Query: SELECT (COUNT(?x) AS?jumlahUndangUndang) WHERE {?x lex2kg-o:disahkanPada '2011-05-05'^^xsd:date. },
+Top 10 Ground Truth:
+  cnt
+0  77
+Top 10 Generated Answer:
+  jumlahUndangUndang
+0                  1
+Score: {'jaccard': 0.0, 'recall': 0.0, 'precision': 0.0, 'f1': 0, 'tp': 0, 'fp': 1, 'fn': 1, 'tn': 0}
+Current Average Score: {'jaccard': 0.78125, 'recall': 0.78125, 'precision': 0.78125, 'f1': 0.78125, 'tp': 39.625, 'fp': 0.03125, 'fn': 0.03125, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 33
+Question: Berapa banyak pasal undang-undang yang memiliki jenis versi orisinal?,
+Generated Factoid Question: Berapa banyak pasal undang-undang yang memiliki jenis versi orisinal?,
+True Query: select (count(?x) as ?cnt) { ?x <https://example.org/lex2kg/ontology/jenisVersi> 'orisinal' . },
+Generated Query: SELECT (COUNT(?x) AS?jumlahPasal) WHERE {?x lex2kg-o:jenisVersi "orisinal". },
+Top 10 Ground Truth:
+     cnt
+0  20574
+Top 10 Generated Answer:
+  jumlahPasal
+0       20574
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.7878787878787878, 'recall': 0.7878787878787878, 'precision': 0.7878787878787878, 'f1': 0.7878787878787878, 'tp': 38.45454545454545, 'fp': 0.030303030303030304, 'fn': 0.030303030303030304, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 34
+Question: Berapa jumlah undang-undang yang merujuk ke UU No. 10 Tahun 2010 Pasal 4 Ayat 1?,
+Generated Factoid Question: Berapa jumlah undang-undang yang merujuk ke UU No. 10 Tahun 2010 Pasal 4 Ayat 1?,
+True Query: select (count(?x) as ?cnt) { ?x <https://example.org/lex2kg/ontology/merujuk> <https://example.org/lex2kg/uu/2010/10/pasal/0004/versi/20101119/ayat/0001> . },
+Generated Query: SELECT (COUNT(?x) AS?jumlahUndangUndang) WHERE {?x lex2kg-o:merujuk <https://example.org/lex2kg/uu/2010/10/pasal/0004/versi/20101119/ayat/0001>. },
+Top 10 Ground Truth:
+  cnt
+0   3
+Top 10 Generated Answer:
+  jumlahUndangUndang
+0                  3
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.7941176470588235, 'recall': 0.7941176470588235, 'precision': 0.7941176470588235, 'f1': 0.7941176470588235, 'tp': 37.35294117647059, 'fp': 0.029411764705882353, 'fn': 0.029411764705882353, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 35
+Question: Berapa banyak undang-undang yang dibuat pada tanggal 30 Maret 1992?,
+Generated Factoid Question: Berapa banyak undang-undang yang dibuat pada tanggal 30 Maret 1992?,
+True Query: select (count(?x) as ?cnt) { ?x <https://example.org/lex2kg/ontology/tanggal> '1992-03-30'^^xsd:date . },
+Generated Query: SELECT (COUNT(?x) AS?jumlahUU) WHERE {?x lex2kg-o:disahkanPada '1992-03-30'^^xsd:date. },
+Top 10 Ground Truth:
+  cnt
+0  47
+Top 10 Generated Answer:
+  jumlahUU
+0        1
+Score: {'jaccard': 0.0, 'recall': 0.0, 'precision': 0.0, 'f1': 0, 'tp': 0, 'fp': 1, 'fn': 1, 'tn': 0}
+Current Average Score: {'jaccard': 0.7714285714285715, 'recall': 0.7714285714285715, 'precision': 0.7714285714285715, 'f1': 0.7714285714285715, 'tp': 36.285714285714285, 'fp': 0.05714285714285714, 'fn': 0.05714285714285714, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 36
+Question: Berapa jumlah huruf dalam UU No. 11 Tahun 2014 Pasal 24 Versi 22 Maret 2014?,
+Generated Factoid Question: Berapa jumlah huruf dalam UU No. 11 Tahun 2014 Pasal 24 Versi 22 Maret 2014?,
+True Query: select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/11/pasal/0024/versi/20140322> <https://example.org/lex2kg/ontology/huruf> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+  cnt
+0   5
+Top 10 Generated Answer:
+  cnt
+0   5
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.7777777777777778, 'recall': 0.7777777777777778, 'precision': 0.7777777777777778, 'f1': 0.7777777777777778, 'tp': 35.30555555555556, 'fp': 0.05555555555555555, 'fn': 0.05555555555555555, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 37
+Question: Berapa jumlah versi yang terkait dengan UU No. 2 Tahun 1978 Pasal 1?,
+Generated Factoid Question: Berapa jumlah versi yang terkait dengan UU No. 2 Tahun 1978 Pasal 1?,
+True Query: select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1978/2/pasal/0001> <https://example.org/lex2kg/ontology/versi> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+  cnt
+0   1
+Top 10 Generated Answer:
+  cnt
+0   1
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.7837837837837838, 'recall': 0.7837837837837838, 'precision': 0.7837837837837838, 'f1': 0.7837837837837838, 'tp': 34.37837837837838, 'fp': 0.05405405405405406, 'fn': 0.05405405405405406, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 38
+Question: Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?,
+Generated Factoid Question: Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?,
+True Query: select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2014/3/bab/0009> <https://example.org/lex2kg/ontology/bagian> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+  cnt
+0   2
+Top 10 Generated Answer:
+  cnt
+0   2
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.7894736842105263, 'recall': 0.7894736842105263, 'precision': 0.7894736842105263, 'f1': 0.7894736842105263, 'tp': 33.5, 'fp': 0.05263157894736842, 'fn': 0.05263157894736842, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 39
+Question: Berapa banyak UU yang dirujuk oleh UU No. 5 Tahun 2007 Pasal 6 Ayat 1 Versi 2 Januari 2007?,
+Generated Factoid Question: Berapa banyak UU yang dirujuk oleh UU No. 5 Tahun 2007 Pasal 6 Ayat 1 Versi 2 Januari 2007?,
+True Query: select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/2007/5/pasal/0006/versi/20070102/ayat/0001> <https://example.org/lex2kg/ontology/merujuk> ?x . },
+Generated Query: using verbalization,
+Top 10 Ground Truth:
+  cnt
+0   1
+Top 10 Generated Answer:
+  cnt
+0   1
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.7948717948717948, 'recall': 0.7948717948717948, 'precision': 0.7948717948717948, 'f1': 0.7948717948717948, 'tp': 32.666666666666664, 'fp': 0.05128205128205128, 'fn': 0.05128205128205128, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+QUESTION 40
+Question: Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?,
+Generated Factoid Question: Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?,
+True Query: select (count(?x) as ?cnt) { <https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523> <https://example.org/lex2kg/ontology/ayat> ?x . },
+Generated Query: SELECT (COUNT(?ayat) AS?jumlahAyat) WHERE { <https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523> lex2kg-o:ayat?ayat. },
+Top 10 Ground Truth:
+  cnt
+0   3
+Top 10 Generated Answer:
+  jumlahAyat
+0          3
+Score: {'jaccard': 1.0, 'recall': 1.0, 'precision': 1.0, 'f1': 1.0, 'tp': 1, 'fp': 0, 'fn': 0, 'tn': 0}
+Current Average Score: {'jaccard': 0.8, 'recall': 0.8, 'precision': 0.8, 'f1': 0.8, 'tp': 31.875, 'fp': 0.05, 'fn': 0.05, 'tn': 0.0}
+----------------------------------------------------------------------------------------
+Average Score: {'jaccard': 0.8, 'recall': 0.8, 'precision': 0.8, 'f1': 0.8, 'tp': 31.875, 'fp': 0.05, 'fn': 0.05, 'tn': 0.0}

@@ -1,0 +1,27 @@
+Translated Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?
+Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada Undang-Undang No. 17 Tahun 2014 Pasal 368?'}
+Entities:  ['Undang-Undang No. 17 Tahun 2014 Pasal 368']
+Retrieved Resources:                                                                           uri                                                      label
+0                           https://example.org/lex2kg/uu/2014/17/pasal/0368                              UU tahun 2014 no 17 pasal 368
+1  https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0001  UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 ayat 1
+2  https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0002  UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 ayat 2
+3  https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805/ayat/0003  UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014 ayat 3
+4            https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805         UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014
+Entity URI:  https://example.org/lex2kg/uu/2014/17/pasal/0368
+
+
+
+po:                                             p                                                                o                         sLabel pLabel                                              oLabel
+0  https://example.org/lex2kg/ontology/nomor                                                              368  UU tahun 2014 no 17 pasal 368  nomor                                                 368
+1  https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/2014/17/pasal/0368/versi/20140805  UU tahun 2014 no 17 pasal 368  versi  UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014
+sp:                                                                             s                                            p                                                     sLabel   pLabel                         oLabel
+0     https://example.org/lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal    https://example.org/lex2kg/ontology/pasal            UU tahun 2014 no 17 bab 6 bagian 4 daftar pasal    pasal  UU tahun 2014 no 17 pasal 368
+1            https://example.org/lex2kg/uu/2014/17/pasal/0369/versi/20140805  https://example.org/lex2kg/ontology/merujuk         UU tahun 2014 no 17 pasal 369 versi 5 Agustus 2014  merujuk  UU tahun 2014 no 17 pasal 368
+2  https://example.org/lex2kg/uu/2014/17/pasal/0410/versi/20140805/ayat/0006  https://example.org/lex2kg/ontology/merujuk  UU tahun 2014 no 17 pasal 410 versi 5 Agustus 2014 ayat 6  merujuk  UU tahun 2014 no 17 pasal 368
+3                                      https://example.org/lex2kg/uu/2014/17    https://example.org/lex2kg/ontology/pasal                                        UU tahun 2014 no 17    pasal  UU tahun 2014 no 17 pasal 368
+
+
+
+cands:  ['nomor dari UU tahun 2014 no 17 pasal 368 adalah 368', 'versi dari UU tahun 2014 no 17 pasal 368 adalah UU tahun 2014 no 17 pasal 368 versi 5 Agustus 2014', 'pasal dari UU tahun 2014 no 17 adalah UU tahun 2014 no 17 pasal 368', 'Yang merujuk UU tahun 2014 no 17 pasal 368 adalah UU tahun 2014 no 17 pasal 369 versi 5 Agustus 2014']
+Result:  [{'merujuk': 'https://example.org/lex2kg/uu/2014/17/pasal/0369/versi/20140805'}, {'merujuk': 'https://example.org/lex2kg/uu/2014/17/pasal/0410/versi/20140805/ayat/0006'}] Similarities:  0.98836774

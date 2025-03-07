@@ -1,0 +1,25 @@
+Translated Question:  Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?
+Question:  Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?
+{'chat_history': [HumanMessage(content='Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?', additional_kwargs={}, response_metadata={})], 'input': 'Apa teks dari UU No. 11 Tahun 2010 versi 24 November 2010 Pasal 34 Ayat 2?'}
+Entities:  ['UU tahun 2010 no 11 versi 24 November 2010 pasal 34 ayat 2']
+Retrieved Resources:                                                                                uri                                                            label
+0       https://example.org/lex2kg/uu/2010/11/pasal/0034/versi/20101124/ayat/0002       UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2
+1       https://example.org/lex2kg/uu/2010/11/pasal/0034/versi/20101124/ayat/0001       UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 1
+2                 https://example.org/lex2kg/uu/2010/11/pasal/0034/versi/20101124              UU tahun 2010 no 11 pasal 34 versi 24 November 2010
+3  https://example.org/lex2kg/uu/2010/11/pasal/0034/versi/20101124/ayat/0002/text  UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2 text
+4       https://example.org/lex2kg/uu/2010/12/pasal/0034/versi/20101124/ayat/0002       UU tahun 2010 no 12 pasal 34 versi 24 November 2010 ayat 2
+Entity URI:  https://example.org/lex2kg/uu/2010/11/pasal/0034/versi/20101124/ayat/0002
+
+
+
+po:                                              p                                                                                                                                  o                                                      sLabel  pLabel                                                                                                                             oLabel
+0   https://example.org/lex2kg/ontology/nomor                                                                                                                                  2  UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2   nomor                                                                                                                               no 2
+1  https://example.org/lex2kg/ontology/segmen                                                     https://example.org/lex2kg/uu/2010/11/pasal/0034/versi/20101124/ayat/0002/text  UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2  segmen                                                                    UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2 text
+2    https://example.org/lex2kg/ontology/teks  Situs Cagar Budaya atau Kawasan Cagar Budaya yang berada di 2 (dua) provinsi atau lebih ditetapkan sebagai Cagar Budaya nasional.  UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2    teks  situs cagar budaya atau kawasan cagar budaya yang berada di 2 (dua) provinsi atau lebih ditetapkan sebagai cagar budaya nasional.
+sp:                                                                   s                                         p                                               sLabel pLabel                                                      oLabel
+0  https://example.org/lex2kg/uu/2010/11/pasal/0034/versi/20101124  https://example.org/lex2kg/ontology/ayat  UU tahun 2010 no 11 pasal 34 versi 24 November 2010   ayat  UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2
+
+
+
+cands:  ['nomor dari UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2 adalah 2', 'segmen dari UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2 adalah UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2 text', 'teks dari UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2 adalah Situs Cagar Budaya atau Kawasan Cagar Budaya yang berada di 2 (dua) provinsi atau lebih ditetapkan sebagai Cagar Budaya nasional.', 'ayat dari UU tahun 2010 no 11 pasal 34 versi 24 November 2010 adalah UU tahun 2010 no 11 pasal 34 versi 24 November 2010 ayat 2']
+Result:  [{'teks': 'Situs Cagar Budaya atau Kawasan Cagar Budaya yang berada di 2 (dua) provinsi atau lebih ditetapkan sebagai Cagar Budaya nasional.'}] Similarities:  0.99169755

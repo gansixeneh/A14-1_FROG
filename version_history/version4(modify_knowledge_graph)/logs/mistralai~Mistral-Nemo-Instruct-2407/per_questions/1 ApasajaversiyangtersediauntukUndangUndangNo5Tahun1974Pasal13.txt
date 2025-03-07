@@ -1,0 +1,25 @@
+Translated Question:  Apa saja versi yang tersedia untuk Undang-Undang No. 5 Tahun 1974 Pasal 13?
+Question:  Apa saja versi yang tersedia untuk Undang-Undang No. 5 Tahun 1974 Pasal 13?
+{'chat_history': [HumanMessage(content='Apa saja versi yang tersedia untuk Undang-Undang No. 5 Tahun 1974 Pasal 13?', additional_kwargs={}, response_metadata={})], 'input': 'Apa saja versi yang tersedia untuk Undang-Undang No. 5 Tahun 1974 Pasal 13?'}
+Entities:  ['Undang-Undang No. 5 Tahun 1974 Pasal 13']
+Retrieved Resources:                                                                               uri                                                       label
+0                                https://example.org/lex2kg/uu/1974/5/pasal/0013                                 UU tahun 1974 no 5 pasal 13
+1       https://example.org/lex2kg/uu/1974/5/pasal/0013/versi/19740723/ayat/0001       UU tahun 1974 no 5 pasal 13 versi 23 Juli 1974 ayat 1
+2                 https://example.org/lex2kg/uu/1974/5/pasal/0013/versi/19740723              UU tahun 1974 no 5 pasal 13 versi 23 Juli 1974
+3       https://example.org/lex2kg/uu/1974/5/pasal/0013/versi/19740723/ayat/0002       UU tahun 1974 no 5 pasal 13 versi 23 Juli 1974 ayat 2
+4  https://example.org/lex2kg/uu/1974/5/pasal/0013/versi/19740723/ayat/0001/text  UU tahun 1974 no 5 pasal 13 versi 23 Juli 1974 ayat 1 text
+Entity URI:  https://example.org/lex2kg/uu/1974/5/pasal/0013
+
+
+
+po:                                             p                                                               o                       sLabel pLabel                                          oLabel
+0  https://example.org/lex2kg/ontology/nomor                                                              13  UU tahun 1974 no 5 pasal 13  nomor                                           no 13
+1  https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/1974/5/pasal/0013/versi/19740723  UU tahun 1974 no 5 pasal 13  versi  UU tahun 1974 no 5 pasal 13 versi 23 Juli 1974
+sp:                                                             s                                          p                                 sLabel pLabel                       oLabel
+0  https://example.org/lex2kg/uu/1974/5/bab/0003/daftarPasal  https://example.org/lex2kg/ontology/pasal  UU tahun 1974 no 5 bab 3 daftar pasal  pasal  UU tahun 1974 no 5 pasal 13
+1                       https://example.org/lex2kg/uu/1974/5  https://example.org/lex2kg/ontology/pasal                     UU tahun 1974 no 5  pasal  UU tahun 1974 no 5 pasal 13
+
+
+
+cands:  ['nomor dari UU tahun 1974 no 5 pasal 13 adalah 13', 'versi dari UU tahun 1974 no 5 pasal 13 adalah UU tahun 1974 no 5 pasal 13 versi 23 Juli 1974', 'pasal dari UU tahun 1974 no 5 bab 3 daftar pasal adalah UU tahun 1974 no 5 pasal 13']
+Result:  [{'versi': 'https://example.org/lex2kg/uu/1974/5/pasal/0013/versi/19740723'}] Similarities:  0.9886889

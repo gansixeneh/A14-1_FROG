@@ -1,0 +1,26 @@
+Translated Question:  Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?
+Question:  Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?
+{'chat_history': [HumanMessage(content='Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?', additional_kwargs={}, response_metadata={})], 'input': 'Berapa jumlah bagian yang dimiliki oleh UU No. 3 Tahun 2014 Bab 9?'}
+Entities:  ['UU tahun 2014 no 3 bab 9']
+Retrieved Resources:                                                            uri                               label
+0               https://example.org/lex2kg/uu/2014/3/bab/0009            UU tahun 2014 no 3 bab 9
+1   https://example.org/lex2kg/uu/2014/3/bab/0009/bagian/0001   UU tahun 2014 no 3 bab 9 bagian 1
+2   https://example.org/lex2kg/uu/2014/5/bab/0009/bagian/0003   UU tahun 2014 no 5 bab 9 bagian 3
+3  https://example.org/lex2kg/uu/2014/25/bab/0009/bagian/0003  UU tahun 2014 no 25 bab 9 bagian 3
+4  https://example.org/lex2kg/uu/2014/11/bab/0009/bagian/0003  UU tahun 2014 no 11 bab 9 bagian 3
+Entity URI:  https://example.org/lex2kg/uu/2014/3/bab/0009
+
+
+
+po:                                              p                                                          o                    sLabel  pLabel                                         oLabel
+0  https://example.org/lex2kg/ontology/bagian  https://example.org/lex2kg/uu/2014/3/bab/0009/bagian/0001  UU tahun 2014 no 3 bab 9  bagian              UU tahun 2014 no 3 bab 9 bagian 1
+1  https://example.org/lex2kg/ontology/bagian  https://example.org/lex2kg/uu/2014/3/bab/0009/bagian/0002  UU tahun 2014 no 3 bab 9  bagian              UU tahun 2014 no 3 bab 9 bagian 2
+2   https://example.org/lex2kg/ontology/judul              TINDAKAN PENGAMANAN DAN PENYELAMATAN INDUSTRI  UU tahun 2014 no 3 bab 9   judul  tindakan pengamanan dan penyelamatan industri
+3   https://example.org/lex2kg/ontology/nomor                                                          9  UU tahun 2014 no 3 bab 9   nomor                                           no 9
+sp:                                        s                                        p              sLabel pLabel                    oLabel
+0  https://example.org/lex2kg/uu/2014/3  https://example.org/lex2kg/ontology/bab  UU tahun 2014 no 3    bab  UU tahun 2014 no 3 bab 9
+
+
+
+cands:  ['bagian dari UU tahun 2014 no 3 bab 9 adalah UU tahun 2014 no 3 bab 9 bagian 1', 'judul dari UU tahun 2014 no 3 bab 9 adalah TINDAKAN PENGAMANAN DAN PENYELAMATAN INDUSTRI', 'nomor dari UU tahun 2014 no 3 bab 9 adalah 9', 'bab dari UU tahun 2014 no 3 adalah UU tahun 2014 no 3 bab 9']
+Result:  [{'bagian': 'https://example.org/lex2kg/uu/2014/3/bab/0009/bagian/0001'}, {'bagian': 'https://example.org/lex2kg/uu/2014/3/bab/0009/bagian/0002'}] Similarities:  0.98902786

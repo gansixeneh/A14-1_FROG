@@ -1,0 +1,118 @@
+Translated Question:  Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?
+Question:  Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?
+{'chat_history': [HumanMessage(content='Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?', additional_kwargs={}, response_metadata={})], 'input': 'Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?'}
+Entities:  ['UU tahun 2009 no 32 pasal 112 versi 2 November 2020']
+Retrieved Resources:                                                                      uri                                                     label
+0       https://example.org/lex2kg/uu/2009/32/pasal/0112/versi/20201102       UU tahun 2009 no 32 pasal 112 versi 2 November 2020
+1  https://example.org/lex2kg/uu/2009/32/pasal/0112/versi/20201102/text  UU tahun 2009 no 32 pasal 112 versi 2 November 2020 text
+2        https://example.org/lex2kg/uu/2009/1/pasal/0112/versi/20201102        UU tahun 2009 no 1 pasal 112 versi 2 November 2020
+3   https://example.org/lex2kg/uu/2009/1/pasal/0112/versi/20201102/text   UU tahun 2009 no 1 pasal 112 versi 2 November 2020 text
+4       https://example.org/lex2kg/uu/2009/32/pasal/0111/versi/20201102       UU tahun 2009 no 32 pasal 111 versi 2 November 2020
+Entity URI:  https://example.org/lex2kg/uu/2009/32/pasal/0112/versi/20201102
+
+
+
+po:                                                  p                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        o                                               sLabel       pLabel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   oLabel
+0  https://example.org/lex2kg/ontology/jenisVersi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               pengubahan  UU tahun 2009 no 32 pasal 112 versi 2 November 2020  jenis versi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               pengubahan
+1      https://example.org/lex2kg/ontology/segmen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     https://example.org/lex2kg/uu/2009/32/pasal/0112/versi/20201102/text  UU tahun 2009 no 32 pasal 112 versi 2 November 2020       segmen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 UU tahun 2009 no 32 pasal 112 versi 2 November 2020 text
+2     https://example.org/lex2kg/ontology/tanggal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               2020-11-02  UU tahun 2009 no 32 pasal 112 versi 2 November 2020      tanggal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               2020-11-02
+3        https://example.org/lex2kg/ontology/teks  Pasal 112 Setiap pejabat berwenang yang dengan sengaja tidak melakukan pengawasan terhadap ketaatan penanggung jawab usaha dan/atau kegiatan terhadap peraturan perundang-undangan dan Perizinan Berusaha, atau persetujuan Pemerintah Pusat atau Pemerintah Daerah sebagaimana dimaksud dalam Pasal 71 yang mengakibatkan terjadinya pencemaran dan/atau kerusakan lingkungan yang mengakibatkan hilangnya nyawa manusia dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).  UU tahun 2009 no 32 pasal 112 versi 2 November 2020         teks  pasal 112 setiap pejabat berwenang yang dengan sengaja tidak melakukan pengawasan terhadap ketaatan penanggung jawab usaha dan atau kegiatan terhadap peraturan perundang-undangan dan perizinan berusaha, atau persetujuan pemerintah pusat atau pemerintah daerah sebagaimana dimaksud dalam pasal 71 yang mengakibatkan terjadinya pencemaran dan atau kerusakan lingkungan yang mengakibatkan hilangnya nyawa manusia dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak rp500.000.000,00 (lima ratus juta rupiah).
+sp:                                                                              s                                             p                                                       sLabel    pLabel                                               oLabel
+0                            https://example.org/lex2kg/uu/2009/32/pasal/0112     https://example.org/lex2kg/ontology/versi                                UU tahun 2009 no 32 pasal 112     versi  UU tahun 2009 no 32 pasal 112 versi 2 November 2020
+1  https://example.org/lex2kg/uu/2020/11/pasal/0022/versi/20201102/huruf/0039  https://example.org/lex2kg/ontology/mengubah  UU tahun 2020 no 11 pasal 22 versi 2 November 2020 huruf 39  mengubah  UU tahun 2009 no 32 pasal 112 versi 2 November 2020
+
+
+
+cands:  ['jenis versi dari UU tahun 2009 no 32 pasal 112 versi 2 November 2020 adalah pengubahan', 'segmen dari UU tahun 2009 no 32 pasal 112 versi 2 November 2020 adalah UU tahun 2009 no 32 pasal 112 versi 2 November 2020 text', 'tanggal dari UU tahun 2009 no 32 pasal 112 versi 2 November 2020 adalah 2020-11-02', 'teks dari UU tahun 2009 no 32 pasal 112 versi 2 November 2020 adalah Pasal 112 Setiap pejabat berwenang yang dengan sengaja tidak melakukan pengawasan terhadap ketaatan penanggung jawab usaha dan/atau kegiatan terhadap peraturan perundang-undangan dan Perizinan Berusaha, atau persetujuan Pemerintah Pusat atau Pemerintah Daerah sebagaimana dimaksud dalam Pasal 71 yang mengakibatkan terjadinya pencemaran dan/atau kerusakan lingkungan yang mengakibatkan hilangnya nyawa manusia dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).', 'versi dari UU tahun 2009 no 32 pasal 112 adalah UU tahun 2009 no 32 pasal 112 versi 2 November 2020', 'Yang mengubah UU tahun 2009 no 32 pasal 112 versi 2 November 2020 adalah UU tahun 2020 no 11 pasal 22 versi 2 November 2020 huruf 39']
+Result:  [{'mengubah': 'https://example.org/lex2kg/uu/2020/11/pasal/0022/versi/20201102/huruf/0039'}] Similarities:  0.9846234
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu
+        - lex2kg/uu/2010/11/pasal/0011/versi/20101124
+        - lex2kg/uu/2009/9/pasal/0029/versi/20090116
+        - lex2kg/uu/1957/58/menimbang/text
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2009/1/pasal/0112
+        - lex2kg/uu/2009/36/pasal/0112
+        - lex2kg/uu/2011/22/pasal/0011/versi/20111125
+        - lex2kg/uu/2013/16
+        - lex2kg/uu/2009/35/pasal/0112
+        - lex2kg/uu/2014/34/menimbang/huruf/a
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125/huruf/description
+        - lex2kg/uu/1957/48/menimbang/text
+        - lex2kg/uu/2/11
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2009/4/pasal/0153
+        - lex2kg/uu/2012/17/pasal/0112
+        - lex2kg/uu/2004/34/menimbang/huruf/a
+        - lex2kg/uu/2009/36/pasal/0032
+        - lex2kg/uu/2020/11/pasal/0011/versi/20201102
+        - lex2kg/uu/2020/1
+        - lex2kg/uu/2/12
+        - lex2kg/uu/1976/9/pasal/0032
+        - lex2kg/uu/2009/32/pasal/0112/versi/20201102
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2014/17/pasal/0112
+        - lex2kg/uu/2014/17/pasal/0223/versi/20140805/ayat/0001/text
+        - lex2kg/uu/2009/9/bab/0009/daftarPasal
+        - lex2kg/uu/2009/32/pasal/0112
+        - lex2kg/uu/2009/9
+        - lex2kg/uu/2011/20/pasal/0112
+        - lex2kg/uu/2010/11/pasal/0112
+        - lex2kg/uu/2014/33/pasal/0032
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2014/17/pasal/0264/versi/20140805/ayat/0003/text
+        - lex2kg/uu/2004/32/pasal/0032
+        - lex2kg/uu/2009/9/pasal/0039/versi/20090116
+        - lex2kg/uu/2020/11/pasal/0002/versi/20201102
+        - lex2kg/uu/2000/32/pasal/0032
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/2016/13/pasal/0112
+        - lex2kg/uu/2009/9/pasal/0009/versi/20090116
+        - lex2kg/uu/1957/57/menimbang/text
+        - lex2kg/uu/2009/32/mengingat
+        - lex2kg/uu/2012/8/pasal/0112
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125/huruf/d/text
+        - lex2kg/uu/2002/4/mengingat/huruf/0002
+        - lex2kg/uu/2009/32/pasal/0032
+        - lex2kg/uu/2020/10
+        - lex2kg/uu/2015/2/pasal/0002/versi/20150202/text
+        - lex2kg/uu/1995/1/pasal/0112
+        - lex2kg/uu/2011/24/pasal/0011/versi/20111125
+        - lex2kg/uu/2015/1/pasal/0002/versi/20150202/text
+        - lex2kg/uu/2009/9/pasal/0032/versi/20090116
+        - lex2kg/uu/2009/22/pasal/0112
+        - lex2kg/uu/2020/11/pasal/0110/versi/20201102
+        - lex2kg/uu/2014/20/pasal/0063/versi/20140917/text
+        - lex2kg/uu/2009/2/pasal/0009/versi/20090112
+        - lex2kg/uu/1997/32/pasal/0032
+        - lex2kg/uu/2002/19/pasal/0112
+        - lex2kg/uu/2009/1/pasal/0112/versi/20201102
+        - lex2kg/uu/2002/2/mengingat/huruf/0002/text
+        - lex2kg/uu/1957/41/menimbang/text
+        - lex2kg/uu/2009/27/pasal/0032/versi/20090829
+        - lex2kg/uu/2009/32
+        - lex2kg/uu/2014/32/pasal/0032
+        - lex2kg/uu/1957/34/menimbang/text
+        - lex2kg/uu/2009/32/pasal/0112/versi/20201102/text
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/2012/1
+    - properties: 
+        - lex2kg-o:tanggal
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:pasal
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:merujuk
+        - lex2kg-o:judul
+        - lex2kg-o:tahun
+        - lex2kg-o:jenisVersi
+        - lex2kg-o:nomor
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:daftarPasal
+        - lex2kg-o:tentang
+        - lex2kg-o:versi
+        - lex2kg-o:mengubah
+
+Question:  Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?
+{'chat_history': [HumanMessage(content='Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?', additional_kwargs={}, response_metadata={})], 'input': 'Pasal undang-undang apa yang mengubah UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020?'}
+Thoughts:  ["1. Pertanyaan ini meminta informasi tentang pasal undang-undang yang mengubah 'UU No. 32 Tahun 2009 Pasal 112 versi 2 November 2020'.", "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/2009/32/pasal/0112/versi/20201102'.", "3. Properti 'lex2kg-o:mengubah' digunakan untuk menunjukkan hubungan antara undang-undang yang mengubah pasal lain.", "4. Untuk menyelesaikan ini, cari semua entitas pasal yang memiliki hubungan 'lex2kg-o:mengubah' dengan 'lex2kg/uu/2009/32/pasal/0112/versi/20201102'.", '5. Susun query SPARQL untuk mendapatkan pasal undang-undang yang mengubah pasal ini.']
+Generated SPARQL:  select?x {?x lex2kg-o:mengubah <https://example.org/lex2kg/uu/2009/32/pasal/0112/versi/20201102>. }

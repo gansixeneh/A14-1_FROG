@@ -1,0 +1,214 @@
+Translated Question:  Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?
+Question:  Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?'}
+Entities:  ['UU tahun 2012']
+Retrieved Resources:                                                 uri                          label
+0            https://example.org/lex2kg/uu/2012/12            UU tahun 2012 no 12
+1             https://example.org/lex2kg/uu/2012/1             UU tahun 2012 no 1
+2             https://example.org/lex2kg/uu/2012/2             UU tahun 2012 no 2
+3  https://example.org/lex2kg/uu/2012/12/mengingat  UU tahun 2012 no 12 mengingat
+4   https://example.org/lex2kg/uu/2012/1/mengingat   UU tahun 2012 no 1 mengingat
+Entity URI:  https://example.org/lex2kg/uu/2012/12
+
+
+
+po:                                                         p                                                      o               sLabel            pLabel                           oLabel
+0                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/12/bab/0001  UU tahun 2012 no 12               bab        UU tahun 2012 no 12 bab 1
+1                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/12/bab/0002  UU tahun 2012 no 12               bab        UU tahun 2012 no 12 bab 2
+2                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/12/bab/0003  UU tahun 2012 no 12               bab        UU tahun 2012 no 12 bab 3
+3                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/12/bab/0004  UU tahun 2012 no 12               bab        UU tahun 2012 no 12 bab 4
+4                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/12/bab/0005  UU tahun 2012 no 12               bab        UU tahun 2012 no 12 bab 5
+5                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/12/bab/0006  UU tahun 2012 no 12               bab        UU tahun 2012 no 12 bab 6
+6                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2012/12/bab/0007  UU tahun 2012 no 12               bab        UU tahun 2012 no 12 bab 7
+7             https://example.org/lex2kg/ontology/bahasa                                                     id  UU tahun 2012 no 12            bahasa                               id
+8         https://example.org/lex2kg/ontology/disahkanDi                                                Jakarta  UU tahun 2012 no 12       disahkan di                          jakarta
+9       https://example.org/lex2kg/ontology/disahkanOleh                        DR. H. Susilo Bambang Yudhoyono  UU tahun 2012 no 12     disahkan oleh  dr. h. susilo bambang yudhoyono
+10      https://example.org/lex2kg/ontology/disahkanPada                                             2012-08-10  UU tahun 2012 no 12     disahkan pada                       2012-08-10
+11   https://example.org/lex2kg/ontology/jabatanPengesah                            Presiden Republik Indonesia  UU tahun 2012 no 12  jabatan pengesah      presiden republik indonesia
+12    https://example.org/lex2kg/ontology/jenisPeraturan  https://example.org/lex2kg/ontology/jenisPeraturan/UU  UU tahun 2012 no 12   jenis peraturan      ontology jenis peraturan uu
+13         https://example.org/lex2kg/ontology/mengingat        https://example.org/lex2kg/uu/2012/12/mengingat  UU tahun 2012 no 12         mengingat    UU tahun 2012 no 12 mengingat
+14         https://example.org/lex2kg/ontology/menimbang        https://example.org/lex2kg/uu/2012/12/menimbang  UU tahun 2012 no 12         menimbang    UU tahun 2012 no 12 menimbang
+15             https://example.org/lex2kg/ontology/nomor                                                     12  UU tahun 2012 no 12             nomor                            no 12
+16             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0001  UU tahun 2012 no 12             pasal      UU tahun 2012 no 12 pasal 1
+17             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0002  UU tahun 2012 no 12             pasal      UU tahun 2012 no 12 pasal 2
+18             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0003  UU tahun 2012 no 12             pasal      UU tahun 2012 no 12 pasal 3
+19             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0004  UU tahun 2012 no 12             pasal      UU tahun 2012 no 12 pasal 4
+20             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0005  UU tahun 2012 no 12             pasal      UU tahun 2012 no 12 pasal 5
+21             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0006  UU tahun 2012 no 12             pasal      UU tahun 2012 no 12 pasal 6
+22             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0007  UU tahun 2012 no 12             pasal      UU tahun 2012 no 12 pasal 7
+23             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0008  UU tahun 2012 no 12             pasal      UU tahun 2012 no 12 pasal 8
+24             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0009  UU tahun 2012 no 12             pasal      UU tahun 2012 no 12 pasal 9
+25             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0010  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 10
+26             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0011  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 11
+27             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0012  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 12
+28             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0013  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 13
+29             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0014  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 14
+30             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0015  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 15
+31             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0016  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 16
+32             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0017  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 17
+33             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0018  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 18
+34             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0019  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 19
+35             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0020  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 20
+36             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0021  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 21
+37             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0022  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 22
+38             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0023  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 23
+39             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0024  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 24
+40             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0025  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 25
+41             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0026  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 26
+42             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0027  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 27
+43             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0028  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 28
+44             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0029  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 29
+45             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0030  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 30
+46             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0031  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 31
+47             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0032  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 32
+48             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0033  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 33
+49             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0034  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 34
+50             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0035  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 35
+51             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0036  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 36
+52             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0037  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 37
+53             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0038  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 38
+54             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0039  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 39
+55             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0040  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 40
+56             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0041  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 41
+57             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0042  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 42
+58             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0043  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 43
+59             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0044  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 44
+60             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0045  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 45
+61             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0046  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 46
+62             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0047  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 47
+63             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0048  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 48
+64             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0049  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 49
+65             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0050  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 50
+66             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0051  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 51
+67             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0052  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 52
+68             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0053  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 53
+69             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0054  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 54
+70             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0055  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 55
+71             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0056  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 56
+72             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0057  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 57
+73             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0058  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 58
+74             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0059  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 59
+75             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0060  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 60
+76             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0061  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 61
+77             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0062  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 62
+78             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0063  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 63
+79             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0064  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 64
+80             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0065  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 65
+81             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0066  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 66
+82             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0067  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 67
+83             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0068  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 68
+84             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0069  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 69
+85             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0070  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 70
+86             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0071  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 71
+87             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0072  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 72
+88             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0073  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 73
+89             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0074  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 74
+90             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0075  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 75
+91             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0076  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 76
+92             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0077  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 77
+93             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0078  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 78
+94             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0079  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 79
+95             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0080  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 80
+96             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0081  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 81
+97             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0082  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 82
+98             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0083  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 83
+99             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0084  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 84
+100            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0085  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 85
+101            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0086  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 86
+102            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0087  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 87
+103            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0088  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 88
+104            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0089  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 89
+105            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0090  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 90
+106            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0091  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 91
+107            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0092  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 92
+108            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0093  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 93
+109            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0094  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 94
+110            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0095  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 95
+111            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0096  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 96
+112            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0097  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 97
+113            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0098  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 98
+114            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0099  UU tahun 2012 no 12             pasal     UU tahun 2012 no 12 pasal 99
+115            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2012/12/pasal/0100  UU tahun 2012 no 12             pasal    UU tahun 2012 no 12 pasal 100
+116            https://example.org/lex2kg/ontology/tahun                                                   2012  UU tahun 2012 no 12             tahun                       tahun 2012
+117          https://example.org/lex2kg/ontology/tentang                                      PENDIDIKAN TINGGI  UU tahun 2012 no 12           tentang                pendidikan tinggi
+118       https://example.org/lex2kg/ontology/yurisdiksi                                              Indonesia  UU tahun 2012 no 12        yurisdiksi                        indonesia
+sp:  Empty DataFrame
+Columns: [s, p, sLabel, pLabel, oLabel]
+Index: []
+
+
+
+cands:  ['bab dari UU tahun 2012 no 12 adalah UU tahun 2012 no 12 bab 1', 'bahasa dari UU tahun 2012 no 12 adalah id', 'UU tahun 2012 no 12 disahkan di Jakarta', 'UU tahun 2012 no 12 disahkan oleh DR. H. Susilo Bambang Yudhoyono', 'UU tahun 2012 no 12 disahkan pada 2012-08-10', 'jabatan pengesah dari UU tahun 2012 no 12 adalah Presiden Republik Indonesia', 'jenis peraturan dari UU tahun 2012 no 12 adalah ontology jenis peraturan uu', 'Yang mengingat UU tahun 2012 no 12 mengingat adalah UU tahun 2012 no 12', 'Yang menimbang UU tahun 2012 no 12 menimbang adalah UU tahun 2012 no 12', 'nomor dari UU tahun 2012 no 12 adalah 12', 'pasal dari UU tahun 2012 no 12 adalah UU tahun 2012 no 12 pasal 1', 'tahun dari UU tahun 2012 no 12 adalah 2012', 'tentang dari UU tahun 2012 no 12 adalah  PENDIDIKAN TINGGI', 'yurisdiksi dari UU tahun 2012 no 12 adalah Indonesia']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0001'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0002'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0003'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0004'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0005'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0006'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0007'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0008'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0009'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0010'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0011'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0012'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0013'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0014'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0015'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0016'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0017'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0018'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0019'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0020'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0021'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0022'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0023'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0024'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0025'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0026'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0027'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0028'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0029'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0030'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0031'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0032'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0033'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0034'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0035'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0036'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0037'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0038'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0039'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0040'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0041'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0042'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0043'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0044'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0045'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0046'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0047'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0048'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0049'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0050'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0051'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0052'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0053'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0054'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0055'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0056'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0057'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0058'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0059'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0060'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0061'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0062'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0063'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0064'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0065'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0066'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0067'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0068'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0069'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0070'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0071'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0072'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0073'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0074'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0075'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0076'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0077'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0078'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0079'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0080'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0081'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0082'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0083'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0084'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0085'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0086'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0087'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0088'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0089'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0090'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0091'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0092'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0093'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0094'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0095'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0096'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0097'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0098'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0099'}, {'pasal': 'https://example.org/lex2kg/uu/2012/12/pasal/0100'}] Similarities:  0.97781885
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/1987/3/mengingat/huruf/description
+        - lex2kg/uu/1984/2/mengingat/huruf/description
+        - lex2kg/uu/2012/2/pasal/0002/versi/20120114
+        - lex2kg/uu/1999/44/mengingat/huruf/description
+        - lex2kg/uu/2011/15/pasal/0083/versi/20111016/huruf/a/huruf/description
+        - lex2kg/uu/1984/3/mengingat/huruf/description
+        - lex2kg/uu/1987/1/pasal/0006/versi/19870128/text
+        - lex2kg/uu/2012/18/pasal/0091
+        - lex2kg/uu/2012/1/pasal/0002/versi/20120104
+        - lex2kg/uu/1986/2/pasal/0054/versi/19860308/ayat/0001/text
+        - lex2kg/uu/2012/12
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu
+        - lex2kg/uu/2011/15/pasal/0027/versi/20111016/huruf/g/huruf/c/huruf/description
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/1990/6/mengingat/huruf/description
+        - lex2kg/uu/1987/4/mengingat/huruf/description
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2012/12/mengingat/text
+        - lex2kg/uu/2012/8/pasal/0093
+        - lex2kg/uu/1990/2/mengingat/huruf/description
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/1990/1/mengingat/huruf/description
+        - lex2kg/uu/2012/17/pasal/0094
+        - lex2kg/uu/1989/4/mengingat/huruf/description
+        - lex2kg/uu/1984/1/mengingat/huruf/description
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu/1993/4/mengingat/huruf/description
+        - lex2kg/uu/1994/3/mengingat/huruf/description
+        - lex2kg/uu/1981/3/mengingat/huruf/description
+        - lex2kg/uu/2003/22/pasal/0065/versi/20030731/huruf/j/text
+        - lex2kg/uu/1962/8/mengingat/text
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2012/1
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/1999/40/mengingat/huruf/description
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/1985/2/pasal/0001/versi/19850107/0016
+        - lex2kg/uu/1989/1/mengingat/huruf/description
+        - lex2kg/uu/1954/76/mengingat/text
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2012/23/mengingat/huruf/description
+        - lex2kg/uu/2012/12/mengingat
+        - lex2kg/uu/1994/2/mengingat/huruf/description
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/1999/43/mengingat/huruf/description
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2/12
+        - lex2kg/uu/1985/2/pasal/0001/versi/19850107/0008
+        - lex2kg/uu/2013/16
+    - properties: 
+        - lex2kg-o:tahun
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:judul
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:segmen
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:merujuk
+        - lex2kg-o:tentang
+        - lex2kg-o:pasal
+        - lex2kg-o:bahasa
+        - lex2kg-o:yurisdiksi
+
+Question:  Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada undang-undang yang dibuat pada tahun 2012?'}
+Thoughts:  ['1. Pertanyaan ini meminta informasi tentang undang-undang yang merujuk pada undang-undang lain yang dibuat pada tahun 2012.', "2. Dalam ontologi, entitas yang merepresentasikan undang-undang ini mengikuti struktur 'lex2kg/uu/2012'.", "3. Properti 'lex2kg-o:merujuk' digunakan untuk menunjukkan hubungan antara suatu undang-undang dan pasal yang dirujuknya.", "4. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki hubungan 'lex2kg-o:merujuk' dengan undang-undang yang dibuat pada tahun 2012.", '5. Susun query SPARQL untuk mengambil semua undang-undang yang merujuk pada undang-undang tahun 2012.']
+Generated SPARQL:  select?x {?x lex2kg-o:merujuk?y.?y lex2kg-o:tahun 2012. }

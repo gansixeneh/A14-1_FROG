@@ -1,0 +1,81 @@
+Translated Question:  Berapa jumlah undang-undang yang merujuk ke UU No. 10 Tahun 2010 Pasal 4 Ayat 1?
+Question:  Berapa jumlah undang-undang yang merujuk ke UU No. 10 Tahun 2010 Pasal 4 Ayat 1?
+{'chat_history': [HumanMessage(content='Berapa jumlah undang-undang yang merujuk ke UU No. 10 Tahun 2010 Pasal 4 Ayat 1?', additional_kwargs={}, response_metadata={})], 'input': 'Berapa jumlah undang-undang yang merujuk ke UU No. 10 Tahun 2010 Pasal 4 Ayat 1?'}
+Entities:  ['UU No. 10 Tahun 2010']
+Retrieved Resources:                                                                            uri                                                        label
+0                                       https://example.org/lex2kg/uu/2010/10                                          UU tahun 2010 no 10
+1                            https://example.org/lex2kg/uu/2010/10/pasal/0010                                 UU tahun 2010 no 10 pasal 10
+2             https://example.org/lex2kg/uu/2010/10/pasal/0010/versi/20101119          UU tahun 2010 no 10 pasal 10 versi 19 November 2010
+3   https://example.org/lex2kg/uu/2010/10/pasal/0010/versi/20101119/ayat/0001   UU tahun 2010 no 10 pasal 10 versi 19 November 2010 ayat 1
+4  https://example.org/lex2kg/uu/2010/10/pasal/0001/versi/20101119/huruf/0010  UU tahun 2010 no 10 pasal 1 versi 19 November 2010 huruf 10
+Entity URI:  https://example.org/lex2kg/uu/2010/10
+
+
+
+po:                                                        p                                                            o               sLabel            pLabel                                                       oLabel
+0            https://example.org/lex2kg/ontology/bahasa                                                           id  UU tahun 2010 no 10            bahasa                                                           id
+1       https://example.org/lex2kg/ontology/daftarPasal            https://example.org/lex2kg/uu/2010/10/daftarPasal  UU tahun 2010 no 10      daftar pasal                             UU tahun 2010 no 10 daftar pasal
+2        https://example.org/lex2kg/ontology/disahkanDi                                                      Jakarta  UU tahun 2010 no 10       disahkan di                                                      jakarta
+3      https://example.org/lex2kg/ontology/disahkanOleh                              DR. H. Susilo Bambang Yudhoyono  UU tahun 2010 no 10     disahkan oleh                              dr. h. susilo bambang yudhoyono
+4      https://example.org/lex2kg/ontology/disahkanPada                                                   2010-11-19  UU tahun 2010 no 10     disahkan pada                                                   2010-11-19
+5   https://example.org/lex2kg/ontology/jabatanPengesah                                  Presiden Republik Indonesia  UU tahun 2010 no 10  jabatan pengesah                                  presiden republik indonesia
+6    https://example.org/lex2kg/ontology/jenisPeraturan        https://example.org/lex2kg/ontology/jenisPeraturan/UU  UU tahun 2010 no 10   jenis peraturan                                  ontology jenis peraturan uu
+7         https://example.org/lex2kg/ontology/mengingat              https://example.org/lex2kg/uu/2010/10/mengingat  UU tahun 2010 no 10         mengingat                                UU tahun 2010 no 10 mengingat
+8         https://example.org/lex2kg/ontology/menimbang              https://example.org/lex2kg/uu/2010/10/menimbang  UU tahun 2010 no 10         menimbang                                UU tahun 2010 no 10 menimbang
+9             https://example.org/lex2kg/ontology/nomor                                                           10  UU tahun 2010 no 10             nomor                                                        no 10
+10            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0001  UU tahun 2010 no 10             pasal                                  UU tahun 2010 no 10 pasal 1
+11            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0002  UU tahun 2010 no 10             pasal                                  UU tahun 2010 no 10 pasal 2
+12            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0003  UU tahun 2010 no 10             pasal                                  UU tahun 2010 no 10 pasal 3
+13            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0004  UU tahun 2010 no 10             pasal                                  UU tahun 2010 no 10 pasal 4
+14            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0005  UU tahun 2010 no 10             pasal                                  UU tahun 2010 no 10 pasal 5
+15            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0006  UU tahun 2010 no 10             pasal                                  UU tahun 2010 no 10 pasal 6
+16            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0007  UU tahun 2010 no 10             pasal                                  UU tahun 2010 no 10 pasal 7
+17            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0008  UU tahun 2010 no 10             pasal                                  UU tahun 2010 no 10 pasal 8
+18            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0009  UU tahun 2010 no 10             pasal                                  UU tahun 2010 no 10 pasal 9
+19            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0010  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 10
+20            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0011  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 11
+21            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0012  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 12
+22            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0013  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 13
+23            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0014  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 14
+24            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0015  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 15
+25            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0016  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 16
+26            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0017  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 17
+27            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0018  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 18
+28            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0019  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 19
+29            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0020  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 20
+30            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0021  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 21
+31            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0022  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 22
+32            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0023  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 23
+33            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0024  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 24
+34            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0025  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 25
+35            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0026  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 26
+36            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0027  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 27
+37            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0028  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 28
+38            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0029  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 29
+39            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0030  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 30
+40            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0031  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 31
+41            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0032  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 32
+42            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0033  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 33
+43            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0034  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 34
+44            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0035  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 35
+45            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0036  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 36
+46            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0037  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 37
+47            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0038  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 38
+48            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0039  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 39
+49            https://example.org/lex2kg/ontology/pasal             https://example.org/lex2kg/uu/2010/10/pasal/0040  UU tahun 2010 no 10             pasal                                 UU tahun 2010 no 10 pasal 40
+50            https://example.org/lex2kg/ontology/tahun                                                         2010  UU tahun 2010 no 10             tahun                                                   tahun 2010
+51          https://example.org/lex2kg/ontology/tentang   ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 2011  UU tahun 2010 no 10           tentang   anggaran pendapatan dan belanja negara tahun anggaran 2011
+52       https://example.org/lex2kg/ontology/yurisdiksi                                                    Indonesia  UU tahun 2010 no 10        yurisdiksi                                                    indonesia
+sp:                                                              s                                            p                                 sLabel   pLabel               oLabel
+0  https://example.org/lex2kg/uu/2011/11/mengingat/huruf/0004  https://example.org/lex2kg/ontology/merujuk  UU tahun 2011 no 11 mengingat huruf 4  merujuk  UU tahun 2010 no 10
+1     https://example.org/lex2kg/uu/2011/11/menimbang/huruf/b  https://example.org/lex2kg/ontology/merujuk  UU tahun 2011 no 11 menimbang huruf b  merujuk  UU tahun 2010 no 10
+2     https://example.org/lex2kg/uu/2011/11/menimbang/huruf/d  https://example.org/lex2kg/ontology/merujuk  UU tahun 2011 no 11 menimbang huruf d  merujuk  UU tahun 2010 no 10
+3     https://example.org/lex2kg/uu/2011/11/menimbang/huruf/e  https://example.org/lex2kg/ontology/merujuk  UU tahun 2011 no 11 menimbang huruf e  merujuk  UU tahun 2010 no 10
+4  https://example.org/lex2kg/uu/2012/14/mengingat/huruf/0006  https://example.org/lex2kg/ontology/merujuk  UU tahun 2012 no 14 mengingat huruf 6  merujuk  UU tahun 2010 no 10
+5     https://example.org/lex2kg/uu/2012/14/menimbang/huruf/a  https://example.org/lex2kg/ontology/merujuk  UU tahun 2012 no 14 menimbang huruf a  merujuk  UU tahun 2010 no 10
+6     https://example.org/lex2kg/uu/2012/14/menimbang/huruf/c  https://example.org/lex2kg/ontology/merujuk  UU tahun 2012 no 14 menimbang huruf c  merujuk  UU tahun 2010 no 10
+
+
+
+cands:  ['bahasa dari UU tahun 2010 no 10 adalah id', 'daftar pasal dari UU tahun 2010 no 10 adalah UU tahun 2010 no 10 daftar pasal', 'UU tahun 2010 no 10 disahkan di Jakarta', 'UU tahun 2010 no 10 disahkan oleh DR. H. Susilo Bambang Yudhoyono', 'UU tahun 2010 no 10 disahkan pada 2010-11-19', 'jabatan pengesah dari UU tahun 2010 no 10 adalah Presiden Republik Indonesia', 'jenis peraturan dari UU tahun 2010 no 10 adalah ontology jenis peraturan uu', 'Yang mengingat UU tahun 2010 no 10 mengingat adalah UU tahun 2010 no 10', 'Yang menimbang UU tahun 2010 no 10 menimbang adalah UU tahun 2010 no 10', 'nomor dari UU tahun 2010 no 10 adalah 10', 'pasal dari UU tahun 2010 no 10 adalah UU tahun 2010 no 10 pasal 1', 'tahun dari UU tahun 2010 no 10 adalah 2010', 'tentang dari UU tahun 2010 no 10 adalah  ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 2011', 'yurisdiksi dari UU tahun 2010 no 10 adalah Indonesia', 'Yang merujuk UU tahun 2010 no 10 adalah UU tahun 2011 no 11 mengingat huruf 4']
+Result:  [{'merujuk': 'https://example.org/lex2kg/uu/2011/11/mengingat/huruf/0004'}, {'merujuk': 'https://example.org/lex2kg/uu/2011/11/menimbang/huruf/b'}, {'merujuk': 'https://example.org/lex2kg/uu/2011/11/menimbang/huruf/d'}, {'merujuk': 'https://example.org/lex2kg/uu/2011/11/menimbang/huruf/e'}, {'merujuk': 'https://example.org/lex2kg/uu/2012/14/mengingat/huruf/0006'}, {'merujuk': 'https://example.org/lex2kg/uu/2012/14/menimbang/huruf/a'}, {'merujuk': 'https://example.org/lex2kg/uu/2012/14/menimbang/huruf/c'}] Similarities:  0.9878606
