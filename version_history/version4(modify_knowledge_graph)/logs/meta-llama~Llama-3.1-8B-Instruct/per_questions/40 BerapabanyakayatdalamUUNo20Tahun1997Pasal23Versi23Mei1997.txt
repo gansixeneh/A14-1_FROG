@@ -1,0 +1,114 @@
+Translated Question:  Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?
+Question:  Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?
+{'chat_history': [HumanMessage(content='Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?', additional_kwargs={}, response_metadata={})], 'input': 'Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?'}
+Entities:  ['UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997']
+Retrieved Resources:                                                                                uri                                                       label
+0                 https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523              UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997
+1       https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0001       UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 ayat 1
+2       https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0002       UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 ayat 2
+3       https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0003       UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 ayat 3
+4  https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0001/text  UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 ayat 1 text
+Entity URI:  https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523
+
+
+
+po:                                                  p                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    o                                          sLabel       pLabel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               oLabel
+0        https://example.org/lex2kg/ontology/ayat                                                                                                                                                                                                                                                                                                                                                                                                                            https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0001  UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997         ayat                                                                                                                                                                                                                                                                                                                                                                                                                                                UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 ayat 1
+1        https://example.org/lex2kg/ontology/ayat                                                                                                                                                                                                                                                                                                                                                                                                                            https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0002  UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997         ayat                                                                                                                                                                                                                                                                                                                                                                                                                                                UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 ayat 2
+2        https://example.org/lex2kg/ontology/ayat                                                                                                                                                                                                                                                                                                                                                                                                                            https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0003  UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997         ayat                                                                                                                                                                                                                                                                                                                                                                                                                                                UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 ayat 3
+3  https://example.org/lex2kg/ontology/jenisVersi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             orisinal  UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997  jenis versi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             orisinal
+4     https://example.org/lex2kg/ontology/tanggal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           1997-05-23  UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997      tanggal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           1997-05-23
+5        https://example.org/lex2kg/ontology/teks  (1). Jenis dan tarif Penerimaan Negara Bukan Pajak yang telah diatur dalam Undang - undang sebelum berlakunya Undang - undang ini dinyatakan tetap berlaku.\n(2). Penerimaan Negara Bukan Pajak yang diatur dengan peraturan perundang - undangan di bawah Undang - undang masih tetap berlaku sebelum dilakukan penyesuaian berdasarkan Undang - undang ini.\n(3). Penyesuaian sebagaimana dimaksud pada ayat (2) dilakukan selambat - lambatnya 5 (lima) tahun sejak Undang - undang ini berlaku.  UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997         teks  (1). jenis dan tarif penerimaan negara bukan pajak yang telah diatur dalam undang - undang sebelum berlakunya undang - undang ini dinyatakan tetap berlaku.\n(2). penerimaan negara bukan pajak yang diatur dengan peraturan perundang - undangan di bawah undang - undang masih tetap berlaku sebelum dilakukan penyesuaian berdasarkan undang - undang ini.\n(3). penyesuaian sebagaimana dimaksud pada ayat (2) dilakukan selambat - lambatnya 5 (lima) tahun sejak undang - undang ini berlaku.
+sp:                                                    s                                          p                        sLabel pLabel                                          oLabel
+0  https://example.org/lex2kg/uu/1997/20/pasal/0023  https://example.org/lex2kg/ontology/versi  UU tahun 1997 no 20 pasal 23  versi  UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997
+
+
+
+cands:  ['ayat dari UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 adalah UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 ayat 1', 'jenis versi dari UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 adalah orisinal', 'tanggal dari UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 adalah 1997-05-23', 'teks dari UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997 adalah (1). Jenis dan tarif Penerimaan Negara Bukan Pajak yang telah diatur dalam Undang - undang sebelum berlakunya Undang - undang ini dinyatakan tetap berlaku.\n(2). Penerimaan Negara Bukan Pajak yang diatur dengan peraturan perundang - undangan di bawah Undang - undang masih tetap berlaku sebelum dilakukan penyesuaian berdasarkan Undang - undang ini.\n(3). Penyesuaian sebagaimana dimaksud pada ayat (2) dilakukan selambat - lambatnya 5 (lima) tahun sejak Undang - undang ini berlaku.', 'versi dari UU tahun 1997 no 20 pasal 23 adalah UU tahun 1997 no 20 pasal 23 versi 23 Mei 1997']
+Result:  [{'ayat': 'https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0001'}, {'ayat': 'https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0002'}, {'ayat': 'https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0003'}] Similarities:  0.98576295
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/1957/38/mengingat/text
+        - lex2kg/uu/2013/23/pasal/0023
+        - lex2kg/uu/1957/36/mengingat/text
+        - lex2kg/uu/1950/1/pasal/0070/versi/19500506/0004/0004/0004/0004/0003/0003/0003
+        - lex2kg/uu/1957/48/mengingat/text
+        - lex2kg/uu/1997/18/pasal/0023/versi/19970523/text
+        - lex2kg/uu/1957/58/menimbang/text
+        - lex2kg/uu/1957/41/menimbang/text
+        - lex2kg/uu
+        - lex2kg/uu/1997/24/pasal/0047/versi/19970929
+        - lex2kg/uu/1950/1/pasal/0070/versi/19500506/0004/0004/0004/0004/0003/0003
+        - lex2kg/uu/2008/49/mengingat/huruf/description
+        - lex2kg/uu/2008/49/mengingat/huruf/0003/text
+        - lex2kg/uu/2009/4/pasal/0153
+        - lex2kg/uu/2002/23/pasal/0023
+        - lex2kg/uu/2008/49/mengingat/huruf/0001/text
+        - lex2kg/uu/1997/24/pasal/0023/versi/19970929/text
+        - lex2kg/uu/1985/5/pasal/0023
+        - lex2kg/uu/1997/27/pasal/0023/versi/19971003/text
+        - lex2kg/uu/2008/50/menimbang/huruf/a/text
+        - lex2kg/uu/2011/23/mengingat/huruf/0023/text
+        - lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0001/text
+        - lex2kg/uu/20/24
+        - lex2kg/uu/1957/34/menimbang/text
+        - lex2kg/uu/2011/23/pasal/0023
+        - lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0001
+        - lex2kg/uu/1997/17/pasal/0047/versi/19970523
+        - lex2kg/uu/2011/23/mengingat/huruf/0023
+        - lex2kg/uu/1950/1/pasal/0070/versi/19500506/0004/0004/0004/0004/0003/0003/0003/0003
+        - lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0002
+        - lex2kg/uu/2008/50/mengingat/huruf/description
+        - lex2kg/uu/1997/25/pasal/0027/versi/19971003
+        - lex2kg/uu/1997/20/pasal/0020/versi/19970523
+        - lex2kg/uu/1997/20/mengingat
+        - lex2kg/uu/1997/2/pasal/0007/versi/19970103
+        - lex2kg/uu/1997/20
+        - lex2kg/uu/1997/20/pasal/0023/versi/19970523
+        - lex2kg/uu/20/1
+        - lex2kg/uu/1997/17/pasal/0023/versi/19970523/text
+        - lex2kg/uu/1997/25/pasal/0047/versi/19971003
+        - lex2kg/uu/1957/57/menimbang/text
+        - lex2kg/uu/2003/23/pasal/0023
+        - lex2kg/uu/2011/23/mengingat/huruf/description
+        - lex2kg/uu/1997/27/mengingat
+        - lex2kg/uu/2008/30/mengingat/huruf/description
+        - lex2kg/uu/1997/25/pasal/0087/versi/19971003
+        - lex2kg/uu/1997/17/pasal/0027/versi/19970523
+        - lex2kg/uu/1997/18/pasal/0023/versi/19970523
+        - lex2kg/uu/1997/20/pasal/0023/versi/19970523/ayat/0003
+        - lex2kg/uu/1997/17/pasal/0025/versi/19970523
+        - lex2kg/uu/2011/5/pasal/0045/versi/20110503/ayat/0002/huruf/m/text
+        - lex2kg/uu/1997/27/pasal/0023
+        - lex2kg/uu/1957/48/menimbang/text
+        - lex2kg/uu/1957/49/mengingat/text
+        - lex2kg/uu/2008/49/mengingat/huruf/0004/text
+        - lex2kg/uu/20/21
+        - lex2kg/uu/2008/49/menimbang/huruf/a/text
+        - lex2kg/uu/1997/17/pasal/0023/versi/19970523
+        - lex2kg/uu/1997/25/pasal/0047/versi/19971003/text
+        - lex2kg/uu/1950/1/pasal/0070/versi/19500506/0004/0004/0004/0003/0003
+        - lex2kg/uu/1985/5/pasal/0023/versi/19850318/text
+        - lex2kg/uu/1950/1/pasal/0070/versi/19500506/0004/0004/0004/0004/0003/0003/0003/0003/0003
+        - lex2kg/uu/1997/15/pasal/0007/versi/19970509
+    - properties: 
+        - lex2kg-o:versi
+        - lex2kg-o:tahun
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:tanggal
+        - lex2kg-o:judul
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:daftarPasal
+        - lex2kg-o:ayat
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:menimbang
+        - lex2kg-o:tentang
+        - lex2kg-o:jenisVersi
+        - lex2kg-o:mengingat
+        - lex2kg-o:nomor
+        - lex2kg-o:pasal
+
+Question:  Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?
+{'chat_history': [HumanMessage(content='Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?', additional_kwargs={}, response_metadata={})], 'input': 'Berapa banyak ayat dalam UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997?'}
+Thoughts:  ["1. Pertanyaan ini meminta informasi tentang jumlah ayat dalam 'UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997'.", "2. Dalam ontologi, entitas yang merepresentasikan pasal ini mengikuti struktur 'lex2kg/uu/1997/20/pasal/0023/versi/19970523'.", "3. Ayat-ayat dalam pasal ini direpresentasikan sebagai entitas yang memiliki hubungan dengan pasal melalui properti 'lex2kg-o:ayat'.", "4. Untuk menyelesaikan ini, cari semua entitas ayat yang terhubung dengan 'lex2kg/uu/1997/20/pasal/0023/versi/19970523' melalui properti 'lex2kg-o:ayat'.", "5. Susun query SPARQL untuk menghitung jumlah ayat dalam 'UU No. 20 Tahun 1997 Pasal 23 Versi 23 Mei 1997'."]
+Generated SPARQL:  select (count(?x) as?jumlahAyat) { <https://example.org/lex2kg/uu/1997/20/pasal/0023/versi/19970523> lex2kg-o:ayat?x. }

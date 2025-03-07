@@ -1,0 +1,230 @@
+Translated Question:  Apa isi teks dari UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2?
+Question:  Apa isi teks dari UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2?
+{'chat_history': [HumanMessage(content='Apa isi teks dari UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2?', additional_kwargs={}, response_metadata={})], 'input': 'Apa isi teks dari UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2?'}
+Entities:  ['UU No. 26 Tahun 2007', 'Pasal 54 Ayat 2', 'versi 26 April 2007']
+Retrieved Resources:                                                                            uri                                                     label
+0                                       https://example.org/lex2kg/uu/2007/26                                       UU tahun 2007 no 26
+1             https://example.org/lex2kg/uu/2007/26/pasal/0026/versi/20070426          UU tahun 2007 no 26 pasal 26 versi 26 April 2007
+2   https://example.org/lex2kg/uu/2007/26/pasal/0026/versi/20070426/ayat/0001   UU tahun 2007 no 26 pasal 26 versi 26 April 2007 ayat 1
+3  https://example.org/lex2kg/uu/2007/26/pasal/0001/versi/20070426/huruf/0026  UU tahun 2007 no 26 pasal 1 versi 26 April 2007 huruf 26
+4                             https://example.org/lex2kg/uu/2007/26/mengingat                             UU tahun 2007 no 26 mengingat
+Entity URI:  https://example.org/lex2kg/uu/2007/26
+
+
+
+po:                                                         p                                                      o               sLabel            pLabel                           oLabel
+0                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0001  UU tahun 2007 no 26               bab        UU tahun 2007 no 26 bab 1
+1                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0002  UU tahun 2007 no 26               bab        UU tahun 2007 no 26 bab 2
+2                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0003  UU tahun 2007 no 26               bab        UU tahun 2007 no 26 bab 3
+3                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0004  UU tahun 2007 no 26               bab        UU tahun 2007 no 26 bab 4
+4                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0005  UU tahun 2007 no 26               bab        UU tahun 2007 no 26 bab 5
+5                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0006  UU tahun 2007 no 26               bab        UU tahun 2007 no 26 bab 6
+6                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0007  UU tahun 2007 no 26               bab        UU tahun 2007 no 26 bab 7
+7                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0008  UU tahun 2007 no 26               bab        UU tahun 2007 no 26 bab 8
+8                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0009  UU tahun 2007 no 26               bab        UU tahun 2007 no 26 bab 9
+9                https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0010  UU tahun 2007 no 26               bab       UU tahun 2007 no 26 bab 10
+10               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0011  UU tahun 2007 no 26               bab       UU tahun 2007 no 26 bab 11
+11               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0012  UU tahun 2007 no 26               bab       UU tahun 2007 no 26 bab 12
+12               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/2007/26/bab/0013  UU tahun 2007 no 26               bab       UU tahun 2007 no 26 bab 13
+13            https://example.org/lex2kg/ontology/bahasa                                                     id  UU tahun 2007 no 26            bahasa                               id
+14        https://example.org/lex2kg/ontology/disahkanDi                                                Jakarta  UU tahun 2007 no 26       disahkan di                          jakarta
+15      https://example.org/lex2kg/ontology/disahkanOleh                        DR. H. Susilo Bambang Yudhoyono  UU tahun 2007 no 26     disahkan oleh  dr. h. susilo bambang yudhoyono
+16      https://example.org/lex2kg/ontology/disahkanPada                                             2007-04-26  UU tahun 2007 no 26     disahkan pada                       2007-04-26
+17   https://example.org/lex2kg/ontology/jabatanPengesah                            Presiden Republik Indonesia  UU tahun 2007 no 26  jabatan pengesah      presiden republik indonesia
+18    https://example.org/lex2kg/ontology/jenisPeraturan  https://example.org/lex2kg/ontology/jenisPeraturan/UU  UU tahun 2007 no 26   jenis peraturan      ontology jenis peraturan uu
+19         https://example.org/lex2kg/ontology/mengingat        https://example.org/lex2kg/uu/2007/26/mengingat  UU tahun 2007 no 26         mengingat    UU tahun 2007 no 26 mengingat
+20         https://example.org/lex2kg/ontology/menimbang        https://example.org/lex2kg/uu/2007/26/menimbang  UU tahun 2007 no 26         menimbang    UU tahun 2007 no 26 menimbang
+21             https://example.org/lex2kg/ontology/nomor                                                     26  UU tahun 2007 no 26             nomor                            no 26
+22             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0001  UU tahun 2007 no 26             pasal      UU tahun 2007 no 26 pasal 1
+23             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0002  UU tahun 2007 no 26             pasal      UU tahun 2007 no 26 pasal 2
+24             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0003  UU tahun 2007 no 26             pasal      UU tahun 2007 no 26 pasal 3
+25             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0004  UU tahun 2007 no 26             pasal      UU tahun 2007 no 26 pasal 4
+26             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0005  UU tahun 2007 no 26             pasal      UU tahun 2007 no 26 pasal 5
+27             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0006  UU tahun 2007 no 26             pasal      UU tahun 2007 no 26 pasal 6
+28             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0007  UU tahun 2007 no 26             pasal      UU tahun 2007 no 26 pasal 7
+29             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0008  UU tahun 2007 no 26             pasal      UU tahun 2007 no 26 pasal 8
+30             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0009  UU tahun 2007 no 26             pasal      UU tahun 2007 no 26 pasal 9
+31             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0010  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 10
+32             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0011  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 11
+33             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0012  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 12
+34             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0013  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 13
+35             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0014  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 14
+36             https://example.org/lex2kg/ontology/pasal      https://example.org/lex2kg/uu/2007/26/pasal/0014A  UU tahun 2007 no 26             pasal  UU tahun 2007 no 26 pasal 0014a
+37             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0015  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 15
+38             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0016  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 16
+39             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0017  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 17
+40             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0018  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 18
+41             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0019  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 19
+42             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0020  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 20
+43             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0021  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 21
+44             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0022  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 22
+45             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0023  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 23
+46             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0024  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 24
+47             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0025  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 25
+48             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0026  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 26
+49             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0027  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 27
+50             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0028  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 28
+51             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0029  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 29
+52             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0030  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 30
+53             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0031  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 31
+54             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0032  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 32
+55             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0033  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 33
+56             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0034  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 34
+57             https://example.org/lex2kg/ontology/pasal      https://example.org/lex2kg/uu/2007/26/pasal/0034A  UU tahun 2007 no 26             pasal  UU tahun 2007 no 26 pasal 0034a
+58             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0035  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 35
+59             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0036  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 36
+60             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0037  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 37
+61             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0038  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 38
+62             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0039  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 39
+63             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0040  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 40
+64             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0041  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 41
+65             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0042  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 42
+66             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0043  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 43
+67             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0044  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 44
+68             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0045  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 45
+69             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0046  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 46
+70             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0047  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 47
+71             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0048  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 48
+72             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0049  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 49
+73             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0050  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 50
+74             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0051  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 51
+75             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0052  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 52
+76             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0053  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 53
+77             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0054  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 54
+78             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0055  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 55
+79             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0056  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 56
+80             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0057  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 57
+81             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0058  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 58
+82             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0059  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 59
+83             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0060  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 60
+84             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0061  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 61
+85             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0062  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 62
+86             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0063  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 63
+87             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0064  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 64
+88             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0065  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 65
+89             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0066  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 66
+90             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0067  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 67
+91             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0068  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 68
+92             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0069  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 69
+93             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0070  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 70
+94             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0071  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 71
+95             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0072  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 72
+96             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0073  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 73
+97             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0074  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 74
+98             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0075  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 75
+99             https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0076  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 76
+100            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0077  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 77
+101            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0078  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 78
+102            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0079  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 79
+103            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/2007/26/pasal/0080  UU tahun 2007 no 26             pasal     UU tahun 2007 no 26 pasal 80
+104            https://example.org/lex2kg/ontology/tahun                                                   2007  UU tahun 2007 no 26             tahun                       tahun 2007
+105          https://example.org/lex2kg/ontology/tentang                                         PENATAAN RUANG  UU tahun 2007 no 26           tentang                   penataan ruang
+106       https://example.org/lex2kg/ontology/yurisdiksi                                              Indonesia  UU tahun 2007 no 26        yurisdiksi                        indonesia
+sp:                                                                           s                                            p                                                      sLabel   pLabel               oLabel
+0               https://example.org/lex2kg/uu/2007/44/mengingat/huruf/0007  https://example.org/lex2kg/ontology/merujuk                       UU tahun 2007 no 44 mengingat huruf 7  merujuk  UU tahun 2007 no 26
+1               https://example.org/lex2kg/uu/2009/41/mengingat/huruf/0003  https://example.org/lex2kg/ontology/merujuk                       UU tahun 2009 no 41 mengingat huruf 3  merujuk  UU tahun 2007 no 26
+2  https://example.org/lex2kg/uu/2020/11/pasal/0016/versi/20201102/huruf/a  https://example.org/lex2kg/ontology/merujuk  UU tahun 2020 no 11 pasal 16 versi 2 November 2020 huruf a  merujuk  UU tahun 2007 no 26
+
+
+
+cands:  ['bab dari UU tahun 2007 no 26 adalah UU tahun 2007 no 26 bab 1', 'bahasa dari UU tahun 2007 no 26 adalah id', 'UU tahun 2007 no 26 disahkan di Jakarta', 'UU tahun 2007 no 26 disahkan oleh DR. H. Susilo Bambang Yudhoyono', 'UU tahun 2007 no 26 disahkan pada 2007-04-26', 'jabatan pengesah dari UU tahun 2007 no 26 adalah Presiden Republik Indonesia', 'jenis peraturan dari UU tahun 2007 no 26 adalah ontology jenis peraturan uu', 'Yang mengingat UU tahun 2007 no 26 mengingat adalah UU tahun 2007 no 26', 'Yang menimbang UU tahun 2007 no 26 menimbang adalah UU tahun 2007 no 26', 'nomor dari UU tahun 2007 no 26 adalah 26', 'pasal dari UU tahun 2007 no 26 adalah UU tahun 2007 no 26 pasal 1', 'tahun dari UU tahun 2007 no 26 adalah 2007', 'tentang dari UU tahun 2007 no 26 adalah  PENATAAN RUANG', 'yurisdiksi dari UU tahun 2007 no 26 adalah Indonesia', 'Yang merujuk UU tahun 2007 no 26 adalah UU tahun 2007 no 44 mengingat huruf 7']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0001'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0002'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0003'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0004'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0005'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0006'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0007'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0008'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0009'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0010'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0011'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0012'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0013'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0014'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0014A'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0015'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0016'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0017'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0018'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0019'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0020'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0021'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0022'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0023'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0024'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0025'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0026'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0027'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0028'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0029'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0030'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0031'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0032'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0033'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0034'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0034A'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0035'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0036'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0037'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0038'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0039'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0040'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0041'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0042'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0043'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0044'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0045'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0046'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0047'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0048'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0049'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0050'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0051'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0052'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0053'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0054'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0055'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0056'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0057'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0058'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0059'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0060'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0061'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0062'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0063'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0064'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0065'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0066'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0067'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0068'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0069'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0070'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0071'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0072'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0073'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0074'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0075'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0076'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0077'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0078'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0079'}, {'pasal': 'https://example.org/lex2kg/uu/2007/26/pasal/0080'}] Similarities:  0.9852313
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2014/32/mengingat/text
+        - lex2kg/uu/2013/20/pasal/0054/versi/20130806/text
+        - lex2kg/uu/2007/7/pasal/0007/versi/20070102
+        - lex2kg/uu/1997/26/pasal/0026
+        - lex2kg/uu/2007/6/pasal/0007/versi/20070102
+        - lex2kg/uu
+        - lex2kg/uu/2007/24/pasal/0054
+        - lex2kg/uu/2006/13/pasal/0026
+        - lex2kg/uu/2008/47/mengingat/huruf/0002/text
+        - lex2kg/uu/1987/6/menimbang/text
+        - lex2kg/uu/2007/24/pasal/0004/versi/20070426
+        - lex2kg/uu/1954/45/pasal/0002
+        - lex2kg/uu/2007/26/pasal/0004/versi/20070426
+        - lex2kg/uu/2007/26/pasal/0037/versi/20070426
+        - lex2kg/uu/1982/8/menimbang/text
+        - lex2kg/uu/1954/46/pasal/0002/versi/19541229/text
+        - lex2kg/uu/2007/21/pasal/0054
+        - lex2kg/uu/2016/13/pasal/0054/versi/20160826/text
+        - lex2kg/uu/2007/26/pasal/0027/versi/20070426
+        - lex2kg/uu/2007/24/pasal/0054/versi/20070426/text
+        - lex2kg/uu/2007/26/pasal/0026/versi/20070426
+        - lex2kg/uu/1983/4/menimbang/text
+        - lex2kg/uu/1957/41/menimbang/text
+        - lex2kg/uu/2008/47/mengingat/huruf/0002
+        - lex2kg/uu/1976/9/pasal/0026/versi/19760726/text
+        - lex2kg/uu/1957/48/menimbang/text
+        - lex2kg/uu/2007/25/pasal/0004/versi/20070426
+        - lex2kg/uu/2007/26/pasal/0047/versi/20070426
+        - lex2kg/uu/2007/22/pasal/0054
+        - lex2kg/uu/2008/50/menimbang/huruf/a/text
+        - lex2kg/uu/2002/4/mengingat/huruf/0002
+        - lex2kg/uu/2004/4/pasal/0004/versi/20040115/ayat/0004/text
+        - lex2kg/uu/1950/1/pasal/0054
+        - lex2kg/uu/2007/1/pasal/0007/versi/20070102
+        - lex2kg/uu/1954/45/pasal/0002/versi/19541229/text
+        - lex2kg/uu/2007/26/pasal/0007/versi/20070426
+        - lex2kg/uu/2007/1/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2007/27/pasal/0006/versi/20070717
+        - lex2kg/uu/1954/12/pasal/0002
+        - lex2kg/uu/1953/25/pasal/0054
+        - lex2kg/uu/2010/10/mengingat/huruf/0026
+        - lex2kg/uu/2007/7
+        - lex2kg/uu/2007/7/mengingat
+        - lex2kg/uu/2007/27/pasal/0007/versi/20070717
+        - lex2kg/uu/2016/13/pasal/0026
+        - lex2kg/uu/2007/6/pasal/0007/versi/20070102/text
+        - lex2kg/uu/2007/26/pasal/0026/versi/20070426/ayat/0007/text
+        - lex2kg/uu/2006/15/pasal/0026
+        - lex2kg/uu/1985/2/menimbang/text
+        - lex2kg/uu/1976/9/pasal/0026
+        - lex2kg/uu/2011/23/mengingat/huruf/0026/text
+        - lex2kg/uu/2007/7/pasal/0007/versi/20070102/text
+        - lex2kg/uu/1996/4/pasal/0026/versi/19960409/text
+        - lex2kg/uu/1957/34/menimbang/text
+        - lex2kg/uu/2016/1/pasal/0026
+        - lex2kg/uu/2007/26/pasal/0004/versi/20070426/text
+        - lex2kg/uu/1957/58/menimbang/text
+        - lex2kg/uu/2007/2/pasal/0007/versi/20070102
+        - lex2kg/uu/2007/27/pasal/0026/versi/20070717
+        - lex2kg/uu/2007/26/pasal/0054
+        - lex2kg/uu/2017/2/pasal/0054
+        - lex2kg/uu/2007/26
+        - lex2kg/uu/1957/57/menimbang/text
+        - lex2kg/uu/2007/26/pasal/0037/versi/20070426/ayat/0006/text
+        - lex2kg/uu/2009/4/pasal/0153
+        - lex2kg/uu/2007/27/pasal/0026/versi/20070717/text
+        - lex2kg/uu/2016/18/pasal/0026
+        - lex2kg/uu/1996/4/pasal/0026/versi/19960409
+        - lex2kg/uu/2014/37/mengingat/text
+        - lex2kg/uu/1987/1/mengingat/text
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/2008/49/menimbang/huruf/a/text
+        - lex2kg/uu/1987/5/menimbang/text
+        - lex2kg/uu/1986/4/menimbang/text
+        - lex2kg/uu/2008/32/mengingat/huruf/0002
+        - lex2kg/uu/2007/26/pasal/0026/versi/20070426/ayat/0007
+    - properties: 
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:nomor
+        - lex2kg-o:teks
+        - lex2kg-o:pasal
+        - lex2kg-o:judul
+        - lex2kg-o:tanggal
+        - lex2kg-o:tentang
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:tahun
+        - lex2kg-o:jenisVersi
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:daftarPasal
+        - lex2kg-o:ayat
+        - lex2kg-o:paragraf
+        - lex2kg-o:versi
+        - lex2kg-o:disahkanPada
+
+Question:  Apa isi teks dari UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2?
+{'chat_history': [HumanMessage(content='Apa isi teks dari UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2?', additional_kwargs={}, response_metadata={})], 'input': 'Apa isi teks dari UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2?'}
+Thoughts:  ["1. Pertanyaan ini meminta teks dari ayat tertentu dalam undang-undang: 'UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2'.", "2. Dalam ontologi, entitas yang merepresentasikan ayat ini mengikuti struktur 'lex2kg/uu/2007/26/pasal/0054/versi/20070426/ayat/0002'.", "3. Properti 'lex2kg-o:teks' digunakan untuk menghubungkan suatu ayat dengan teks isinya.", "4. Untuk menyelesaikan ini, cari entitas 'lex2kg/uu/2007/26/pasal/0054/versi/20070426/ayat/0002' dan ambil isinya melalui properti 'lex2kg-o:teks'.", "5. Susun query SPARQL untuk mengambil teks dari 'UU No. 26 Tahun 2007 versi 26 April 2007 Pasal 54 Ayat 2'."]
+Generated SPARQL:  SELECT?x WHERE { <https://example.org/lex2kg/uu/2007/26/pasal/0054/versi/20070426/ayat/0002> lex2kg-o:teks?x. }

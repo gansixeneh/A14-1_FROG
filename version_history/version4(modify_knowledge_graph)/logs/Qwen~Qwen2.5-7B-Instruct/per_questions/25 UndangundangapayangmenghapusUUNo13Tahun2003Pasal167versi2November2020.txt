@@ -1,0 +1,26 @@
+Translated Question:  Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?
+Question:  Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang menghapus UU No. 13 Tahun 2003 Pasal 167 versi 2 November 2020?'}
+Entities:  ['UU tahun 2003 no 13 pasal 167 versi 2 November 2020']
+Retrieved Resources:                                                                           uri                                                       label
+0            https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102         UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+1            https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102         UU tahun 2003 no 13 pasal 157 versi 2 November 2020
+2  https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102/ayat/0001  UU tahun 2003 no 13 pasal 157 versi 2 November 2020 ayat 1
+3  https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102/ayat/0002  UU tahun 2003 no 13 pasal 157 versi 2 November 2020 ayat 2
+4  https://example.org/lex2kg/uu/2003/13/pasal/0157/versi/20201102/ayat/0003  UU tahun 2003 no 13 pasal 157 versi 2 November 2020 ayat 3
+Entity URI:  https://example.org/lex2kg/uu/2003/13/pasal/0167/versi/20201102
+
+
+
+po:                                                  p            o                                               sLabel       pLabel       oLabel
+0  https://example.org/lex2kg/ontology/jenisVersi  penghapusan  UU tahun 2003 no 13 pasal 167 versi 2 November 2020  jenis versi  penghapusan
+1     https://example.org/lex2kg/ontology/tanggal   2020-11-02  UU tahun 2003 no 13 pasal 167 versi 2 November 2020      tanggal   2020-11-02
+2        https://example.org/lex2kg/ontology/teks               UU tahun 2003 no 13 pasal 167 versi 2 November 2020         teks             
+sp:                                                                              s                                              p                                                       sLabel     pLabel                                               oLabel
+0  https://example.org/lex2kg/uu/2020/11/pasal/0081/versi/20201102/huruf/0056  https://example.org/lex2kg/ontology/menghapus  UU tahun 2020 no 11 pasal 81 versi 2 November 2020 huruf 56  menghapus  UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+1                            https://example.org/lex2kg/uu/2003/13/pasal/0167      https://example.org/lex2kg/ontology/versi                                UU tahun 2003 no 13 pasal 167      versi  UU tahun 2003 no 13 pasal 167 versi 2 November 2020
+
+
+
+cands:  ['jenis versi dari UU tahun 2003 no 13 pasal 167 versi 2 November 2020 adalah penghapusan', 'tanggal dari UU tahun 2003 no 13 pasal 167 versi 2 November 2020 adalah 2020-11-02', 'teks dari UU tahun 2003 no 13 pasal 167 versi 2 November 2020 adalah ', 'Yang menghapus UU tahun 2003 no 13 pasal 167 versi 2 November 2020 adalah UU tahun 2020 no 11 pasal 81 versi 2 November 2020 huruf 56', 'versi dari UU tahun 2003 no 13 pasal 167 adalah UU tahun 2003 no 13 pasal 167 versi 2 November 2020']
+Result:  [{'menghapus': 'https://example.org/lex2kg/uu/2020/11/pasal/0081/versi/20201102/huruf/0056'}] Similarities:  0.9889699

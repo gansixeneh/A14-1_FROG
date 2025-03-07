@@ -1,0 +1,116 @@
+Translated Question:  Undang-undang apa saja yang disahkan pada 29 Mei 1997?
+Question:  Undang-undang apa saja yang disahkan pada 29 Mei 1997?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan pada 29 Mei 1997?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan pada 29 Mei 1997?'}
+Entities:  ['Undang-undang', '29 Mei 1997']
+Retrieved Resources:                                       uri                label
+0   https://example.org/lex2kg/uu/2011/1   UU tahun 2011 no 1
+1   https://example.org/lex2kg/uu/2009/1   UU tahun 2009 no 1
+2  https://example.org/lex2kg/uu/2011/24  UU tahun 2011 no 24
+3   https://example.org/lex2kg/uu/2013/1   UU tahun 2013 no 1
+4   https://example.org/lex2kg/uu/2012/1   UU tahun 2012 no 1
+Entity URI:  https://example.org/lex2kg/uu/2011/1
+
+
+
+po:                                              p                                                o              sLabel pLabel                        oLabel
+0   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0026  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 26
+1   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0029  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 29
+2   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0033  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 33
+3   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0035  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 35
+4   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0036  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 36
+5   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0040  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 40
+6   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0042  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 42
+7   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0053  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 53
+8   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0055  UU tahun 2011 no 1  pasal   UU tahun 2011 no 1 pasal 55
+9   https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0107  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 107
+10  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0109  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 109
+11  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0114  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 114
+12  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0134  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 134
+13  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0150  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 150
+14  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0151  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 151
+15  https://example.org/lex2kg/ontology/pasal  https://example.org/lex2kg/uu/2011/1/pasal/0153  UU tahun 2011 no 1  pasal  UU tahun 2011 no 1 pasal 153
+sp:                                                                           s                                            p                                                      sLabel   pLabel              oLabel
+0                https://example.org/lex2kg/uu/2016/4/mengingat/huruf/0002  https://example.org/lex2kg/ontology/merujuk                        UU tahun 2016 no 4 mengingat huruf 2  merujuk  UU tahun 2011 no 1
+1  https://example.org/lex2kg/uu/2020/11/pasal/0049/versi/20201102/huruf/a  https://example.org/lex2kg/ontology/merujuk  UU tahun 2020 no 11 pasal 49 versi 2 November 2020 huruf a  merujuk  UU tahun 2011 no 1
+
+
+
+cands:  ['pasal dari UU tahun 2011 no 1 adalah UU tahun 2011 no 1 pasal 26', 'Yang merujuk UU tahun 2011 no 1 adalah UU tahun 2016 no 4 mengingat huruf 2']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0026'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0029'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0033'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0035'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0036'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0040'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0042'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0053'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0055'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0107'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0109'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0114'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0134'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0150'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0151'}, {'pasal': 'https://example.org/lex2kg/uu/2011/1/pasal/0153'}] Similarities:  0.921352
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1997/27/mengingat
+        - lex2kg/uu/1997/17/pasal/0029/versi/19970523
+        - lex2kg/uu/2009/1
+        - lex2kg/uu/2002/30/bab/0004
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/2002/25/pasal/0004/versi/20021025/text
+        - lex2kg/uu/1950/1/pasal/0029/versi/19500506
+        - lex2kg/uu/2002/4/mengingat/huruf/description
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2009/47/pasal/0029
+        - lex2kg/uu/2017/5/pasal/0029/versi/20170524
+        - lex2kg/uu/2002/25/mengingat/huruf/description
+        - lex2kg/uu/2012/1
+        - lex2kg/uu/1997/5/pasal/0029/versi/19970311
+        - lex2kg/uu/2011/15/pasal/0027/versi/20111016/huruf/g/huruf/c/huruf/description
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829/ayat/0002/text
+        - lex2kg/uu/2002/24/mengingat/huruf/description
+        - lex2kg/uu/1997/2/pasal/0007/versi/19970103
+        - lex2kg/uu/2011/15/pasal/0083/versi/20111016/huruf/a/huruf/description
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2011/5/pasal/0045/versi/20110503/ayat/0002/huruf/m/text
+        - lex2kg/uu/2013/16
+        - lex2kg/uu/2002/25/bab/0004
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/1997/15/pasal/0007/versi/19970509
+        - lex2kg/uu/2009/48/pasal/0029
+        - lex2kg/uu/2009/36/pasal/0029
+        - lex2kg/uu/1979/1/pasal/0029/versi/19790118/text
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2002/31/bab/0004
+        - lex2kg/uu/1997/17/pasal/0029/versi/19970523/text
+        - lex2kg/uu/1997/18/pasal/0029/versi/19970523
+        - lex2kg/uu/1950/5/pasal/0029
+        - lex2kg/uu/1997/25/pasal/0027/versi/19971003
+        - lex2kg/uu/2009/27/pasal/0029/versi/20090829/ayat/0001/text
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/2003/22/pasal/0065/versi/20030731/huruf/j/text
+        - lex2kg/uu/2009/32/pasal/0029
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2002/28/pasal/0004/versi/20021216/text
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/1997/25/pasal/0047/versi/19971003
+        - lex2kg/uu/2011/1
+        - lex2kg/uu/1997/25/pasal/0087/versi/19971003
+        - lex2kg/uu/1997/17/pasal/0027/versi/19970523
+        - lex2kg/uu/2017/5/pasal/0029/versi/20170524/text
+        - lex2kg/uu/1950/1/pasal/0029/versi/19500506/huruf/0001/text
+    - properties: 
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:merujuk
+        - lex2kg-o:nomor
+        - lex2kg-o:mengingat
+        - lex2kg-o:segmen
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:pasal
+        - lex2kg-o:judul
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:tentang
+        - lex2kg-o:tanggal
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:tahun
+        - lex2kg-o:menimbang
+        - lex2kg-o:versi
+        - lex2kg-o:bahasa
+
+Question:  Undang-undang apa saja yang disahkan pada 29 Mei 1997?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan pada 29 Mei 1997?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan pada 29 Mei 1997?'}
+Thoughts:  ['1. Pertanyaan ini meminta daftar undang-undang yang disahkan pada tanggal 29 Mei 1997.', "2. Dalam ontologi, properti 'lex2kg-o:disahkanPada' digunakan untuk menunjukkan tanggal pengesahan undang-undang.", "3. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai '1997-05-29' pada properti 'lex2kg-o:disahkanPada'.", '4. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  SELECT?x WHERE {?x lex2kg-o:disahkanPada '1997-05-29'^^xsd:date. }

@@ -1,0 +1,78 @@
+Translated Question:  Undang-undang apa saja yang disahkan di Jogjakarta?
+Question:  Undang-undang apa saja yang disahkan di Jogjakarta?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan di Jogjakarta?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan di Jogjakarta?'}
+Entities:  ['Jogjakarta']
+Retrieved Resources:                                                                     uri                                                label
+0                      https://example.org/lex2kg/uu/1976/9/pasal/0054                          UU tahun 1976 no 9 pasal 54
+1                     https://example.org/lex2kg/uu/2002/23/pasal/0054                         UU tahun 2002 no 23 pasal 54
+2  https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726/text  UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976 text
+3  https://example.org/lex2kg/uu/1973/5/pasal/0014/versi/19730716/text  UU tahun 1973 no 5 pasal 14 versi 16 Juli 1973 text
+4                 https://example.org/lex2kg/uu/1957/34/mengingat/text                   UU tahun 1957 no 34 mengingat text
+Entity URI:  https://example.org/lex2kg/uu/1976/9/pasal/0054
+
+
+
+po:                                             p                                                               o                       sLabel pLabel                                          oLabel
+0  https://example.org/lex2kg/ontology/nomor                                                              54  UU tahun 1976 no 9 pasal 54  nomor                                           no 54
+1  https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/1976/9/pasal/0054/versi/19760726  UU tahun 1976 no 9 pasal 54  versi  UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976
+sp:                                                             s                                          p                                 sLabel pLabel                       oLabel
+0                       https://example.org/lex2kg/uu/1976/9  https://example.org/lex2kg/ontology/pasal                     UU tahun 1976 no 9  pasal  UU tahun 1976 no 9 pasal 54
+1  https://example.org/lex2kg/uu/1976/9/bab/0009/daftarPasal  https://example.org/lex2kg/ontology/pasal  UU tahun 1976 no 9 bab 9 daftar pasal  pasal  UU tahun 1976 no 9 pasal 54
+
+
+
+cands:  ['nomor dari UU tahun 1976 no 9 pasal 54 adalah 54', 'versi dari UU tahun 1976 no 9 pasal 54 adalah UU tahun 1976 no 9 pasal 54 versi 26 Juli 1976', 'pasal dari UU tahun 1976 no 9 adalah UU tahun 1976 no 9 pasal 54']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/1976/9'}, {'pasal': 'https://example.org/lex2kg/uu/1976/9/bab/0009/daftarPasal'}] Similarities:  0.7483545
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/2002/30/bab/0004
+        - lex2kg/uu/2012/15/bab/0004/daftarPasal
+        - lex2kg/uu
+        - lex2kg/uu/2002/23/mengingat/huruf/0004/text
+        - lex2kg/uu/2002/23/pasal/0054
+        - lex2kg/uu/2002/4/mengingat/huruf/description
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2006/23/pasal/0058/versi/20061229/ayat/0002/huruf/j/text
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2002/25/mengingat/huruf/description
+        - lex2kg/uu/2012/1
+        - lex2kg/uu/2011/15/pasal/0027/versi/20111016/huruf/g/huruf/c/huruf/description
+        - lex2kg/uu/1976/9/pasal/0054/versi/19760726/text
+        - lex2kg/uu/2002/24/mengingat/huruf/description
+        - lex2kg/uu/2011/15/pasal/0083/versi/20111016/huruf/a/huruf/description
+        - lex2kg/uu/2014/17/bab/0006/bagian/0004/daftarPasal
+        - lex2kg/uu/2013/16
+        - lex2kg/uu/2002/25/bab/0004
+        - lex2kg/uu/2006/15/bab/0004/bagian/0002/daftarPasal
+        - lex2kg/uu/2012/8/pasal/0094
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2002/31/bab/0004
+        - lex2kg/uu/1987/1/bab/0004/daftarPasal
+        - lex2kg/uu/2003/22/pasal/0065/versi/20030731/huruf/j/text
+        - lex2kg/uu/2008/54
+        - lex2kg/uu/2012/11/pasal/0094
+        - lex2kg/uu/2002/23/mengingat/huruf/description
+        - lex2kg/uu/2002/28/pasal/0004/versi/20021216/text
+        - lex2kg/uu/2004/38/mengingat/text
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/2002/16/mengingat/huruf/description
+        - lex2kg/uu/2002/26/mengingat/huruf/description
+        - lex2kg/uu/1976/9/pasal/0054
+    - properties: 
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:merujuk
+        - lex2kg-o:nomor
+        - lex2kg-o:bahasa
+        - lex2kg-o:segmen
+        - lex2kg-o:pasal
+        - lex2kg-o:judul
+        - lex2kg-o:disahkanDi
+        - lex2kg-o:tentang
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:versi
+        - lex2kg-o:disahkanPada
+
+Question:  Undang-undang apa saja yang disahkan di Jogjakarta?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang disahkan di Jogjakarta?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang disahkan di Jogjakarta?'}
+Thoughts:  ['1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan di Jogjakarta.', "2. Dalam ontologi, properti 'lex2kg-o:disahkanDi' digunakan untuk menunjukkan tempat pengesahan undang-undang.", "3. Untuk menyelesaikan ini, cari semua entitas undang-undang yang memiliki nilai 'Jogjakarta' pada properti 'lex2kg-o:disahkanDi'.", '4. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  select?x {?x lex2kg-o:disahkanDi 'Jogjakarta'. }

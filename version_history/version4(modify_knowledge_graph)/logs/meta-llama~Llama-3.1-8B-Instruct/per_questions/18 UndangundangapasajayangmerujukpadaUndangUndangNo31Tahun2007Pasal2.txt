@@ -1,0 +1,27 @@
+Translated Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?
+Question:  Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?
+{'chat_history': [HumanMessage(content='Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa saja yang merujuk pada Undang-Undang No. 31 Tahun 2007 Pasal 2?'}
+Entities:  ['UU tahun 2007 no 31 pasal 2']
+Retrieved Resources:                                                                 uri                                              label
+0                 https://example.org/lex2kg/uu/2007/31/pasal/0002                        UU tahun 2007 no 31 pasal 2
+1                   https://example.org/lex2kg/uu/2007/31/bab/0002                          UU tahun 2007 no 31 bab 2
+2       https://example.org/lex2kg/uu/2007/31/bab/0002/bagian/0002                 UU tahun 2007 no 31 bab 2 bagian 2
+3  https://example.org/lex2kg/uu/2007/31/pasal/0002/versi/20070810  UU tahun 2007 no 31 pasal 2 versi 10 Agustus 2007
+4       https://example.org/lex2kg/uu/2007/31/bab/0002/bagian/0001                 UU tahun 2007 no 31 bab 2 bagian 1
+Entity URI:  https://example.org/lex2kg/uu/2007/31/pasal/0002
+
+
+
+po:                                             p                                                                o                       sLabel pLabel                                             oLabel
+0  https://example.org/lex2kg/ontology/nomor                                                                2  UU tahun 2007 no 31 pasal 2  nomor                                               no 2
+1  https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/2007/31/pasal/0002/versi/20070810  UU tahun 2007 no 31 pasal 2  versi  UU tahun 2007 no 31 pasal 2 versi 10 Agustus 2007
+sp:                                                                             s                                            p                                                    sLabel   pLabel                       oLabel
+0                                      https://example.org/lex2kg/uu/2007/31    https://example.org/lex2kg/ontology/pasal                                       UU tahun 2007 no 31    pasal  UU tahun 2007 no 31 pasal 2
+1     https://example.org/lex2kg/uu/2007/31/bab/0002/bagian/0001/daftarPasal    https://example.org/lex2kg/ontology/pasal           UU tahun 2007 no 31 bab 2 bagian 1 daftar pasal    pasal  UU tahun 2007 no 31 pasal 2
+2            https://example.org/lex2kg/uu/2007/31/pasal/0004/versi/20070810  https://example.org/lex2kg/ontology/merujuk         UU tahun 2007 no 31 pasal 4 versi 10 Agustus 2007  merujuk  UU tahun 2007 no 31 pasal 2
+3  https://example.org/lex2kg/uu/2007/31/pasal/0006/versi/20070810/ayat/0001  https://example.org/lex2kg/ontology/merujuk  UU tahun 2007 no 31 pasal 6 versi 10 Agustus 2007 ayat 1  merujuk  UU tahun 2007 no 31 pasal 2
+
+
+
+cands:  ['nomor dari UU tahun 2007 no 31 pasal 2 adalah 2', 'versi dari UU tahun 2007 no 31 pasal 2 adalah UU tahun 2007 no 31 pasal 2 versi 10 Agustus 2007', 'pasal dari UU tahun 2007 no 31 adalah UU tahun 2007 no 31 pasal 2', 'Yang merujuk UU tahun 2007 no 31 pasal 2 adalah UU tahun 2007 no 31 pasal 4 versi 10 Agustus 2007']
+Result:  [{'merujuk': 'https://example.org/lex2kg/uu/2007/31/pasal/0004/versi/20070810'}, {'merujuk': 'https://example.org/lex2kg/uu/2007/31/pasal/0006/versi/20070810/ayat/0001'}] Similarities:  0.98651946

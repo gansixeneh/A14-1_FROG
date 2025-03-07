@@ -1,0 +1,69 @@
+Translated Question:  Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?
+Question:  Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?
+{'chat_history': [HumanMessage(content='Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?', additional_kwargs={}, response_metadata={})], 'input': 'Berapa jumlah undang-undang yang merujuk ke UU No. 20 Tahun 1997 Pasal 4?'}
+Entities:  ['UU No. 20 Tahun 1997', 'Pasal 4']
+Retrieved Resources:                                                                         uri                                                   label
+0                                    https://example.org/lex2kg/uu/1997/20                                     UU tahun 1997 no 20
+1                         https://example.org/lex2kg/uu/1997/20/pasal/0020                            UU tahun 1997 no 20 pasal 20
+2          https://example.org/lex2kg/uu/1997/20/pasal/0020/versi/19970523          UU tahun 1997 no 20 pasal 20 versi 23 Mei 1997
+3  https://example.org/lex2kg/uu/1997/20/pasal/0020/versi/19970523/huruf/a  UU tahun 1997 no 20 pasal 20 versi 23 Mei 1997 huruf a
+4                          https://example.org/lex2kg/uu/1997/20/mengingat                           UU tahun 1997 no 20 mengingat
+Entity URI:  https://example.org/lex2kg/uu/1997/20
+
+
+
+po:                                                        p                                                      o               sLabel            pLabel                          oLabel
+0               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/1997/20/bab/0001  UU tahun 1997 no 20               bab       UU tahun 1997 no 20 bab 1
+1               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/1997/20/bab/0002  UU tahun 1997 no 20               bab       UU tahun 1997 no 20 bab 2
+2               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/1997/20/bab/0003  UU tahun 1997 no 20               bab       UU tahun 1997 no 20 bab 3
+3               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/1997/20/bab/0004  UU tahun 1997 no 20               bab       UU tahun 1997 no 20 bab 4
+4               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/1997/20/bab/0005  UU tahun 1997 no 20               bab       UU tahun 1997 no 20 bab 5
+5               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/1997/20/bab/0006  UU tahun 1997 no 20               bab       UU tahun 1997 no 20 bab 6
+6               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/1997/20/bab/0007  UU tahun 1997 no 20               bab       UU tahun 1997 no 20 bab 7
+7               https://example.org/lex2kg/ontology/bab         https://example.org/lex2kg/uu/1997/20/bab/0008  UU tahun 1997 no 20               bab       UU tahun 1997 no 20 bab 8
+8            https://example.org/lex2kg/ontology/bahasa                                                     id  UU tahun 1997 no 20            bahasa                              id
+9        https://example.org/lex2kg/ontology/disahkanDi                                                Jakarta  UU tahun 1997 no 20       disahkan di                         jakarta
+10     https://example.org/lex2kg/ontology/disahkanOleh                                               Soeharto  UU tahun 1997 no 20     disahkan oleh                        soeharto
+11     https://example.org/lex2kg/ontology/disahkanPada                                             1997-05-23  UU tahun 1997 no 20     disahkan pada                      1997-05-23
+12  https://example.org/lex2kg/ontology/jabatanPengesah                            Presiden Republik Indonesia  UU tahun 1997 no 20  jabatan pengesah     presiden republik indonesia
+13   https://example.org/lex2kg/ontology/jenisPeraturan  https://example.org/lex2kg/ontology/jenisPeraturan/UU  UU tahun 1997 no 20   jenis peraturan     ontology jenis peraturan uu
+14        https://example.org/lex2kg/ontology/mengingat        https://example.org/lex2kg/uu/1997/20/mengingat  UU tahun 1997 no 20         mengingat   UU tahun 1997 no 20 mengingat
+15        https://example.org/lex2kg/ontology/menimbang        https://example.org/lex2kg/uu/1997/20/menimbang  UU tahun 1997 no 20         menimbang   UU tahun 1997 no 20 menimbang
+16            https://example.org/lex2kg/ontology/nomor                                                     20  UU tahun 1997 no 20             nomor                           no 20
+17            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0001  UU tahun 1997 no 20             pasal     UU tahun 1997 no 20 pasal 1
+18            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0002  UU tahun 1997 no 20             pasal     UU tahun 1997 no 20 pasal 2
+19            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0003  UU tahun 1997 no 20             pasal     UU tahun 1997 no 20 pasal 3
+20            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0004  UU tahun 1997 no 20             pasal     UU tahun 1997 no 20 pasal 4
+21            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0005  UU tahun 1997 no 20             pasal     UU tahun 1997 no 20 pasal 5
+22            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0006  UU tahun 1997 no 20             pasal     UU tahun 1997 no 20 pasal 6
+23            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0007  UU tahun 1997 no 20             pasal     UU tahun 1997 no 20 pasal 7
+24            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0008  UU tahun 1997 no 20             pasal     UU tahun 1997 no 20 pasal 8
+25            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0009  UU tahun 1997 no 20             pasal     UU tahun 1997 no 20 pasal 9
+26            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0010  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 10
+27            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0011  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 11
+28            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0012  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 12
+29            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0013  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 13
+30            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0014  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 14
+31            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0015  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 15
+32            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0016  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 16
+33            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0017  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 17
+34            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0018  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 18
+35            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0019  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 19
+36            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0020  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 20
+37            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0021  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 21
+38            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0022  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 22
+39            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0023  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 23
+40            https://example.org/lex2kg/ontology/pasal       https://example.org/lex2kg/uu/1997/20/pasal/0024  UU tahun 1997 no 20             pasal    UU tahun 1997 no 20 pasal 24
+41            https://example.org/lex2kg/ontology/tahun                                                   1997  UU tahun 1997 no 20             tahun                      tahun 1997
+42          https://example.org/lex2kg/ontology/tentang                          PENERIMAAN NEGARA BUKAN PAJAK  UU tahun 1997 no 20           tentang   penerimaan negara bukan pajak
+43       https://example.org/lex2kg/ontology/yurisdiksi                                              Indonesia  UU tahun 1997 no 20        yurisdiksi                       indonesia
+sp:                                                              s                                            p                                 sLabel   pLabel               oLabel
+0  https://example.org/lex2kg/uu/2007/41/mengingat/huruf/0003  https://example.org/lex2kg/ontology/merujuk  UU tahun 2007 no 41 mengingat huruf 3  merujuk  UU tahun 1997 no 20
+1  https://example.org/lex2kg/uu/2009/47/mengingat/huruf/0004  https://example.org/lex2kg/ontology/merujuk  UU tahun 2009 no 47 mengingat huruf 4  merujuk  UU tahun 1997 no 20
+2  https://example.org/lex2kg/uu/2010/10/mengingat/huruf/0004  https://example.org/lex2kg/ontology/merujuk  UU tahun 2010 no 10 mengingat huruf 4  merujuk  UU tahun 1997 no 20
+3      https://example.org/lex2kg/uu/2018/9/menimbang/huruf/c  https://example.org/lex2kg/ontology/merujuk   UU tahun 2018 no 9 menimbang huruf c  merujuk  UU tahun 1997 no 20
+
+
+
+cands:  ['bab dari UU tahun 1997 no 20 adalah UU tahun 1997 no 20 bab 1', 'bahasa dari UU tahun 1997 no 20 adalah id', 'UU tahun 1997 no 20 disahkan di Jakarta', 'UU tahun 1997 no 20 disahkan oleh Soeharto', 'UU tahun 1997 no 20 disahkan pada 1997-05-23', 'jabatan pengesah dari UU tahun 1997 no 20 adalah Presiden Republik Indonesia', 'jenis peraturan dari UU tahun 1997 no 20 adalah ontology jenis peraturan uu', 'Yang mengingat UU tahun 1997 no 20 mengingat adalah UU tahun 1997 no 20', 'Yang menimbang UU tahun 1997 no 20 menimbang adalah UU tahun 1997 no 20', 'nomor dari UU tahun 1997 no 20 adalah 20', 'pasal dari UU tahun 1997 no 20 adalah UU tahun 1997 no 20 pasal 1', 'tahun dari UU tahun 1997 no 20 adalah 1997', 'tentang dari UU tahun 1997 no 20 adalah  PENERIMAAN NEGARA BUKAN PAJAK', 'yurisdiksi dari UU tahun 1997 no 20 adalah Indonesia', 'Yang merujuk UU tahun 1997 no 20 adalah UU tahun 2007 no 41 mengingat huruf 3']
+Result:  [{'merujuk': 'https://example.org/lex2kg/uu/2007/41/mengingat/huruf/0003'}, {'merujuk': 'https://example.org/lex2kg/uu/2009/47/mengingat/huruf/0004'}, {'merujuk': 'https://example.org/lex2kg/uu/2010/10/mengingat/huruf/0004'}, {'merujuk': 'https://example.org/lex2kg/uu/2018/9/menimbang/huruf/c'}] Similarities:  0.98800313

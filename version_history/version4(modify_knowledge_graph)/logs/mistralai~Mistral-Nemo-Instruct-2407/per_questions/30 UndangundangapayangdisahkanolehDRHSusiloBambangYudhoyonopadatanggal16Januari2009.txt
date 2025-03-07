@@ -1,0 +1,128 @@
+Translated Question:  Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?
+Question:  Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?'}
+Entities:  ['DR. H. Susilo Bambang Yudhoyono', '16 Januari 2009']
+Retrieved Resources:                                                                               uri                                                        label
+0                                https://example.org/lex2kg/uu/1986/5/pasal/0129                                 UU tahun 1986 no 5 pasal 129
+1  https://example.org/lex2kg/uu/1982/6/pasal/0028/versi/19820412/ayat/0001/text  UU tahun 1982 no 6 pasal 28 versi 12 April 1982 ayat 1 text
+2  https://example.org/lex2kg/uu/1982/6/pasal/0034/versi/19820412/ayat/0001/text  UU tahun 1982 no 6 pasal 34 versi 12 April 1982 ayat 1 text
+3                               https://example.org/lex2kg/uu/1985/14/pasal/0062                                 UU tahun 1985 no 14 pasal 62
+4  https://example.org/lex2kg/uu/1982/6/pasal/0029/versi/19820412/ayat/0001/text  UU tahun 1982 no 6 pasal 29 versi 12 April 1982 ayat 1 text
+Entity URI:  https://example.org/lex2kg/uu/1986/5/pasal/0129
+
+
+
+po:                                             p                                                               o                        sLabel pLabel                                               oLabel
+0  https://example.org/lex2kg/ontology/nomor                                                             129  UU tahun 1986 no 5 pasal 129  nomor                                                  129
+1  https://example.org/lex2kg/ontology/versi  https://example.org/lex2kg/uu/1986/5/pasal/0129/versi/19861229  UU tahun 1986 no 5 pasal 129  versi  UU tahun 1986 no 5 pasal 129 versi 29 Desember 1986
+sp:                                                             s                                          p                                 sLabel pLabel                        oLabel
+0  https://example.org/lex2kg/uu/1986/5/bab/0004/daftarPasal  https://example.org/lex2kg/ontology/pasal  UU tahun 1986 no 5 bab 4 daftar pasal  pasal  UU tahun 1986 no 5 pasal 129
+1                       https://example.org/lex2kg/uu/1986/5  https://example.org/lex2kg/ontology/pasal                     UU tahun 1986 no 5  pasal  UU tahun 1986 no 5 pasal 129
+
+
+
+cands:  ['nomor dari UU tahun 1986 no 5 pasal 129 adalah 129', 'versi dari UU tahun 1986 no 5 pasal 129 adalah UU tahun 1986 no 5 pasal 129 versi 29 Desember 1986', 'pasal dari UU tahun 1986 no 5 bab 4 daftar pasal adalah UU tahun 1986 no 5 pasal 129']
+Result:  [{'pasal': 'https://example.org/lex2kg/uu/1986/5/bab/0004/daftarPasal'}, {'pasal': 'https://example.org/lex2kg/uu/1986/5'}] Similarities:  0.43959787
+Retrieved Ontology:      - entities: 
+        - lex2kg/uu/1984/8/mengingat/text
+        - lex2kg/uu/2016/13/pasal/0164/versi/20160826
+        - lex2kg/uu/2002/4/mengingat/huruf/description
+        - lex2kg/uu/1957/36/mengingat/text
+        - lex2kg/uu/2016/1/pasal/0001/versi/20160115/huruf/0016
+        - lex2kg/uu/2009/32/pasal/0022/versi/20091003/huruf/h/huruf/0001/huruf/h/huruf/description
+        - lex2kg/uu/1987/8/pasal/0003/versi/19870928/text
+        - lex2kg/uu/1994/3/mengingat/huruf/description
+        - lex2kg/uu/2012/8/pasal/0264/versi/20120511/ayat/0002/text
+        - lex2kg/uu/1985/8/mengingat/huruf/description
+        - lex2kg/uu/1993/4/mengingat/huruf/description
+        - lex2kg/uu/2009/9/pasal/0001/versi/20090116/huruf/0016
+        - lex2kg/uu/2016/8/pasal/0016/versi/20160415/huruf/description
+        - lex2kg/uu/1985/8/pasal/0012/versi/19850617/ayat/0001/text
+        - lex2kg/uu/1962/12/mengingat/text
+        - lex2kg/uu/1962/7/mengingat/text
+        - lex2kg/uu/2014/33
+        - lex2kg/uu/2014/1/pasal/0001/versi/20140115
+        - lex2kg/uu/2009/9/pasal/0001/versi/20090116
+        - lex2kg/uu/1985/16/pasal/0016
+        - lex2kg/uu/1997/2/pasal/0004/versi/19970103/huruf/h/huruf/0001/huruf/h/huruf/description
+        - lex2kg/uu/2010/10/mengingat/huruf/0016
+        - lex2kg/uu/1985/7/mengingat/huruf/description
+        - lex2kg/uu/1985/8/pasal/0012/versi/19850617/ayat/0002/text
+        - lex2kg/uu/1962/8/mengingat/text
+        - lex2kg/uu/1985/14/pasal/0062
+        - lex2kg/uu/2007/34/mengingat/huruf/0008/text
+        - lex2kg/uu/2002/30/menimbang/huruf/b/text
+        - lex2kg/uu/1982/6/pasal/0028/versi/19820412/ayat/0001/text
+        - lex2kg/uu/2009/9/pasal/0016/versi/20090116
+        - lex2kg/uu/2017/1/pasal/0001/versi/20170112
+        - lex2kg/uu/2013/16
+        - lex2kg/uu/2002/25/bab/0004
+        - lex2kg/uu/2009/32/pasal/0014/versi/20091003/huruf/h/huruf/description
+        - lex2kg/uu/2009/9
+        - lex2kg/uu/2016/1/pasal/0016/versi/20160115
+        - lex2kg/uu/1984/7/mengingat/huruf/description
+        - lex2kg/uu/1986/5/menimbang/huruf/b/text
+        - lex2kg/uu/2012/8/pasal/0026/versi/20120511/ayat/0002/huruf/g/huruf/description
+        - lex2kg/uu/1981/8/mengingat/huruf/0003/huruf/description
+        - lex2kg/uu/1953/29/mengingat/text
+        - lex2kg/uu/1985/4/mengingat/huruf/description
+        - lex2kg/uu/2016/13/pasal/0016/versi/20160826
+        - lex2kg/uu/2009/44/mengingat/text
+        - lex2kg/uu/2013/1
+        - lex2kg/uu/2002/25/mengingat/huruf/description
+        - lex2kg/uu/2002/24/mengingat/huruf/description
+        - lex2kg/uu/2012/8/pasal/0264/versi/20120511/ayat/0001/text
+        - lex2kg/uu/2009/12/pasal/0016/versi/20090116
+        - lex2kg/uu/2003/30/menimbang/huruf/b/text
+        - lex2kg/uu/1976/8/mengingat/text
+        - lex2kg/uu/2016/1/pasal/0001/versi/20160115/huruf/0016/text
+        - lex2kg/uu/1973/4/mengingat/huruf/description
+        - lex2kg/uu/2009/10/pasal/0016/versi/20090116
+        - lex2kg/uu/2003/34/mengingat/huruf/description
+        - lex2kg/uu/2003/41/bab/0002
+        - lex2kg/uu/1985/8/pasal/0014/versi/19850617/text
+        - lex2kg/uu/2009/2/pasal/0001/versi/20090112
+        - lex2kg/uu/2016/8/pasal/0016/versi/20160415
+        - lex2kg/uu/2017/1/pasal/0001/versi/20170112/text
+        - lex2kg/uu/2009/9/pasal/0016/versi/20090116/text
+        - lex2kg/uu/2009/32/pasal/0014/versi/20091003/huruf/h/huruf/0001/huruf/description
+        - lex2kg/uu/1997/2/pasal/0012/versi/19970103/huruf/h/huruf/0001/huruf/h/huruf/description
+        - lex2kg/uu/1982/18/mengingat/text
+        - lex2kg/uu/1982/8/mengingat/huruf/description
+        - lex2kg/uu
+        - lex2kg/uu/1954/18/mengingat/text
+        - lex2kg/uu/2012/1
+        - lex2kg/uu/1992/4/pasal/0031/versi/19920310/text
+        - lex2kg/uu/2016/18/pasal/0016
+        - lex2kg/uu/1982/6/pasal/0029/versi/19820412/ayat/0001/text
+        - lex2kg/uu/1982/6/pasal/0034/versi/19820412/ayat/0001/text
+        - lex2kg/uu/2008/44/mengingat/text
+        - lex2kg/uu/2002/31/bab/0004
+        - lex2kg/uu/1986/5/pasal/0129
+        - lex2kg/uu/1997/9/menimbang/huruf/h
+        - lex2kg/uu/1957/26/mengingat/text
+        - lex2kg/uu/2014/16/pasal/0016
+        - lex2kg/uu/2009/32/pasal/0022/versi/20091003/huruf/h/huruf/0001/huruf/h/huruf/c/huruf/description
+        - lex2kg/uu/2009/9/pasal/0009/versi/20090116
+        - lex2kg/uu/1981/8/mengingat/huruf/description
+        - lex2kg/uu/2016/8/pasal/0016
+    - properties: 
+        - lex2kg-o:jenisPeraturan
+        - lex2kg-o:merujuk
+        - lex2kg-o:menyisipkan
+        - lex2kg-o:disahkanPada
+        - lex2kg-o:pasal
+        - lex2kg-o:judul
+        - lex2kg-o:tanggal
+        - lex2kg-o:tentang
+        - lex2kg-o:disahkanOleh
+        - lex2kg-o:yurisdiksi
+        - lex2kg-o:tahun
+        - lex2kg-o:bab
+        - lex2kg-o:huruf
+        - lex2kg-o:disahkanDi
+
+Question:  Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?
+{'chat_history': [HumanMessage(content='Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?', additional_kwargs={}, response_metadata={})], 'input': 'Undang-undang apa yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009?'}
+Thoughts:  ['1. Pertanyaan ini meminta informasi tentang undang-undang yang disahkan oleh DR. H. Susilo Bambang Yudhoyono pada tanggal 16 Januari 2009.', "2. Entitas yang merepresentasikan undang-undang ini akan memiliki properti 'lex2kg-o:disahkanOleh' dengan nilai 'DR. H. Susilo Bambang Yudhoyono' dan properti 'lex2kg-o:disahkanPada' dengan nilai '2009-01-16'^^xsd:date.", "3. Cari entitas undang-undang yang memiliki properti 'lex2kg-o:disahkanOleh' dan 'lex2kg-o:disahkanPada' dengan nilai yang sesuai.", '4. Susun query SPARQL untuk mendapatkan hasil yang sesuai.']
+Generated SPARQL:  SELECT?x WHERE {?x lex2kg-o:disahkanOleh 'DR. H. Susilo Bambang Yudhoyono'.?x lex2kg-o:disahkanPada '2009-01-16'^^xsd:date. }
