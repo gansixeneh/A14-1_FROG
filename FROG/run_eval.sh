@@ -7,13 +7,13 @@
 #     "Qwen/Qwen2.5-7B-Instruct"
 # )
 
-models=(
-    "Qwen/Qwen2.5-3B-Instruct"
-)
-
 # models=(
-#     "Qwen/Qwen2.5-Coder-7B-Instruct"
+#     "Qwen/Qwen2.5-3B-Instruct"
 # )
+
+models=(
+    "Qwen/Qwen2.5-Coder-7B-Instruct"
+)
 
 # models=(
 #     "meta-llama/Llama-3.1-8B-Instruct"
