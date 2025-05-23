@@ -95,7 +95,7 @@ def connect_triples(p: str):
     property_uri = URIRef(str(lex2kg_o) + p)
     for s, _, o in graph.triples((None, property_uri, None)):
         graph.remove((s, property_uri, o))
-        new_s = URIRef(str(s).replace(f"/{p}", ""))
+        new_s = URIRef(str(s).rsplit('/', 1)[0])
         graph.add((new_s, property_uri, o))
 
     property_uri = URIRef(f"{lex2kg_o}daftar{p.capitalize()}")
@@ -103,6 +103,7 @@ def connect_triples(p: str):
         graph.remove((s, property_uri, o))
 
 
+connect_triples("pasal")
 connect_triples("ayat")
 connect_triples("bab")
 connect_triples("bagian")
